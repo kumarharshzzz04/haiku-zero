@@ -36,13 +36,13 @@
 
 ## Why HAIKU ZERO
 
-- ** The form is guaranteed, not hoped for.** A constrained decoder masks every token that would overshoot a line's syllable target or drag punctuation in, so 5-7-5 closes while the model writes — no retry loop, no rejection sampling. 100% exact on 150 strict poems.
-- ** Every claim is a script.** The table below is not a promise in prose: `quality_floor.py` re-measures it and exits `1` when a floor is crossed. `--self-test` proves the gate can actually fail.
-- ** Two stages, because vocabulary and form are different problems.** 54.35M tokens of public-domain poetry teach English; 39,697 real haiku teach the shape. Training only on haiku leaves a model that invents the rest of the language.
-- ** One second, locally.** 0.9 s for a best-of-4 poem on an RTX 4050 Laptop; 2.2 s for two poems over HTTP, including the JSON round trip. No network call exists in the inference path.
-- ** It shows its work.** Every poem ships its syllable pattern, distance from 5-7-5, mean log-likelihood, repeated-word rate, unattested-word rate and whether it used the seed — the sheet view prints all of them next to the verse.
-- ** Two ways to read it.** A full-bleed poster with generated sakura scenes, or a plain desk sheet that reads like a notebook page. Same poem, same numbers.
-- ** Every knob is exposed.** Seed word, model, poem count, strict on/off, best-of 1-16, temperature, sampling seed — all in the panel, with the checkpoint folder auto-discovered.
+- **The form is guaranteed, not hoped for.** A constrained decoder masks every token that would overshoot a line's syllable target or drag punctuation in, so 5-7-5 closes while the model writes — no retry loop, no rejection sampling. 100% exact on 150 strict poems.
+- **Every claim is a script.** The table below is not a promise in prose: `quality_floor.py` re-measures it and exits `1` when a floor is crossed. `--self-test` proves the gate can actually fail.
+- **Two stages, because vocabulary and form are different problems.** 54.35M tokens of public-domain poetry teach English; 39,697 real haiku teach the shape. Training only on haiku leaves a model that invents the rest of the language.
+- **One second, locally.** 0.9 s for a best-of-4 poem on an RTX 4050 Laptop; 2.2 s for two poems over HTTP, including the JSON round trip. No network call exists in the inference path.
+- **It shows its work.** Every poem ships its syllable pattern, distance from 5-7-5, mean log-likelihood, repeated-word rate, unattested-word rate and whether it used the seed — the sheet view prints all of them next to the verse.
+- **Two ways to read it.** A full-bleed poster with generated sakura scenes, or a plain desk sheet that reads like a notebook page. Same poem, same numbers.
+- **Every knob is exposed.** Seed word, model, poem count, strict on/off, best-of 1-16, temperature, sampling seed — all in the panel, with the checkpoint folder auto-discovered.
 
 ---
 
