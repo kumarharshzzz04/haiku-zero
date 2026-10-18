@@ -1,0 +1,4003 @@
+# HAIKU ZERO — Corpus Batch 03
+# 1,000 distinct synthetic drafts; review artistic quality and meter before training.
+
+ink beneath soft snow
+One loose button waits beneath the stairs
+The leaves conceal the path
+
+sunlight at the edge of the kitchen door
+A tired cyclist cools beside the stove
+The hill keeps its blue
+
+kingfishers beneath cold mist
+The empty chair marks the edge of sleep
+The window holds the sky
+
+The weathered drains settles
+A stray dog cools beside the stove
+A door clicks in the wind
+
+By the last hour, the windows holds still
+A small moth turns in the gutter
+A small sound crosses the yard
+
+Near the school fence, cracked pots waits
+The last match tilts toward the open sky
+A small sound crosses the yard
+
+Under pollen, ravens leans
+A child’s mitten fits inside one pocket
+The roof gives back the rain
+
+dust beneath fine rain
+A green bottle follows the road’s bend
+The gate swings inward
+
+thin fog settles on gulls
+A lost receipt catches the morning light
+The road forgets our steps
+
+At daybreak, turnstiles leans
+A green bottle holds the scent of smoke
+One light stays on
+
+By winter noon, the tiles listens
+A small seed vanishes past the bridge
+Nothing asks it why
+
+boots beneath moonlight
+A paper boat shakes rain from its sleeve
+The roof gives back the rain
+
+The forgotten lace listens
+A cracked bowl marks the edge of sleep
+The clock resumes its work
+
+By blue dusk, the laundry leans
+A pale moon lies under fallen leaves
+The river keeps its counsel
+
+chimneys at the edge of the school fence
+The old clock rests against the wall
+The roof gives back the rain
+
+The unclaimed fishermen turns
+The last match cools beside the stove
+No one calls it back
+
+Under moonlight, snowfields rests
+The wind makes a shadow longer
+The dark makes no reply
+
+The crooked branches turns
+A red kite flickers once and steadies
+The window holds the sky
+
+teacups beneath salt air
+A lost receipt leaves no sound behind
+Nothing asks it why
+
+The borrowed reeds holds still
+A sleeping cat shakes rain from its sleeve
+The window holds the sky
+
+The blossoms keeps warm dust
+The far bell rests against the wall
+Morning leaves it there
+
+Near the school fence, dust waits
+The old clock rests where grass begins
+The field does not explain
+
+A forgotten frogs beside the garden gate
+The night guard makes a shadow longer
+The road forgets our steps
+
+cold mist settles on marble feet
+A lost receipt slides into the dark
+A small sound crosses the yard
+
+Under moonlight, fishermen waits
+A green bottle keeps the warmth of a hand
+The field does not explain
+
+Under sunlight, trout drifts
+The door latch catches the morning light
+The gate swings inward
+
+By winter noon, the sawdust rests
+A red kite waits for no reply
+The last train pulls away
+
+At blue dusk, trout listens
+A sleeping cat keeps watch over nothing
+The room takes in the dusk
+
+Under cold mist, old maps waits
+A tired cyclist turns in the gutter
+The hill keeps its blue
+
+Near the river bend, poppies rests
+A red kite leaves no sound behind
+The lamp hums softly
+
+Near the back lane, pines keeps watch
+The night train leaves no sound behind
+A small sound crosses the yard
+
+At closing time, chalk listens
+The wind rests against the wall
+One light stays on
+
+apples at the edge of the orchard wall
+A lost receipt waits for no reply
+The cup cools untouched
+
+At midnight, rails holds still
+The last bus tilts toward the open sky
+The sea turns once more
+
+A unclaimed gulls beside the footbridge
+A paper boat returns with the tide
+Even stone grows warm
+
+At first light, shopfronts drifts
+The last match waits for no reply
+The river keeps its counsel
+
+sails at the edge of the footbridge
+The old clock keeps the warmth of a hand
+The last train pulls away
+
+The water tanks keeps moonlight
+A blackbird sinks beneath the surface
+The morning does not hurry
+
+At first light, fence posts listens
+A small moth waits beneath the stairs
+The kettle starts to sing
+
+drains beneath midnight
+The milk cart holds the scent of smoke
+Even stone grows warm
+
+The rusted a closed door listens
+The far bell waits beneath the stairs
+The leaves conceal the path
+
+Near the kitchen door, pines drifts
+A bent nail returns with the tide
+The dark makes no reply
+
+a glass of water beneath dry wind
+A white moth turns in the gutter
+The room takes in the dusk
+
+Under soft snow, barnacles moves slowly
+A sleeping cat drifts out of sight
+Even stone grows warm
+
+rain settles on water tanks
+A child’s mitten tilts toward the open sky
+One light stays on
+
+A quiet dust beside the garden gate
+The wind holds the scent of smoke
+A door clicks in the wind
+
+By winter noon, the foam waits
+A lost receipt keeps the warmth of a hand
+The light changes its mind
+
+The turnstiles keeps dawn
+The baker’s hands catches the morning light
+The seed waits under soil
+
+At winter noon, stone hands listens
+A small seed sinks beneath the surface
+The room takes in the dusk
+
+A unclaimed clocks beside the garden gate
+A bent nail turns in the gutter
+The lamp hums softly
+
+The tokens keeps fluorescent light
+One loose button holds the scent of smoke
+A small sound crosses the yard
+
+antennae at the edge of the station steps
+The far bell cools beside the stove
+The road forgets our steps
+
+The apples keeps cold mist
+A white moth shakes rain from its sleeve
+The hill keeps its blue
+
+A borrowed umbrellas beside the school fence
+The last bus keeps the warmth of a hand
+The room takes in the dusk
+
+By late noon, the ravines leans
+The milk cart rests where grass begins
+The floorboards settle
+
+Under sunlight, beans drifts
+The rain slides into the dark
+The clock resumes its work
+
+moonlight settles on pages
+The far bell makes a shadow longer
+The road forgets our steps
+
+poppies at the edge of the footbridge
+The dawn marks the edge of sleep
+The last train pulls away
+
+A distant hammers beside the kitchen door
+A bent nail rests where grass begins
+The sea turns once more
+
+The broken steam waits
+A sleeping cat waits for no reply
+The seed waits under soil
+
+wheat at the edge of the hill road
+A thin branch waits beneath the stairs
+The roof gives back the rain
+
+tiles beneath night
+The postman’s bag tilts toward the open sky
+The lamp hums softly
+
+By the last hour, the painted eyes drifts
+The postman’s bag drifts out of sight
+The field does not explain
+
+A amber sedge beside the hill road
+The far bell shines through a crack
+The clouds move without haste
+
+Under moonlight, fence posts keeps watch
+A brass key marks the edge of sleep
+No one calls it back
+
+dawn settles on umbrellas
+One loose button waits for no reply
+The morning does not hurry
+
+The grass keeps frost
+A red kite sinks beneath the surface
+The sea turns once more
+
+old coins beneath rain
+The night guard sinks beneath the surface
+The road forgets our steps
+
+Under rain, tunnel air turns
+A small moth cools beside the stove
+The dark makes no reply
+
+Near the footbridge, mud moves slowly
+The night guard waits beneath the stairs
+The field does not explain
+
+kingfishers beneath fine rain
+The last match waits beneath the stairs
+The seed waits under soil
+
+The amber pear trees turns
+A brass key makes a shadow longer
+A bird begins again
+
+drains at the edge of the garden gate
+One loose button stops just short of home
+No one calls it back
+
+By first light, the pages leans
+A red kite slides into the dark
+The cup cools untouched
+
+By the last hour, the mast lights keeps watch
+A pale moon holds the scent of smoke
+The morning does not hurry
+
+Under cold mist, silos turns
+A sleeping cat makes a shadow longer
+The dark makes no reply
+
+Under fine rain, thyme turns
+A brass key lies under fallen leaves
+The leaves conceal the path
+
+By early rain, the fence posts moves slowly
+A sleeping cat slides into the dark
+No one calls it back
+
+satellite dishes at the edge of the harbor wall
+A blackbird fits inside one pocket
+A thin rain starts
+
+The suitcases keeps soft snow
+A stray dog makes a shadow longer
+The room takes in the dusk
+
+By midnight, the margins moves slowly
+A child’s mitten tilts toward the open sky
+The gate swings inward
+
+At the last hour, glass cases holds still
+The milk cart turns in the gutter
+A small sound crosses the yard
+
+Under frost, crows moves slowly
+A bent nail follows the road’s bend
+The floorboards settle
+
+The amber herons keeps watch
+One loose button turns in the gutter
+A door clicks in the wind
+
+By closing time, the thyme moves slowly
+A bent nail marks the edge of sleep
+The dark makes no reply
+
+A patient ink beside the hill road
+A sleeping cat vanishes past the bridge
+The last train pulls away
+
+Under warm dust, thyme leans
+A blackbird makes a shadow longer
+Nothing asks it why
+
+pollen settles on white curtains
+A blackbird cools beside the stove
+The kettle starts to sing
+
+The rusted pigeons rests
+The door latch leaves no sound behind
+The seed waits under soil
+
+foam beneath dusk
+The last bus leaves no sound behind
+The seed waits under soil
+
+warm dust settles on knives
+The last bus leaves no sound behind
+A bird begins again
+
+Near the back lane, sails moves slowly
+A folded map moves only when wind comes
+Even stone grows warm
+
+By the long thaw, the diesel smoke listens
+A blue scarf moves only when wind comes
+The leaves conceal the path
+
+The weathered beetles waits
+A small seed vanishes past the bridge
+Even stone grows warm
+
+The forgotten lunch tins leans
+A brass key tilts toward the open sky
+The clock resumes its work
+
+By late noon, the crates holds still
+The last match catches the morning light
+The cup cools untouched
+
+dry wind settles on sieves
+A green bottle shines through a crack
+Nothing asks it why
+
+paper planes beneath dry wind
+A small seed rests where grass begins
+The seed waits under soil
+
+The nets keeps thin fog
+A thin branch tilts toward the open sky
+The hill keeps its blue
+
+dusk settles on pear trees
+The empty chair makes a shadow longer
+The sea turns once more
+
+At blue dusk, trunks settles
+A brass key waits for no reply
+The light changes its mind
+
+Near the school fence, rushes keeps watch
+A folded map keeps the warmth of a hand
+The floorboards settle
+
+wheat at the edge of the old well
+The baker’s hands lies under fallen leaves
+The road forgets our steps
+
+The plums keeps heat
+A folded map leans into the weather
+No one calls it back
+
+The crooked ravens rests
+The night guard waits for no reply
+The roof gives back the rain
+
+Under warm dust, crows listens
+A thin branch tilts toward the open sky
+The kettle starts to sing
+
+By early rain, the cliffs waits
+A small seed stops just short of home
+The clouds move without haste
+
+Near the river bend, boxes turns
+The door latch rests where grass begins
+The river keeps its counsel
+
+The old maps keeps thin fog
+The wind waits for no reply
+The morning does not hurry
+
+Under thin fog, bicycles keeps watch
+A blue scarf sinks beneath the surface
+The lamp hums softly
+
+Under pollen, hens rests
+One loose button cools beside the stove
+The clock resumes its work
+
+grass at the edge of the station steps
+The wind leaves no sound behind
+Even stone grows warm
+
+The amber bees moves slowly
+The first star leaves no sound behind
+Nothing asks it why
+
+Under moonlight, clocks turns
+A lost receipt cools beside the stove
+A thin rain starts
+
+A broken toys beside the river bend
+A blackbird stops just short of home
+Nothing asks it why
+
+the hallway beneath rain
+The old clock returns with the tide
+The gate swings inward
+
+Under sunrise, pines holds still
+The old clock tilts toward the open sky
+The seed waits under soil
+
+The rushes keeps thin fog
+A pale moon lies under fallen leaves
+The field does not explain
+
+moonrise settles on sails
+A thin branch vanishes past the bridge
+The dark makes no reply
+
+Under dusk, chalk waits
+The baker’s hands leaves no sound behind
+The kettle starts to sing
+
+pear trees at the edge of the hill road
+The night train drifts out of sight
+The last train pulls away
+
+fine rain settles on teacups
+A small moth turns in the gutter
+One light stays on
+
+The anchors keeps dusk
+A tired cyclist opens in the quiet
+A door clicks in the wind
+
+A quiet diesel smoke beside the kitchen door
+A sleeping cat sinks beneath the surface
+The light changes its mind
+
+cold mist settles on trunks
+The rain lies under fallen leaves
+The field does not explain
+
+Near the back lane, hay bales listens
+A green bottle rests where grass begins
+The gate swings inward
+
+Near the empty lot, nets holds still
+A sleeping cat keeps the warmth of a hand
+The floorboards settle
+
+The suitcases keeps dry wind
+A cracked bowl keeps the warmth of a hand
+A door clicks in the wind
+
+The tender sails drifts
+A blackbird rests against the wall
+The window holds the sky
+
+The a clock keeps rain
+A paper boat waits for no reply
+The seed waits under soil
+
+hammers at the edge of the garden gate
+The wind turns its face to rain
+Nothing asks it why
+
+At first light, white curtains listens
+A paper boat drifts out of sight
+The room takes in the dusk
+
+frost settles on hens
+The wind keeps the warmth of a hand
+A small sound crosses the yard
+
+The amber poppies listens
+The wind leaves no sound behind
+The lamp hums softly
+
+By the long thaw, the boots listens
+A folded map follows the road’s bend
+The last train pulls away
+
+morning settles on a glass of water
+A white moth fits inside one pocket
+One light stays on
+
+A distant nets beside the empty lot
+The postman’s bag lies under fallen leaves
+The clouds move without haste
+
+A tender wheat beside the harbor wall
+A folded map lies under fallen leaves
+The window holds the sky
+
+glass cases beneath soft snow
+The empty chair rests where grass begins
+The hill keeps its blue
+
+white curtains at the edge of the station steps
+The last bus drifts out of sight
+The sea turns once more
+
+Under heat, roots moves slowly
+The night train shines through a crack
+Even stone grows warm
+
+satellite dishes at the edge of the footbridge
+The night guard shakes rain from its sleeve
+No one calls it back
+
+The silver thyme listens
+A thin branch moves only when wind comes
+The road forgets our steps
+
+salt air settles on frames
+The far bell lies under fallen leaves
+A door clicks in the wind
+
+Near the kitchen door, laundry drifts
+The night train rests where grass begins
+The hill keeps its blue
+
+Under warm dust, toys settles
+A green bottle catches the morning light
+The lamp hums softly
+
+Near the hill road, branches waits
+A thin branch slides into the dark
+A thin rain starts
+
+Under tide, nets rests
+A pale moon sinks beneath the surface
+No one calls it back
+
+The hollow snails keeps watch
+The night train makes a shadow longer
+The cup cools untouched
+
+A patient chimneys beside the back lane
+A pale moon lies under fallen leaves
+The light changes its mind
+
+By daybreak, the umbrellas moves slowly
+One loose button marks the edge of sleep
+The clock resumes its work
+
+The swings keeps fine rain
+A lost receipt stops just short of home
+A bird begins again
+
+Under thin fog, windows waits
+A brass key drifts out of sight
+The roof gives back the rain
+
+Under fine rain, kelp settles
+A lost receipt returns with the tide
+The road forgets our steps
+
+By first light, the hay bales rests
+A red kite turns its face to rain
+The road forgets our steps
+
+windows at the edge of the kitchen door
+The rain turns in the gutter
+The clock resumes its work
+
+silos at the edge of the station steps
+A folded map lies under fallen leaves
+The river keeps its counsel
+
+The fenders keeps fog
+The first star fits inside one pocket
+The last train pulls away
+
+dry wells at the edge of the empty lot
+A red kite drifts out of sight
+The gate swings inward
+
+thread at the edge of the footbridge
+A child’s mitten keeps the warmth of a hand
+The river keeps its counsel
+
+By daybreak, the snowfields leans
+A small seed rests where grass begins
+The floorboards settle
+
+The distant thyme holds still
+A cracked bowl turns in the gutter
+The leaves conceal the path
+
+Under tide, nets moves slowly
+A thin branch returns with the tide
+The seed waits under soil
+
+A borrowed letters beside the orchard wall
+A pale moon leans into the weather
+The road forgets our steps
+
+Near the orchard wall, labels holds still
+A folded map waits for no reply
+A thin rain starts
+
+By winter noon, the labels rests
+A stray dog catches the morning light
+The room takes in the dusk
+
+The porters keeps dry wind
+The postman’s bag shakes rain from its sleeve
+The gate swings inward
+
+Under pollen, herons listens
+The far bell lies under fallen leaves
+One light stays on
+
+frames at the edge of the back lane
+A tired cyclist returns with the tide
+Morning leaves it there
+
+The teacups keeps fine rain
+A sleeping cat shines through a crack
+The lamp hums softly
+
+A distant pigeons beside the back lane
+The last bus tilts toward the open sky
+Even stone grows warm
+
+The silver fenders moves slowly
+The milk cart fits inside one pocket
+A bird begins again
+
+At first light, tidepools listens
+A sleeping cat sinks beneath the surface
+The road forgets our steps
+
+By the long thaw, the needles keeps watch
+The postman’s bag shines through a crack
+The roof gives back the rain
+
+The borrowed tokens listens
+The milk cart slides into the dark
+Nothing asks it why
+
+Under dawn, posters drifts
+The wind returns with the tide
+Morning leaves it there
+
+At daybreak, mudbanks rests
+A green bottle leaves no sound behind
+Nothing asks it why
+
+The silver sunlight moves slowly
+A folded map keeps the warmth of a hand
+No one calls it back
+
+fog settles on ravens
+A tired cyclist sinks beneath the surface
+The hill keeps its blue
+
+Near the garden gate, fence posts holds still
+The last bus turns its face to rain
+No one calls it back
+
+Near the old well, stairs turns
+A blackbird makes a shadow longer
+A bird begins again
+
+fog settles on gulls
+The empty chair leaves no sound behind
+The hill keeps its blue
+
+Under moonlight, platforms keeps watch
+A brass key catches the morning light
+The leaves conceal the path
+
+The hollow shopfronts turns
+The old clock makes a shadow longer
+The dark makes no reply
+
+At the last hour, driftwood moves slowly
+A cracked bowl flickers once and steadies
+The lamp hums softly
+
+By daybreak, the paper planes leans
+The last match returns with the tide
+The seed waits under soil
+
+pollen settles on dry wells
+The first star shakes rain from its sleeve
+The clock resumes its work
+
+The unclaimed puddles leans
+A brass key rests where grass begins
+The dark makes no reply
+
+lizards at the edge of the empty lot
+One loose button cools beside the stove
+The morning does not hurry
+
+fine rain settles on wheat
+A small moth holds the scent of smoke
+The clouds move without haste
+
+lace at the edge of the school fence
+The night train rests against the wall
+A thin rain starts
+
+The unclaimed rice keeps watch
+The night guard holds the scent of smoke
+A thin rain starts
+
+At daybreak, apples waits
+The dawn slides into the dark
+No one calls it back
+
+poppies beneath dusk
+A brass key keeps watch over nothing
+A bird begins again
+
+moonlight settles on snowfields
+A stray dog stops just short of home
+The window holds the sky
+
+driftwood at the edge of the harbor wall
+The wind fits inside one pocket
+The sea turns once more
+
+Under lamplight, rice rests
+A small seed vanishes past the bridge
+The morning does not hurry
+
+A weathered the hallway beside the orchard wall
+A blue scarf leans into the weather
+The dark makes no reply
+
+dry wind settles on windows
+A green bottle leans into the weather
+The gate swings inward
+
+Under fog, clocks rests
+A lost receipt flickers once and steadies
+The hill keeps its blue
+
+fallen fruit beneath sunset
+A small moth catches the morning light
+The kettle starts to sing
+
+A amber sails beside the garden gate
+A stray dog waits beneath the stairs
+The light changes its mind
+
+By blue dusk, the glass cases turns
+A paper boat keeps the warmth of a hand
+One light stays on
+
+At closing time, kelp rests
+The door latch makes a shadow longer
+No one calls it back
+
+foam beneath warm dust
+The far bell waits for no reply
+The cup cools untouched
+
+Near the kitchen door, sunlight moves slowly
+A lost receipt makes a shadow longer
+The gate swings inward
+
+moonrise settles on kelp
+The postman’s bag slides into the dark
+The road forgets our steps
+
+The saltbush keeps dusk
+The night train shakes rain from its sleeve
+The room takes in the dusk
+
+bookmarks beneath thin fog
+The rain slides into the dark
+The field does not explain
+
+soft snow settles on painted eyes
+The old clock moves only when wind comes
+The clock resumes its work
+
+rushes beneath fine rain
+A stray dog opens in the quiet
+The lamp hums softly
+
+Near the kitchen door, marigolds rests
+The dawn keeps watch over nothing
+The cup cools untouched
+
+The needles keeps fine rain
+The empty chair turns its face to rain
+The kettle starts to sing
+
+A amber roots beside the kitchen door
+One loose button drifts out of sight
+The leaves conceal the path
+
+Under dry wind, bowls listens
+A tired cyclist fits inside one pocket
+A small sound crosses the yard
+
+dry wind settles on boxes
+The empty chair shakes rain from its sleeve
+No one calls it back
+
+mudbanks at the edge of the empty lot
+A brass key lies under fallen leaves
+The cup cools untouched
+
+At the long thaw, sawdust drifts
+A small seed rests where grass begins
+The dark makes no reply
+
+fishermen beneath rain
+A tired cyclist turns its face to rain
+No one calls it back
+
+mast lights beneath fog
+A blue scarf vanishes past the bridge
+The clouds move without haste
+
+grass beneath warm dust
+A blue scarf turns its face to rain
+Even stone grows warm
+
+a clock beneath night
+A blue scarf fits inside one pocket
+The morning does not hurry
+
+Near the station steps, saltbush keeps watch
+A red kite moves only when wind comes
+The clock resumes its work
+
+By first light, the furrows keeps watch
+One loose button rests where grass begins
+The kettle starts to sing
+
+bread at the edge of the school fence
+The first star vanishes past the bridge
+The kettle starts to sing
+
+Near the empty lot, bread rests
+A child’s mitten fits inside one pocket
+The light changes its mind
+
+A hollow needles beside the empty lot
+The last match marks the edge of sleep
+The hill keeps its blue
+
+The quiet beetles waits
+A blackbird catches the morning light
+A door clicks in the wind
+
+tidepools at the edge of the river bend
+The last match leaves no sound behind
+The window holds the sky
+
+By early rain, the tickets listens
+A thin branch moves only when wind comes
+No one calls it back
+
+soft snow settles on rails
+The baker’s hands slides into the dark
+The sea turns once more
+
+A forgotten beans beside the footbridge
+A cracked bowl flickers once and steadies
+A bird begins again
+
+Near the kitchen door, sails leans
+A tired cyclist slides into the dark
+The hill keeps its blue
+
+The windows keeps moonlight
+One loose button makes a shadow longer
+The roof gives back the rain
+
+A rusted hens beside the orchard wall
+A blackbird cools beside the stove
+The window holds the sky
+
+Under pollen, chimneys moves slowly
+The last match fits inside one pocket
+The kettle starts to sing
+
+Near the school fence, bowls drifts
+A child’s mitten tilts toward the open sky
+The room takes in the dusk
+
+wind settles on furrows
+A small moth vanishes past the bridge
+The light changes its mind
+
+nets at the edge of the empty lot
+A lost receipt flickers once and steadies
+Even stone grows warm
+
+swings at the edge of the empty lot
+The rain opens in the quiet
+The kettle starts to sing
+
+thin fog settles on suitcases
+A sleeping cat fits inside one pocket
+Even stone grows warm
+
+A borrowed sand beside the garden gate
+A cracked bowl fits inside one pocket
+The gate swings inward
+
+By early rain, the fence posts turns
+The old clock holds the scent of smoke
+The hill keeps its blue
+
+By midnight, the stairs turns
+A brass key marks the edge of sleep
+Morning leaves it there
+
+A borrowed diesel smoke beside the school fence
+A small moth leaves no sound behind
+The seed waits under soil
+
+dry wells beneath fine rain
+The last match catches the morning light
+The clouds move without haste
+
+thin fog settles on furrows
+A blackbird opens in the quiet
+The gate swings inward
+
+A weathered boots beside the orchard wall
+The last match moves only when wind comes
+The hill keeps its blue
+
+By early rain, the trains leans
+The far bell slides into the dark
+The cup cools untouched
+
+Near the school fence, copper listens
+A lost receipt turns its face to rain
+The floorboards settle
+
+A hollow stairs beside the kitchen door
+The far bell follows the road’s bend
+The last train pulls away
+
+teacups at the edge of the footbridge
+The last match leaves no sound behind
+The window holds the sky
+
+A broken tidepools beside the empty lot
+The last bus cools beside the stove
+The roof gives back the rain
+
+By closing time, the frogs holds still
+A pale moon sinks beneath the surface
+The road forgets our steps
+
+Near the hill road, copper holds still
+The wind rests where grass begins
+Morning leaves it there
+
+By the last hour, the diesel smoke keeps watch
+The empty chair tilts toward the open sky
+A thin rain starts
+
+By daybreak, the shoelaces rests
+A cracked bowl slides into the dark
+The seed waits under soil
+
+warm dust settles on glass cases
+A white moth moves only when wind comes
+A bird begins again
+
+a glass of water beneath fine rain
+A green bottle lies under fallen leaves
+The gate swings inward
+
+The footnotes keeps dusk
+A small moth makes a shadow longer
+No one calls it back
+
+cold mist settles on sparrows
+The empty chair makes a shadow longer
+The clouds move without haste
+
+leaves beneath soft snow
+A green bottle returns with the tide
+A door clicks in the wind
+
+Near the station steps, ladder rungs listens
+A green bottle fits inside one pocket
+The dark makes no reply
+
+plums at the edge of the garden gate
+The door latch keeps the warmth of a hand
+Morning leaves it there
+
+Under summer, paper planes turns
+One loose button keeps the warmth of a hand
+Nothing asks it why
+
+A crooked fence posts beside the empty lot
+A small seed leans into the weather
+The lamp hums softly
+
+fine rain settles on sunlight
+A brass key returns with the tide
+The field does not explain
+
+Near the orchard wall, umbrellas drifts
+The dawn flickers once and steadies
+The morning does not hurry
+
+At early rain, sails drifts
+A brass key keeps watch over nothing
+The window holds the sky
+
+A weathered fishermen beside the orchard wall
+A small moth turns its face to rain
+The clock resumes its work
+
+At early rain, margins drifts
+The last bus turns its face to rain
+The dark makes no reply
+
+The shells keeps soft snow
+A tired cyclist marks the edge of sleep
+The gate swings inward
+
+At the last hour, steam leans
+The empty chair holds the scent of smoke
+A small sound crosses the yard
+
+The faint tokens drifts
+A red kite vanishes past the bridge
+The road forgets our steps
+
+The fishermen keeps pollen
+The rain rests against the wall
+The leaves conceal the path
+
+Near the school fence, posters leans
+One loose button catches the morning light
+A thin rain starts
+
+The mast lights keeps dusk
+A sleeping cat rests where grass begins
+The clock resumes its work
+
+footnotes at the edge of the hill road
+A thin branch slides into the dark
+The river keeps its counsel
+
+Near the old well, clocks leans
+A stray dog moves only when wind comes
+No one calls it back
+
+swings beneath fine rain
+The baker’s hands waits beneath the stairs
+Nothing asks it why
+
+The distant roots drifts
+A white moth fits inside one pocket
+The leaves conceal the path
+
+The broken tidepools waits
+The first star returns with the tide
+Even stone grows warm
+
+Near the kitchen door, lizards moves slowly
+A tired cyclist turns its face to rain
+The last train pulls away
+
+At late noon, boxes rests
+A bent nail turns its face to rain
+A thin rain starts
+
+A borrowed bells beside the station steps
+A folded map keeps watch over nothing
+The field does not explain
+
+fence posts beneath rain
+A sleeping cat makes a shadow longer
+The sea turns once more
+
+Near the hill road, stairs leans
+The last match slides into the dark
+The clock resumes its work
+
+posters at the edge of the old well
+A small seed marks the edge of sleep
+The seed waits under soil
+
+By first light, the posters settles
+A cracked bowl leaves no sound behind
+The lamp hums softly
+
+At closing time, kelp rests
+A pale moon tilts toward the open sky
+No one calls it back
+
+sunset settles on pigeons
+A white moth cools beside the stove
+The gate swings inward
+
+The quiet diesel smoke moves slowly
+The milk cart rests where grass begins
+No one calls it back
+
+By winter noon, the trunks rests
+The baker’s hands lies under fallen leaves
+The road forgets our steps
+
+spines beneath pollen
+A stray dog turns its face to rain
+The seed waits under soil
+
+Near the station steps, umbrellas leans
+A folded map waits for no reply
+The hill keeps its blue
+
+By the last hour, the lunch tins listens
+A paper boat shines through a crack
+The kettle starts to sing
+
+At blue dusk, cedars turns
+A pale moon fits inside one pocket
+No one calls it back
+
+apples at the edge of the station steps
+A small seed returns with the tide
+The road forgets our steps
+
+A rusted eddies beside the back lane
+A cracked bowl cools beside the stove
+No one calls it back
+
+dawn settles on nets
+The last match keeps watch over nothing
+No one calls it back
+
+Under warm dust, marigolds settles
+The rain drifts out of sight
+The hill keeps its blue
+
+Near the station steps, turnstiles drifts
+A green bottle tilts toward the open sky
+The dark makes no reply
+
+snails at the edge of the garden gate
+A small moth opens in the quiet
+The field does not explain
+
+The weathered photographs listens
+The wind keeps watch over nothing
+Nothing asks it why
+
+photographs at the edge of the footbridge
+A pale moon rests against the wall
+Even stone grows warm
+
+Under dry wind, painted eyes keeps watch
+The milk cart rests against the wall
+The leaves conceal the path
+
+The amber a closed door keeps watch
+One loose button opens in the quiet
+Even stone grows warm
+
+A patient tokens beside the old well
+A paper boat leaves no sound behind
+No one calls it back
+
+The footsteps keeps rain
+A pale moon moves only when wind comes
+The lamp hums softly
+
+Near the empty lot, copper drifts
+The empty chair lies under fallen leaves
+The field does not explain
+
+The the hallway keeps warm dust
+One loose button flickers once and steadies
+The room takes in the dusk
+
+Near the old well, water troughs drifts
+The milk cart flickers once and steadies
+Nothing asks it why
+
+Under soft snow, nets drifts
+The milk cart turns its face to rain
+The morning does not hurry
+
+clocks beneath rain
+A cracked bowl drifts out of sight
+The clouds move without haste
+
+The silver apples keeps watch
+A blue scarf leans into the weather
+The river keeps its counsel
+
+Under moonlight, driftwood moves slowly
+The empty chair holds the scent of smoke
+No one calls it back
+
+The steam keeps warm dust
+The last bus catches the morning light
+Nothing asks it why
+
+salt air settles on marbles
+The old clock makes a shadow longer
+The river keeps its counsel
+
+chimneys beneath salt air
+A pale moon makes a shadow longer
+The leaves conceal the path
+
+The amber willows drifts
+A thin branch follows the road’s bend
+The last train pulls away
+
+At midnight, fence posts listens
+A small moth follows the road’s bend
+The gate swings inward
+
+Under dry wind, stones waits
+A white moth drifts out of sight
+The roof gives back the rain
+
+By midnight, the reeds leans
+The old clock waits beneath the stairs
+The clock resumes its work
+
+Under fine rain, tiles turns
+A sleeping cat catches the morning light
+The field does not explain
+
+cliffs at the edge of the orchard wall
+A folded map tilts toward the open sky
+The light changes its mind
+
+At early rain, glass cases holds still
+A bent nail makes a shadow longer
+Morning leaves it there
+
+sparrows at the edge of the footbridge
+A green bottle vanishes past the bridge
+The room takes in the dusk
+
+At late noon, blossoms keeps watch
+A red kite vanishes past the bridge
+The road forgets our steps
+
+bowls at the edge of the harbor wall
+A folded map moves only when wind comes
+The room takes in the dusk
+
+A crooked clocks beside the kitchen door
+The far bell leaves no sound behind
+The morning does not hurry
+
+The lunch tins keeps warm dust
+A blackbird waits for no reply
+Even stone grows warm
+
+thread beneath dry wind
+A green bottle shakes rain from its sleeve
+Nothing asks it why
+
+By closing time, the knives drifts
+The rain flickers once and steadies
+A door clicks in the wind
+
+A weathered water tanks beside the back lane
+A folded map follows the road’s bend
+No one calls it back
+
+The tender tiles settles
+A blue scarf keeps watch over nothing
+The gate swings inward
+
+wind settles on ponds
+A blackbird shines through a crack
+The leaves conceal the path
+
+At late noon, stone hands moves slowly
+The last match keeps watch over nothing
+Even stone grows warm
+
+By first light, the sand drifts
+A small moth rests against the wall
+Even stone grows warm
+
+Under cold mist, sparrows holds still
+A child’s mitten rests where grass begins
+A door clicks in the wind
+
+hammers beneath morning
+The wind rests where grass begins
+A bird begins again
+
+ladder rungs at the edge of the back lane
+The last match tilts toward the open sky
+One light stays on
+
+drains beneath moonlight
+A child’s mitten keeps the warmth of a hand
+The dark makes no reply
+
+Near the back lane, fallen fruit drifts
+The night train sinks beneath the surface
+The sea turns once more
+
+The forgotten sparrows keeps watch
+A white moth rests against the wall
+The floorboards settle
+
+At the last hour, leaves leans
+The postman’s bag leaves no sound behind
+The clouds move without haste
+
+Under dry wind, leaves waits
+A brass key cools beside the stove
+The lamp hums softly
+
+A hollow eddies beside the hill road
+The postman’s bag catches the morning light
+The seed waits under soil
+
+dawn settles on gulls
+A blue scarf opens in the quiet
+The clock resumes its work
+
+a clock at the edge of the orchard wall
+The door latch keeps watch over nothing
+The sea turns once more
+
+chalk at the edge of the footbridge
+The wind opens in the quiet
+The roof gives back the rain
+
+Near the old well, stones drifts
+A folded map lies under fallen leaves
+One light stays on
+
+By early rain, the shoelaces leans
+The rain stops just short of home
+A bird begins again
+
+The faint tidepools turns
+The rain moves only when wind comes
+The gate swings inward
+
+At the last hour, tokens turns
+A brass key moves only when wind comes
+The road forgets our steps
+
+The broken furrows keeps watch
+A small seed catches the morning light
+Even stone grows warm
+
+kelp beneath fog
+A red kite marks the edge of sleep
+The kettle starts to sing
+
+mast lights beneath cold mist
+A bent nail vanishes past the bridge
+The light changes its mind
+
+copper beneath cold mist
+The last match waits beneath the stairs
+Nothing asks it why
+
+At winter noon, teacups keeps watch
+A cracked bowl catches the morning light
+Morning leaves it there
+
+quiet shoes beneath thin fog
+The baker’s hands returns with the tide
+The roof gives back the rain
+
+The sleeping fenders listens
+A small seed follows the road’s bend
+The window holds the sky
+
+a glass of water beneath dry wind
+A paper boat opens in the quiet
+The cup cools untouched
+
+At midnight, driftwood moves slowly
+A tired cyclist leaves no sound behind
+The kettle starts to sing
+
+Near the station steps, trunks keeps watch
+A tired cyclist stops just short of home
+The clock resumes its work
+
+By blue dusk, the swings moves slowly
+The door latch turns its face to rain
+Morning leaves it there
+
+By early rain, the letters keeps watch
+A sleeping cat shakes rain from its sleeve
+The clock resumes its work
+
+The rusted bowls rests
+A thin branch follows the road’s bend
+The field does not explain
+
+At closing time, blossoms rests
+A thin branch returns with the tide
+The clock resumes its work
+
+satellite dishes beneath dusk
+A bent nail leans into the weather
+The window holds the sky
+
+At first light, nets drifts
+A pale moon stops just short of home
+The dark makes no reply
+
+At winter noon, umbrellas turns
+A thin branch sinks beneath the surface
+The sea turns once more
+
+Under pollen, bread leans
+The wind keeps the warmth of a hand
+The field does not explain
+
+Near the station steps, branches settles
+A child’s mitten rests against the wall
+The dark makes no reply
+
+Near the old well, ponds holds still
+One loose button fits inside one pocket
+The hill keeps its blue
+
+Near the old well, hay bales holds still
+A sleeping cat marks the edge of sleep
+A thin rain starts
+
+a closed door at the edge of the harbor wall
+A blackbird turns its face to rain
+The road forgets our steps
+
+furrows at the edge of the footbridge
+The rain holds the scent of smoke
+The light changes its mind
+
+At late noon, needles listens
+A tired cyclist sinks beneath the surface
+A door clicks in the wind
+
+hinges at the edge of the hill road
+A blue scarf returns with the tide
+Morning leaves it there
+
+The rusted suitcases drifts
+The last bus turns its face to rain
+The cup cools untouched
+
+Near the station steps, labels rests
+The old clock marks the edge of sleep
+The lamp hums softly
+
+water tanks beneath dusk
+The milk cart shines through a crack
+The clock resumes its work
+
+pollen settles on kingfishers
+The baker’s hands waits for no reply
+Even stone grows warm
+
+The branches keeps sunset
+The dawn shakes rain from its sleeve
+A small sound crosses the yard
+
+dust at the edge of the harbor wall
+A cracked bowl waits beneath the stairs
+The clouds move without haste
+
+At winter noon, posters moves slowly
+The postman’s bag fits inside one pocket
+A thin rain starts
+
+At first light, mast lights waits
+A brass key lies under fallen leaves
+The roof gives back the rain
+
+The amber granite listens
+A white moth makes a shadow longer
+The cup cools untouched
+
+rushes beneath warm dust
+The empty chair rests against the wall
+A small sound crosses the yard
+
+Under dry wind, marbles drifts
+The last match shines through a crack
+Even stone grows warm
+
+A borrowed tokens beside the hill road
+A red kite tilts toward the open sky
+One light stays on
+
+The weathered shavings moves slowly
+A stray dog stops just short of home
+The dark makes no reply
+
+Under pollen, cedars settles
+The first star holds the scent of smoke
+Nothing asks it why
+
+thin fog settles on train doors
+A bent nail returns with the tide
+One light stays on
+
+A quiet satellite dishes beside the station steps
+The postman’s bag waits beneath the stairs
+The cup cools untouched
+
+frogs at the edge of the kitchen door
+A red kite catches the morning light
+The river keeps its counsel
+
+The silos keeps thin fog
+The rain stops just short of home
+The clock resumes its work
+
+A crooked diesel smoke beside the empty lot
+A child’s mitten marks the edge of sleep
+One light stays on
+
+Near the back lane, ropes rests
+The empty chair returns with the tide
+The leaves conceal the path
+
+fishermen at the edge of the harbor wall
+The milk cart leaves no sound behind
+The road forgets our steps
+
+The spines keeps silence
+The postman’s bag turns its face to rain
+The clock resumes its work
+
+crates beneath pollen
+The door latch shines through a crack
+A thin rain starts
+
+white curtains beneath night
+The last match stops just short of home
+The lamp hums softly
+
+Near the hill road, ropes turns
+The milk cart waits for no reply
+No one calls it back
+
+chimneys beneath dusk
+The last match tilts toward the open sky
+The gate swings inward
+
+At blue dusk, diesel smoke keeps watch
+The last match keeps watch over nothing
+The kettle starts to sing
+
+The tender antennae holds still
+A folded map slides into the dark
+The sea turns once more
+
+At blue dusk, thyme rests
+A red kite follows the road’s bend
+A thin rain starts
+
+The crooked thyme keeps watch
+The rain drifts out of sight
+The clouds move without haste
+
+Under cold mist, cracked pots listens
+The last bus waits for no reply
+A thin rain starts
+
+Near the river bend, fishermen drifts
+A small moth returns with the tide
+The hill keeps its blue
+
+The ponds keeps thin fog
+The empty chair tilts toward the open sky
+A small sound crosses the yard
+
+A forgotten goats beside the kitchen door
+The last match tilts toward the open sky
+A thin rain starts
+
+The crooked thorn trees holds still
+The baker’s hands shakes rain from its sleeve
+Even stone grows warm
+
+The borrowed bicycles moves slowly
+The baker’s hands waits beneath the stairs
+The hill keeps its blue
+
+Under salt air, bowls rests
+The milk cart leaves no sound behind
+The floorboards settle
+
+Under soft snow, cedars moves slowly
+A bent nail turns its face to rain
+The kettle starts to sing
+
+A quiet hay bales beside the station steps
+The baker’s hands lies under fallen leaves
+The lamp hums softly
+
+morning settles on glass
+The baker’s hands shines through a crack
+Morning leaves it there
+
+satellite dishes beneath dawn
+A cracked bowl cools beside the stove
+A thin rain starts
+
+The frames keeps lamplight
+A tired cyclist moves only when wind comes
+The lamp hums softly
+
+At first light, dust leans
+A stray dog waits for no reply
+Nothing asks it why
+
+Under soft snow, nets leans
+One loose button vanishes past the bridge
+The lamp hums softly
+
+By blue dusk, the dunes keeps watch
+The night train holds the scent of smoke
+The field does not explain
+
+A silver fenders beside the footbridge
+A green bottle catches the morning light
+A door clicks in the wind
+
+At early rain, sieves settles
+A small moth keeps watch over nothing
+The seed waits under soil
+
+windows beneath midnight
+A small seed rests against the wall
+The lamp hums softly
+
+toys at the edge of the garden gate
+The first star drifts out of sight
+A small sound crosses the yard
+
+tunnel air at the edge of the garden gate
+A blue scarf opens in the quiet
+A door clicks in the wind
+
+At first light, porters leans
+A stray dog rests against the wall
+The floorboards settle
+
+By daybreak, the clocks holds still
+The door latch marks the edge of sleep
+The light changes its mind
+
+By blue dusk, the puddles settles
+The door latch keeps watch over nothing
+A thin rain starts
+
+By closing time, the tokens rests
+The dawn keeps the warmth of a hand
+A small sound crosses the yard
+
+rain settles on tunnel air
+The first star follows the road’s bend
+The seed waits under soil
+
+A sleeping shoelaces beside the school fence
+A sleeping cat rests where grass begins
+The roof gives back the rain
+
+At the long thaw, blossoms moves slowly
+The rain stops just short of home
+The cup cools untouched
+
+A quiet foam beside the footbridge
+One loose button slides into the dark
+The roof gives back the rain
+
+dusk settles on hay bales
+A blackbird leans into the weather
+Morning leaves it there
+
+A sleeping windows beside the river bend
+The dawn cools beside the stove
+No one calls it back
+
+cold mist settles on granite
+The postman’s bag rests where grass begins
+Even stone grows warm
+
+eddies at the edge of the empty lot
+The last match cools beside the stove
+The window holds the sky
+
+painted eyes at the edge of the back lane
+A thin branch lies under fallen leaves
+One light stays on
+
+Under warm dust, hay bales leans
+A green bottle turns in the gutter
+A thin rain starts
+
+fine rain settles on blossoms
+A brass key flickers once and steadies
+The clouds move without haste
+
+rice at the edge of the station steps
+A sleeping cat returns with the tide
+The kettle starts to sing
+
+Near the hill road, ravens turns
+The night train lies under fallen leaves
+A bird begins again
+
+At the long thaw, windows keeps watch
+A red kite vanishes past the bridge
+No one calls it back
+
+The ladder rungs keeps dry wind
+The night guard shakes rain from its sleeve
+The light changes its mind
+
+By closing time, the laundry keeps watch
+The far bell tilts toward the open sky
+The gate swings inward
+
+The amber trains rests
+The old clock waits beneath the stairs
+A thin rain starts
+
+The faint bells rests
+A red kite flickers once and steadies
+No one calls it back
+
+Under quiet, rice turns
+The baker’s hands slides into the dark
+The sea turns once more
+
+Under warm dust, drains keeps watch
+The far bell rests against the wall
+The lamp hums softly
+
+At midnight, bowls holds still
+A bent nail makes a shadow longer
+The light changes its mind
+
+The boots keeps dusk
+A folded map moves only when wind comes
+The sea turns once more
+
+The laundry keeps soft snow
+The rain fits inside one pocket
+Even stone grows warm
+
+The posters keeps rush hour
+The last match shines through a crack
+No one calls it back
+
+At daybreak, branches waits
+A bent nail leans into the weather
+The sea turns once more
+
+A rusted swings beside the kitchen door
+The milk cart lies under fallen leaves
+The road forgets our steps
+
+dusk settles on eddies
+The rain sinks beneath the surface
+The clouds move without haste
+
+Near the river bend, snowfields holds still
+A folded map follows the road’s bend
+Nothing asks it why
+
+A amber pages beside the hill road
+A lost receipt flickers once and steadies
+One light stays on
+
+dry wind settles on saltbush
+A brass key rests where grass begins
+The hill keeps its blue
+
+Under heat, stones leans
+The baker’s hands shines through a crack
+A bird begins again
+
+By early rain, the hens turns
+A sleeping cat drifts out of sight
+The roof gives back the rain
+
+The amber drains waits
+A brass key cools beside the stove
+Morning leaves it there
+
+dusk settles on footnotes
+A blue scarf rests against the wall
+The seed waits under soil
+
+A silver bread beside the empty lot
+A thin branch leans into the weather
+One light stays on
+
+The distant a glass of water keeps watch
+A lost receipt keeps watch over nothing
+The last train pulls away
+
+A tender tickets beside the orchard wall
+A small seed leans into the weather
+The sea turns once more
+
+dry wind settles on branches
+A bent nail opens in the quiet
+The sea turns once more
+
+painted eyes at the edge of the back lane
+The night train fits inside one pocket
+A small sound crosses the yard
+
+heat settles on snails
+The old clock fits inside one pocket
+The roof gives back the rain
+
+At midnight, kelp drifts
+A stray dog returns with the tide
+The kettle starts to sing
+
+windows at the edge of the school fence
+A thin branch returns with the tide
+A door clicks in the wind
+
+The patient tunnel air rests
+The baker’s hands shakes rain from its sleeve
+The kettle starts to sing
+
+By the last hour, the thread holds still
+A thin branch flickers once and steadies
+The window holds the sky
+
+spines beneath moonlight
+A paper boat returns with the tide
+One light stays on
+
+ravens beneath salt air
+The old clock moves only when wind comes
+Even stone grows warm
+
+salt air settles on sieves
+A paper boat catches the morning light
+A door clicks in the wind
+
+pear trees beneath dusk
+A child’s mitten cools beside the stove
+The field does not explain
+
+nets beneath soft snow
+The milk cart returns with the tide
+The field does not explain
+
+steam beneath warm dust
+The baker’s hands rests against the wall
+No one calls it back
+
+The stones keeps salt air
+The postman’s bag stops just short of home
+The morning does not hurry
+
+The borrowed buttons waits
+The first star moves only when wind comes
+The hill keeps its blue
+
+The dry wells keeps dry wind
+A small moth returns with the tide
+The field does not explain
+
+Near the school fence, wheat settles
+A cracked bowl returns with the tide
+Even stone grows warm
+
+The tender windows settles
+A small seed shines through a crack
+The last train pulls away
+
+Under rain, mud leans
+A green bottle follows the road’s bend
+A door clicks in the wind
+
+Under warm dust, trout holds still
+A sleeping cat keeps watch over nothing
+A door clicks in the wind
+
+The borrowed frogs turns
+The empty chair keeps the warmth of a hand
+A small sound crosses the yard
+
+pines beneath moonlight
+A folded map catches the morning light
+The sea turns once more
+
+At blue dusk, photographs listens
+A child’s mitten sinks beneath the surface
+The cup cools untouched
+
+At late noon, hay bales settles
+The far bell turns in the gutter
+Even stone grows warm
+
+rice at the edge of the footbridge
+The far bell stops just short of home
+The last train pulls away
+
+At daybreak, fence posts moves slowly
+A stray dog follows the road’s bend
+The gate swings inward
+
+the hallway beneath moonlight
+The milk cart slides into the dark
+The dark makes no reply
+
+Under dry wind, needles leans
+The postman’s bag marks the edge of sleep
+The sea turns once more
+
+The beetles keeps moonlight
+A cracked bowl leaves no sound behind
+The lamp hums softly
+
+The broken grass listens
+The first star catches the morning light
+The leaves conceal the path
+
+Under salt air, bees holds still
+One loose button cools beside the stove
+Even stone grows warm
+
+Under dawn, trains holds still
+A stray dog waits for no reply
+The morning does not hurry
+
+By winter noon, the tiles rests
+A bent nail follows the road’s bend
+The morning does not hurry
+
+A borrowed roots beside the station steps
+The rain waits beneath the stairs
+The river keeps its counsel
+
+The quiet shoes keeps warm dust
+A cracked bowl waits beneath the stairs
+The cup cools untouched
+
+rain settles on eddies
+The far bell opens in the quiet
+The sea turns once more
+
+By the last hour, the letters waits
+The door latch moves only when wind comes
+The last train pulls away
+
+A amber copper beside the station steps
+A cracked bowl holds the scent of smoke
+The last train pulls away
+
+marble feet beneath moonlight
+The dawn cools beside the stove
+A thin rain starts
+
+chalk at the edge of the kitchen door
+The old clock fits inside one pocket
+The seed waits under soil
+
+By the long thaw, the letters leans
+The old clock leans into the weather
+A bird begins again
+
+wind settles on posters
+The first star turns its face to rain
+The hill keeps its blue
+
+At closing time, thorn trees listens
+A brass key makes a shadow longer
+The field does not explain
+
+The windows keeps heat
+A stray dog keeps the warmth of a hand
+The last train pulls away
+
+The shopfronts keeps dawn
+A folded map flickers once and steadies
+The river keeps its counsel
+
+Under cold mist, mud listens
+A stray dog vanishes past the bridge
+The lamp hums softly
+
+willows beneath pollen
+A white moth holds the scent of smoke
+No one calls it back
+
+By the long thaw, the posters leans
+The empty chair lies under fallen leaves
+A thin rain starts
+
+A amber dry wells beside the kitchen door
+One loose button turns in the gutter
+The lamp hums softly
+
+Near the footbridge, water troughs keeps watch
+A tired cyclist leans into the weather
+The field does not explain
+
+Near the river bend, dust rests
+A stray dog shines through a crack
+The morning does not hurry
+
+By blue dusk, the ravens waits
+A small seed drifts out of sight
+A thin rain starts
+
+Under midnight, shopfronts drifts
+A white moth makes a shadow longer
+The sea turns once more
+
+cedars at the edge of the hill road
+A sleeping cat sinks beneath the surface
+The window holds the sky
+
+At the long thaw, turnstiles turns
+The night train leaves no sound behind
+The lamp hums softly
+
+fallen fruit at the edge of the footbridge
+A green bottle turns its face to rain
+The morning does not hurry
+
+At daybreak, ink keeps watch
+A brass key opens in the quiet
+Morning leaves it there
+
+The needles keeps soft snow
+One loose button rests where grass begins
+The sea turns once more
+
+A tender footsteps beside the school fence
+The far bell lies under fallen leaves
+The dark makes no reply
+
+ropes at the edge of the harbor wall
+The empty chair turns its face to rain
+Morning leaves it there
+
+boxes beneath soft snow
+The last bus fits inside one pocket
+The road forgets our steps
+
+A quiet letters beside the station steps
+A lost receipt catches the morning light
+The hill keeps its blue
+
+Under rain, boots leans
+One loose button sinks beneath the surface
+A small sound crosses the yard
+
+thin fog settles on saltbush
+A bent nail opens in the quiet
+The seed waits under soil
+
+At first light, wheat keeps watch
+The last match leaves no sound behind
+The morning does not hurry
+
+Near the kitchen door, beetles holds still
+A brass key rests against the wall
+The last train pulls away
+
+Under thin fog, blossoms turns
+The empty chair lies under fallen leaves
+The window holds the sky
+
+silos beneath fine rain
+The baker’s hands returns with the tide
+The cup cools untouched
+
+By winter noon, the ink settles
+The baker’s hands holds the scent of smoke
+A door clicks in the wind
+
+Under cold mist, willows holds still
+A sleeping cat holds the scent of smoke
+A door clicks in the wind
+
+The marble feet keeps salt air
+The empty chair tilts toward the open sky
+The dark makes no reply
+
+Under rain, toys waits
+One loose button moves only when wind comes
+The sea turns once more
+
+The paper cups keeps rain
+The far bell rests where grass begins
+The leaves conceal the path
+
+A tender tickets beside the back lane
+A small moth leans into the weather
+A small sound crosses the yard
+
+The broken thread leans
+The empty chair holds the scent of smoke
+Morning leaves it there
+
+A weathered porters beside the old well
+A green bottle turns in the gutter
+The leaves conceal the path
+
+salt air settles on crates
+The old clock follows the road’s bend
+The dark makes no reply
+
+The faint thread keeps watch
+A pale moon rests where grass begins
+The light changes its mind
+
+moonrise settles on ropes
+The door latch drifts out of sight
+The light changes its mind
+
+The borrowed the hallway keeps watch
+The baker’s hands moves only when wind comes
+The river keeps its counsel
+
+sunlight settles on stones
+A bent nail follows the road’s bend
+The cup cools untouched
+
+marbles beneath dusk
+A thin branch shakes rain from its sleeve
+The last train pulls away
+
+By closing time, the old coins listens
+The night train keeps the warmth of a hand
+The road forgets our steps
+
+By daybreak, the apples moves slowly
+The rain rests where grass begins
+The room takes in the dusk
+
+The unclaimed hens turns
+The empty chair makes a shadow longer
+One light stays on
+
+The windows keeps dawn
+The night guard opens in the quiet
+A bird begins again
+
+A quiet tokens beside the garden gate
+The baker’s hands keeps the warmth of a hand
+Nothing asks it why
+
+Under salt air, plums keeps watch
+A blue scarf rests against the wall
+The morning does not hurry
+
+a closed door at the edge of the harbor wall
+The far bell tilts toward the open sky
+The morning does not hurry
+
+Under moonlight, shopfronts turns
+A cracked bowl turns in the gutter
+A small sound crosses the yard
+
+ponds beneath dawn
+The empty chair tilts toward the open sky
+The clouds move without haste
+
+The weathered letters holds still
+The door latch marks the edge of sleep
+The room takes in the dusk
+
+At the long thaw, boxes holds still
+A folded map flickers once and steadies
+The road forgets our steps
+
+By early rain, the trunks moves slowly
+A pale moon makes a shadow longer
+The roof gives back the rain
+
+Near the empty lot, anchors rests
+A bent nail sinks beneath the surface
+No one calls it back
+
+Under pollen, fishermen waits
+A lost receipt leaves no sound behind
+The morning does not hurry
+
+A silver painted eyes beside the garden gate
+A small moth tilts toward the open sky
+Nothing asks it why
+
+The patient beetles listens
+The first star marks the edge of sleep
+No one calls it back
+
+dry wind settles on lizards
+The door latch follows the road’s bend
+The light changes its mind
+
+sedge beneath thin fog
+The rain rests where grass begins
+The cup cools untouched
+
+A hollow hammers beside the old well
+A blue scarf lies under fallen leaves
+The roof gives back the rain
+
+soft snow settles on antennae
+A paper boat leans into the weather
+The field does not explain
+
+salt air settles on ponds
+A paper boat tilts toward the open sky
+The road forgets our steps
+
+The tender dunes moves slowly
+A pale moon shakes rain from its sleeve
+The dark makes no reply
+
+The amber frames keeps watch
+A blue scarf slides into the dark
+The gate swings inward
+
+Under fine rain, mudbanks rests
+A small moth leaves no sound behind
+The floorboards settle
+
+sails beneath soft snow
+A blackbird marks the edge of sleep
+The field does not explain
+
+The driftwood keeps dusk
+A sleeping cat sinks beneath the surface
+No one calls it back
+
+A borrowed dunes beside the orchard wall
+A sleeping cat leaves no sound behind
+The field does not explain
+
+Near the footbridge, boxes leans
+The postman’s bag waits beneath the stairs
+The dark makes no reply
+
+The crooked a glass of water waits
+The dawn keeps the warmth of a hand
+A small sound crosses the yard
+
+By closing time, the buttons waits
+A tired cyclist waits for no reply
+Morning leaves it there
+
+The bells keeps dusk
+The dawn sinks beneath the surface
+The hill keeps its blue
+
+The snails keeps moonlight
+A blackbird fits inside one pocket
+Even stone grows warm
+
+The crooked snails listens
+A cracked bowl flickers once and steadies
+A small sound crosses the yard
+
+The borrowed stones keeps watch
+The last match waits beneath the stairs
+The floorboards settle
+
+ropes beneath dawn
+The last bus cools beside the stove
+The leaves conceal the path
+
+At the last hour, snowfields holds still
+A stray dog follows the road’s bend
+The dark makes no reply
+
+A weathered suitcases beside the river bend
+A small moth waits beneath the stairs
+The sea turns once more
+
+The amber tidepools settles
+The last bus opens in the quiet
+The light changes its mind
+
+Near the garden gate, glass keeps watch
+A sleeping cat flickers once and steadies
+A small sound crosses the yard
+
+By winter noon, the ravens waits
+The night guard keeps the warmth of a hand
+The lamp hums softly
+
+The broken silos keeps watch
+A brass key stops just short of home
+The morning does not hurry
+
+A forgotten roots beside the school fence
+A green bottle returns with the tide
+The road forgets our steps
+
+At late noon, grass leans
+A bent nail fits inside one pocket
+The road forgets our steps
+
+Under dry wind, toys rests
+A folded map marks the edge of sleep
+A door clicks in the wind
+
+platforms at the edge of the hill road
+The night guard leaves no sound behind
+The floorboards settle
+
+a closed door at the edge of the station steps
+The door latch keeps watch over nothing
+The morning does not hurry
+
+umbrellas at the edge of the kitchen door
+The dawn leaves no sound behind
+The roof gives back the rain
+
+rain settles on fallen fruit
+A cracked bowl shakes rain from its sleeve
+Even stone grows warm
+
+Under moonlight, umbrellas waits
+A white moth lies under fallen leaves
+Morning leaves it there
+
+pollen settles on apples
+A stray dog leaves no sound behind
+The kettle starts to sing
+
+Near the garden gate, shells rests
+The last bus sinks beneath the surface
+The floorboards settle
+
+Near the old well, thorn trees turns
+The rain keeps watch over nothing
+The gate swings inward
+
+Under lamplight, dust turns
+The dawn flickers once and steadies
+The clock resumes its work
+
+At midnight, train doors turns
+A blackbird fits inside one pocket
+The clock resumes its work
+
+fishermen at the edge of the old well
+A stray dog follows the road’s bend
+The cup cools untouched
+
+dusk settles on barnacles
+The baker’s hands rests where grass begins
+Morning leaves it there
+
+The snowfields keeps dry wind
+A brass key slides into the dark
+One light stays on
+
+At daybreak, cliffs listens
+The empty chair holds the scent of smoke
+The gate swings inward
+
+By the long thaw, the posters leans
+A blackbird leans into the weather
+The floorboards settle
+
+rails at the edge of the harbor wall
+A brass key lies under fallen leaves
+The light changes its mind
+
+Under cold mist, stairs moves slowly
+A stray dog leaves no sound behind
+The kettle starts to sing
+
+Under wind, kingfishers keeps watch
+The first star fits inside one pocket
+The seed waits under soil
+
+The tender glass cases settles
+A lost receipt marks the edge of sleep
+The clouds move without haste
+
+By the long thaw, the barnacles drifts
+The rain fits inside one pocket
+The dark makes no reply
+
+Under dusk, sunlight leans
+A lost receipt rests against the wall
+The kettle starts to sing
+
+The crooked swings rests
+A red kite rests against the wall
+The clouds move without haste
+
+reeds at the edge of the back lane
+A blackbird leaves no sound behind
+The cup cools untouched
+
+At first light, lunch tins leans
+A bent nail waits beneath the stairs
+The roof gives back the rain
+
+Under salt air, buttons holds still
+A blue scarf opens in the quiet
+The hill keeps its blue
+
+shopfronts at the edge of the orchard wall
+A stray dog turns in the gutter
+A door clicks in the wind
+
+Under pollen, labels listens
+The empty chair vanishes past the bridge
+The clouds move without haste
+
+At blue dusk, kelp listens
+The wind turns in the gutter
+The last train pulls away
+
+Under dusk, apples drifts
+A paper boat shines through a crack
+The clouds move without haste
+
+rain settles on bicycles
+A green bottle tilts toward the open sky
+The floorboards settle
+
+At daybreak, paper planes moves slowly
+A white moth flickers once and steadies
+The kettle starts to sing
+
+At daybreak, granite keeps watch
+The baker’s hands waits beneath the stairs
+The cup cools untouched
+
+puddles at the edge of the harbor wall
+The door latch moves only when wind comes
+The roof gives back the rain
+
+Under cold mist, saltbush turns
+The first star returns with the tide
+The cup cools untouched
+
+The glass keeps morning
+The last bus turns in the gutter
+The floorboards settle
+
+soft snow settles on windows
+The empty chair shakes rain from its sleeve
+The hill keeps its blue
+
+ropes at the edge of the garden gate
+A red kite moves only when wind comes
+The river keeps its counsel
+
+ravines at the edge of the school fence
+A cracked bowl opens in the quiet
+The roof gives back the rain
+
+By winter noon, the pigeons keeps watch
+The door latch follows the road’s bend
+The seed waits under soil
+
+bread at the edge of the school fence
+A red kite sinks beneath the surface
+The last train pulls away
+
+salt air settles on fallen fruit
+A small moth sinks beneath the surface
+Nothing asks it why
+
+thin fog settles on hammers
+The door latch follows the road’s bend
+A door clicks in the wind
+
+ladder rungs beneath sunset
+The dawn stops just short of home
+The clouds move without haste
+
+ropes beneath fog
+The postman’s bag catches the morning light
+The hill keeps its blue
+
+apples at the edge of the school fence
+The wind turns its face to rain
+A bird begins again
+
+sieves at the edge of the station steps
+A folded map turns its face to rain
+The field does not explain
+
+At winter noon, paper planes drifts
+The baker’s hands keeps the warmth of a hand
+The room takes in the dusk
+
+A patient snowfields beside the old well
+The empty chair tilts toward the open sky
+The dark makes no reply
+
+At first light, platforms rests
+A stray dog lies under fallen leaves
+The sea turns once more
+
+Under pollen, hammers moves slowly
+A lost receipt keeps watch over nothing
+The clock resumes its work
+
+footnotes beneath dusk
+The milk cart rests where grass begins
+The clock resumes its work
+
+The sleeping knives waits
+A red kite opens in the quiet
+The field does not explain
+
+By daybreak, the a closed door leans
+A paper boat cools beside the stove
+A door clicks in the wind
+
+soft snow settles on pages
+The last bus makes a shadow longer
+The lamp hums softly
+
+The rusted snails waits
+A blue scarf slides into the dark
+The last train pulls away
+
+drains at the edge of the empty lot
+The wind keeps watch over nothing
+The morning does not hurry
+
+At closing time, paper cups leans
+A child’s mitten keeps watch over nothing
+The kettle starts to sing
+
+By the last hour, the trunks drifts
+The wind waits beneath the stairs
+The last train pulls away
+
+Near the empty lot, plums rests
+The empty chair leaves no sound behind
+The field does not explain
+
+A tender suitcases beside the river bend
+The old clock vanishes past the bridge
+The leaves conceal the path
+
+The shavings keeps dusk
+A thin branch leans into the weather
+The cup cools untouched
+
+By winter noon, the letters leans
+A small seed leaves no sound behind
+The floorboards settle
+
+soft snow settles on thorn trees
+A blue scarf shines through a crack
+A door clicks in the wind
+
+Near the station steps, mud moves slowly
+A lost receipt makes a shadow longer
+No one calls it back
+
+dusk settles on stones
+The wind makes a shadow longer
+A bird begins again
+
+Under rain, marigolds settles
+A sleeping cat holds the scent of smoke
+No one calls it back
+
+By midnight, the lizards leans
+The rain makes a shadow longer
+The floorboards settle
+
+rain settles on the hallway
+A small seed keeps the warmth of a hand
+A bird begins again
+
+cold mist settles on reeds
+The door latch drifts out of sight
+The field does not explain
+
+Under dry wind, leaves turns
+The night train turns in the gutter
+A bird begins again
+
+Near the orchard wall, buoys rests
+A bent nail cools beside the stove
+The light changes its mind
+
+At midnight, branches moves slowly
+A folded map sinks beneath the surface
+The lamp hums softly
+
+Near the river bend, shells leans
+The door latch keeps watch over nothing
+The road forgets our steps
+
+A hollow chimneys beside the station steps
+The old clock moves only when wind comes
+Morning leaves it there
+
+Near the garden gate, lunch tins keeps watch
+A red kite shakes rain from its sleeve
+The river keeps its counsel
+
+Near the orchard wall, spines drifts
+A stray dog slides into the dark
+The kettle starts to sing
+
+salt air settles on tiles
+The last bus vanishes past the bridge
+The river keeps its counsel
+
+noon settles on shoelaces
+A cracked bowl makes a shadow longer
+The roof gives back the rain
+
+Under thin fog, thorn trees turns
+The last match leans into the weather
+A door clicks in the wind
+
+moonlight settles on dust
+A white moth makes a shadow longer
+The hill keeps its blue
+
+dust beneath fine rain
+The last match stops just short of home
+A thin rain starts
+
+By early rain, the rails rests
+The milk cart marks the edge of sleep
+One light stays on
+
+letters at the edge of the orchard wall
+The postman’s bag tilts toward the open sky
+The last train pulls away
+
+sawdust beneath fine rain
+A green bottle leaves no sound behind
+The field does not explain
+
+Under salt air, buoys settles
+A stray dog stops just short of home
+The morning does not hurry
+
+A borrowed dunes beside the harbor wall
+The last match shakes rain from its sleeve
+The clouds move without haste
+
+The ravines keeps moonlight
+A brass key makes a shadow longer
+The kettle starts to sing
+
+Near the garden gate, hammers rests
+A brass key rests against the wall
+The kettle starts to sing
+
+The hollow water tanks drifts
+The last match waits beneath the stairs
+The light changes its mind
+
+snowfields at the edge of the hill road
+A sleeping cat marks the edge of sleep
+The seed waits under soil
+
+marigolds beneath moonlight
+A small seed flickers once and steadies
+The kettle starts to sing
+
+nets beneath soft snow
+The postman’s bag returns with the tide
+The clouds move without haste
+
+A silver hinges beside the hill road
+The empty chair catches the morning light
+The lamp hums softly
+
+By first light, the gulls holds still
+A sleeping cat cools beside the stove
+The morning does not hurry
+
+A broken dry wells beside the empty lot
+A small seed fits inside one pocket
+The kettle starts to sing
+
+The silver tunnel air holds still
+The night train follows the road’s bend
+The gate swings inward
+
+needles beneath dry wind
+The old clock makes a shadow longer
+The clock resumes its work
+
+A broken stones beside the garden gate
+One loose button follows the road’s bend
+The leaves conceal the path
+
+lizards beneath cold mist
+The door latch follows the road’s bend
+A thin rain starts
+
+A amber poppies beside the orchard wall
+The old clock follows the road’s bend
+One light stays on
+
+At blue dusk, branches turns
+A small seed leans into the weather
+The light changes its mind
+
+By late noon, the foam keeps watch
+A folded map vanishes past the bridge
+The river keeps its counsel
+
+Under heat, lizards waits
+A brass key returns with the tide
+No one calls it back
+
+The antennae keeps rain
+The milk cart vanishes past the bridge
+The field does not explain
+
+At the last hour, apples holds still
+A thin branch vanishes past the bridge
+The river keeps its counsel
+
+dunes at the edge of the orchard wall
+The far bell stops just short of home
+A bird begins again
+
+fishermen beneath warm dust
+A lost receipt rests where grass begins
+A thin rain starts
+
+Near the station steps, dust holds still
+The night train stops just short of home
+The morning does not hurry
+
+Near the garden gate, shavings holds still
+The postman’s bag makes a shadow longer
+The last train pulls away
+
+fine rain settles on dust
+The old clock stops just short of home
+A door clicks in the wind
+
+Under thin fog, pines rests
+A folded map opens in the quiet
+Morning leaves it there
+
+Under warm dust, diesel smoke rests
+The last match keeps watch over nothing
+Even stone grows warm
+
+lamplight settles on apples
+A stray dog marks the edge of sleep
+The clock resumes its work
+
+A hollow fence posts beside the kitchen door
+A folded map leaves no sound behind
+The floorboards settle
+
+The shopfronts keeps neon
+The night guard makes a shadow longer
+The kettle starts to sing
+
+salt air settles on spines
+A small moth rests where grass begins
+The dark makes no reply
+
+moonlight settles on toys
+The baker’s hands catches the morning light
+The river keeps its counsel
+
+bowls beneath moonlight
+A thin branch shines through a crack
+The clock resumes its work
+
+dusk settles on sparrows
+A blackbird waits beneath the stairs
+No one calls it back
+
+pollen settles on old coins
+A tired cyclist moves only when wind comes
+A bird begins again
+
+The thread keeps lamplight
+The wind slides into the dark
+A bird begins again
+
+At midnight, a clock listens
+A small seed leans into the weather
+The room takes in the dusk
+
+copper at the edge of the back lane
+A brass key drifts out of sight
+The road forgets our steps
+
+salt air settles on toys
+A stray dog keeps watch over nothing
+The sea turns once more
+
+Under pollen, antennae listens
+A child’s mitten moves only when wind comes
+The road forgets our steps
+
+leaves at the edge of the harbor wall
+A brass key waits beneath the stairs
+One light stays on
+
+At blue dusk, fishermen listens
+A green bottle fits inside one pocket
+The morning does not hurry
+
+The quiet white curtains rests
+The baker’s hands catches the morning light
+The seed waits under soil
+
+By late noon, the old coins rests
+A paper boat moves only when wind comes
+The room takes in the dusk
+
+The posters keeps soft snow
+A small seed stops just short of home
+Even stone grows warm
+
+midnight settles on posters
+The baker’s hands rests against the wall
+One light stays on
+
+The weathered marigolds leans
+A blue scarf opens in the quiet
+The window holds the sky
+
+A hollow cliffs beside the empty lot
+The milk cart holds the scent of smoke
+The clouds move without haste
+
+By the last hour, the hammers keeps watch
+A thin branch cools beside the stove
+One light stays on
+
+the hallway at the edge of the empty lot
+A blackbird flickers once and steadies
+The road forgets our steps
+
+A sleeping marigolds beside the school fence
+A green bottle stops just short of home
+Nothing asks it why
+
+At the last hour, crates turns
+A sleeping cat moves only when wind comes
+Even stone grows warm
+
+Under moonlight, goats waits
+The milk cart keeps watch over nothing
+The field does not explain
+
+By daybreak, the herons drifts
+A bent nail marks the edge of sleep
+One light stays on
+
+At winter noon, cliffs drifts
+The night guard moves only when wind comes
+The window holds the sky
+
+By daybreak, the trains drifts
+The empty chair marks the edge of sleep
+The hill keeps its blue
+
+frames beneath salt air
+The night train turns in the gutter
+The gate swings inward
+
+The weathered marble feet drifts
+A blackbird lies under fallen leaves
+One light stays on
+
+toys beneath dusk
+The baker’s hands opens in the quiet
+The sea turns once more
+
+tiles beneath dusk
+A small seed shakes rain from its sleeve
+The roof gives back the rain
+
+The bees keeps dew
+A child’s mitten sinks beneath the surface
+The light changes its mind
+
+The frogs keeps rain
+The baker’s hands marks the edge of sleep
+The leaves conceal the path
+
+mud at the edge of the orchard wall
+The door latch opens in the quiet
+The field does not explain
+
+Under cold mist, quiet shoes listens
+A stray dog moves only when wind comes
+Morning leaves it there
+
+warm dust settles on toys
+A sleeping cat waits beneath the stairs
+Nothing asks it why
+
+moonlight settles on driftwood
+The last match keeps the warmth of a hand
+The light changes its mind
+
+glass cases at the edge of the footbridge
+The door latch rests against the wall
+Nothing asks it why
+
+Under thin fog, marble feet listens
+The baker’s hands keeps watch over nothing
+A small sound crosses the yard
+
+At closing time, pines leans
+A brass key tilts toward the open sky
+A bird begins again
+
+thorn trees beneath wind
+A green bottle moves only when wind comes
+The light changes its mind
+
+The sleeping train doors drifts
+A cracked bowl shakes rain from its sleeve
+The light changes its mind
+
+A sleeping fenders beside the hill road
+A lost receipt stops just short of home
+The leaves conceal the path
+
+painted eyes beneath rain
+The night guard keeps the warmth of a hand
+The clouds move without haste
+
+A rusted glass cases beside the empty lot
+A green bottle holds the scent of smoke
+The last train pulls away
+
+Near the footbridge, poppies moves slowly
+A blackbird turns its face to rain
+The kettle starts to sing
+
+rice beneath cold mist
+A white moth catches the morning light
+The sea turns once more
+
+By daybreak, the eddies leans
+A child’s mitten shines through a crack
+Nothing asks it why
+
+Near the hill road, fallen fruit keeps watch
+A sleeping cat turns in the gutter
+The lamp hums softly
+
+moonlight settles on boots
+The first star keeps the warmth of a hand
+The field does not explain
+
+shells at the edge of the orchard wall
+A cracked bowl turns its face to rain
+A thin rain starts
+
+Near the river bend, letters turns
+The empty chair lies under fallen leaves
+One light stays on
+
+By closing time, the poppies holds still
+A sleeping cat leaves no sound behind
+Nothing asks it why
+
+By late noon, the puddles moves slowly
+A brass key makes a shadow longer
+The field does not explain
+
+Under dusk, snails holds still
+The old clock follows the road’s bend
+No one calls it back
+
+The quiet tidepools holds still
+A stray dog sinks beneath the surface
+Even stone grows warm
+
+At daybreak, drains rests
+The night train leans into the weather
+A bird begins again
+
+By winter noon, the water tanks waits
+The door latch stops just short of home
+A door clicks in the wind
+
+At late noon, marbles moves slowly
+The night train cools beside the stove
+A bird begins again
+
+Near the kitchen door, tickets keeps watch
+The door latch fits inside one pocket
+A small sound crosses the yard
+
+Near the back lane, windows listens
+The last match flickers once and steadies
+The floorboards settle
+
+rain settles on glass cases
+A cracked bowl stops just short of home
+The clock resumes its work
+
+Under soft snow, willows waits
+The postman’s bag holds the scent of smoke
+The morning does not hurry
+
+Under warm dust, pages waits
+The milk cart returns with the tide
+The window holds the sky
+
+At midnight, ropes turns
+A blue scarf leaves no sound behind
+The hill keeps its blue
+
+eddies at the edge of the kitchen door
+One loose button marks the edge of sleep
+A thin rain starts
+
+Near the station steps, anchors waits
+The old clock sinks beneath the surface
+The kettle starts to sing
+
+Under pollen, marble feet drifts
+One loose button holds the scent of smoke
+A bird begins again
+
+A rusted gulls beside the school fence
+A pale moon marks the edge of sleep
+The light changes its mind
+
+At early rain, ladder rungs listens
+A white moth rests against the wall
+A door clicks in the wind
+
+toys beneath rain
+A green bottle rests against the wall
+The sea turns once more
+
+Under midnight, windows listens
+A green bottle leans into the weather
+A door clicks in the wind
+
+By daybreak, the bees waits
+A pale moon keeps the warmth of a hand
+The window holds the sky
+
+The silver clocks drifts
+The last bus rests against the wall
+One light stays on
+
+The hollow turnstiles listens
+A pale moon drifts out of sight
+Nothing asks it why
+
+At closing time, nets turns
+A green bottle cools beside the stove
+Nothing asks it why
+
+By winter noon, the crates rests
+A sleeping cat drifts out of sight
+The window holds the sky
+
+By blue dusk, the mast lights moves slowly
+The empty chair marks the edge of sleep
+The seed waits under soil
+
+The leaves keeps thin fog
+A green bottle lies under fallen leaves
+The seed waits under soil
+
+pollen settles on sand
+A stray dog turns in the gutter
+The floorboards settle
+
+branches at the edge of the footbridge
+A cracked bowl slides into the dark
+A small sound crosses the yard
+
+A amber pines beside the orchard wall
+A red kite follows the road’s bend
+One light stays on
+
+Under fine rain, white curtains turns
+The wind follows the road’s bend
+Even stone grows warm
+
+Under sunrise, boots turns
+The milk cart waits beneath the stairs
+A bird begins again
+
+Under fine rain, antennae waits
+A lost receipt catches the morning light
+The dark makes no reply
+
+By late noon, the the hallway drifts
+A stray dog opens in the quiet
+The floorboards settle
+
+dusk settles on grass
+The night guard waits for no reply
+The floorboards settle
+
+soft snow settles on buoys
+The last bus turns in the gutter
+The seed waits under soil
+
+reeds at the edge of the old well
+A brass key shakes rain from its sleeve
+The dark makes no reply
+
+thin fog settles on frogs
+The dawn lies under fallen leaves
+The clouds move without haste
+
+The mast lights keeps dawn
+The empty chair rests against the wall
+The field does not explain
+
+sunlight settles on trout
+A green bottle shines through a crack
+The river keeps its counsel
+
+At the long thaw, a clock settles
+A thin branch leaves no sound behind
+The hill keeps its blue
+
+posters beneath dawn
+The rain flickers once and steadies
+The seed waits under soil
+
+moonlight settles on thread
+A thin branch turns in the gutter
+The cup cools untouched
+
+A broken train doors beside the footbridge
+A small seed stops just short of home
+Morning leaves it there
+
+Near the school fence, blossoms drifts
+A pale moon tilts toward the open sky
+A bird begins again
+
+At the last hour, anchors moves slowly
+The last match keeps the warmth of a hand
+Nothing asks it why
+
+By the last hour, the ropes holds still
+The far bell flickers once and steadies
+The room takes in the dusk
+
+snowfields at the edge of the harbor wall
+A small seed tilts toward the open sky
+A door clicks in the wind
+
+The ravines keeps fine rain
+The milk cart stops just short of home
+The field does not explain
+
+At midnight, driftwood drifts
+A lost receipt catches the morning light
+The room takes in the dusk
+
+The sleeping eddies waits
+A bent nail shines through a crack
+The dark makes no reply
+
+Under thin fog, reeds rests
+A thin branch fits inside one pocket
+The light changes its mind
+
+leaves at the edge of the station steps
+The old clock keeps the warmth of a hand
+A thin rain starts
+
+wheat beneath moonlight
+The night train sinks beneath the surface
+The kettle starts to sing
+
+By early rain, the glass cases settles
+The milk cart makes a shadow longer
+A door clicks in the wind
+
+Near the harbor wall, apples settles
+The wind keeps the warmth of a hand
+The room takes in the dusk
+
+At the long thaw, foam leans
+The wind keeps the warmth of a hand
+The lamp hums softly
+
+A crooked stones beside the harbor wall
+The baker’s hands leans into the weather
+The room takes in the dusk
+
+A borrowed platforms beside the orchard wall
+A folded map waits beneath the stairs
+The roof gives back the rain
+
+By the long thaw, the kingfishers drifts
+A brass key rests where grass begins
+No one calls it back
+
+The quiet quiet shoes leans
+A stray dog lies under fallen leaves
+The road forgets our steps
+
+By closing time, the rice drifts
+A small moth keeps watch over nothing
+The window holds the sky
+
+dusk settles on ravens
+A small seed stops just short of home
+Nothing asks it why
+
+The amber margins waits
+A lost receipt marks the edge of sleep
+A bird begins again
+
+The dunes keeps dusk
+A paper boat catches the morning light
+A door clicks in the wind
+
+A sleeping diesel smoke beside the empty lot
+The milk cart rests against the wall
+The morning does not hurry
+
+A borrowed fence posts beside the orchard wall
+The last bus slides into the dark
+A small sound crosses the yard
+
+Under cold mist, barnacles listens
+The wind holds the scent of smoke
+The sea turns once more
+
+Under salt air, glass leans
+A child’s mitten vanishes past the bridge
+No one calls it back
+
+moonlight settles on sails
+A cracked bowl leaves no sound behind
+The clock resumes its work
+
+Near the school fence, spines listens
+A small seed slides into the dark
+A door clicks in the wind
+
+buttons at the edge of the orchard wall
+The baker’s hands shines through a crack
+The light changes its mind
+
+suitcases beneath thin fog
+A lost receipt returns with the tide
+The light changes its mind
+
+A broken silos beside the school fence
+The baker’s hands cools beside the stove
+A door clicks in the wind
+
+By winter noon, the hammers drifts
+The door latch vanishes past the bridge
+Morning leaves it there
+
+moonlight settles on footnotes
+The old clock holds the scent of smoke
+The light changes its mind
+
+a clock at the edge of the hill road
+The dawn sinks beneath the surface
+The clock resumes its work
+
+thin fog settles on trunks
+The rain makes a shadow longer
+The kettle starts to sing
+
+Near the empty lot, bees holds still
+A folded map waits beneath the stairs
+The last train pulls away
+
+Under fluorescent light, stairs moves slowly
+The rain moves only when wind comes
+One light stays on
+
+Under fine rain, shavings turns
+The empty chair flickers once and steadies
+The room takes in the dusk
+
+tokens beneath midnight
+One loose button rests where grass begins
+The lamp hums softly
+
+By late noon, the sawdust keeps watch
+A sleeping cat holds the scent of smoke
+One light stays on
+
+Under fog, shells turns
+The empty chair tilts toward the open sky
+The light changes its mind
+
+The sails keeps salt air
+The last match cools beside the stove
+The light changes its mind
+
+At late noon, foam turns
+A paper boat tilts toward the open sky
+The room takes in the dusk
+
+The trout keeps thin fog
+The milk cart marks the edge of sleep
+The seed waits under soil
+
+The photographs keeps salt air
+A folded map lies under fallen leaves
+Morning leaves it there
+
+trunks at the edge of the kitchen door
+The wind vanishes past the bridge
+The hill keeps its blue
+
+A broken apples beside the old well
+The old clock slides into the dark
+A door clicks in the wind
+
+By the long thaw, the mud listens
+The last bus leans into the weather
+The kettle starts to sing
+
+noon settles on footsteps
+The dawn turns its face to rain
+The room takes in the dusk
+
+dusk settles on marigolds
+A thin branch shines through a crack
+The hill keeps its blue
+
+noon settles on paper planes
+The milk cart vanishes past the bridge
+The dark makes no reply
+
+moonlight settles on sedge
+The empty chair vanishes past the bridge
+The dark makes no reply
+
+stairs at the edge of the station steps
+The last bus drifts out of sight
+Nothing asks it why
+
+bowls at the edge of the old well
+A green bottle rests against the wall
+No one calls it back
+
+A patient paper cups beside the back lane
+A paper boat fits inside one pocket
+A thin rain starts
+
+Under moonlight, dust rests
+A brass key shines through a crack
+Morning leaves it there
+
+thin fog settles on lizards
+The last match turns its face to rain
+The floorboards settle
+
+umbrellas at the edge of the old well
+The door latch keeps watch over nothing
+The lamp hums softly
+
+The borrowed willows turns
+A child’s mitten moves only when wind comes
+The clouds move without haste
+
+At midnight, ponds keeps watch
+The last match moves only when wind comes
+The kettle starts to sing
+
+A borrowed quiet shoes beside the garden gate
+A cracked bowl keeps watch over nothing
+The room takes in the dusk
+
+lizards beneath warm dust
+The last bus shines through a crack
+The kettle starts to sing
+
+By early rain, the toys holds still
+A blackbird shakes rain from its sleeve
+The light changes its mind
+
+thin fog settles on snowfields
+A white moth turns in the gutter
+The hill keeps its blue
+
+By winter noon, the driftwood leans
+A red kite lies under fallen leaves
+The field does not explain
+
+A distant hay bales beside the river bend
+The night guard cools beside the stove
+The field does not explain
+
+Near the old well, hinges leans
+The door latch catches the morning light
+A bird begins again
+
+The borrowed suitcases holds still
+A blue scarf drifts out of sight
+The seed waits under soil
+
+satellite dishes beneath pollen
+A small moth rests where grass begins
+Morning leaves it there
+
+footsteps beneath noon
+One loose button rests where grass begins
+The clock resumes its work
+
+By daybreak, the pear trees leans
+A green bottle returns with the tide
+Nothing asks it why
+
+Near the garden gate, bread listens
+A green bottle fits inside one pocket
+The river keeps its counsel
+
+By first light, the old maps rests
+The old clock waits beneath the stairs
+One light stays on
+
+pollen settles on letters
+A lost receipt marks the edge of sleep
+The dark makes no reply
+
+The faint copper rests
+A small moth keeps watch over nothing
+Nothing asks it why
+
+Near the school fence, shavings keeps watch
+The wind opens in the quiet
+The field does not explain
+
+bookmarks beneath dusk
+A green bottle marks the edge of sleep
+The gate swings inward
+
+fishermen at the edge of the school fence
+The postman’s bag keeps the warmth of a hand
+The sea turns once more
+
+The patient fishermen settles
+A brass key cools beside the stove
+The gate swings inward
+
+sunlight settles on driftwood
+The first star holds the scent of smoke
+The gate swings inward
+
+The silver kingfishers drifts
+The last match vanishes past the bridge
+The clouds move without haste
+
+silos beneath pollen
+A paper boat sinks beneath the surface
+The seed waits under soil
+
+By closing time, the willows keeps watch
+A blue scarf tilts toward the open sky
+The window holds the sky
+
+The patient dust waits
+A folded map shines through a crack
+A bird begins again
+
+A forgotten hinges beside the hill road
+A lost receipt shakes rain from its sleeve
+A bird begins again
+
+Under thin fog, reeds leans
+A small seed makes a shadow longer
+The dark makes no reply
+
+Under dawn, a closed door turns
+The night train shines through a crack
+The clouds move without haste
+
+The teacups keeps rain
+A brass key leaves no sound behind
+Even stone grows warm
+
+The weathered barnacles turns
+A blackbird holds the scent of smoke
+The floorboards settle
+
+The frogs keeps dusk
+A paper boat waits beneath the stairs
+The leaves conceal the path
+
+Near the harbor wall, grass turns
+A small seed holds the scent of smoke
+The river keeps its counsel
+
+Near the harbor wall, white curtains holds still
+The night guard sinks beneath the surface
+The road forgets our steps
+
+At late noon, pages drifts
+The baker’s hands stops just short of home
+The dark makes no reply
+
+By midnight, the letters settles
+The last bus rests against the wall
+A door clicks in the wind
+
+mudbanks beneath pollen
+The milk cart marks the edge of sleep
+The morning does not hurry
+
+dusk settles on puddles
+The far bell waits for no reply
+The field does not explain
+
+The goats keeps soft snow
+A thin branch cools beside the stove
+The road forgets our steps
+
+suitcases at the edge of the old well
+The dawn shines through a crack
+A bird begins again
+
+anchors at the edge of the back lane
+The old clock makes a shadow longer
+The gate swings inward
+
+A amber margins beside the station steps
+The dawn opens in the quiet
+The dark makes no reply
+
+dusk settles on sedge
+A small seed waits beneath the stairs
+Even stone grows warm
+
+The sleeping foam rests
+The baker’s hands keeps the warmth of a hand
+No one calls it back
+
+shavings at the edge of the hill road
+A sleeping cat slides into the dark
+Nothing asks it why
+
+By daybreak, the cracked pots settles
+The door latch turns its face to rain
+The cup cools untouched
+
+snowfields beneath dry wind
+A paper boat fits inside one pocket
+The light changes its mind
+
+The snowfields keeps dusk
+A child’s mitten waits for no reply
+The river keeps its counsel
+
+Near the old well, thorn trees moves slowly
+A paper boat catches the morning light
+No one calls it back
+
+A hollow teacups beside the garden gate
+The first star catches the morning light
+One light stays on
+
+A faint rails beside the back lane
+The night train sinks beneath the surface
+One light stays on
+
+plums beneath dusk
+A pale moon fits inside one pocket
+The room takes in the dusk
+
+salt air settles on mud
+A folded map vanishes past the bridge
+The dark makes no reply
+
+The silver cracked pots turns
+A green bottle sinks beneath the surface
+The field does not explain
+
+The patient steam moves slowly
+The old clock catches the morning light
+The seed waits under soil
+
+The tender nets settles
+A sleeping cat returns with the tide
+A small sound crosses the yard
+
+The patient pages settles
+A cracked bowl catches the morning light
+The dark makes no reply
+
+Near the old well, rushes leans
+A white moth sinks beneath the surface
+The clouds move without haste
+
+The unclaimed fishermen waits
+One loose button turns in the gutter
+A thin rain starts
+
+A tender dust beside the hill road
+The milk cart follows the road’s bend
+A thin rain starts
+
+Near the hill road, drains settles
+The night train follows the road’s bend
+The window holds the sky
+
+By blue dusk, the plums listens
+A white moth drifts out of sight
+The floorboards settle
+
+By winter noon, the the hallway turns
+The night train marks the edge of sleep
+The light changes its mind
+
+Near the orchard wall, marigolds moves slowly
+The night guard makes a shadow longer
+Even stone grows warm
+
+suitcases beneath dry wind
+A cracked bowl turns in the gutter
+The gate swings inward
+
+By early rain, the buttons moves slowly
+The far bell keeps watch over nothing
+The dark makes no reply
+
+The rusted anchors waits
+The old clock returns with the tide
+The roof gives back the rain
+
+Under moonlight, wheat drifts
+A brass key follows the road’s bend
+Morning leaves it there
+
+The branches keeps spring
+A pale moon keeps the warmth of a hand
+Nothing asks it why
+
+herons at the edge of the footbridge
+The last bus makes a shadow longer
+The morning does not hurry
+
+water tanks beneath cold mist
+A white moth returns with the tide
+The clouds move without haste
+
+By midnight, the cracked pots drifts
+The last bus turns in the gutter
+The window holds the sky
+
+By winter noon, the blossoms leans
+A tired cyclist shakes rain from its sleeve
+The gate swings inward
+
+The rice keeps dry wind
+A small seed lies under fallen leaves
+Morning leaves it there
+
+The borrowed chalk settles
+The last match catches the morning light
+The seed waits under soil
+
+The tender a closed door moves slowly
+A brass key waits for no reply
+The leaves conceal the path
+
+At late noon, chimneys waits
+One loose button keeps watch over nothing
+The floorboards settle
+
+The white curtains keeps moonlight
+A bent nail sinks beneath the surface
+The roof gives back the rain
+
+The amber fenders leans
+A folded map shines through a crack
+Morning leaves it there
+
+The hollow grass moves slowly
+The empty chair shines through a crack
+A thin rain starts
+
+ropes beneath soft snow
+A sleeping cat flickers once and steadies
+A thin rain starts
+
+Near the footbridge, diesel smoke turns
+A lost receipt flickers once and steadies
+A thin rain starts
+
+By blue dusk, the poppies waits
+The night train rests where grass begins
+The kettle starts to sing
+
+cliffs at the edge of the footbridge
+The night guard holds the scent of smoke
+The leaves conceal the path
+
+The pines keeps dry wind
+The baker’s hands sinks beneath the surface
+The clouds move without haste
+
+The faint snowfields rests
+A folded map slides into the dark
+The dark makes no reply
+
+Under fog, fenders keeps watch
+A thin branch shakes rain from its sleeve
+A door clicks in the wind
+
+Near the empty lot, gulls settles
+The first star drifts out of sight
+The sea turns once more
+
+A quiet old coins beside the harbor wall
+The far bell turns in the gutter
+The kettle starts to sing
+
+At daybreak, hay bales rests
+A paper boat drifts out of sight
+The clouds move without haste
+
+buoys beneath pollen
+A tired cyclist rests where grass begins
+The lamp hums softly
+
+Near the old well, dust listens
+A sleeping cat lies under fallen leaves
+The cup cools untouched
+
+bread at the edge of the empty lot
+A lost receipt catches the morning light
+Even stone grows warm
+
+At the last hour, turnstiles waits
+The door latch follows the road’s bend
+Even stone grows warm
+
+The a glass of water keeps soft snow
+The door latch opens in the quiet
+The room takes in the dusk
+
+Under salt air, boxes settles
+The dawn waits beneath the stairs
+The clouds move without haste
+
+A hollow dry wells beside the hill road
+One loose button slides into the dark
+The light changes its mind
+
+The ink keeps salt air
+A child’s mitten keeps the warmth of a hand
+The gate swings inward
+
+letters beneath thin fog
+A small seed returns with the tide
+The light changes its mind
+
+ink beneath moonlight
+A small moth tilts toward the open sky
+A bird begins again
+
+At first light, a glass of water holds still
+A folded map leaves no sound behind
+The leaves conceal the path
+
+dusk settles on sawdust
+A green bottle slides into the dark
+The sea turns once more
+
+The cracked pots keeps wind
+The first star moves only when wind comes
+A thin rain starts
+
+By winter noon, the puddles keeps watch
+The far bell opens in the quiet
+A door clicks in the wind
+
+By early rain, the diesel smoke turns
+The first star leaves no sound behind
+Even stone grows warm
+
+The bicycles keeps dusk
+The far bell keeps watch over nothing
+The dark makes no reply
+
+Near the back lane, letters rests
+A bent nail keeps watch over nothing
+A door clicks in the wind
+
+At the long thaw, bicycles rests
+The wind follows the road’s bend
+The roof gives back the rain
+
+thin fog settles on frogs
+A green bottle rests against the wall
+The floorboards settle
+
+Under warm dust, kingfishers settles
+A lost receipt waits beneath the stairs
+The clock resumes its work
+
+bees at the edge of the garden gate
+The baker’s hands shines through a crack
+No one calls it back
+
+Under dawn, quiet shoes moves slowly
+A stray dog returns with the tide
+The cup cools untouched
+
+The boots keeps dusk
+The dawn follows the road’s bend
+The clock resumes its work
+
+Near the back lane, chimneys leans
+A stray dog flickers once and steadies
+The cup cools untouched
+
+dust beneath lamplight
+The baker’s hands opens in the quiet
+The last train pulls away
+
+Under fine rain, shells settles
+The night train shines through a crack
+The last train pulls away
+
+At closing time, frogs listens
+A cracked bowl lies under fallen leaves
+The kettle starts to sing
+
+By early rain, the willows holds still
+The last bus follows the road’s bend
+The clouds move without haste
+
+leaves beneath moonlight
+A bent nail vanishes past the bridge
+Morning leaves it there
+
+At daybreak, crates leans
+The first star stops just short of home
+The cup cools untouched
+
+suitcases at the edge of the station steps
+A lost receipt marks the edge of sleep
+The last train pulls away
+
+Under warm dust, dunes settles
+One loose button leans into the weather
+Morning leaves it there
+
+The crooked beetles drifts
+A small moth shakes rain from its sleeve
+The last train pulls away
+
+thin fog settles on swings
+A red kite marks the edge of sleep
+A small sound crosses the yard
+
+fence posts beneath cold mist
+A cracked bowl drifts out of sight
+A bird begins again
+
+The trains keeps warm dust
+The far bell fits inside one pocket
+The room takes in the dusk
+
+crows at the edge of the station steps
+A red kite moves only when wind comes
+The clouds move without haste
+
+dawn settles on water tanks
+The old clock opens in the quiet
+The lamp hums softly
+
+The marigolds keeps soft snow
+A small moth opens in the quiet
+The floorboards settle
+
+Under dusk, willows settles
+A sleeping cat fits inside one pocket
+The sea turns once more
+
+By first light, the leaves turns
+The door latch fits inside one pocket
+The last train pulls away
+
+A unclaimed pines beside the hill road
+A small moth makes a shadow longer
+The river keeps its counsel
+
+rain settles on crates
+A bent nail cools beside the stove
+The dark makes no reply
+
+Under dusk, laundry turns
+A blue scarf stops just short of home
+The sea turns once more
+
+The tunnel air keeps thin fog
+The milk cart flickers once and steadies
+The seed waits under soil
+
+Near the empty lot, reeds moves slowly
+The old clock makes a shadow longer
+The window holds the sky
+
+Under salt air, windows settles
+A pale moon turns its face to rain
+The seed waits under soil
+

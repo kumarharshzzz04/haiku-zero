@@ -1,0 +1,10 @@
+# Install torch from the CUDA index first (setup.bat does this):
+#   pip install torch --index-url https://download.pytorch.org/whl/cu130
+torch>=2.9
+
+# tokenizer
+tokenizers>=0.20
+
+# used by the data scripts and the AI-batch vetter, not by the model itself
+numpy>=2.0
+pyarrow>=18.0

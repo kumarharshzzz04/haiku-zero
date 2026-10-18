@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="340" viewBox="0 0 760 340" font-family="Georgia, serif">
+<rect width="760" height="340" fill="#fffaf8"/>
+<text x="78" y="38" font-size="21" fill="#241a20">Stage 2 — learning haiku form</text>
+<text x="78" y="62" font-size="13" fill="#8a7480">validation loss per epoch on the authentic haiku corpus</text>
+<line x1="78" y1="244.0" x2="732" y2="244.0" stroke="#eadfe4" stroke-width="1"/>
+<text x="68" y="248.0" font-size="12" fill="#8a7480" text-anchor="end">3.7</text>
+<line x1="78" y1="204.0" x2="732" y2="204.0" stroke="#eadfe4" stroke-width="1"/>
+<text x="68" y="208.0" font-size="12" fill="#8a7480" text-anchor="end">3.7875</text>
+<line x1="78" y1="164.0" x2="732" y2="164.0" stroke="#eadfe4" stroke-width="1"/>
+<text x="68" y="168.0" font-size="12" fill="#8a7480" text-anchor="end">3.875</text>
+<line x1="78" y1="124.0" x2="732" y2="124.0" stroke="#eadfe4" stroke-width="1"/>
+<text x="68" y="128.0" font-size="12" fill="#8a7480" text-anchor="end">3.9625</text>
+<line x1="78" y1="84.0" x2="732" y2="84.0" stroke="#eadfe4" stroke-width="1"/>
+<text x="68" y="88.0" font-size="12" fill="#8a7480" text-anchor="end">4.05</text>
+<text x="78.0" y="262" font-size="12" fill="#8a7480" text-anchor="middle">1</text>
+<text x="208.8" y="262" font-size="12" fill="#8a7480" text-anchor="middle">6</text>
+<text x="339.6" y="262" font-size="12" fill="#8a7480" text-anchor="middle">11</text>
+<text x="470.4" y="262" font-size="12" fill="#8a7480" text-anchor="middle">15</text>
+<text x="601.2" y="262" font-size="12" fill="#8a7480" text-anchor="middle">20</text>
+<text x="732.0" y="262" font-size="12" fill="#8a7480" text-anchor="middle">25</text>
+<line x1="78" y1="244" x2="732" y2="244" stroke="#8a7480" stroke-width="1"/>
+<text x="419" y="296" font-size="12" fill="#8a7480" text-anchor="middle">epoch</text>
+<text transform="translate(22 170) rotate(-90)" font-size="12" fill="#8a7480" text-anchor="middle">val loss</text>
+<polyline points="78.0,102.8 105.2,144.8 132.5,163.0 159.8,173.7 187.0,178.5 214.2,181.7 241.5,181.1 268.8,180.3 296.0,178.6 323.2,176.4 350.5,173.5 377.8,170.1 405.0,167.0 432.2,164.5 459.5,160.4 486.8,158.0 514.0,155.5 541.2,153.5 568.5,151.5 595.8,151.2 623.0,149.7 650.2,149.1 677.5,149.0 704.8,148.8 732.0,148.8" fill="none" stroke="#b4415f" stroke-width="2.4" stroke-linejoin="round"/>
+<circle cx="732.0" cy="148.8" r="3.6" fill="#b4415f"/>
+<polyline points="78.0,140.5 105.2,184.4 132.5,200.9 159.8,208.1 187.0,209.3 214.2,207.2 241.5,200.3 268.8,193.8 296.0,186.9 323.2,178.0 350.5,169.7 377.8,161.6 405.0,153.3 432.2,146.3 459.5,138.2 486.8,131.8 514.0,126.8 541.2,122.2 568.5,117.9 595.8,115.5 623.0,113.3 650.2,112.0 677.5,111.3 704.8,111.2 732.0,111.2" fill="none" stroke="#5c7d8a" stroke-width="2.4" stroke-linejoin="round"/>
+<circle cx="732.0" cy="111.2" r="3.6" fill="#5c7d8a"/>
+<line x1="78" y1="318" x2="100" y2="318" stroke="#b4415f" stroke-width="2.6"/>
+<text x="108" y="322" font-size="12.5" fill="#241a20">15.8M · 25 epochs</text>
+<line x1="244.4" y1="318" x2="266.4" y2="318" stroke="#5c7d8a" stroke-width="2.6"/>
+<text x="274.4" y="322" font-size="12.5" fill="#241a20">33.6M · overfits</text>
+<text x="732" y="322" font-size="12" fill="#8a7480" text-anchor="end">33.6M memorises the 1M-token corpus</text></svg>

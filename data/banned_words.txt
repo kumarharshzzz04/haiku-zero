@@ -1,0 +1,41 @@
+# Words the sampler must not use. One per line, whole words only, '#' starts a comment.
+# Deleting a line un-bans the word; emptying the file turns the filter off entirely.
+# This is a sampling-time filter, not a retrain: no checkpoint changes.
+cross
+christ
+christian
+christians
+jesus
+church
+churches
+bible
+bibles
+biblical
+crucifix
+crucifixes
+crucifixion
+gospel
+gospels
+priest
+priests
+savior
+saviors
+saviour
+resurrection
+apostle
+apostles
+psalm
+psalms
+hymn
+hymns
+sermon
+sermons
+chapel
+chapels
+altar
+altars
+god
+gods
+lord
+lords
+amen

@@ -1,0 +1,21 @@
+# Windows batch files must keep CRLF, or cmd.exe can fail on labels and calls after a
+# checkout with core.autocrlf enabled.
+*.bat text eol=crlf
+
+# everything else stays LF
+*.py   text eol=lf
+*.md   text eol=lf
+*.js   text eol=lf
+*.mjs  text eol=lf
+*.ts   text eol=lf
+*.tsx  text eol=lf
+*.json text eol=lf
+*.svg  text eol=lf
+
+# binary assets: never touch
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.pt   binary
+*.keras binary
+*.zip  binary

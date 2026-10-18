@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="340" viewBox="0 0 760 340" font-family="Georgia, serif">
+<rect width="760" height="340" fill="#fffaf8"/>
+<text x="78" y="38" font-size="21" fill="#241a20">Stage 1 — learning English on public-domain poetry</text>
+<text x="78" y="62" font-size="13" fill="#8a7480">validation loss after each epoch, same tokenizer and format for all three runs</text>
+<line x1="78" y1="244.0" x2="732" y2="244.0" stroke="#eadfe4" stroke-width="1"/>
+<text x="68" y="248.0" font-size="12" fill="#8a7480" text-anchor="end">3.2</text>
+<line x1="78" y1="204.0" x2="732" y2="204.0" stroke="#eadfe4" stroke-width="1"/>
+<text x="68" y="208.0" font-size="12" fill="#8a7480" text-anchor="end">3.5</text>
+<line x1="78" y1="164.0" x2="732" y2="164.0" stroke="#eadfe4" stroke-width="1"/>
+<text x="68" y="168.0" font-size="12" fill="#8a7480" text-anchor="end">3.8</text>
+<line x1="78" y1="124.0" x2="732" y2="124.0" stroke="#eadfe4" stroke-width="1"/>
+<text x="68" y="128.0" font-size="12" fill="#8a7480" text-anchor="end">4.1</text>
+<line x1="78" y1="84.0" x2="732" y2="84.0" stroke="#eadfe4" stroke-width="1"/>
+<text x="68" y="88.0" font-size="12" fill="#8a7480" text-anchor="end">4.4</text>
+<text x="78.0" y="262" font-size="12" fill="#8a7480" text-anchor="middle">0</text>
+<text x="208.8" y="262" font-size="12" fill="#8a7480" text-anchor="middle">6,800</text>
+<text x="339.6" y="262" font-size="12" fill="#8a7480" text-anchor="middle">13,600</text>
+<text x="470.4" y="262" font-size="12" fill="#8a7480" text-anchor="middle">20,400</text>
+<text x="601.2" y="262" font-size="12" fill="#8a7480" text-anchor="middle">27,200</text>
+<text x="732.0" y="262" font-size="12" fill="#8a7480" text-anchor="middle">34,000</text>
+<line x1="78" y1="244" x2="732" y2="244" stroke="#8a7480" stroke-width="1"/>
+<text x="419" y="296" font-size="12" fill="#8a7480" text-anchor="middle">training steps</text>
+<text transform="translate(22 170) rotate(-90)" font-size="12" fill="#8a7480" text-anchor="middle">val loss</text>
+<polyline points="113.7,126.2 149.5,156.7 185.2,171.0 221.0,179.4 256.7,185.5 292.4,190.2 328.2,193.9 363.9,196.5 399.7,198.5 435.4,200.1 471.1,201.0 506.9,201.7 542.6,202.1 578.3,202.0 614.1,202.0" fill="none" stroke="#d98a6a" stroke-width="2.4" stroke-linejoin="round"/>
+<circle cx="614.1" cy="202.0" r="3.6" fill="#d98a6a"/>
+<polyline points="205.6,172.4 333.2,192.2 460.8,202.6 588.4,208.3 716.0,209.7" fill="none" stroke="#b4415f" stroke-width="2.4" stroke-linejoin="round"/>
+<circle cx="716.0" cy="209.7" r="3.6" fill="#b4415f"/>
+<polyline points="205.6,182.3 333.2,202.7 460.8,213.8 588.4,220.0 716.0,221.2" fill="none" stroke="#5c7d8a" stroke-width="2.4" stroke-linejoin="round"/>
+<circle cx="716.0" cy="221.2" r="3.6" fill="#5c7d8a"/>
+<line x1="78" y1="318" x2="100" y2="318" stroke="#d98a6a" stroke-width="2.6"/>
+<text x="108" y="322" font-size="12.5" fill="#241a20">v1 · 15.4M tokens</text>
+<line x1="244.4" y1="318" x2="266.4" y2="318" stroke="#b4415f" stroke-width="2.6"/>
+<text x="274.4" y="322" font-size="12.5" fill="#241a20">v2 · 54.4M tokens</text>
+<line x1="410.8" y1="318" x2="432.8" y2="318" stroke="#5c7d8a" stroke-width="2.6"/>
+<text x="440.8" y="322" font-size="12.5" fill="#241a20">v2 · 33.6M params</text>
+<text x="732" y="322" font-size="12" fill="#8a7480" text-anchor="end">lower is better</text></svg>

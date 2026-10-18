@@ -1,0 +1,28 @@
+[
+  {
+    "run": "meter-d0.10",
+    "corpus": "meter",
+    "dropout": 0.1,
+    "epochs": 25,
+    "haiku_train": 105347,
+    "val_loss": 3.6813,
+    "minutes": 5.9,
+    "samples": [
+      [
+        "falling at the roof",
+        "in snow sunlights's lackle . .",
+        "snow to light"
+      ],
+      [
+        "the throughcolors of",
+        "a shadow of the river",
+        "suddenly sun"
+      ],
+      [
+        "a nice drug-walk",
+        "of the winter pigs a chafe",
+        "in a hero"
+      ]
+    ]
+  }
+]

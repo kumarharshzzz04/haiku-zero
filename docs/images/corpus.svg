@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="360" viewBox="0 0 660 360" font-family="Georgia, serif">
+<rect width="660" height="360" fill="#fffaf8"/>
+<line x1="70" y1="300" x2="600" y2="300" stroke="#8a7480" stroke-width="1"/>
+<rect x="110" y="251.8" width="46" height="48.2" rx="3" fill="#e7c3ce"/>
+<text x="133.0" y="243.8" font-size="13" fill="#241a20" text-anchor="middle">15.41M</text>
+<text x="133.0" y="318" font-size="11.5" fill="#8a7480" text-anchor="middle">v1</text>
+<rect x="168" y="130.0" width="46" height="170.0" rx="3" fill="#b4415f"/>
+<text x="191.0" y="122.0" font-size="13" fill="#241a20" text-anchor="middle">54.35M</text>
+<text x="191.0" y="318" font-size="11.5" fill="#8a7480" text-anchor="middle">v2</text>
+<text x="162" y="338" font-size="12.5" fill="#241a20" text-anchor="middle">BPE tokens</text>
+<rect x="288" y="224.7" width="46" height="75.3" rx="3" fill="#e7c3ce"/>
+<text x="311.0" y="216.7" font-size="13" fill="#241a20" text-anchor="middle">120.5k</text>
+<text x="311.0" y="318" font-size="11.5" fill="#8a7480" text-anchor="middle">v1</text>
+<rect x="346" y="130.0" width="46" height="170.0" rx="3" fill="#b4415f"/>
+<text x="369.0" y="122.0" font-size="13" fill="#241a20" text-anchor="middle">272k</text>
+<text x="369.0" y="318" font-size="11.5" fill="#8a7480" text-anchor="middle">v2</text>
+<text x="340" y="338" font-size="12.5" fill="#241a20" text-anchor="middle">unique words</text>
+<rect x="466" y="246.8" width="46" height="53.2" rx="3" fill="#e7c3ce"/>
+<text x="489.0" y="238.8" font-size="13" fill="#241a20" text-anchor="middle">611</text>
+<text x="489.0" y="318" font-size="11.5" fill="#8a7480" text-anchor="middle">v1</text>
+<rect x="524" y="130.0" width="46" height="170.0" rx="3" fill="#b4415f"/>
+<text x="547.0" y="122.0" font-size="13" fill="#241a20" text-anchor="middle">1954</text>
+<text x="547.0" y="318" font-size="11.5" fill="#8a7480" text-anchor="middle">v2</text>
+<text x="518" y="338" font-size="12.5" fill="#241a20" text-anchor="middle">books</text></svg>

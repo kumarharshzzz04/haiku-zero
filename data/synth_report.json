@@ -1,0 +1,28 @@
+{
+  "poems": 180,
+  "exact": 180,
+  "duplicates": 0,
+  "by_file": {
+    "w01_winter.txt": {
+      "poems": 49,
+      "exact": 49
+    },
+    "w02_spring.txt": {
+      "poems": 41,
+      "exact": 41
+    },
+    "w03_summer.txt": {
+      "poems": 40,
+      "exact": 40
+    },
+    "w04_autumn.txt": {
+      "poems": 25,
+      "exact": 25
+    },
+    "w05_night.txt": {
+      "poems": 25,
+      "exact": 25
+    }
+  },
+  "problems": []
+}

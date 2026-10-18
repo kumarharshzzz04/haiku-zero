@@ -1,0 +1,61 @@
+# ---------------------------------------------------------------- environments
+pytorch_with_gpu/
+.venv/
+venv/
+
+# ---------------------------------------------------------------------- python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# ---------------------------------------------------------------------- models
+# 190 MB per checkpoint and 20 of them. Rebuild with train.bat; the live pair is
+# checkpoints/best.pt + checkpoints/last.pt.
+checkpoints*/
+*.pt
+*.keras
+
+# --------------------------------------------------------------------- corpora
+# Rebuilt by fetch_poetry.py and backend/prepare_data.py. The hand-written and
+# hand-curated files below are kept, because they are source, not output.
+data/raw/
+data/raw_*/
+# ...except the poems written by hand for this project: 180 exact 5-7-5 haiku that
+# cannot be regenerated from anything else, so they ship (the rule above swallows
+# the folder otherwise).
+!data/raw_synthetic/
+data/external/
+data/haikus_*.txt
+data/poetry_pretrain*.txt
+data/wordlist.txt
+data/_word_book_df.json
+
+# ---------------------------------------------------------------- logs / state
+*.log
+*.pid
+logs/*.out
+logs/*.txt
+# the quality gate's baseline is checked in on purpose: it is what a regression
+# is measured against
+!logs/quality_floor.json
+
+# ---------------------------------------------------------------------- node
+frontend/node_modules/
+frontend/dist/
+frontend/dev_run.log
+
+# --------------------------------------------------------------------- editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ------------------------------------------------------------ tool / scratch
+.freebuff
+docs/.chrome-profile/
+_*.png
+*.pdf
+*.zip
+
+# tokenizer.json is NOT ignored: it is 258 KB, deterministic, and the one file a
+# supplied checkpoint cannot run without. backend.train_tokenizer rewrites it.

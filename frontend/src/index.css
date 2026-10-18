@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@300;400;500;600&family=Saira+Extra+Condensed:wght@700;800&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-body: "Jost", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Saira Extra Condensed", "Arial Narrow", sans-serif;
+  --font-editorial: "Cormorant Garamond", "Hiragino Mincho ProN", Georgia, serif;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #14100f;
+  color: #f6eee8;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}

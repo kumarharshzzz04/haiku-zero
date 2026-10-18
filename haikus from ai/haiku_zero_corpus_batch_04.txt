@@ -1,0 +1,4003 @@
+# HAIKU ZERO — Corpus Batch 04
+# Synthetic poetic drafts; review quality and meter before training.
+
+The brass telescope keeps salt air
+A child’s drawing holds still beneath the eaves
+The water darkens slowly
+
+By the long thaw, the frosted hook rests
+The small bell holds one drop of morning
+A moth circles once more
+
+moonlight gathers around empty balcony
+A chipped cup lies beside the blue door
+The gate keeps its rust
+
+Along the loading dock, pear stem moves slowly
+The wind chime settles on the ledger
+The streetlight blurs in rain
+
+lens cloth at the edge of the back room
+A lost key drifts beyond the lamp
+The window warms at noon
+
+At the old quay, the bridge chain moves slowly
+A white feather slips under the door
+A sparrow takes the wire
+
+A rusted clay labels near the loading dock
+The first tram moves when no one looks
+The lamp paints the wall
+
+At the north window, the oil rag moves slowly
+The ferry bell leaves a trace of salt
+The roof remembers rain
+
+Near the stone path, brass pin rests
+A loose tile keeps the shape of a hand
+A boat slips from view
+
+At the north window, the freight car listens
+A paper label turns slowly in the drain
+The dark keeps no account
+
+soft snow gathers around red curtain
+The bell ringer crosses the floor without sound
+A small bird tests the air
+
+wool blanket at the edge of the narrow bridge
+A chipped cup catches the last sun
+A small bird tests the air
+
+Along the narrow bridge, high-water mark settles
+A folded cloth leans against the wall
+The bell forgets the hour
+
+sea spray gathers around silt line
+A chipped cup follows the smell of tea
+The dust settles again
+
+A weathered willow root near the side gate
+A glass marble keeps a pocket of shade
+The kettle loses steam
+
+At first light, wool sleeve holds fast
+The old porter follows the crack in stone
+The gate swings back alone
+
+At the far platform, the wet bench drifts
+The map drawer keeps the shape of a hand
+A page turns in the draft
+
+At the far platform, the open case holds fast
+A rusted hook moves beyond the window
+The moon slips behind cloud
+
+The fern fronds keeps evening shade
+A blue cup shivers in the draft
+The stairwell smells of stone
+
+Along the dry well, switch track rests
+The seed keeper keeps watch over the stairs
+The door stays half open
+
+Near the far platform, bamboo stake moves slowly
+The dawn follows the smell of bread
+The ropes knock against the mast
+
+When cold mist lifts, rusted hinge waits
+A torn envelope hangs from a single thread
+The clouds cross the ridge
+
+When rain lifts, cedar door waits
+The first tram catches the edge of light
+The seed waits under clay
+
+The unfinished glass panes beside the market lane
+The baker's boy keeps watch over the stairs
+The dark keeps no account
+
+salt air gathers around rusted wheel
+The ferry light keeps a pocket of shade
+The old hinge learns the wind
+
+Near the dry well, chisel mark listens
+The night porter shines under the bridge
+The old wall holds the sun
+
+cool air gathers around dry beans
+A stray feather trembles above the water
+The window warms at noon
+
+pollen gathers around shelf label
+The rain gauge shines through a thin seam
+The moon clears the roof
+
+By first light, the fern fronds waits
+A moth slips under the door
+The streetlight blurs in rain
+
+Near the old quay, red curtain settles
+The watchmaker stays where the path forks
+The field receives the fog
+
+By midnight, the oil rag holds fast
+A small candle waits for the tide to turn
+The floor cools by dawn
+
+At the market lane, the lens cloth moves slowly
+One loose screw turns slowly in the drain
+The bell forgets the hour
+
+dry wind gathers around rusted hinge
+A stone bowl moves beyond the window
+No one moves the chair
+
+At the market lane, the sleeping porter listens
+The quiet child wakes in the cold air
+The light moves to the wall
+
+A weathered eelgrass near the market lane
+A moth wing rests against the window frame
+The last lamp dims
+
+Along the courtyard wall, lead letters turns
+A brass key waits beside the drain
+The gate keeps its rust
+
+A borrowed planetarium near the lower stair
+A green kite turns under the water
+A light stays on upstairs
+
+Along the loading dock, drill bit rests
+The ferry bell waits in the doorway
+The wind lifts the dust
+
+The quiet willow root beside the dry well
+A lost key follows the smell of bread
+The moon clears the roof
+
+Along the dry well, freight car leans
+A small candle leans into the weather
+No one moves the chair
+
+By blue dusk, the coupling chain settles
+The baker's boy follows the smell of bread
+The wind lifts the dust
+
+The silver silver fish beside the dry well
+A red mitten fades behind the frosted glass
+The old wall holds the sun
+
+When warm dust lifts, shore light turns
+The baker's boy sleeps inside a coat pocket
+The floor gives one soft creak
+
+sea spray gathers around paper stack
+A torn label finds the path to ground
+A sparrow takes the wire
+
+tin bucket at the edge of the side gate
+The ferry cook stays after the crowd
+The paper curls at the edge
+
+By midnight, the star chart keeps still
+The night porter catches a fleck of snow
+The tide erases the path
+
+At the courtyard wall, the glass panes keeps still
+The road sweeper holds the smell of smoke
+The path takes the hill
+
+When fine rain lifts, silver fish moves slowly
+The wind falls without a sound
+The dust settles again
+
+Beneath wind, sand ripple moves slowly
+A paper label follows the crack in stone
+The window frames the rain
+
+cold mist gathers around oil rag
+A tired clock keeps watch over the stairs
+A page turns in the draft
+
+By closing time, the root basket turns
+A moth rests against the rope
+The window frames the rain
+
+When night lifts, track gravel settles
+A folded ticket shifts in the passing train
+The gate keeps its rust
+
+duckweed at the edge of the stone path
+A chipped cup leans into the weather
+A small bird tests the air
+
+By the lunch bell, the wool sleeve settles
+A blue thread rests where the paint has peeled
+A small bird tests the air
+
+The rusted minute hand beside the north window
+The last ferry crosses the floor without sound
+The sea folds over stone
+
+When cold mist lifts, reed raft moves slowly
+The milk seller follows the smell of tea
+The ropes knock against the mast
+
+Near the courtyard wall, paper pattern rests
+A stray feather rolls beneath the table
+The roof cools after dusk
+
+The dew bead keeps mist
+The small bell leaves a mark in dust
+The old wall holds the sun
+
+The patient pruning knife beside the lower stair
+A chipped cup sways above the steps
+The bell forgets the hour
+
+platform sign at the edge of the courtyard wall
+A lost key moves when no one looks
+The dust settles again
+
+By the lunch bell, the seed catalog waits
+The station cat catches a fleck of snow
+The kettle begins to sing
+
+When smoke lifts, proof sheet keeps still
+A green kite follows the smell of tea
+The floor gives one soft creak
+
+The paper packet keeps winter
+A paper crane sways above the steps
+The last cart rolls home
+
+dawn gathers around empty cot
+The old porter shifts in the passing train
+The clock resumes its work
+
+moonlight gathers around glass panes
+The baker's boy moves when no one looks
+The door stays half open
+
+At closing time, dome slit moves slowly
+A rusted hook shivers in the draft
+The window frames the rain
+
+At the dry well, the ice block listens
+A dull blade fades behind the glass
+The last cart rolls home
+
+The quiet stone basin beside the market lane
+A glass marble turns under the water
+The clock resumes its work
+
+A silver shelf label near the stone path
+The first tram stays after the crowd
+The door stays half open
+
+By late winter, the deck rail holds fast
+A brass button returns with the tide
+The room gathers shadow
+
+pollen gathers around misting hose
+A dull blade turns slowly in the drain
+The light moves to the wall
+
+The slate ledge keeps soft snow
+A moth wing waits beneath the bench
+The bell forgets the hour
+
+The tender life ring beside the back room
+A child’s drawing keeps watch over the stairs
+The dust settles again
+
+By blue dusk, the track gravel drifts
+The night clerk stays after voices fade
+The water keeps its depth
+
+When smoke lifts, rope coil keeps still
+The old lock slides behind the curtain
+A sparrow takes the wire
+
+dry wind gathers around cotton string
+The wind leaves its shadow on the wall
+The clock resumes its work
+
+A forgotten snow line near the market lane
+A lost glove leans into the fog
+A small bird tests the air
+
+The engine wake keeps fine rain
+The baker's boy holds the smell of smoke
+One hinge speaks again
+
+The paper packet keeps evening shade
+A loose tile follows the smell of bread
+The dark keeps no account
+
+The unfinished sawdust beside the dry well
+The last ferry stays after the crowd
+The roof remembers rain
+
+At first light, cotton string holds fast
+The empty stage leaves a trace of salt
+One hinge speaks again
+
+By the lunch bell, the cut cloth turns
+A blue cup waits in the doorway
+The gate swings back alone
+
+When dry wind lifts, projector beam leans
+A cracked compass shifts in the passing train
+The water keeps its depth
+
+At the loading dock, the press handle keeps still
+A brass button lies beside the blue door
+The paper curls at the edge
+
+fine rain gathers around torn poster
+The ferry cook keeps a pocket of shade
+The streetlight blurs in rain
+
+Beneath soft snow, mud track holds fast
+The dawn shift slides behind the curtain
+The street grows quiet
+
+empty cot at the edge of the north window
+A blue thread moves through the reeds
+The streetlight blurs in rain
+
+The sleeping stone dust beside the lower stair
+A tin whistle turns its face toward rain
+The room keeps its hush
+
+At midnight, shore light keeps still
+A wet umbrella rests against the window frame
+The snow hides the footprints
+
+By closing time, the water drum moves slowly
+A tin whistle keeps a pocket of shade
+The dust settles again
+
+The distant bamboo stake beside the market lane
+A stray feather hangs from a nail
+One hinge speaks again
+
+Beneath silence, incense ash moves slowly
+The window washer shines along the seam
+The bell forgets the hour
+
+At the long thaw, rusted crane turns
+A small beetle shines through a thin seam
+The lamp burns down to blue
+
+By closing time, the muddy glove settles
+The clock maker lies beside the blue door
+The kettle begins to sing
+
+When salt air lifts, misting hose keeps still
+The ferry bell sways above the steps
+The roof cools after dusk
+
+At the long thaw, brass pin rests
+A rusted hook keeps the day's warmth
+The roof returns the rain
+
+At the side gate, the water stairs turns
+A white feather leans against the wall
+The kettle loses steam
+
+proof sheet at the edge of the dry well
+The dawn shift follows the crack in stone
+The last lamp dims
+
+Beneath soft snow, washed tin keeps still
+A red mitten sleeps inside a coat pocket
+The street grows quiet
+
+A unfinished glass label near the narrow bridge
+One bent spoon holds one drop of morning
+A page turns in the draft
+
+Along the old quay, boot tray rests
+A small candle slips into the grass
+The stairwell smells of stone
+
+The ice block keeps fine rain
+A lost glove lies beside the blue door
+The last cart rolls home
+
+Beneath noon, loose button leans
+A green bottle sways above the lock
+The last lamp dims
+
+Near the courtyard wall, work boot moves slowly
+A red mitten finds the path to ground
+The paper curls at the edge
+
+The ticket window keeps sea spray
+A torn label settles on the rope coil
+The sea folds over stone
+
+sea spray gathers around incense ash
+The last guest keeps watch over the stairs
+The window frames the rain
+
+By daybreak, the dry beans drifts
+The late gardener rolls beneath the table
+A boat slips from view
+
+Along the side gate, glass label listens
+The small bell moves beyond the window
+The far bell answers
+
+Beneath cold mist, prop sword waits
+The baker's boy sleeps beside the stove
+The roof remembers rain
+
+At late winter, clay labels waits
+The road sweeper keeps the shape of rain
+The lamp burns down to blue
+
+Along the courtyard wall, duckweed listens
+The old lock stays where the path forks
+A small flame leans east
+
+paper pattern at the edge of the lower stair
+A tin whistle holds still at noon
+A light stays on upstairs
+
+The muddy glove keeps spring
+A glass marble rests under the bench
+The roof cools after dusk
+
+Beneath cold, sawdust turns
+The late gardener leaves its shadow on the wall
+The frost thins at noon
+
+At the first frost, blue shadow waits
+The ferry light turns its face toward rain
+The floor cools by dawn
+
+The tender duckweed beside the lower stair
+A rusted hook moves beyond the window
+A light stays on upstairs
+
+A tender water stairs near the far platform
+A broken ruler rests inside the drawer
+The roof remembers rain
+
+When cold mist lifts, drift fence settles
+The wind chime slides behind the curtain
+The dust settles again
+
+The exit lamp keeps dark
+The road sweeper leans against the wall
+The light moves to the wall
+
+When fine rain lifts, salt pool drifts
+The street singer follows the roofline
+The kettle loses steam
+
+When rain lifts, cut cloth listens
+The moon rests where the paint has peeled
+A page lifts at the corner
+
+Beneath cold mist, wooden mallet turns
+The window washer turns its face toward rain
+The wind lifts the dust
+
+Beneath evening shade, stone basin listens
+The empty cart fades behind the frosted glass
+The gate keeps its rust
+
+At midnight, brass telescope leans
+The sleeping guard shifts in the passing train
+The snow hides the footprints
+
+By closing time, the deck rail drifts
+The watchmaker keeps a pocket of shade
+The water keeps its depth
+
+The rusted rope coil beside the loading dock
+A stone bowl turns toward the river
+The paper curls at the edge
+
+By midnight, the track gravel listens
+The ferry light rests where the paint flakes
+A small flame leans east
+
+broken fence at the edge of the back room
+The late gardener waits beneath the bench
+The gate swings back alone
+
+At the lunch bell, loupe glass keeps still
+The milk seller holds still at noon
+The water keeps its depth
+
+Beneath salt air, red curtain leans
+The last ferry holds still beneath the eaves
+The door stays half open
+
+Along the dry well, stage dust keeps still
+A lost key waits beneath the bench
+The room gathers shadow
+
+fine rain gathers around engine wake
+The boat builder slides behind the curtain
+The path takes the hill
+
+A weathered lock gate near the stone path
+The rain barrel rests beside the warm stove
+A boat slips from view
+
+By the first frost, the freight car settles
+The last customer fades behind the frosted glass
+The clock face pales
+
+Near the courtyard wall, moss pot drifts
+A folded cloth drifts past the gate
+The wind lifts the dust
+
+The weathered wooden mallet beside the loading dock
+A blue thread keeps the day's warmth
+The ropes knock against the mast
+
+The silver ink roller beside the far platform
+The old ticket leaves its shadow on the wall
+The path takes the hill
+
+The unclaimed lock gate beside the north window
+A lost glove rests under the bench
+The sea folds over stone
+
+gear teeth at the edge of the courtyard wall
+The dawn rests inside the drawer
+The room gathers shadow
+
+A hollow iron stair near the courtyard wall
+The milk seller leans against the wall
+A sparrow takes the wire
+
+At daybreak, popcorn tin turns
+The boat builder follows the canal bend
+The water darkens slowly
+
+By the last watch, the boot tray rests
+A blue cup fades behind the glass
+The stairwell smells of stone
+
+Near the market lane, watering can leans
+A lost key follows the smell of bread
+The kettle loses steam
+
+signal flag at the edge of the old quay
+A white feather slides behind the curtain
+The window frames the rain
+
+Beneath soft snow, boot tray listens
+A paper lantern rests on the sill
+The floor gives one soft creak
+
+The ladder rung keeps wind
+A stray feather keeps the shape of rain
+The clock resumes its work
+
+The rusted engine wake beside the north window
+The station cat finds the path to ground
+The gate keeps its rust
+
+A amber type tray near the lower stair
+The old lock rests beside the warm stove
+The path bends out of sight
+
+At the north window, the shelf label keeps still
+A dull blade sways above the steps
+The roof remembers rain
+
+The paper chart keeps cold mist
+The station cat settles on the rope coil
+The dark keeps no account
+
+Near the far platform, gear teeth waits
+A stray kitten stays where the path forks
+The wind lifts the dust
+
+By the first frost, the lens cloth waits
+The old lock keeps watch over the stairs
+The street grows quiet
+
+At the north window, the moss pot drifts
+The night nurse shines along the seam
+A page turns in the draft
+
+The silver painted number beside the narrow bridge
+The old porter falls without a sound
+The field receives the fog
+
+At the side gate, the mossed steps listens
+The late gardener keeps the day's warmth
+The last train leaves no echo
+
+The silver moss pot beside the old quay
+A broken ruler sleeps inside a coat pocket
+The snow hides the footprints
+
+At the market lane, the oyster shell holds fast
+The old ticket slides behind the curtain
+The lamp burns down to blue
+
+Along the side gate, dark glass turns
+A folded ticket keeps watch over the stairs
+The moon slips behind cloud
+
+When soft snow lifts, proof sheet listens
+A brass key moves when no one looks
+The clouds cross the ridge
+
+The bamboo stake keeps cold mist
+A small candle turns under the water
+A moth circles once more
+
+A unclaimed rope coil near the loading dock
+The ferry bell leaves its shadow on the wall
+One hinge speaks again
+
+When fine rain lifts, stove pipe waits
+The window washer sleeps inside a coat pocket
+The kettle loses steam
+
+The unclaimed signal flag beside the lower stair
+The last letter fades behind the frosted glass
+The lamp paints the wall
+
+The gear teeth keeps sea spray
+A moth wing follows the crack in stone
+The roof returns the rain
+
+The amber cedar door beside the loading dock
+A tired clock keeps the shape of rain
+The room gathers shadow
+
+By the lunch bell, the water stairs listens
+A moth holds still at noon
+The old hinge learns the wind
+
+Near the north window, sealed door holds fast
+A moth moves beyond the window
+A page turns in the draft
+
+By midnight, the minute hand rests
+The empty stage slides behind the curtain
+The window warms at noon
+
+When starlight lifts, dark glass rests
+A paper crane waits for the bell
+The snow hides the footprints
+
+Beneath smoke, empty crate settles
+One bent spoon rests where the paint has peeled
+The gate keeps its rust
+
+Near the back room, platform sign holds fast
+A blue thread waits beside the drain
+The last lamp dims
+
+Near the courtyard wall, water drum holds fast
+The empty stage turns toward the river
+A page lifts at the corner
+
+A tender moss pot near the north window
+A torn envelope moves through the reeds
+A sparrow takes the wire
+
+When fine rain lifts, misting hose leans
+A dull blade falls without a sound
+A light stays on upstairs
+
+Near the stone path, freight car waits
+The old porter waits beside the stairs
+The ropes knock against the mast
+
+Along the courtyard wall, ice block holds fast
+A seed husk leans into the fog
+The roof remembers rain
+
+The open case keeps rain
+The night nurse shines along the seam
+The frost thins at noon
+
+Beneath cold mist, high-water mark leans
+The empty cart rests on the sill
+The dark keeps no account
+
+A borrowed pear stem near the side gate
+A child’s drawing drifts past the gate
+The street grows quiet
+
+shelf label at the edge of the stone path
+The ferry bell moves beyond the window
+One hinge speaks again
+
+At the old quay, the rusted hinge settles
+A small beetle follows the smell of tea
+A small bird tests the air
+
+Along the narrow bridge, dusty timetable listens
+A paper lantern settles on the rope coil
+The snow hides the footprints
+
+Beneath pollen, drying rack drifts
+A child’s drawing follows the roofline
+A single light trembles
+
+Near the courtyard wall, painted moon holds fast
+A green kite leans against the wall
+The kettle begins to sing
+
+The rusted velvet seat beside the courtyard wall
+A stray kitten shifts in the passing train
+The room keeps its hush
+
+At the back room, the stone arch turns
+A chipped cup drifts past the gate
+A page turns in the draft
+
+Beneath cold mist, watering can rests
+A tired clock keeps the shape of rain
+The field receives the fog
+
+At the far platform, the sleeping porter moves slowly
+The ferry bell rests against the rope
+The window warms at noon
+
+The willow root keeps warm dust
+One bent spoon catches the last sun
+The kettle begins to sing
+
+By first light, the screen seam waits
+A torn label shivers in the draft
+The ropes knock against the mast
+
+By blue dusk, the moss pot keeps still
+The last ferry hangs from a single thread
+The ropes knock against the mast
+
+Beneath smoke, deck rail settles
+The window washer stays after the crowd
+The floor cools by dawn
+
+bamboo stake at the edge of the courtyard wall
+The milk seller shines along the seam
+A moth circles once more
+
+At the courtyard wall, the dark glass keeps still
+The last guest catches a fleck of snow
+The old hinge learns the wind
+
+A hollow slate ledge near the lower stair
+The rain barrel slips under the door
+The seed waits under clay
+
+By daybreak, the silt line listens
+A wet umbrella waits beneath the bench
+The water darkens slowly
+
+Beneath heat, misting hose keeps still
+The night porter waits beside the drain
+A boat slips from view
+
+The distant seed catalog beside the stone path
+The last letter sways above the steps
+Rain fills the old tracks
+
+Near the old quay, stage dust turns
+The wind leans into the fog
+A small flame leans east
+
+At the back room, the freight car leans
+The ferry bell settles on the ledger
+The paper curls at the edge
+
+A distant rusted wheel near the courtyard wall
+The dawn shift drifts past the gate
+The roof remembers rain
+
+A faint projector beam near the courtyard wall
+A green bottle stops beside the threshold
+The bell forgets the hour
+
+At the far platform, the towpath leans
+One loose screw stays after the crowd
+The light moves to the wall
+
+cold mist gathers around prayer beads
+The watchmaker stays after the crowd
+The dark keeps no account
+
+At the north window, the wading boot waits
+The old lock rests where the paint has peeled
+Rain fills the old tracks
+
+A sleeping empty bench near the side gate
+A lost glove waits beside the stairs
+The clock face pales
+
+stone basin at the edge of the north window
+A loose tile shines under the bridge
+The roof remembers rain
+
+By the last watch, the cut cloth drifts
+The old porter wakes in the cold air
+The tide erases the path
+
+At the lunch bell, pale petal drifts
+A lost glove turns toward the river
+The last lamp dims
+
+The hollow muddy glove beside the loading dock
+A folded ticket keeps watch over the stairs
+The dawn arrives without sound
+
+The borrowed tin roof beside the courtyard wall
+The station cat returns with the tide
+A boat slips from view
+
+At the lower stair, the ticket stub holds fast
+The train guard shivers in the draft
+The dust settles again
+
+A rusted muddy glove near the stone path
+The night porter shines through a thin seam
+The moon slips behind cloud
+
+When dusk lifts, loupe glass moves slowly
+The old ticket hangs from a nail
+One hinge speaks again
+
+At the back room, the velvet seat rests
+A moth wing stays after the crowd
+The roof remembers rain
+
+At daybreak, shade cloth rests
+A small candle shines under the bridge
+The clouds cross the ridge
+
+moonlight gathers around iron stair
+The bell ringer carries the chill of the night
+The old wall holds the sun
+
+The unclaimed bloom spike beside the old quay
+A tired clock waits for the tide to turn
+The window warms at noon
+
+Beneath evening shade, platform sign listens
+A red mitten moves when no one looks
+The moon slips behind cloud
+
+Along the market lane, track gravel leans
+The wind chime trembles above the water
+A gull crosses the harbor
+
+At the narrow bridge, the watch spring rests
+The last guest leans into the weather
+The paper curls at the edge
+
+Along the far platform, brass telescope drifts
+A glass bead carries the chill of the night
+The room gathers shadow
+
+At blue dusk, gear teeth rests
+The old porter trembles above the water
+No one moves the chair
+
+When cold mist lifts, prop sword leans
+A paper lantern moves through the reeds
+The field receives the fog
+
+When fine rain lifts, brass thimble keeps still
+A torn label waits for the tide to turn
+The kettle loses steam
+
+The rusted paper stack beside the courtyard wall
+A broken ruler falls through a shaft of sun
+The clock resumes its work
+
+The sleeping porter keeps wind
+The quiet child leaves a trace of salt
+The stairwell smells of stone
+
+At late winter, glass label moves slowly
+The rain gauge keeps the shape of rain
+The roof remembers rain
+
+Beneath pollen, dry beans keeps still
+The street singer rests where the paint has peeled
+The path takes the hill
+
+fine rain gathers around ladder rung
+A glass marble slips into the grass
+The street grows quiet
+
+At first light, rusted crane moves slowly
+The old ticket waits beside the stairs
+The wind lifts the dust
+
+Along the narrow bridge, star chart settles
+A dull blade returns with the tide
+The far bell answers
+
+Beneath rain, empty crate listens
+A red mitten turns its face toward rain
+A gull crosses the harbor
+
+A distant paper pattern near the far platform
+A green bottle sways above the lock
+A small flame leans east
+
+At late winter, mud track listens
+A moth slides behind the curtain
+The last train leaves no echo
+
+pollen gathers around brass pin
+The last customer shifts with the train
+The last train leaves no echo
+
+By the lunch bell, the wet bench rests
+The ferry light shines through a thin seam
+The roof returns the rain
+
+Near the market lane, cotton string drifts
+The dawn shift wakes in the cold air
+The room gathers shadow
+
+At the long thaw, tin bucket waits
+A moth wing catches a fleck of snow
+The room keeps its hush
+
+The tender bridge chain beside the courtyard wall
+The last customer sways above the lock
+A light stays on upstairs
+
+At the narrow bridge, the empty crate drifts
+A stray feather lies beside the blue door
+The kettle begins to sing
+
+The bloom spike keeps warm rain
+The last guest hangs from a nail
+The floor gives one soft creak
+
+Beneath dawn, mooring rope waits
+The sleeping guard drifts past the gate
+The room holds one last warmth
+
+Beneath fog, drift fence turns
+A stray kitten sleeps inside a coat pocket
+A light stays on upstairs
+
+At the old quay, the orchid roots settles
+A dull blade shivers in the draft
+The clouds cross the ridge
+
+A tender tin bucket near the back room
+The dawn turns under the water
+The tide erases the path
+
+Along the lower stair, torn poster drifts
+A paper lantern catches the edge of light
+The floor cools by dawn
+
+The crooked bell rope beside the far platform
+A moth wing follows the roofline
+The window frames the rain
+
+Along the courtyard wall, shade cloth listens
+The old lock catches the last sun
+A moth circles once more
+
+The silt line keeps smoke
+A broken ruler sways above the steps
+A boat slips from view
+
+By closing time, the reed raft drifts
+The ferry cook rests against the rope
+The frost thins at noon
+
+Beneath dark, footlights drifts
+A tired clock follows the roofline
+The street grows quiet
+
+At the dry well, the courtyard well moves slowly
+A brass key holds the smell of smoke
+The roof returns the rain
+
+By blue dusk, the pinned hem settles
+A dull blade returns with the evening wind
+The stairwell smells of stone
+
+By closing time, the life ring leans
+The roof leak follows the smell of tea
+The last train leaves no echo
+
+The sewing foot keeps pollen
+A folded ticket keeps the shape of rain
+The old hinge learns the wind
+
+The tender engine wake beside the loading dock
+The last letter rests beside the warm stove
+The kettle loses steam
+
+The empty crate keeps smoke
+The window washer turns toward the river
+The gate keeps its rust
+
+The crooked fern fronds beside the courtyard wall
+The small bell holds the smell of smoke
+The streetlight blurs in rain
+
+At late winter, empty crate leans
+A glass bead leans into the fog
+No one moves the chair
+
+Near the market lane, water stairs drifts
+The sleeping guard holds still at noon
+The paper curls at the edge
+
+lens cloth at the edge of the stone path
+The watchmaker rests inside the drawer
+The window frames the rain
+
+Beneath heat, seed trays moves slowly
+The empty cart keeps watch over the stairs
+The floor cools by dawn
+
+incense ash at the edge of the far platform
+The night porter waits beside the stairs
+The moon slips behind cloud
+
+Beneath smoke, stone basin waits
+A seed husk waits beside the drain
+The paper curls at the edge
+
+rusted wheel at the edge of the side gate
+A pale moth waits for the tide to turn
+The gate keeps its rust
+
+The coal dust keeps rain
+The empty cart leans into the weather
+The ropes knock against the mast
+
+Along the courtyard wall, dark glass keeps still
+A tired clock leaves its shadow on the wall
+The field receives the fog
+
+When silence lifts, empty balcony settles
+A small flame fades behind the glass
+A thin line of sun appears
+
+Along the side gate, mud track holds fast
+The map drawer wakes in the cold air
+The door stays half open
+
+At the lunch bell, stone basin leans
+A wet umbrella follows the roofline
+The far bell answers
+
+By closing time, the cut cloth turns
+The late gardener stops beside the threshold
+The last cart rolls home
+
+A patient clay labels near the market lane
+A paper lantern returns with the tide
+The field receives the fog
+
+When fog lifts, drift fence waits
+A seed husk falls through a shaft of sun
+The kettle begins to sing
+
+The work boot keeps thin fog
+The night clerk stays after the crowd
+The roof cools after dusk
+
+Near the loading dock, warm glass turns
+The map drawer waits beneath the bench
+A light stays on upstairs
+
+Along the courtyard wall, rusted crane waits
+The old porter waits in the doorway
+No one moves the chair
+
+The clay pot keeps smoke
+The quiet child leans into the weather
+The roof remembers rain
+
+The patient chalk mark beside the market lane
+A green kite turns slowly in the drain
+The kettle loses steam
+
+A forgotten track gravel near the lower stair
+A blue cup sways above the lock
+The dawn arrives without sound
+
+When winter lifts, stone basin drifts
+A folded ticket trembles above the water
+The dawn arrives without sound
+
+By daybreak, the high-water mark rests
+The late gardener stays where the path forks
+The kettle loses steam
+
+A unfinished open case near the old quay
+A green bottle slips under the door
+The floor cools by dawn
+
+The silver lock gate beside the stone path
+The old lock drifts past the gate
+A small bird tests the air
+
+Beneath lamplight, lead letters leans
+The old porter follows the canal bend
+The dark keeps no account
+
+Beneath smoke, exit lamp keeps still
+A torn label shifts in the passing train
+The moon slips behind cloud
+
+When smoke lifts, muddy glove listens
+A loose tile rests inside the drawer
+The last cart rolls home
+
+The distant washed tin beside the dry well
+The night clerk slides behind the curtain
+A page lifts at the corner
+
+Near the far platform, eelgrass leans
+The night porter stays where the path forks
+Rain fills the old tracks
+
+Near the side gate, press handle settles
+The wind returns with the evening wind
+A moth circles once more
+
+At the first frost, reed raft settles
+A torn envelope rests beside the warm stove
+No one moves the chair
+
+wind gathers around lens cloth
+The empty stage turns its face toward rain
+The dawn arrives without sound
+
+At the far platform, the high-water mark rests
+A lost key holds still beneath the eaves
+The water keeps its depth
+
+At blue dusk, signal lamp leans
+The clock maker leans against the wall
+The room gathers shadow
+
+velvet seat at the edge of the old quay
+The window washer follows the smell of tea
+The lamp burns down to blue
+
+At closing time, blue shadow drifts
+The rain gauge stops beside the threshold
+A page lifts at the corner
+
+wool sleeve at the edge of the dry well
+A folded ticket holds one drop of morning
+The seed waits under clay
+
+rain gathers around ticket window
+A tin whistle keeps a pocket of shade
+A sparrow takes the wire
+
+At the stone path, the worn sandals leans
+The wind hangs from a single thread
+The roof remembers rain
+
+At the market lane, the moon map listens
+A white feather turns slowly in the drain
+The room holds one last warmth
+
+The crooked duckweed beside the narrow bridge
+The dawn shift waits beside the stairs
+The stairwell smells of stone
+
+When dry wind lifts, drain channel moves slowly
+A pale moth catches the last sun
+The paper curls at the edge
+
+Along the market lane, projector beam holds fast
+A moth waits beside the stairs
+The lamp burns down to blue
+
+By the long thaw, the grain scoop settles
+The train guard leans against the wall
+The light moves to the wall
+
+The open case keeps evening shade
+A torn envelope rolls beneath the table
+The room gathers shadow
+
+A silver prayer beads near the back room
+A loose tile catches the last sun
+The old hinge learns the wind
+
+At the far platform, the folding seat waits
+A lost key drifts beyond the lamp
+The window warms at noon
+
+At late winter, sealed door drifts
+A stray kitten leaves its shadow on the wall
+The roof cools after dusk
+
+At blue dusk, glass jar settles
+A pale moth keeps watch over the stairs
+The door stays half open
+
+heat gathers around shade cloth
+The night nurse finds the path to ground
+The path bends out of sight
+
+When pollen lifts, paper stack turns
+The old ticket falls without a sound
+The tide turns in sleep
+
+At the back room, the brass pin waits
+The map drawer shifts in the passing train
+The dark keeps no account
+
+The patient deck rail beside the side gate
+A brown sparrow follows the roofline
+A light stays on upstairs
+
+When salt air lifts, proof sheet listens
+The train guard rests beside the warm stove
+The path takes the hill
+
+When evening shade lifts, mossed steps drifts
+The dawn shines through a thin seam
+The dust settles again
+
+Beneath thin fog, drill bit turns
+The dawn shift waits beside the stairs
+The streetlight blurs in rain
+
+By the first frost, the oil rag moves slowly
+The street singer keeps the day's warmth
+A small bird tests the air
+
+When dawn lifts, signal lamp leans
+A glass marble leans into the fog
+The clock face pales
+
+Near the lower stair, duckweed listens
+A white feather rests on the sill
+A light stays on upstairs
+
+By late winter, the mooring rope drifts
+The baker's boy crosses the floor without sound
+The wind lifts the dust
+
+The lens cloth keeps moonlight
+The map drawer turns toward the river
+The frost thins at noon
+
+Beneath dusk, platform sign leans
+The night clerk sways above the lock
+A small bird tests the air
+
+When cold mist lifts, drain channel leans
+A lost glove shines along the seam
+A small bird tests the air
+
+Near the dry well, glass jar holds fast
+A stray feather crosses the floor without sound
+The old hinge learns the wind
+
+Near the market lane, painted moon drifts
+The ferry bell sleeps beside the stove
+The clock face pales
+
+The pale rubble keeps evening shade
+A broken ruler rests against the rope
+A boat slips from view
+
+At midnight, projector beam waits
+The last customer fades behind the frosted glass
+The roof cools after dusk
+
+lamplight gathers around stage dust
+A child’s drawing holds one drop of morning
+A sparrow takes the wire
+
+Along the courtyard wall, root basket listens
+The milk seller keeps watch over the stairs
+The last lamp dims
+
+At the courtyard wall, the courtyard well settles
+A rusted hook keeps the day's warmth
+The floor cools by dawn
+
+Beneath cold mist, shade cloth keeps still
+A seed husk follows the canal bend
+The room holds one last warmth
+
+At the stone path, the stone basin rests
+The night porter rolls beneath the table
+The clock face pales
+
+Along the stone path, misting hose turns
+The street singer keeps the shape of a hand
+The lamp paints the wall
+
+By the long thaw, the film reel rests
+A seed husk keeps the day's warmth
+The streetlight blurs in rain
+
+A sleeping projector beam near the loading dock
+A red mitten catches a fleck of snow
+The clock resumes its work
+
+When dry wind lifts, prop sword rests
+The road sweeper follows the roofline
+The sea folds over stone
+
+Along the back room, brass telescope turns
+A cracked compass rests against the window frame
+The roof returns the rain
+
+broken fence at the edge of the old quay
+A tin whistle waits beside the drain
+The gate keeps its rust
+
+At the long thaw, rope coil settles
+A blue cup wakes in the cold air
+The room keeps its hush
+
+moonlight gathers around orchid roots
+The night clerk stays where the path forks
+The roof returns the rain
+
+signal lamp at the edge of the north window
+The last customer leaves its shadow on the wall
+The wind lifts the dust
+
+Along the stone path, proof sheet holds fast
+The old porter slips into the grass
+The old wall holds the sun
+
+Beneath dawn, broken fence leans
+The baker's boy turns slowly in the drain
+The room gathers shadow
+
+At the courtyard wall, the loupe glass holds fast
+The ferry light rests under the bench
+The kettle loses steam
+
+The incense ash keeps moonlight
+A dull blade waits beside the stairs
+The snow hides the footprints
+
+The dry beans keeps fine rain
+The last ferry fades behind the frosted glass
+The field receives the fog
+
+When sea spray lifts, sand ripple listens
+The milk seller settles on the rope coil
+The lamp paints the wall
+
+brass thimble at the edge of the dry well
+A moth drifts past the gate
+The roof remembers rain
+
+pollen gathers around gear teeth
+The wind trembles above the water
+The roof cools after dusk
+
+The forgotten empty bench beside the north window
+A wet umbrella finds the path to ground
+The water darkens slowly
+
+dawn gathers around coupling chain
+A brass key moves through the reeds
+The lamp burns down to blue
+
+A amber bamboo stake near the dry well
+The train guard moves through the reeds
+The window warms at noon
+
+eelgrass at the edge of the market lane
+The sleeping guard leans into the weather
+The moon clears the roof
+
+Near the stone path, eelgrass keeps still
+A dull blade sways above the lock
+A light stays on upstairs
+
+Along the far platform, open case listens
+A red mitten shines through a thin seam
+The water darkens slowly
+
+drying rack at the edge of the stone path
+The quiet child finds the path to ground
+The snow hides the footprints
+
+Beneath warm dust, ice block keeps still
+The night clerk stays after voices fade
+The clock resumes its work
+
+Along the courtyard wall, coupling chain turns
+A moth wing slips under the door
+The dust settles again
+
+The bamboo stake keeps dry wind
+A chipped cup rests against the rope
+The wind lifts the dust
+
+At daybreak, sewing foot waits
+A torn envelope slides behind the curtain
+The clock resumes its work
+
+At the last watch, dark glass turns
+One bent spoon moves beyond the window
+The snow hides the footprints
+
+cold mist gathers around blue shadow
+The seed keeper holds still beneath the eaves
+The wind lifts the dust
+
+At blue dusk, paper pattern leans
+The night clerk waits for the bell
+The last lamp dims
+
+By late winter, the ice block rests
+The milk seller shines through a thin seam
+A small flame leans east
+
+Near the narrow bridge, drain channel leans
+A stray feather returns with the tide
+The frost thins at noon
+
+At the back room, the empty cot waits
+A blue thread leaves a mark in dust
+The dawn arrives without sound
+
+At blue dusk, boot tray moves slowly
+The rain barrel moves through the reeds
+A small flame leans east
+
+Along the market lane, ticket booth listens
+A green kite settles on the ledger
+The stairwell smells of stone
+
+By the long thaw, the stove pipe keeps still
+The ferry bell settles on the ledger
+The window frames the rain
+
+By blue dusk, the rusted wheel turns
+The old ticket keeps the day's warmth
+The clouds cross the ridge
+
+The blue shadow keeps moonlight
+The rain barrel rests where the paint flakes
+The paper curls at the edge
+
+The amber watering can beside the side gate
+A small beetle follows the roofline
+A page turns in the draft
+
+At the old quay, the type tray leans
+A stray kitten settles on the ledger
+A light stays on upstairs
+
+A unclaimed moon map near the far platform
+The dawn shift rests against the window frame
+A light stays on upstairs
+
+Near the far platform, pear stem leans
+A glass bead fades behind the glass
+The seed waits under clay
+
+At the old quay, the proof sheet listens
+A chipped cup drifts beyond the lamp
+The light moves to the wall
+
+The silver loose button beside the lower stair
+The dawn rests under the bench
+The dust settles again
+
+At the market lane, the planetarium waits
+A paper lantern turns in the lamplight
+A sparrow takes the wire
+
+cold mist gathers around painted moon
+The ferry cook keeps the day's warmth
+The window frames the rain
+
+At the dry well, the popcorn tin waits
+The bell ringer hangs from a single thread
+The old hinge learns the wind
+
+Near the old quay, duckweed waits
+A blue cup catches a fleck of snow
+The paper curls at the edge
+
+At late winter, wooden mallet keeps still
+A dull blade turns in the lamplight
+The window frames the rain
+
+At the old quay, the empty cot rests
+A chipped cup sleeps beside the stove
+The last train leaves no echo
+
+At the old quay, the prayer beads listens
+A small flame shines along the seam
+A thin line of sun appears
+
+muddy glove at the edge of the narrow bridge
+The wind turns in the lamplight
+The water keeps its depth
+
+At the last watch, courtyard well keeps still
+A tin whistle rolls beneath the table
+A light stays on upstairs
+
+The crooked wooden mallet beside the far platform
+The map seller crosses the floor without sound
+The clouds cross the ridge
+
+At the far platform, the towpath rests
+The dawn shift leaves a trace of salt
+A single light trembles
+
+silence gathers around brass thimble
+A cracked compass leaves a mark in dust
+The ropes knock against the mast
+
+At blue dusk, moon map holds fast
+A green kite rests against the rope
+The floor gives one soft creak
+
+Along the back room, thermos lid leans
+The clock maker wakes in the cold air
+The clock resumes its work
+
+At the narrow bridge, the freight car holds fast
+The boat builder holds still at noon
+A small flame leans east
+
+Beneath current, water stairs drifts
+A brown sparrow shines along the seam
+A light stays on upstairs
+
+The lock gate keeps cold mist
+The last customer sleeps inside a coat pocket
+One hinge speaks again
+
+The grain scoop keeps silence
+A tired clock rests inside the drawer
+The water keeps its depth
+
+Beneath salt air, mud crab listens
+The street singer slips under the door
+The tide turns in sleep
+
+warm dust gathers around platform sign
+The night nurse leans into the weather
+The moon slips behind cloud
+
+At the far platform, the washed tin drifts
+The milk seller leaves its shadow on the wall
+The street grows quiet
+
+The mooring rope keeps thin fog
+The sleeping guard keeps the day's warmth
+A light stays on upstairs
+
+At the narrow bridge, the shelf label keeps still
+The empty stage follows the canal bend
+The far bell answers
+
+When wind lifts, blue shadow rests
+A lost key rests on the sill
+No one moves the chair
+
+The tender press handle beside the dry well
+A stray kitten catches the edge of light
+A moth circles once more
+
+The hollow red curtain beside the back room
+A paper crane keeps the shape of a hand
+The sea folds over stone
+
+salt air gathers around binding thread
+The watchmaker follows the smell of tea
+The clock resumes its work
+
+Beneath smoke, waxed twine rests
+A child’s drawing stays after the crowd
+The clock face pales
+
+Along the market lane, watering can drifts
+The dawn shift turns its face toward rain
+The lamp paints the wall
+
+At the narrow bridge, the silver fish listens
+The road sweeper leaves a mark in dust
+A page turns in the draft
+
+When cold mist lifts, planetarium turns
+One bent spoon leaves a mark in dust
+The far bell answers
+
+moonlight gathers around blue shadow
+A moth follows the crack in stone
+The dawn arrives without sound
+
+Near the side gate, eelgrass listens
+The old ticket trembles above the water
+One hinge speaks again
+
+When moonlight lifts, incense ash moves slowly
+The map drawer sways above the steps
+The roof returns the rain
+
+At the lower stair, the willow root turns
+A green kite keeps watch over the stairs
+The far bell answers
+
+Beneath cold mist, prop sword drifts
+A white feather rests against the rope
+The room gathers shadow
+
+Along the north window, projector beam holds fast
+A wet umbrella waits for the bell
+The roof remembers rain
+
+When dry wind lifts, wool sleeve rests
+A stone bowl leans into the fog
+The street grows quiet
+
+The planetarium keeps dawn
+A torn envelope rests beside the warm stove
+The window frames the rain
+
+By midnight, the pinned hem moves slowly
+The late gardener fades behind the frosted glass
+The water keeps its depth
+
+sea spray gathers around drain channel
+The quiet child settles on the ledger
+The last lamp dims
+
+pollen gathers around bridge chain
+A wet umbrella hangs from a single thread
+The roof remembers rain
+
+At the courtyard wall, the bridge chain turns
+A white feather settles on the rope coil
+The dark keeps no account
+
+At closing time, screen seam moves slowly
+A blue thread holds still at noon
+The clouds cross the ridge
+
+At the old quay, the blue shadow waits
+The train guard follows the canal bend
+The window frames the rain
+
+Along the old quay, exit lamp settles
+A glass marble holds one drop of morning
+The door stays half open
+
+At the long thaw, sleeping porter holds fast
+A folded ticket slips into the grass
+The gate swings back alone
+
+By daybreak, the blue shadow listens
+The boat builder slips under the door
+The kettle begins to sing
+
+Along the back room, winding key drifts
+The seed keeper sleeps beside the stove
+The water darkens slowly
+
+Beneath thin fog, dew bead moves slowly
+The last guest rests beside the warm stove
+The tide erases the path
+
+salt air gathers around paper pattern
+A paper crane keeps the shape of a hand
+The bell forgets the hour
+
+By first light, the prayer beads rests
+The night clerk returns with the tide
+A gull crosses the harbor
+
+soft snow gathers around brass thimble
+A chipped cup turns slowly in the drain
+The last train leaves no echo
+
+At blue dusk, wading boot turns
+One bent spoon rests on the sill
+The room holds one last warmth
+
+Beneath moonlight, waxed twine turns
+A folded ticket moves when no one looks
+A single light trembles
+
+When thin fog lifts, slate ledge waits
+A paper crane moves when no one looks
+The path takes the hill
+
+At the loading dock, the glass panes turns
+A paper label waits beside the stairs
+The gate keeps its rust
+
+The chalk mark keeps cold mist
+A red mitten stays where the path forks
+The street grows quiet
+
+Near the north window, seed catalog moves slowly
+A stray kitten stays where the path forks
+The floor gives one soft creak
+
+By the long thaw, the ticket stub holds fast
+A torn envelope falls through a shaft of sun
+The floor cools by dawn
+
+A borrowed empty bench near the market lane
+One loose screw waits beneath the bench
+The clock resumes its work
+
+When smoke lifts, worn sandals waits
+A rusted hook follows the smell of bread
+The dust settles again
+
+Near the back room, lens cloth holds fast
+The night nurse holds the smell of smoke
+The lamp burns down to blue
+
+A borrowed coupling chain near the old quay
+A torn envelope moves beyond the window
+The water darkens slowly
+
+Beneath winter, wool sleeve leans
+The last ferry slides behind the curtain
+The streetlight blurs in rain
+
+Near the narrow bridge, sealed door drifts
+The clock maker waits in the doorway
+The snow hides the footprints
+
+fine rain gathers around drift fence
+The ferry light stays where the path forks
+The light moves to the wall
+
+Beneath warm dust, life ring leans
+The night porter moves beyond the window
+The clock face pales
+
+At the lower stair, the silt line keeps still
+A broken ruler moves when no one looks
+The bell forgets the hour
+
+Beneath dusk, painted number drifts
+A glass bead waits in the doorway
+The far bell answers
+
+Along the back room, chalk mark leans
+A tin whistle turns its face toward rain
+The tide turns in sleep
+
+Beneath lamplight, prop sword waits
+The night porter sleeps beside the stove
+The lamp paints the wall
+
+The ladder rung keeps fine rain
+The sleeping guard drifts past the gate
+The gate keeps its rust
+
+incense ash at the edge of the side gate
+A torn envelope shines under the bridge
+The room keeps its hush
+
+At blue dusk, boot tray rests
+The roof leak falls without a sound
+A page turns in the draft
+
+A faint boot tray near the courtyard wall
+A loose tile waits for the tide to turn
+A light stays on upstairs
+
+empty cot at the edge of the north window
+A chipped cup turns toward the river
+A small bird tests the air
+
+The wet bench keeps fine rain
+The ferry cook keeps a pocket of shade
+The moon slips behind cloud
+
+Beneath soft snow, orchid roots settles
+A cracked compass rests inside the drawer
+The water darkens slowly
+
+At closing time, screen seam settles
+A chipped cup keeps the shape of rain
+The light moves to the wall
+
+Near the old quay, sewing foot moves slowly
+A small flame leaves a mark in dust
+The kettle loses steam
+
+cold gathers around tin bucket
+The last letter rests against the rope
+The kettle loses steam
+
+By closing time, the clay labels leans
+A lost key keeps the shape of rain
+The room holds one last warmth
+
+Along the side gate, window latch waits
+A torn label follows the crack in stone
+The water darkens slowly
+
+When pollen lifts, misting hose rests
+The wind chime trembles above the water
+A small flame leans east
+
+By midnight, the silver fish rests
+A brown sparrow follows the smell of bread
+The clock face pales
+
+A silver lead letters near the stone path
+The last letter returns with the tide
+A gull crosses the harbor
+
+At the dry well, the warm glass leans
+The milk seller falls without a sound
+The floor gives one soft creak
+
+By midnight, the rusted crane drifts
+The wind chime stays after the crowd
+The clock resumes its work
+
+When pollen lifts, prayer beads keeps still
+A rusted hook waits beneath the bench
+The snow hides the footprints
+
+Along the north window, work boot holds fast
+The old ticket rests against the window frame
+The last cart rolls home
+
+courtyard well at the edge of the far platform
+A torn label wakes in the cold air
+The stairwell smells of stone
+
+By the lunch bell, the mud track keeps still
+A folded ticket keeps the day's warmth
+The old wall holds the sun
+
+At the courtyard wall, the misting hose drifts
+The last customer waits for the tide to turn
+The room keeps its hush
+
+lamplight gathers around velvet seat
+A red mitten waits beside the stairs
+The moon clears the roof
+
+The forgotten dark glass beside the back room
+The last letter falls without a sound
+The streetlight blurs in rain
+
+The winding key keeps evening shade
+A blue thread stays after the crowd
+The window frames the rain
+
+sea spray gathers around stone arch
+The ferry cook trembles above the water
+The moon clears the roof
+
+At the courtyard wall, the ladder rung settles
+The last customer sleeps inside a coat pocket
+The path takes the hill
+
+Beneath evening shade, fern fronds holds fast
+A paper crane follows the canal bend
+The dawn arrives without sound
+
+When evening shade lifts, tin bucket holds fast
+The baker's boy hangs from a single thread
+The kettle begins to sing
+
+A hollow empty cot near the north window
+The night porter rests on the sill
+The old hinge learns the wind
+
+The cedar door keeps silence
+A paper lantern waits for the bell
+The moon slips behind cloud
+
+Near the lower stair, sand ripple rests
+A tin whistle leans into the weather
+No one moves the chair
+
+The tender window latch beside the dry well
+A rusted hook leans against the wall
+The floor gives one soft creak
+
+By the long thaw, the washed tin turns
+A child’s drawing stays after voices fade
+No one moves the chair
+
+Along the courtyard wall, sealed door waits
+The small bell waits for the bell
+The room keeps its hush
+
+brass telescope at the edge of the narrow bridge
+A cracked compass rests inside the drawer
+The moon clears the roof
+
+clay labels at the edge of the north window
+A brass key follows the smell of tea
+The ropes knock against the mast
+
+paper pattern at the edge of the narrow bridge
+The bell ringer holds still at noon
+The kettle begins to sing
+
+A crooked echo wall near the narrow bridge
+The empty cart stays after the crowd
+The old wall holds the sun
+
+At the loading dock, the stone dust rests
+One loose screw rests on the sill
+One hinge speaks again
+
+At first light, moss pot moves slowly
+The moon fades behind the frosted glass
+A gull crosses the harbor
+
+The faint velvet pad beside the side gate
+A tired clock leaves a trace of salt
+The floor cools by dawn
+
+fine rain gathers around velvet seat
+The seed keeper waits beside the drain
+No one moves the chair
+
+At daybreak, glass label settles
+The late gardener trembles above the water
+The street grows quiet
+
+Beneath dry wind, waxed twine waits
+A seed husk slips under the door
+The snow hides the footprints
+
+At the stone path, the type tray leans
+The old porter slips into the grass
+The frost thins at noon
+
+smoke gathers around blue shadow
+A small beetle holds one bead of rain
+The lamp paints the wall
+
+courtyard well at the edge of the lower stair
+The night nurse stops beside the threshold
+The seed waits under clay
+
+When evening shade lifts, proof sheet listens
+A broken ruler crosses the floor without sound
+A small bird tests the air
+
+Near the old quay, paper packet keeps still
+The last guest rests where the paint flakes
+The gate swings back alone
+
+salt air gathers around lens cloth
+The empty cart shines under the bridge
+The light moves to the wall
+
+The unfinished chalk mark beside the loading dock
+The clock maker slips into the grass
+A boat slips from view
+
+By closing time, the life ring holds fast
+The street singer hangs from a single thread
+The street grows quiet
+
+The silver rusted wheel beside the market lane
+The dawn shift leans into the weather
+The sea folds over stone
+
+dry wind gathers around freight car
+A brown sparrow keeps the day's warmth
+The water darkens slowly
+
+The mooring rope keeps evening shade
+A small flame moves through the reeds
+A small bird tests the air
+
+Near the lower stair, sleeping porter drifts
+A brass button waits for the bell
+A page lifts at the corner
+
+At late winter, paper chart leans
+A child’s drawing falls through a shaft of sun
+The room gathers shadow
+
+Near the loading dock, sewing foot waits
+A torn label rests beside the warm stove
+The snow hides the footprints
+
+Beneath smoke, washed tin holds fast
+The moon stays after the crowd
+The paper curls at the edge
+
+By midnight, the brass thimble leans
+A blue cup catches the edge of light
+The tide erases the path
+
+Beneath smoke, stove pipe rests
+The first tram moves when no one looks
+One hinge speaks again
+
+The amber ladder rung beside the far platform
+The first tram sleeps beside the stove
+The floor gives one soft creak
+
+moonlight gathers around clay pot
+A folded ticket lies beside the blue door
+The kettle begins to sing
+
+wet bench at the edge of the north window
+The dawn rests under the bench
+The last train leaves no echo
+
+Near the far platform, incense ash holds fast
+The watchmaker moves beyond the window
+The tide erases the path
+
+Along the far platform, stone arch holds fast
+A glass marble slides behind the curtain
+The path takes the hill
+
+closing time gathers around screen seam
+The station cat follows the smell of tea
+Rain fills the old tracks
+
+At the last watch, misting hose listens
+The moon hangs from a nail
+One hinge speaks again
+
+Near the old quay, shade cloth keeps still
+A small beetle finds the path to ground
+The moon clears the roof
+
+At the loading dock, the blue shadow rests
+The first tram waits beside the stairs
+The kettle begins to sing
+
+The amber prayer beads beside the side gate
+The milk seller shines through a thin seam
+The roof remembers rain
+
+Near the far platform, sawdust leans
+The quiet child falls without a sound
+The ropes knock against the mast
+
+A forgotten dew bead near the market lane
+The wind chime waits beside the drain
+The old wall holds the sun
+
+At the first frost, stove pipe drifts
+A white feather stays where the path forks
+The path bends out of sight
+
+fine rain gathers around ladder rung
+One loose screw moves beyond the window
+The tide turns in sleep
+
+thin fog gathers around dry beans
+The sleeping guard sleeps inside a coat pocket
+The streetlight blurs in rain
+
+Near the narrow bridge, type tray holds fast
+A green bottle rests beside the warm stove
+A thin line of sun appears
+
+The drill bit keeps dusk
+The milk seller rests against the window frame
+The street grows quiet
+
+The rusted cut cloth beside the dry well
+A tin whistle keeps the shape of a hand
+A boat slips from view
+
+The mud crab keeps wind
+The milk seller sways above the lock
+The last cart rolls home
+
+Beneath soft snow, footlights turns
+A glass bead moves when no one looks
+The paper curls at the edge
+
+By the last watch, the platform sign rests
+The bell ringer wakes in the cold air
+The ropes knock against the mast
+
+At the north window, the wool blanket holds fast
+The dawn holds still beneath the eaves
+The kettle loses steam
+
+Near the narrow bridge, coal dust settles
+A brass button keeps watch over the stairs
+The ropes knock against the mast
+
+The hollow ticket window beside the lower stair
+A white feather turns its face toward rain
+One hinge speaks again
+
+Near the stone path, freight car holds fast
+The station cat fades behind the frosted glass
+The tide erases the path
+
+The platform sign keeps evening shade
+The old porter trembles above the water
+The seed waits under clay
+
+At closing time, worn sandals leans
+A moth wing moves beyond the window
+The path takes the hill
+
+The tin roof keeps heat
+A stray feather waits in the doorway
+A gull crosses the harbor
+
+When dawn lifts, towpath rests
+A blue cup moves when no one looks
+The far bell answers
+
+The binding thread keeps cold mist
+The clock maker slips into the grass
+A single light trembles
+
+At the stone path, the red curtain settles
+A stone bowl holds still at noon
+A page lifts at the corner
+
+When salt air lifts, coupling chain turns
+The late gardener leaves a trace of salt
+The kettle begins to sing
+
+The sleeping gear teeth beside the dry well
+The late gardener rests where the paint flakes
+The gate keeps its rust
+
+A distant moon map near the stone path
+The empty stage falls without a sound
+The wind lifts the dust
+
+At the stone path, the tin bucket waits
+A glass marble holds one drop of morning
+The stairwell smells of stone
+
+By the first frost, the eelgrass leans
+A brass button stays after the crowd
+A sparrow takes the wire
+
+A silver life ring near the dry well
+A brass button turns its face toward rain
+The clock face pales
+
+The ink roller keeps rain
+The map seller waits for the tide to turn
+The ropes knock against the mast
+
+Beneath smoke, lead letters keeps still
+The ferry cook follows the crack in stone
+The wind lifts the dust
+
+At the last watch, courtyard well holds fast
+A torn label rests on the sill
+The frost thins at noon
+
+A unfinished prayer beads near the loading dock
+The wind falls through a shaft of sun
+The lamp burns down to blue
+
+A sleeping silt line near the back room
+A brass key rests where the paint has peeled
+The wind lifts the dust
+
+By the long thaw, the root basket turns
+A folded ticket moves beyond the window
+The room keeps its hush
+
+empty cot at the edge of the dry well
+A small candle keeps the shape of a hand
+A page turns in the draft
+
+A unfinished thread spool near the north window
+A folded ticket rests under the bench
+A moth circles once more
+
+At the lunch bell, rusted wheel drifts
+The dawn rests against the rope
+The paper curls at the edge
+
+When evening shade lifts, dew bead waits
+One loose screw turns under the water
+The dawn arrives without sound
+
+Along the lower stair, life ring listens
+A moth wing keeps the day's warmth
+The dawn arrives without sound
+
+Beneath thin fog, wool sleeve turns
+A small candle settles on the rope coil
+The room holds one last warmth
+
+The drain channel keeps thin fog
+The road sweeper falls through a shaft of sun
+A thin line of sun appears
+
+A amber paper pattern near the market lane
+The dawn leaves its shadow on the wall
+The river takes the sky
+
+When soft snow lifts, projector beam listens
+The night clerk turns under the water
+A page lifts at the corner
+
+Beneath humidity, glass panes drifts
+A paper crane keeps watch over the stairs
+The roof returns the rain
+
+Along the stone path, sealed door listens
+The old ticket shivers in the draft
+The clouds cross the ridge
+
+At the north window, the wading boot turns
+The sleeping guard rests against the window frame
+A moth circles once more
+
+The unfinished incense ash beside the narrow bridge
+A cracked compass follows the smell of tea
+A small flame leans east
+
+Beneath lamplight, velvet pad settles
+A rusted hook hangs from a single thread
+A gull crosses the harbor
+
+A borrowed bamboo stake near the stone path
+A brass button settles on the rope coil
+The moon clears the roof
+
+At the lunch bell, mud track turns
+The old lock waits beside the stairs
+No one moves the chair
+
+Beneath warm dust, glass jar turns
+A green bottle moves when no one looks
+No one moves the chair
+
+By first light, the shelf label drifts
+The train guard turns toward the river
+The river takes the sky
+
+A unfinished film reel near the courtyard wall
+The wind chime moves when no one looks
+The streetlight blurs in rain
+
+At the last watch, bloom spike drifts
+A stray kitten fades behind the frosted glass
+The roof returns the rain
+
+A faint glass panes near the old quay
+The train guard rests against the rope
+The lamp burns down to blue
+
+The forgotten fern fronds beside the old quay
+The late gardener follows the canal bend
+The clock face pales
+
+At the market lane, the dark glass listens
+A stray kitten shines through a thin seam
+The door stays half open
+
+watering can at the edge of the back room
+A moth wing keeps the shape of rain
+The streetlight blurs in rain
+
+Near the north window, duckweed drifts
+A brass button stays after the crowd
+The frost thins at noon
+
+wading boot at the edge of the narrow bridge
+A chipped cup keeps the shape of a hand
+The old wall holds the sun
+
+Along the side gate, drift net rests
+A paper label keeps watch over the stairs
+The dark keeps no account
+
+The faint stage dust beside the back room
+A paper crane hangs from a nail
+A page turns in the draft
+
+Near the loading dock, moss pot listens
+The small bell lies beside the blue door
+The dark keeps no account
+
+Along the north window, snow line moves slowly
+The night clerk rests against the window frame
+The river takes the sky
+
+Near the back room, wool sleeve leans
+A stone bowl shifts in the passing train
+A gull crosses the harbor
+
+The borrowed screen seam beside the loading dock
+A blue thread rests under the bench
+The tide turns in sleep
+
+thin fog gathers around chisel mark
+The first tram follows the roofline
+The room keeps its hush
+
+At the back room, the drift net moves slowly
+The street singer moves through the reeds
+The tide turns in sleep
+
+By daybreak, the clay pot holds fast
+A brass key turns toward the river
+The dawn arrives without sound
+
+When soft snow lifts, orchid roots holds fast
+A folded cloth leaves a mark in dust
+The old hinge learns the wind
+
+The incense ash keeps evening shade
+The street singer crosses the floor without sound
+The door stays half open
+
+The quiet washed tin beside the loading dock
+The rain barrel rests beside the warm stove
+A moth circles once more
+
+Near the far platform, dew bead listens
+The train guard shines along the seam
+A sparrow takes the wire
+
+Beneath cold mist, cedar door waits
+The dawn falls without a sound
+The old hinge learns the wind
+
+When sea spray lifts, greenhouse shade drifts
+The sleeping guard settles on the ledger
+The last lamp dims
+
+smoke gathers around footlights
+The boat builder moves when no one looks
+The lamp paints the wall
+
+Along the old quay, gear teeth moves slowly
+The first tram fades behind the frosted glass
+The stairwell smells of stone
+
+At the lunch bell, shore light settles
+The night porter sleeps inside a coat pocket
+The gate swings back alone
+
+Along the far platform, binding thread leans
+The train guard rests where the paint flakes
+The dark keeps no account
+
+At the long thaw, loupe glass keeps still
+A glass marble slips under the door
+The lamp paints the wall
+
+A distant painted moon near the market lane
+A folded ticket waits for the tide to turn
+The tide turns in sleep
+
+At the loading dock, the life ring keeps still
+The sleeping guard trembles above the water
+The kettle loses steam
+
+Beneath silence, ice block listens
+The late gardener leans into the weather
+The light moves to the wall
+
+silence gathers around ticket stub
+The late gardener waits beneath the bench
+The far bell answers
+
+Near the stone path, boot tray turns
+The sleeping guard lies beside the blue door
+The stairwell smells of stone
+
+Along the old quay, footlights listens
+A torn label keeps the shape of rain
+A page turns in the draft
+
+Near the stone path, work boot moves slowly
+The train guard waits for the bell
+The snow hides the footprints
+
+By first light, the coupling chain listens
+A tired clock trembles above the water
+The ropes knock against the mast
+
+Near the dry well, painted moon drifts
+The ferry cook catches the last sun
+The river takes the sky
+
+A patient snow line near the lower stair
+A paper label waits for the tide to turn
+The room keeps its hush
+
+At the old quay, the drift fence leans
+The ferry light rests on the sill
+A sparrow takes the wire
+
+The sawdust keeps warm dust
+A brass button keeps watch over the stairs
+The water keeps its depth
+
+A tender cotton string near the far platform
+A torn envelope stops beside the threshold
+The room holds one last warmth
+
+Beneath sea spray, ink roller settles
+The first tram turns toward the river
+The door stays half open
+
+Beneath heat, misting hose waits
+The seed keeper waits beside the drain
+Rain fills the old tracks
+
+Beneath thin fog, paper packet rests
+A folded cloth shivers in the draft
+The clock resumes its work
+
+Near the far platform, footlights settles
+A loose tile holds still beneath the eaves
+Rain fills the old tracks
+
+Near the dry well, sand ripple moves slowly
+A seed husk finds the path to ground
+The room keeps its hush
+
+midnight gathers around popcorn tin
+The map seller leans against the wall
+The gate keeps its rust
+
+Near the north window, platform sign holds fast
+A moth wing keeps a pocket of shade
+A page turns in the draft
+
+By closing time, the glass jar turns
+The window washer moves when no one looks
+The moon clears the roof
+
+Beneath pollen, moss pot moves slowly
+A moth wing finds the path to ground
+The clock resumes its work
+
+At late winter, life ring settles
+The quiet child follows the crack in stone
+The streetlight blurs in rain
+
+Near the narrow bridge, frosted hook turns
+The night clerk drifts past the gate
+The far bell answers
+
+Beneath pollen, ticket booth settles
+The old ticket keeps watch over the stairs
+The floor cools by dawn
+
+By the lunch bell, the window latch leans
+A paper label hangs from a nail
+The lamp paints the wall
+
+The sleeping open case beside the market lane
+A brass button slips under the door
+The room keeps its hush
+
+When fine rain lifts, sealed door listens
+The boat builder leaves a trace of salt
+The clock face pales
+
+At the back room, the coupling chain rests
+The sleeping guard keeps a pocket of shade
+The field receives the fog
+
+At the last watch, cut cloth drifts
+A child’s drawing rolls beneath the table
+The paper curls at the edge
+
+By the first frost, the prop sword drifts
+A torn envelope leaves its shadow on the wall
+The roof returns the rain
+
+At the courtyard wall, the prop sword keeps still
+The map drawer stays where the path forks
+The old wall holds the sun
+
+When midnight lifts, ticket window moves slowly
+A folded ticket turns toward the river
+Rain fills the old tracks
+
+The hollow incense ash beside the market lane
+The dawn shift drifts beyond the lamp
+The old wall holds the sun
+
+Beneath salt air, sewing foot holds fast
+The rain gauge catches the edge of light
+A single light trembles
+
+When wind lifts, eelgrass holds fast
+A white feather waits beside the drain
+The lamp burns down to blue
+
+By the last watch, the grain scoop holds fast
+The wind chime holds one bead of rain
+The light moves to the wall
+
+Near the lower stair, sewing foot drifts
+The clock maker stays after voices fade
+The kettle loses steam
+
+Along the old quay, echo wall settles
+A stray kitten rests beside the warm stove
+The path takes the hill
+
+fine rain gathers around coal dust
+The milk seller rests under the bench
+The old wall holds the sun
+
+Along the north window, waxed twine settles
+A rusted hook lies beside the blue door
+The moon clears the roof
+
+At closing time, lock gate leans
+The train guard follows the smell of tea
+A boat slips from view
+
+At daybreak, oil rag keeps still
+The milk seller stays where the path forks
+A single light trembles
+
+When warm dust lifts, fern fronds listens
+The wind chime sways above the steps
+The dark keeps no account
+
+At the long thaw, iron stair leans
+The last guest turns toward the river
+A single light trembles
+
+The crooked stage dust beside the courtyard wall
+A stray kitten rests inside the drawer
+The kettle loses steam
+
+A patient cut cloth near the lower stair
+A small candle carries the chill of the night
+The lamp burns down to blue
+
+Beneath cold mist, type tray holds fast
+A wet umbrella leans into the fog
+The seed waits under clay
+
+When pollen lifts, press handle leans
+A blue thread finds the path to ground
+The last cart rolls home
+
+When pollen lifts, ticket window rests
+A small flame follows the canal bend
+The old wall holds the sun
+
+By the long thaw, the dusty timetable settles
+A broken ruler sleeps inside a coat pocket
+The water keeps its depth
+
+At the stone path, the rope coil moves slowly
+A wet umbrella sleeps beside the stove
+The room keeps its hush
+
+Near the narrow bridge, gear teeth settles
+A brass button crosses the floor without sound
+A small flame leans east
+
+By midnight, the fern fronds leans
+The moon leaves its shadow on the wall
+The path takes the hill
+
+Near the back room, greenhouse shade drifts
+A folded cloth wakes in the cold air
+A boat slips from view
+
+At daybreak, moss pot turns
+The clock maker rests under the bench
+The path takes the hill
+
+When sea spray lifts, eelgrass holds fast
+One bent spoon slides behind the curtain
+The path bends out of sight
+
+The sleeping proof sheet beside the market lane
+The baker's boy falls without a sound
+A thin line of sun appears
+
+When cold mist lifts, life ring keeps still
+A green kite settles on the rope coil
+The floor cools by dawn
+
+dry wind gathers around washed tin
+One bent spoon hangs from a nail
+The floor gives one soft creak
+
+By late winter, the rusted hinge rests
+A chipped cup leaves a trace of salt
+A single light trembles
+
+The amber empty cot beside the dry well
+A red mitten shines through a thin seam
+The kettle begins to sing
+
+At the old quay, the silver fish listens
+A lost key leans against the wall
+The last train leaves no echo
+
+By the long thaw, the sleeping porter settles
+A torn label holds the smell of smoke
+The room holds one last warmth
+
+Near the stone path, press handle turns
+The street singer waits for the tide to turn
+A gull crosses the harbor
+
+shade cloth at the edge of the north window
+A small beetle keeps a pocket of shade
+The bell forgets the hour
+
+The faint cotton string beside the courtyard wall
+A brass button crosses the floor without sound
+The far bell answers
+
+A patient dome slit near the dry well
+A glass marble rests where the paint has peeled
+A page turns in the draft
+
+At the north window, the wool sleeve rests
+The station cat turns toward the river
+The tide erases the path
+
+smoke gathers around thermos lid
+The milk seller settles on the rope coil
+The streetlight blurs in rain
+
+The quiet paper chart beside the narrow bridge
+The seed keeper catches the edge of light
+The moon clears the roof
+
+When starlight lifts, dark glass drifts
+A chipped cup shines along the seam
+A boat slips from view
+
+salt air gathers around greenhouse shade
+The dawn turns in the lamplight
+The path takes the hill
+
+At the long thaw, loupe glass keeps still
+The road sweeper slips into the grass
+The window frames the rain
+
+At the lunch bell, ink roller listens
+The seed keeper catches the edge of light
+The path takes the hill
+
+soft snow gathers around signal lamp
+The last guest follows the roofline
+The frost thins at noon
+
+The thread spool keeps soft snow
+A moth shines under the bridge
+A page lifts at the corner
+
+Beneath wind, rusted crane leans
+The late gardener wakes in the cold air
+The room keeps its hush
+
+The distant silt line beside the dry well
+A blue thread keeps the shape of rain
+The ropes knock against the mast
+
+When smoke lifts, glass label leans
+The quiet child holds one bead of rain
+A gull crosses the harbor
+
+Beneath morning, stone dust leans
+A small flame leaves a mark in dust
+The room holds one last warmth
+
+At the back room, the wool blanket waits
+A loose tile trembles above the water
+The window frames the rain
+
+At the first frost, courtyard well moves slowly
+A tin whistle trembles above the water
+The dark keeps no account
+
+By closing time, the mossed steps turns
+The night nurse keeps the shape of rain
+The room holds one last warmth
+
+A crooked ladder rung near the dry well
+A moth wing rests inside the drawer
+The window frames the rain
+
+At the last watch, proof sheet listens
+A seed husk rests where the paint flakes
+The room gathers shadow
+
+The weathered coal dust beside the north window
+The late gardener keeps the shape of a hand
+A sparrow takes the wire
+
+By first light, the water drum leans
+A stone bowl turns in the lamplight
+The clock face pales
+
+At the dry well, the press handle leans
+The map drawer rests inside the drawer
+The path takes the hill
+
+At the market lane, the rusted wheel moves slowly
+The rain gauge sways above the lock
+The tide erases the path
+
+Along the back room, fern fronds drifts
+The old ticket leaves a trace of salt
+A boat slips from view
+
+The unfinished clay labels beside the side gate
+A lost key slips under the door
+The water darkens slowly
+
+Along the north window, painted moon settles
+The watchmaker stays where the path forks
+The last cart rolls home
+
+When thin fog lifts, paper pattern holds fast
+The bell ringer trembles above the water
+A sparrow takes the wire
+
+At the loading dock, the sewing foot waits
+The night clerk sleeps inside a coat pocket
+A small bird tests the air
+
+The washed tin keeps pollen
+A torn envelope holds one drop of morning
+The sea folds over stone
+
+When fine rain lifts, type tray moves slowly
+A blue cup keeps a pocket of shade
+A thin line of sun appears
+
+silence gathers around paper pattern
+The station cat hangs from a nail
+The clouds cross the ridge
+
+A forgotten bamboo stake near the side gate
+A wet umbrella leaves a mark in dust
+A small flame leans east
+
+When cold mist lifts, sewing foot moves slowly
+The night clerk shines through a thin seam
+The dust settles again
+
+The drain channel keeps evening shade
+A red mitten rests where the paint flakes
+The wind lifts the dust
+
+At the first frost, watering can waits
+The baker's boy falls through a shaft of sun
+The water darkens slowly
+
+By daybreak, the mossed steps drifts
+The last ferry keeps the shape of a hand
+The stairwell smells of stone
+
+Near the north window, eelgrass leans
+A rusted hook holds the smell of smoke
+The wind lifts the dust
+
+By daybreak, the brass pin drifts
+The roof leak fades behind the glass
+A single light trembles
+
+A sleeping root basket near the back room
+A stone bowl waits beside the drain
+The river takes the sky
+
+When warm dust lifts, stage dust waits
+The quiet child rests where the paint has peeled
+The kettle begins to sing
+
+Near the courtyard wall, coal dust moves slowly
+A glass marble shivers in the draft
+The stairwell smells of stone
+
+The unclaimed ticket window beside the lower stair
+A dull blade moves when no one looks
+The moon clears the roof
+
+Along the loading dock, iron stair leans
+A stray kitten lies beside the blue door
+The roof cools after dusk
+
+Near the back room, water drum leans
+The clock maker turns slowly in the drain
+The gate swings back alone
+
+The press handle keeps dry wind
+A seed husk rests where the paint flakes
+A thin line of sun appears
+
+footlights at the edge of the market lane
+The moon returns with the evening wind
+The seed waits under clay
+
+The pear stem keeps moonlight
+The last guest turns its face toward rain
+The window warms at noon
+
+When humidity lifts, glass panes moves slowly
+The old porter turns under the water
+A small flame leans east
+
+The film reel keeps dust
+The late gardener moves beyond the window
+The sea folds over stone
+
+At the far platform, the drain channel drifts
+A stone bowl sways above the steps
+The path bends out of sight
+
+When smoke lifts, work boot leans
+The baker's boy follows the smell of tea
+One hinge speaks again
+
+A rusted brass telescope near the far platform
+The boat builder rolls beneath the table
+The clock face pales
+
+Near the old quay, shade cloth leans
+The late gardener rests under the bench
+A thin line of sun appears
+
+The mooring rope keeps warm dust
+The empty stage holds still beneath the eaves
+A single light trembles
+
+stone arch at the edge of the north window
+A brown sparrow waits in the doorway
+The dark keeps no account
+
+At daybreak, chalk mark holds fast
+The dawn hangs from a single thread
+A page turns in the draft
+
+The waxed twine keeps wind
+A folded ticket waits beside the stairs
+The bell forgets the hour
+
+dusk gathers around platform sign
+A pale moth shifts in the passing train
+The lamp paints the wall
+
+By first light, the seed catalog waits
+A blue cup rests inside the drawer
+The room keeps its hush
+
+Near the far platform, open case turns
+The ferry cook turns its face toward rain
+The wind lifts the dust
+
+When dry wind lifts, empty crate waits
+The rain barrel settles on the ledger
+The old hinge learns the wind
+
+At blue dusk, willow root turns
+The late gardener holds the smell of smoke
+The clock resumes its work
+
+A sleeping shelf label near the far platform
+The roof leak slips into the grass
+The window warms at noon
+
+At the courtyard wall, the canal boat keeps still
+The baker's boy holds one drop of morning
+The river takes the sky
+
+When salt air lifts, proof sheet leans
+A white feather rests against the rope
+The room holds one last warmth
+
+The empty bench keeps dry wind
+A stone bowl settles on the rope coil
+The bell forgets the hour
+
+paper stack at the edge of the side gate
+A stray kitten leaves its shadow on the wall
+A page lifts at the corner
+
+Beneath sunrise, drift net holds fast
+The wind keeps a pocket of shade
+The old wall holds the sun
+
+The shelf label keeps fine rain
+A brown sparrow falls without a sound
+The door stays half open
+
+At the old quay, the brass telescope turns
+The window washer lies beside the blue door
+A sparrow takes the wire
+
+By first light, the exit lamp holds fast
+A stone bowl leans into the fog
+The dark keeps no account
+
+At daybreak, planetarium leans
+The quiet child drifts past the gate
+The gate swings back alone
+
+waxed twine at the edge of the narrow bridge
+A glass bead turns toward the river
+The moon slips behind cloud
+
+Near the far platform, empty balcony waits
+A blue cup drifts beyond the lamp
+The room keeps its hush
+
+lens cloth at the edge of the market lane
+The last guest rests beside the warm stove
+No one moves the chair
+
+Beneath sea spray, clay pot waits
+The bell ringer fades behind the frosted glass
+The last cart rolls home
+
+wading boot at the edge of the lower stair
+The empty stage lies beside the blue door
+The river takes the sky
+
+dry wind gathers around wool sleeve
+A torn envelope moves when no one looks
+The dust settles again
+
+The wool blanket keeps salt air
+The ferry cook keeps watch over the stairs
+The ropes knock against the mast
+
+The eelgrass keeps thin fog
+A small candle follows the roofline
+The last train leaves no echo
+
+At the north window, the sawdust keeps still
+The clock maker waits beside the stairs
+A boat slips from view
+
+rain gathers around winding key
+The late gardener sleeps beside the stove
+A moth circles once more
+
+moonlight gathers around echo wall
+The ferry bell fades behind the glass
+The gate swings back alone
+
+Near the side gate, stage dust rests
+The old lock fades behind the glass
+The last train leaves no echo
+
+The mud track keeps fog
+A brass key drifts past the gate
+The floor cools by dawn
+
+seed trays at the edge of the narrow bridge
+A blue cup stays after the crowd
+The moon clears the roof
+
+wind gathers around prayer beads
+A folded ticket slides behind the curtain
+The stairwell smells of stone
+
+dry wind gathers around rope coil
+A white feather rests where the paint flakes
+The far bell answers
+
+At the long thaw, mossed steps leans
+A tired clock turns its face toward rain
+The water darkens slowly
+
+The moss pot keeps moonlight
+The baker's boy moves through the reeds
+The river takes the sky
+
+The glass label keeps warm rain
+A small beetle settles on the ledger
+The door stays half open
+
+A unclaimed wading boot near the market lane
+A green kite shivers in the draft
+The kettle begins to sing
+
+When lamplight lifts, footlights drifts
+The street singer keeps the shape of a hand
+A gull crosses the harbor
+
+At late winter, rusted hinge drifts
+A paper lantern returns with the tide
+The floor gives one soft creak
+
+The stone dust keeps wind
+One bent spoon stays where the path forks
+The lamp paints the wall
+
+At first light, muddy glove turns
+The train guard shivers in the draft
+The clock resumes its work
+
+The quiet tin bucket beside the narrow bridge
+The dawn shift holds still beneath the eaves
+The kettle begins to sing
+
+moonlight gathers around stone dust
+A torn label catches the edge of light
+A moth circles once more
+
+At first light, proof sheet waits
+A torn label follows the canal bend
+Rain fills the old tracks
+
+At the lower stair, the painted number listens
+The milk seller slips under the door
+One hinge speaks again
+
+The signal flag keeps thin fog
+A glass marble shifts with the train
+The light moves to the wall
+
+Beneath smoke, canal boat keeps still
+A folded ticket turns in the lamplight
+The paper curls at the edge
+
+The forgotten mud crab beside the lower stair
+The road sweeper trembles above the water
+The far bell answers
+
+The weathered wading boot beside the side gate
+A paper crane fades behind the glass
+A single light trembles
+
+By closing time, the cotton string holds fast
+The late gardener keeps watch over the stairs
+The room gathers shadow
+
+The ticket booth keeps salt air
+A glass bead returns with the tide
+The room gathers shadow
+
+Beneath thin fog, signal lamp drifts
+A rusted hook lies beside the blue door
+The gate keeps its rust
+
+A forgotten cut cloth near the narrow bridge
+A dull blade carries the chill of the night
+The dawn arrives without sound
+
+The amber mud track beside the narrow bridge
+A tin whistle follows the roofline
+A moth circles once more
+
+When thin fog lifts, torn poster turns
+The baker's boy holds still at noon
+The floor gives one soft creak
+
+At the market lane, the film reel waits
+A loose tile lies beside the blue door
+A gull crosses the harbor
+
+The willow root keeps cold mist
+The old lock shivers in the draft
+A page turns in the draft
+
+Beneath thin fog, prayer beads settles
+The roof leak turns slowly in the drain
+A boat slips from view
+
+At the far platform, the bamboo stake waits
+A red mitten waits beneath the bench
+The sea folds over stone
+
+fine rain gathers around tin roof
+The quiet child shines under the bridge
+No one moves the chair
+
+At first light, star chart drifts
+The seed keeper turns in the lamplight
+The clouds cross the ridge
+
+At the long thaw, worn sandals moves slowly
+A white feather follows the canal bend
+No one moves the chair
+
+Along the courtyard wall, dome slit turns
+A blue thread drifts past the gate
+The moon clears the roof
+
+The rusted sewing foot beside the dry well
+A small flame crosses the floor without sound
+The seed waits under clay
+
+The hollow pear stem beside the back room
+The old porter stays after voices fade
+The field receives the fog
+
+When dry wind lifts, pear stem drifts
+The dawn turns its face toward rain
+The street grows quiet
+
+At late winter, empty bench listens
+The small bell shivers in the draft
+The dawn arrives without sound
+
+When sea spray lifts, glass panes holds fast
+The wind holds still at noon
+The water keeps its depth
+
+The faint brass pin beside the stone path
+A tin whistle returns with the evening wind
+The gate keeps its rust
+
+The seed catalog keeps fine rain
+The watchmaker settles on the ledger
+The path takes the hill
+
+loupe glass at the edge of the courtyard wall
+A glass marble settles on the rope coil
+The streetlight blurs in rain
+
+At first light, paper pattern drifts
+The first tram holds still at noon
+The roof cools after dusk
+
+A rusted warm glass near the lower stair
+The last letter shifts in the passing train
+The lamp burns down to blue
+
+At closing time, paper pattern holds fast
+A child’s drawing moves beyond the window
+A gull crosses the harbor
+
+A forgotten blue shadow near the north window
+A torn envelope lies beside the blue door
+The tide erases the path
+
+By the first frost, the ink roller listens
+The last guest crosses the floor without sound
+The light moves to the wall
+
+At closing time, tin roof listens
+A stone bowl moves beyond the window
+The last train leaves no echo
+
+A amber eelgrass near the narrow bridge
+A dull blade waits beneath the bench
+The bell forgets the hour
+
+soft snow gathers around ink roller
+The train guard follows the roofline
+The far bell answers
+
+The rusted rusted wheel beside the dry well
+One bent spoon keeps the shape of rain
+The dawn arrives without sound
+
+Along the stone path, dome slit keeps still
+A paper crane follows the canal bend
+Rain fills the old tracks
+
+By midnight, the rusted wheel settles
+The empty stage crosses the floor without sound
+The gate swings back alone
+
+Near the courtyard wall, sleeping porter turns
+The street singer lies beside the blue door
+The bell forgets the hour
+
+A unclaimed mud track near the stone path
+The late gardener drifts past the gate
+The clock face pales
+
+Near the narrow bridge, fern fronds settles
+The late gardener shines through a thin seam
+The gate swings back alone
+
+At blue dusk, red curtain waits
+A small candle rolls beneath the table
+The last cart rolls home
+
+By closing time, the shelf label holds fast
+One bent spoon shines along the seam
+A boat slips from view
+
+When smoke lifts, snow line turns
+The moon leaves a mark in dust
+The streetlight blurs in rain
+
+The cotton string keeps winter
+A broken ruler holds one drop of morning
+The dawn arrives without sound
+
+Beneath smoke, wooden mallet rests
+The boat builder rests on the sill
+The clouds cross the ridge
+
+At the loading dock, the footlights waits
+The window washer holds one drop of morning
+The water darkens slowly
+
+Near the far platform, chalk mark keeps still
+The night nurse hangs from a single thread
+The moon clears the roof
+
+sea spray gathers around pale rubble
+A paper lantern keeps the shape of a hand
+The roof returns the rain
+
+The weathered pruning knife beside the stone path
+The empty stage hangs from a nail
+The door stays half open
+
+At midnight, empty balcony keeps still
+A paper crane falls without a sound
+The water darkens slowly
+
+Near the market lane, sewing foot listens
+One bent spoon catches the last sun
+The floor gives one soft creak
+
+cotton string at the edge of the lower stair
+A green kite moves when no one looks
+A moth circles once more
+
+Beneath lamplight, loose button rests
+The ferry bell rests against the window frame
+A gull crosses the harbor
+
+By the long thaw, the misting hose holds fast
+One bent spoon hangs from a nail
+The clouds cross the ridge
+
+wet bench at the edge of the stone path
+A small candle crosses the floor without sound
+The snow hides the footprints
+
+The patient salt pool beside the north window
+A wet umbrella shifts with the train
+The clock face pales
+
+A distant drift fence near the courtyard wall
+A cracked compass holds one bead of rain
+The clock face pales
+
+The life ring keeps smoke
+One loose screw turns toward the river
+The floor cools by dawn
+
+At the courtyard wall, the dusty timetable holds fast
+The night clerk shifts with the train
+The floor gives one soft creak
+
+moonlight gathers around wool sleeve
+One loose screw stays where the path forks
+The lamp burns down to blue
+
+The weathered brass thimble beside the old quay
+The late gardener stays where the path forks
+The door stays half open
+
+At the stone path, the ink roller leans
+The baker's boy rests inside the drawer
+The tide turns in sleep
+
+At daybreak, cotton string leans
+The ferry bell rests against the window frame
+A small flame leans east
+
+A rusted dome slit near the dry well
+The boat builder shines under the bridge
+A page lifts at the corner
+
+Near the market lane, clay labels keeps still
+A wet umbrella leaves a mark in dust
+A gull crosses the harbor
+
+Along the loading dock, wool sleeve drifts
+The sleeping guard holds one drop of morning
+The field receives the fog
+
+Near the market lane, film reel keeps still
+The map seller moves beyond the window
+The tide turns in sleep
+
+When dawn lifts, dark glass drifts
+A brass key turns toward the river
+The clouds cross the ridge
+
+Along the stone path, orchid roots rests
+The dawn rests inside the drawer
+The street grows quiet
+
+When warm dust lifts, screen seam leans
+A chipped cup sleeps beside the stove
+A single light trembles
+
+The drill bit keeps morning
+A moth falls without a sound
+A gull crosses the harbor
+
+orchid roots at the edge of the loading dock
+A paper crane holds one drop of morning
+The sea folds over stone
+
+At the market lane, the prop sword settles
+The first tram follows the canal bend
+The stairwell smells of stone
+
+Near the stone path, type tray listens
+The late gardener keeps watch over the stairs
+The dawn arrives without sound
+
+The iron stair keeps soft snow
+A stray feather turns toward the river
+A moth circles once more
+
+At the stone path, the film reel settles
+A pale moth finds the path to ground
+The room holds one last warmth
+
+prayer beads at the edge of the dry well
+A dull blade keeps the shape of rain
+No one moves the chair
+
+A borrowed mossed steps near the courtyard wall
+A stone bowl moves through the reeds
+The snow hides the footprints
+
+At blue dusk, coupling chain rests
+A white feather trembles above the water
+A moth circles once more
+
+Along the dry well, dome slit moves slowly
+The night nurse drifts beyond the lamp
+The field receives the fog
+
+Beneath dry wind, pinned hem listens
+The last ferry sleeps inside a coat pocket
+Rain fills the old tracks
+
+gear teeth at the edge of the courtyard wall
+The old ticket rests where the paint has peeled
+The snow hides the footprints
+
+At the lower stair, the grain scoop holds fast
+A tin whistle sleeps inside a coat pocket
+The seed waits under clay
+
+At the long thaw, stone dust moves slowly
+A green kite shines along the seam
+The door stays half open
+
+glass label at the edge of the lower stair
+The last guest fades behind the frosted glass
+The light moves to the wall
+
+By late winter, the drift net holds fast
+The map seller shivers in the draft
+The field receives the fog
+
+Beneath pollen, paper stack waits
+The old ticket crosses the floor without sound
+A single light trembles
+
+At the stone path, the proof sheet leans
+The last ferry holds still beneath the eaves
+The last train leaves no echo
+
+By daybreak, the iron stair rests
+A tired clock waits beside the drain
+The river takes the sky
+
+The mooring rope keeps thin fog
+A torn label rests against the window frame
+The gate swings back alone
+
+By blue dusk, the canal boat turns
+A stone bowl stays after the crowd
+The bell forgets the hour
+
+A tender glass panes near the north window
+The empty stage waits in the doorway
+The tide turns in sleep
+
+Beneath evening shade, star chart drifts
+A small candle holds still at noon
+The seed waits under clay
+
+By the long thaw, the boot tray listens
+The map drawer wakes in the cold air
+The stairwell smells of stone
+
+A amber empty bench near the far platform
+A pale moth catches a fleck of snow
+The lamp paints the wall
+
+ink roller at the edge of the loading dock
+A glass marble leans into the fog
+The old wall holds the sun
+
+By late winter, the work boot drifts
+The old ticket turns slowly in the drain
+The last cart rolls home
+
+brass telescope at the edge of the market lane
+The night clerk leans into the weather
+The lamp paints the wall
+
+The sleeping rusted wheel beside the courtyard wall
+A stray feather rests inside the drawer
+The room gathers shadow
+
+Along the loading dock, duckweed settles
+The boat builder slips into the grass
+The floor cools by dawn
+
+When sea spray lifts, projector beam drifts
+The last ferry lies beside the blue door
+A page lifts at the corner
+
+When rain lifts, drill bit drifts
+A brown sparrow keeps the day's warmth
+The old wall holds the sun
+
+Beneath fine rain, ticket stub rests
+The night clerk hangs from a single thread
+The sea folds over stone
+
+soft snow gathers around paper packet
+A folded cloth finds the path to ground
+The river takes the sky
+
+work boot at the edge of the market lane
+The rain barrel keeps the shape of a hand
+The door stays half open
+
+A unfinished platform sign near the old quay
+A lost glove shifts with the train
+The frost thins at noon
+
+Near the far platform, sealed door moves slowly
+A wet umbrella follows the canal bend
+The light moves to the wall
+
+lens cloth at the edge of the north window
+The watchmaker keeps a pocket of shade
+The seed waits under clay
+
+A sleeping folding seat near the loading dock
+The ferry cook shifts with the train
+The water keeps its depth
+
+When soft snow lifts, mossed steps moves slowly
+The rain barrel moves beyond the window
+The lamp burns down to blue
+
+At the lunch bell, footlights turns
+The rain gauge shifts in the passing train
+One hinge speaks again
+
+The patient washed tin beside the lower stair
+The boat builder leaves a trace of salt
+The last train leaves no echo
+
+The distant life ring beside the old quay
+The station cat leans against the wall
+The seed waits under clay
+
+At the old quay, the pinned hem listens
+The rain barrel wakes in the cold air
+The floor cools by dawn
+
+The minute hand keeps salt air
+One bent spoon keeps a pocket of shade
+The clouds cross the ridge
+
+Near the courtyard wall, chisel mark turns
+The last guest rests against the window frame
+A page lifts at the corner
+
+At the lower stair, the work boot keeps still
+A paper label drifts beyond the lamp
+A page lifts at the corner
+
+At the courtyard wall, the film reel leans
+The wind catches the last sun
+A sparrow takes the wire
+
+The quiet rusted crane beside the north window
+A glass bead rests where the paint has peeled
+The gate swings back alone
+
+Along the market lane, rusted crane settles
+A seed husk stops beside the threshold
+A page lifts at the corner
+
+When pollen lifts, mossed steps rests
+A paper label stays after voices fade
+The clouds cross the ridge
+
+The sawdust keeps soft snow
+The rain gauge stays after voices fade
+The tide erases the path
+
+At the lunch bell, echo wall listens
+The night nurse shines under the bridge
+The gate keeps its rust
+
+When fog lifts, broken fence settles
+The late gardener settles on the ledger
+The floor cools by dawn
+
+At late winter, glass label turns
+The empty stage rests under the bench
+The gate swings back alone
+
+The faint planetarium beside the dry well
+A brown sparrow falls without a sound
+A small flame leans east
+
+The mud crab keeps evening shade
+A blue cup holds one drop of morning
+The bell forgets the hour
+
+By the last watch, the wool sleeve settles
+A tin whistle falls without a sound
+The room holds one last warmth
+
+The high-water mark keeps sea spray
+A chipped cup finds the path to ground
+The water darkens slowly
+
+At the long thaw, sand ripple moves slowly
+A lost glove shivers in the draft
+The room gathers shadow
+
+fog gathers around life ring
+A pale moth catches the edge of light
+The bell forgets the hour
+
+Along the north window, willow root moves slowly
+A blue thread keeps the shape of rain
+The dust settles again
+
+The reed raft keeps evening shade
+A green kite rests on the sill
+The roof returns the rain
+
+By midnight, the coupling chain listens
+The clock maker waits beneath the bench
+The river takes the sky
+
+wind gathers around courtyard well
+The old lock carries the chill of the night
+The moon clears the roof
+
+The empty balcony keeps soft snow
+A small flame sways above the lock
+The room holds one last warmth
+
+By the long thaw, the sawdust rests
+The old lock follows the smell of bread
+The roof returns the rain
+
+Along the lower stair, boot tray leans
+A lost key shines through a thin seam
+The tide turns in sleep
+
+wind gathers around mud track
+The old ticket turns toward the river
+The old hinge learns the wind
+
+A faint rope coil near the loading dock
+The sleeping guard holds still at noon
+Rain fills the old tracks
+
+When salt air lifts, seed catalog leans
+A wet umbrella shifts in the passing train
+A single light trembles
+
+The signal flag keeps salt air
+The first tram sways above the steps
+The last train leaves no echo
+
+When smoke lifts, dome slit keeps still
+A folded ticket catches the edge of light
+The frost thins at noon
+
+The pinned hem keeps winter
+The map drawer stays after voices fade
+The old hinge learns the wind
+
+At the long thaw, silver fish listens
+A tin whistle waits beside the drain
+A sparrow takes the wire
+
+proof sheet at the edge of the market lane
+A small flame carries the chill of the night
+The gate swings back alone
+
+At the first frost, stone arch leans
+A glass marble holds one bead of rain
+The clouds cross the ridge
+
+salt air gathers around screen seam
+A lost key turns its face toward rain
+The roof returns the rain
+
+By the long thaw, the cotton string rests
+A moth wing slides behind the curtain
+The gate swings back alone
+
+salt air gathers around torn poster
+The rain gauge slips under the door
+The dawn arrives without sound
+
+The quiet signal flag beside the side gate
+One loose screw moves when no one looks
+The window warms at noon
+
+At the back room, the dome slit holds fast
+The clock maker keeps a pocket of shade
+The light moves to the wall
+
+At the market lane, the thread spool turns
+A moth wing shines through a thin seam
+The seed waits under clay
+
+The rusted chalk mark beside the loading dock
+A torn envelope holds still beneath the eaves
+The roof cools after dusk
+
+A silver glass jar near the far platform
+One bent spoon shines through a thin seam
+The tide erases the path
+
+When cold mist lifts, dome slit holds fast
+The boat builder crosses the floor without sound
+The field receives the fog
+
+The faint gear teeth beside the narrow bridge
+The late gardener leans into the fog
+The seed waits under clay
+
+ladder rung at the edge of the dry well
+A folded cloth waits for the tide to turn
+The window warms at noon
+
+ladder rung at the edge of the lower stair
+A paper label leans against the wall
+The street grows quiet
+
+A crooked clay labels near the north window
+A blue cup sways above the lock
+The frost thins at noon
+
+dawn gathers around lock gate
+A small candle falls without a sound
+The street grows quiet
+
+By the lunch bell, the dome slit rests
+A loose tile shifts with the train
+Rain fills the old tracks
+
+Along the market lane, cotton string moves slowly
+The seed keeper holds the smell of smoke
+The dust settles again
+
+At the lunch bell, clay pot turns
+A folded ticket follows the smell of tea
+The sea folds over stone
+
+When dry wind lifts, coal dust leans
+The boat builder turns under the water
+The last train leaves no echo
+
+At the dry well, the water drum listens
+A small flame catches the edge of light
+The last train leaves no echo
+
+thin fog gathers around planetarium
+The ferry bell turns slowly in the drain
+The roof cools after dusk
+
+When smoke lifts, popcorn tin settles
+The wind turns toward the river
+The far bell answers
+
+The forgotten shade cloth beside the dry well
+A paper crane slips into the grass
+The moon slips behind cloud
+
+The willow root keeps sea spray
+The quiet child sleeps inside a coat pocket
+The path bends out of sight
+
+The moss pot keeps warm rain
+A chipped cup returns with the tide
+A page lifts at the corner
+
+When smoke lifts, footlights drifts
+A folded cloth catches a fleck of snow
+The path bends out of sight
+
+cold gathers around blue shadow
+A torn label turns its face toward rain
+The lamp burns down to blue
+
+Beneath soft snow, star chart holds fast
+The old lock keeps watch over the stairs
+The old hinge learns the wind
+
+cold mist gathers around rope coil
+The watchmaker slips into the grass
+A thin line of sun appears
+
+At daybreak, ice block listens
+A paper lantern hangs from a nail
+A small flame leans east
+
+midnight gathers around star chart
+The small bell crosses the floor without sound
+The lamp burns down to blue
+
+Near the dry well, brass thimble holds fast
+A folded ticket falls without a sound
+The moon slips behind cloud
+
+At late winter, film reel keeps still
+A paper lantern turns its face toward rain
+The frost thins at noon
+
+Along the loading dock, watering can moves slowly
+A paper lantern follows the smell of tea
+A thin line of sun appears
+
+At daybreak, brass pin turns
+A brass button slides behind the curtain
+The seed waits under clay
+
+The painted number keeps warm dust
+The late gardener holds one drop of morning
+The tide erases the path
+
+A weathered deck rail near the far platform
+The night porter slips into the grass
+The room holds one last warmth
+
+When salt air lifts, boot tray turns
+A paper lantern rests on the sill
+A single light trembles
+
+A silver painted number near the north window
+The old ticket waits for the bell
+A thin line of sun appears
+
+Along the stone path, paper packet holds fast
+The first tram fades behind the glass
+Rain fills the old tracks
+
+Beneath thin fog, drain channel listens
+A folded cloth turns its face toward rain
+A moth circles once more
+
+Along the far platform, mooring rope waits
+The last customer returns with the evening wind
+The tide turns in sleep
+
+At the lower stair, the warm glass listens
+A paper label holds still at noon
+The window warms at noon
+
+Beneath warm dust, bloom spike moves slowly
+A paper label moves beyond the window
+A small bird tests the air
+
+water stairs at the edge of the courtyard wall
+The quiet child settles on the ledger
+The last cart rolls home
+
+Along the north window, shelf label waits
+The last ferry leans against the wall
+The frost thins at noon
+
+At the lunch bell, stage dust listens
+The boat builder moves through the reeds
+The window warms at noon
+
+watering can at the edge of the loading dock
+The bell ringer moves through the reeds
+The roof returns the rain
+
+At daybreak, mud track waits
+The station cat waits for the bell
+The room holds one last warmth
+
+Near the north window, press handle settles
+The last guest keeps the shape of rain
+The window warms at noon
+
+Along the market lane, snow line rests
+A blue thread waits beside the drain
+The last cart rolls home
+
+A tender echo wall near the narrow bridge
+A red mitten keeps a pocket of shade
+The tide erases the path
+
+At midnight, open case keeps still
+The baker's boy wakes in the cold air
+The old hinge learns the wind
+
+Along the stone path, washed tin holds fast
+The bell ringer returns with the evening wind
+The window warms at noon
+
+By the lunch bell, the slate ledge waits
+The street singer turns in the lamplight
+A page lifts at the corner
+
+The high-water mark keeps pollen
+The milk seller keeps a pocket of shade
+The far bell answers
+
+red curtain at the edge of the dry well
+A torn label moves when no one looks
+One hinge speaks again
+
+At closing time, clay labels rests
+The last letter turns toward the river
+The moon slips behind cloud
+
+cold mist gathers around paper stack
+A tin whistle rests inside the drawer
+The frost thins at noon
+
+prayer beads at the edge of the lower stair
+The baker's boy sleeps inside a coat pocket
+The roof cools after dusk
+
+When cold mist lifts, glass label keeps still
+The boat builder keeps watch over the stairs
+The frost thins at noon
+
+Beneath moonlight, worn sandals rests
+A chipped cup leans against the wall
+The sea folds over stone
+
+A rusted duckweed near the lower stair
+The ferry light shifts in the passing train
+The tide turns in sleep
+
+Along the narrow bridge, open case turns
+The last ferry moves through the reeds
+The path bends out of sight
+
+The cedar door keeps cold mist
+A torn envelope shifts in the passing train
+A thin line of sun appears
+
+The film reel keeps midnight
+The ferry bell waits in the doorway
+The path bends out of sight
+
+Beneath soft snow, pinned hem waits
+The clock maker holds the smell of smoke
+The roof returns the rain
+
+A tender wading boot near the narrow bridge
+A rusted hook holds one bead of rain
+The path bends out of sight
+
+The paper packet keeps soft snow
+The baker's boy returns with the tide
+The lamp paints the wall
+
+By daybreak, the oil rag keeps still
+The old ticket shivers in the draft
+The tide erases the path
+
+dry wind gathers around pruning knife
+The map drawer hangs from a single thread
+The tide turns in sleep
+
+Beneath smoke, gear teeth listens
+The first tram hangs from a single thread
+The lamp paints the wall
+
+By the lunch bell, the proof sheet keeps still
+A tired clock slips under the door
+The window warms at noon
+
+mud track at the edge of the narrow bridge
+The road sweeper trembles above the water
+A small flame leans east
+
+At the dry well, the bamboo stake listens
+The seed keeper rests against the rope
+The dust settles again
+
+Near the far platform, courtyard well keeps still
+The old lock shivers in the draft
+The roof cools after dusk
+
+The ladder rung keeps smoke
+A paper crane waits beside the stairs
+The sea folds over stone
+
+Near the lower stair, stone arch leans
+The street singer rests under the bench
+The last cart rolls home
+
+wooden mallet at the edge of the loading dock
+The ferry light keeps the shape of rain
+The last cart rolls home
+
+At the far platform, the type tray holds fast
+A cracked compass keeps the shape of a hand
+Rain fills the old tracks
+
+thin fog gathers around prop sword
+The night clerk crosses the floor without sound
+Rain fills the old tracks
+
+The unfinished towpath beside the courtyard wall
+A stray kitten fades behind the frosted glass
+The moon slips behind cloud
+
+Near the back room, empty cot leans
+A tin whistle follows the crack in stone
+The roof cools after dusk
+
+By the last watch, the type tray holds fast
+The last customer follows the smell of tea
+A small bird tests the air
+
+A unclaimed gear teeth near the back room
+A torn label holds one drop of morning
+The floor gives one soft creak
+
+When silence lifts, empty balcony turns
+A blue cup fades behind the frosted glass
+The sea folds over stone
+
+A hollow muddy glove near the courtyard wall
+One loose screw shivers in the draft
+The roof cools after dusk
+

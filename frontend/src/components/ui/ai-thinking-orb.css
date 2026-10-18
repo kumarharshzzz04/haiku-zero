@@ -1,0 +1,693 @@
+/* Morph orb chat — warm sakura skin.
+ *
+ * Every colour here is pulled from the cover: cream #f6eee8, blush #e7a3ae,
+ * amber #d6946e, over the same deep umber the desk uses (#1a1114 / #120c0e).
+ * The component's own channels (--w, --h, --r, --o*) are driven from JS.
+ */
+
+@property --mo-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes mo-spin {
+  to {
+    --mo-angle: 360deg;
+  }
+}
+
+@keyframes mo-drift {
+  from {
+    transform: translateX(-16%) scale(1);
+  }
+  to {
+    transform: translateX(16%) scale(1.06);
+  }
+}
+
+@keyframes mo-dot {
+  0%,
+  80%,
+  100% {
+    opacity: 0.22;
+  }
+  40% {
+    opacity: 1;
+  }
+}
+
+@keyframes mo-in {
+  from {
+    opacity: 0;
+    transform: translateY(7px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes mo-out {
+  from {
+    opacity: 1;
+    transform: none;
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-7px);
+  }
+}
+
+@keyframes mo-shake {
+  0%,
+  100% {
+    transform: translate(-50%, -50%);
+  }
+  25% {
+    transform: translate(calc(-50% - 5px), -50%);
+  }
+  75% {
+    transform: translate(calc(-50% + 5px), -50%);
+  }
+}
+
+/* ─────────────────────────── stage ─────────────────────────── */
+.mo-root {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  isolation: isolate;
+  font-family: var(--font-body, system-ui, sans-serif);
+  color: #f6eee8;
+  background: #1a1114;
+  -webkit-font-smoothing: antialiased;
+
+  /* channel defaults, so the first paint is already the resting pill */
+  --w: 560px;
+  --h: 60px;
+  --r: 999px;
+  --oGlow: 1;
+  --oHalo: 0;
+  --oPill: 1;
+  --oBall: 0;
+  --oGreen: 0;
+  --oCard: 0;
+  --oRing: 1;
+  --oInput: 1;
+  --oAur: 1;
+  --inScale: 1;
+  --gs: 0.55;
+  --cs: 1;
+  --hOp: 0;
+  --dotS: 0;
+  --bloom: 1;
+  --sOp: 0;
+  --sTy: 6;
+  --oCenter: 0;
+}
+
+.mo-root *,
+.mo-root *::before,
+.mo-root *::after {
+  box-sizing: border-box;
+}
+
+/* ─────────────────────────── backdrop ─────────────────────────── */
+.mo-bg {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(78% 52% at 50% 6%, rgba(240, 180, 189, 0.3), transparent 66%),
+    radial-gradient(92% 66% at 6% 96%, rgba(196, 96, 110, 0.26), transparent 66%),
+    radial-gradient(80% 60% at 94% 88%, rgba(214, 148, 110, 0.22), transparent 64%),
+    linear-gradient(180deg, #2a171d 0%, #1e1317 44%, #150e11 100%);
+}
+
+/* fine grain, so the flat gradients do not band on wide screens */
+.mo-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.045;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.mo-halo {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: var(--oCenter);
+  background: radial-gradient(
+    circle at 50% 46%,
+    rgba(240, 180, 189, 0.24),
+    rgba(214, 148, 110, 0.08) 38%,
+    transparent 62%
+  );
+  transition: opacity 0.4s ease;
+}
+
+/* ─────────────────────────── the moving actor ─────────────────────────── */
+.mo-mover {
+  position: absolute;
+  left: 50%;
+  top: 46%;
+  width: 0;
+  height: 0;
+  will-change: transform;
+}
+
+.mo-actor {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: var(--w);
+  height: var(--h);
+  transform: translate(-50%, -50%);
+  border-radius: var(--r);
+  will-change: width, height, border-radius;
+}
+
+.mo-actor[data-typing] .mo-surface {
+  border-color: rgba(231, 163, 174, 0.45);
+}
+
+.mo-actor[data-shake] {
+  animation: mo-shake 0.24s ease-in-out;
+}
+
+.mo-actor[data-flash] .mo-surface {
+  border-color: rgba(240, 128, 140, 0.8);
+}
+
+.mo-trail {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  opacity: 0;
+  pointer-events: none;
+  background: radial-gradient(circle, rgba(240, 180, 189, 0.5), rgba(231, 163, 174, 0) 70%);
+  filter: blur(2px);
+}
+
+/* pill chrome */
+.mo-surface {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  overflow: hidden;
+  opacity: var(--oGlow);
+  border: 1px solid rgba(246, 238, 232, 0.16);
+  background:
+    linear-gradient(122deg, rgba(28, 18, 22, 0.62), rgba(28, 18, 22, 0.4) 46%, rgba(120, 62, 72, 0.42));
+  backdrop-filter: blur(18px) saturate(1.15);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    0 30px 70px -34px rgba(0, 0, 0, 0.85);
+  transition: border-color 0.2s ease;
+}
+
+.mo-aurora {
+  position: absolute;
+  inset: -40%;
+  opacity: var(--oAur);
+  filter: blur(26px);
+  mix-blend-mode: screen;
+  pointer-events: none;
+}
+
+.mo-aurora i {
+  position: absolute;
+  border-radius: 50%;
+  display: block;
+  animation: mo-drift 9s ease-in-out infinite alternate;
+}
+
+.mo-aurora i:nth-child(1) {
+  width: 62%;
+  height: 130%;
+  left: 2%;
+  top: -30%;
+  background: radial-gradient(circle, rgba(231, 163, 174, 0.28), transparent 68%);
+}
+
+.mo-aurora i:nth-child(2) {
+  width: 54%;
+  height: 120%;
+  left: 30%;
+  top: -10%;
+  background: radial-gradient(circle, rgba(214, 148, 110, 0.22), transparent 68%);
+  animation-delay: -3s;
+  animation-duration: 11s;
+}
+
+.mo-aurora i:nth-child(3) {
+  width: 48%;
+  height: 110%;
+  left: 56%;
+  top: -26%;
+  background: radial-gradient(circle, rgba(246, 238, 232, 0.16), transparent 70%);
+  animation-delay: -6s;
+  animation-duration: 13s;
+}
+
+.mo-aurora i:nth-child(4) {
+  width: 40%;
+  height: 100%;
+  left: 20%;
+  top: 20%;
+  background: radial-gradient(circle, rgba(190, 104, 116, 0.22), transparent 70%);
+  animation-delay: -1.5s;
+  animation-duration: 10s;
+}
+
+.mo-underglow {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 360px;
+  height: 140px;
+  margin: -70px 0 0 -180px;
+  border-radius: 50%;
+  opacity: var(--oGlow);
+  pointer-events: none;
+  background: radial-gradient(closest-side, rgba(231, 163, 174, 0.2), transparent);
+  filter: blur(24px);
+}
+
+.mo-ring {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  opacity: var(--oRing);
+  pointer-events: none;
+  box-shadow: 0 0 0 1px rgba(246, 238, 232, 0.05);
+}
+
+.mo-ball {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: var(--w);
+  height: var(--h);
+  transform: translate(-50%, -50%);
+  border-radius: 999px;
+  opacity: var(--oBall);
+  pointer-events: none;
+  background: radial-gradient(
+    circle at 36% 30%,
+    #fffaf6 0%,
+    rgba(243, 189, 197, 0.92) 52%,
+    rgba(198, 100, 114, 0.55) 76%,
+    rgba(198, 100, 114, 0) 100%
+  );
+  box-shadow: 0 0 60px rgba(231, 163, 174, 0.4);
+}
+
+.mo-orb {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 220px;
+  height: 220px;
+  margin: -110px 0 0 -110px;
+  pointer-events: none;
+}
+
+.mo-pulse {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 132px;
+  height: 132px;
+  margin: -66px 0 0 -66px;
+  border-radius: 50%;
+  border: 1px solid rgba(240, 180, 189, 0.55);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* answer card */
+.mo-card {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  opacity: var(--oCard);
+  overflow: hidden;
+  border: 1px solid rgba(43, 26, 30, 0.12);
+  background: linear-gradient(158deg, #fbf3ec 0%, #f5e7e1 58%, #f0dcd8 100%);
+  color: #2b1a1e;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.6),
+    0 44px 90px -34px rgba(24, 8, 12, 0.72);
+}
+
+.mo-green {
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1.4px;
+  opacity: var(--oGreen);
+  pointer-events: none;
+  background: conic-gradient(
+    from var(--mo-angle),
+    rgba(231, 163, 174, 0.95),
+    rgba(246, 238, 232, 0.4),
+    rgba(214, 148, 110, 0.9),
+    rgba(190, 104, 116, 0.9),
+    rgba(231, 163, 174, 0.95)
+  );
+  animation: mo-spin 3.4s linear infinite;
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  mask-composite: exclude;
+}
+
+.mo-halo-green {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: calc(var(--w) + 40px);
+  height: calc(var(--h) + 40px);
+  transform: translate(-50%, -50%);
+  border-radius: inherit;
+  opacity: var(--oHalo);
+  pointer-events: none;
+  box-shadow: 0 0 110px 4px rgba(240, 180, 189, 0.4);
+}
+
+/* ─────────────────────────── input pill ─────────────────────────── */
+.mo-input {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 8px 0 20px;
+  opacity: var(--oInput);
+  transform: scale(var(--inScale));
+}
+
+.mo-spark {
+  width: 20px;
+  height: 20px;
+  flex: none;
+  color: #e7a3ae;
+}
+
+.mo-field {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #f6eee8;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+}
+
+.mo-field::placeholder {
+  color: rgba(246, 238, 232, 0.42);
+}
+
+.mo-send {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 999px;
+  cursor: pointer;
+  background: rgba(246, 238, 232, 0.08);
+  color: rgba(246, 238, 232, 0.5);
+  transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
+}
+
+.mo-send svg {
+  width: 18px;
+  height: 18px;
+}
+
+.mo-send[data-ready] {
+  background: #e7a3ae;
+  color: #2c1a1e;
+}
+
+.mo-send[data-ready]:hover {
+  background: #f0b4bd;
+  transform: translateY(-1px);
+}
+
+.mo-send:focus-visible,
+.mo-reset:focus-visible {
+  outline: 2px solid #f0b4bd;
+  outline-offset: 3px;
+}
+
+/* ─────────────────────────── answer ─────────────────────────── */
+.mo-answer {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 18px 22px;
+  border-radius: inherit;
+  opacity: var(--hOp);
+  overflow: hidden;
+  /* invisible until there is an answer, but it sits over the input: without this it swallows every
+     click on the pill once the field has lost focus (the page had to be reloaded to write again) */
+  pointer-events: none;
+}
+
+.mo-root[data-phase="unfold"] .mo-answer,
+.mo-root[data-phase="answered"] .mo-answer {
+  pointer-events: auto;
+}
+
+.mo-answer:focus-visible {
+  outline: 2px solid #c2545f;
+  outline-offset: -2px;
+}
+
+.mo-a-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 9.5px;
+  font-weight: 400;
+  letter-spacing: 0.36em;
+  text-transform: uppercase;
+  color: rgba(43, 26, 30, 0.42);
+}
+
+.mo-a-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #c2545f;
+  box-shadow: 0 0 8px rgba(194, 84, 95, 0.55);
+}
+
+.mo-a-body {
+  margin: 10px 0 0;
+  font-family: var(--font-editorial, Georgia, serif);
+  font-size: 17px;
+  line-height: 1.45;
+  letter-spacing: 0.005em;
+  color: #2b1a1e;
+}
+
+.mo-line {
+  display: block;
+}
+
+.mo-line-gap {
+  display: block;
+  height: 0.55em;
+}
+
+.mo-w {
+  display: inline-block;
+  will-change: opacity, transform;
+}
+
+/* ─────────────────────────── status + reset ─────────────────────────── */
+.mo-status {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 46%;
+  height: 20px;
+  margin-top: 104px;
+  opacity: var(--sOp);
+  pointer-events: none;
+}
+
+.mo-lab {
+  position: absolute;
+  left: 50%;
+  translate: -50% calc(var(--sTy) * 1px);
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  white-space: nowrap;
+  font-size: 11px;
+  font-weight: 300;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: rgba(246, 238, 232, 0.6);
+}
+
+.mo-lab.mo-in {
+  animation: mo-in 0.3s 0.14s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.mo-lab.mo-out {
+  animation: mo-out 0.12s cubic-bezier(0.4, 0, 1, 1) both;
+}
+
+.mo-lab-done {
+  color: #f0b4bd;
+}
+
+.mo-dots {
+  display: inline-flex;
+  gap: 3px;
+}
+
+.mo-dots i {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: currentColor;
+  animation: mo-dot 1.15s ease-in-out infinite;
+}
+
+.mo-dots i:nth-child(2) {
+  animation-delay: 0.16s;
+}
+
+.mo-dots i:nth-child(3) {
+  animation-delay: 0.32s;
+}
+
+.mo-reset {
+  position: absolute;
+  left: 50%;
+  bottom: 44px;
+  translate: -50% 0;
+  padding: 9px 18px;
+  border: 1px solid rgba(246, 238, 232, 0.14);
+  border-radius: 999px;
+  background: rgba(246, 238, 232, 0.04);
+  color: rgba(246, 238, 232, 0.7);
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 300;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.35s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.mo-root[data-phase="answered"] .mo-reset {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.mo-reset:hover {
+  border-color: rgba(231, 163, 174, 0.6);
+  color: #f6eee8;
+}
+
+/* ─────────────────────────── a11y + debug ─────────────────────────── */
+.mo-live {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.mo-debug {
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(246, 238, 232, 0.12);
+  background: rgba(18, 12, 14, 0.85);
+  font-size: 11px;
+  color: rgba(246, 238, 232, 0.65);
+}
+
+.mo-chip {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #e7a3ae;
+}
+
+.mo-debug label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.mo-debug input[type="range"] {
+  width: 90px;
+  accent-color: #e7a3ae;
+}
+
+.mo-debug button {
+  border: 1px solid rgba(246, 238, 232, 0.16);
+  border-radius: 6px;
+  padding: 3px 8px;
+  background: transparent;
+  color: inherit;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mo-aurora i,
+  .mo-green,
+  .mo-dots i {
+    animation: none;
+  }
+}
+
+/* ─────────────────────────── narrow screens ─────────────────────────── */
+@media (max-width: 640px) {
+  .mo-status {
+    margin-top: 96px;
+  }
+
+  .mo-a-body {
+    font-size: 16px;
+  }
+}

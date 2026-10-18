@@ -1,0 +1,43 @@
+{
+  "n": 24,
+  "exact": 1.0,
+  "seed": 1.0,
+  "repeat": 0.0,
+  "nonword": 0.0,
+  "junk": 0.0,
+  "model": {
+    "path": "checkpoints/best.pt",
+    "run": "poetry-then-haiku-v2",
+    "epoch": 6,
+    "val_loss": 3.8362727761268616
+  },
+  "worst": "autumn sun rattles / on a winter night's blues / summer heat returns",
+  "floors": {
+    "exact": [
+      "min",
+      0.98
+    ],
+    "seed": [
+      "min",
+      0.95
+    ],
+    "repeat": [
+      "max",
+      0.06
+    ],
+    "nonword": [
+      "max",
+      0.04
+    ],
+    "junk": [
+      "max",
+      0.02
+    ]
+  },
+  "seeds": [
+    "autumn",
+    "breeze",
+    "old pond",
+    "rain"
+  ]
+}

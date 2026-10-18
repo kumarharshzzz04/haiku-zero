@@ -1,0 +1,288 @@
+{
+  "taucris/haiku_333K": {
+    "id": "taucris/haiku_333K",
+    "license": "mit",
+    "downloads": 10,
+    "likes": 4,
+    "gated": false,
+    "modified": "2025-01-06",
+    "splits": [
+      [
+        "default",
+        "train"
+      ]
+    ],
+    "columns": [
+      "haiku"
+    ],
+    "sample": [
+      "{'haiku': 'seeds crack open wide / green shoots pierce the waiting soil / life begins anew'}",
+      "{'haiku': \"Mountain's snowy peak / glistening in the sunlight / majesty's pure white\"}",
+      "{'haiku': 'sand swallows the road / travelers vanish in dunes / wind sings their farewell'}"
+    ]
+  },
+  "wentingzhao/haiku-analysis": {
+    "id": "wentingzhao/haiku-analysis",
+    "license": "none declared",
+    "downloads": 15,
+    "likes": 0,
+    "gated": false,
+    "modified": "2024-06-11",
+    "splits": [
+      [
+        "default",
+        "train"
+      ]
+    ],
+    "columns": [
+      "atomic",
+      "retrieval"
+    ],
+    "sample": [
+      "{'atomic': 'AHKCvJoyInterface#AHKCvJoyInterface \"AHKCvJoyInterface\" is not a known term.', 'retrieval': [{'text': \"<s>GitHub - evilC/AHK-CvJoyInterfac",
+      "{'atomic': 'AHKCvJoyInterface#AHKCvJoyInterface \"AHKCvJoyInterface\" is not a known software.', 'retrieval': [{'text': \"<s>GitHub - evilC/AHK-CvJoyInte",
+      "{'atomic': 'AHKCvJoyInterface#AHKCvJoyInterface There may be a typo.', 'retrieval': [{'text': \"<s>GitHub - evilC/AHK-CvJoyInterface: A Simple to use c"
+    ]
+  },
+  "davanstrien/Haiku_Dataset": {
+    "id": "davanstrien/Haiku_Dataset",
+    "license": "cc-by-4.0",
+    "downloads": 16,
+    "likes": 0,
+    "gated": false,
+    "modified": "2024-03-22",
+    "splits": [
+      [
+        "default",
+        "train"
+      ]
+    ],
+    "columns": [
+      "haiku",
+      "source"
+    ],
+    "sample": [
+      "{'haiku': 'fishing boats\\ncolors of\\nthe rainbow', 'source': 'tempslibres'}",
+      "{'haiku': 'ash wednesday--\\ntrying to remember \\nmy dream', 'source': 'tempslibres'}",
+      "{'haiku': 'snowy morn--\\npouring another cup\\nof black coffee', 'source': 'tempslibres'}"
+    ]
+  },
+  "platdev/modern_haiku": {
+    "id": "platdev/modern_haiku",
+    "error": "HTTPError: HTTP Error 401: Unauthorized"
+  },
+  "statworx/haiku": {
+    "id": "statworx/haiku",
+    "license": "none declared",
+    "downloads": 117,
+    "likes": 5,
+    "gated": false,
+    "modified": "2022-07-02",
+    "splits": [
+      [
+        "default",
+        "train"
+      ]
+    ],
+    "columns": [
+      "source",
+      "text",
+      "text_phonemes",
+      "keywords",
+      "keyword_phonemes",
+      "gruen_score",
+      "text_punc"
+    ],
+    "sample": [
+      "{'source': 'bfbarry', 'text': \"Delicate savage. / You'll never hold the cinder. / But still you will burn.\", 'text_phonemes': 'deh|lax|kaxt sae|vaxjh ",
+      "{'source': 'bfbarry', 'text': 'A splash and a cry. / Words pulled from the riverside. / Dryed in the hot sun.', 'text_phonemes': 'ax splaesh aend ax k",
+      "{'source': 'bfbarry', 'text': 'Steamy, mist rising. / Rocks receiving downward crash. / As the jungle weeps.', 'text_phonemes': 'stiy|miy mihst ray|za"
+    ]
+  },
+  "davanstrien/haiku_dpo": {
+    "id": "davanstrien/haiku_dpo",
+    "license": "cc-by-4.0",
+    "downloads": 102,
+    "likes": 54,
+    "gated": false,
+    "modified": "2024-03-13",
+    "splits": [
+      [
+        "default",
+        "train"
+      ],
+      [
+        "aesthetic-preference",
+        "train"
+      ],
+      [
+        "raw",
+        "train"
+      ]
+    ],
+    "columns": [
+      "question",
+      "generation_model",
+      "generation_prompt",
+      "generations",
+      "scores",
+      "chosen",
+      "chosen_score",
+      "rejected",
+      "rejected_score",
+      "tie",
+      "difference_in_score",
+      "system"
+    ],
+    "sample": [
+      "{'question': 'Can you compose a haiku about the serenity of mountain peaks?', 'generation_model': ['TheBloke/OpenHermes-2.5-Mistral-7B-AWQ', 'TheBloke",
+      "{'question': 'Write a haiku that captures the grandeur of mountain peaks.', 'generation_model': ['TheBloke/OpenHermes-2.5-Mistral-7B-AWQ', 'TheBloke/O",
+      "{'question': 'Please create a haiku that describes the solitude of mountain peaks.', 'generation_model': ['TheBloke/OpenHermes-2.5-Mistral-7B-AWQ', 'T"
+    ]
+  },
+  "davanstrien/haiku_prompts": {
+    "id": "davanstrien/haiku_prompts",
+    "license": "cc-by-4.0",
+    "downloads": 54,
+    "likes": 9,
+    "gated": false,
+    "modified": "2024-01-15",
+    "splits": [
+      [
+        "default",
+        "train"
+      ]
+    ],
+    "columns": [
+      "instructions"
+    ],
+    "sample": [
+      "{'instructions': 'Can you compose a haiku about the serenity of mountain peaks?'}",
+      "{'instructions': 'Write a haiku that captures the grandeur of mountain peaks.'}",
+      "{'instructions': 'Please create a haiku that describes the solitude of mountain peaks.'}"
+    ]
+  },
+  "bathrobe/reddit_haiku_detox": {
+    "id": "bathrobe/reddit_haiku_detox",
+    "license": "apache-2.0",
+    "downloads": 3,
+    "likes": 0,
+    "gated": false,
+    "modified": "2024-02-01",
+    "splits": [
+      [
+        "default",
+        "train"
+      ],
+      [
+        "default",
+        "test"
+      ]
+    ],
+    "columns": [
+      "source",
+      "text",
+      "text_phonemes",
+      "keywords",
+      "keyword_phonemes",
+      "gruen_score",
+      "text_punc"
+    ],
+    "sample": [
+      "{'source': 'haiku_data_1', 'text': 'Sparrow fledglings. / The old man points. / His walking stick.', 'text_phonemes': 'speh|row fleh|jhax|lihngz dhax ",
+      "{'source': 'bfbarry', 'text': 'You a wilted rose. / Strikingand in need of love. / I shall be your sun.', 'text_phonemes': 'yuw ax wihl|taxd rowz / st",
+      "{'source': 'bfbarry', 'text': 'Sadder than ever. / To the girl that loves me most. / Better run quickly.', 'text_phonemes': 'sae|der dhaen eh|ver / ta"
+    ]
+  },
+  "bathrobe/safe-statworx-haiku": {
+    "id": "bathrobe/safe-statworx-haiku",
+    "license": "apache-2.0",
+    "downloads": 4,
+    "likes": 0,
+    "gated": false,
+    "modified": "2024-02-01",
+    "splits": [
+      [
+        "default",
+        "train"
+      ],
+      [
+        "default",
+        "test"
+      ]
+    ],
+    "columns": [
+      "source",
+      "text",
+      "text_phonemes",
+      "keywords",
+      "keyword_phonemes",
+      "gruen_score",
+      "text_punc"
+    ],
+    "sample": [
+      "{'source': 'twaiku', 'text': 'Andy, what do you? / Want for your secret Santa? / Asking for a friend.', 'text_phonemes': 'aen|diy waht duw yuw / waant",
+      "{'source': 'twaiku', 'text': 'You needed to see. / How I was happy that day. / Would never forget.', 'text_phonemes': 'yuw niy|daxd tax siy / hhaw ay ",
+      "{'source': 'bfbarry', 'text': 'On Sunday morning. / I wake up late pour dark brew. / Lir about my date.', 'text_phonemes': 'aan sahn|dey maor|naxng / "
+    ]
+  },
+  "davanstrien/haiku-topics": {
+    "id": "davanstrien/haiku-topics",
+    "license": "none declared",
+    "downloads": 4,
+    "likes": 1,
+    "gated": false,
+    "modified": "2024-03-11",
+    "splits": [
+      [
+        "default",
+        "train"
+      ]
+    ],
+    "columns": [
+      "input"
+    ],
+    "sample": [
+      "{'input': 'mountain peaks'}",
+      "{'input': 'moss'}",
+      "{'input': 'fog over a pine forest'}"
+    ]
+  },
+  "dugward/english_haiku": {
+    "id": "dugward/english_haiku",
+    "license": "none declared",
+    "downloads": 5,
+    "likes": 0,
+    "gated": false,
+    "modified": "2022-10-31",
+    "splits": [
+      [
+        "default",
+        "train"
+      ]
+    ],
+    "columns": [
+      "content"
+    ],
+    "sample": [
+      "{'content': 'couds of the west---sunthere half an hour high---i see youalso face to face'}",
+      "{'content': 'around a log or snag \\\\ the surface currents run like \\\\ lumber about a knot'}",
+      "{'content': 'i think of sewing him \\\\ a pole-bag, with cobra skin \\\\ and vegetable powder'}"
+    ]
+  },
+  "huanggab/reddit_haiku": {
+    "id": "huanggab/reddit_haiku",
+    "license": "unknown",
+    "downloads": 61,
+    "likes": 0,
+    "gated": false,
+    "modified": "2022-11-18",
+    "splits": [
+      [
+        "default",
+        "train"
+      ]
+    ],
+    "splits_error": "HTTPError: HTTP Error 500: Internal Server Error"
+  }
+}

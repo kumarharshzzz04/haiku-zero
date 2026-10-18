@@ -1,0 +1,4004 @@
+# HAIKU ZERO — Original Haiku Corpus, Batch 01
+# Synthetic draft corpus. Review and validate before training.
+# Format: three lines per poem; blank line separates poems.
+
+Clouds drift over fields
+Silver rain beads on the grass
+The clouds open wide
+
+The moon lights the pond
+The wind combs the meadow grass
+The reeds sway in wind
+
+Birds rise from the grass
+The wild grass leans toward dawn
+A bee rests on thyme
+
+A stream hums at dusk
+The sun spills over the ridge
+The creek sings all day
+
+Pine trees guard the path
+A bright moth rests on a leaf
+The mist hugs the lake
+
+The mist hugs the lake
+The fern uncurls in the shade
+Pine trees guard the path
+
+The creek sings all day
+The hills glow gold in the dusk
+A stream hums at dusk
+
+A bee rests on thyme
+A red bird sings at sunrise
+Birds rise from the grass
+
+The reeds sway in wind
+The first rain darkens the path
+The moon lights the pond
+
+The clouds open wide
+The clouds sail over the fields
+Clouds drift over fields
+
+Clouds drift over fields
+The fern uncurls in the shade
+The clouds open wide
+
+The moon lights the pond
+The hills glow gold in the dusk
+The reeds sway in wind
+
+Birds rise from the grass
+A red bird sings at sunrise
+The creek sings all day
+
+A stream hums at dusk
+The first rain darkens the path
+The mist hugs the lake
+
+Pine trees guard the path
+The clouds sail over the fields
+Pine trees guard the path
+
+The mist hugs the lake
+The reeds bow down to the stream
+A stream hums at dusk
+
+The creek sings all day
+The creek runs cold through the shade
+Birds rise from the grass
+
+A bee rests on thyme
+Silver rain beads on the grass
+The moon lights the pond
+
+The reeds sway in wind
+The wind combs the meadow grass
+Clouds drift over fields
+
+The clouds open wide
+The wild grass leans toward dawn
+The clouds open wide
+
+Clouds drift over fields
+The reeds bow down to the stream
+The reeds sway in wind
+
+The moon lights the pond
+The creek runs cold through the shade
+A bee rests on thyme
+
+Birds rise from the grass
+Silver rain beads on the grass
+The creek sings all day
+
+A stream hums at dusk
+The wind combs the meadow grass
+The mist hugs the lake
+
+Pine trees guard the path
+The wild grass leans toward dawn
+A stream hums at dusk
+
+The mist hugs the lake
+The sun spills over the ridge
+Birds rise from the grass
+
+The creek sings all day
+A bright moth rests on a leaf
+The moon lights the pond
+
+A bee rests on thyme
+The fern uncurls in the shade
+Clouds drift over fields
+
+The reeds sway in wind
+The hills glow gold in the dusk
+The clouds open wide
+
+The clouds open wide
+A red bird sings at sunrise
+The reeds sway in wind
+
+Clouds drift over fields
+The sun spills over the ridge
+A bee rests on thyme
+
+The moon lights the pond
+A bright moth rests on a leaf
+The creek sings all day
+
+Birds rise from the grass
+The fern uncurls in the shade
+The mist hugs the lake
+
+A stream hums at dusk
+The hills glow gold in the dusk
+Pine trees guard the path
+
+Pine trees guard the path
+A red bird sings at sunrise
+A stream hums at dusk
+
+The mist hugs the lake
+The first rain darkens the path
+Birds rise from the grass
+
+The creek sings all day
+The clouds sail over the fields
+Clouds drift over fields
+
+A bee rests on thyme
+The reeds bow down to the stream
+The clouds open wide
+
+The reeds sway in wind
+The creek runs cold through the shade
+The reeds sway in wind
+
+The clouds open wide
+Silver rain beads on the grass
+A bee rests on thyme
+
+Clouds drift over fields
+The first rain darkens the path
+The creek sings all day
+
+The moon lights the pond
+The clouds sail over the fields
+The mist hugs the lake
+
+Birds rise from the grass
+The reeds bow down to the stream
+Pine trees guard the path
+
+A stream hums at dusk
+The creek runs cold through the shade
+A stream hums at dusk
+
+Pine trees guard the path
+Silver rain beads on the grass
+Birds rise from the grass
+
+The mist hugs the lake
+The wind combs the meadow grass
+The moon lights the pond
+
+The creek sings all day
+The wild grass leans toward dawn
+Clouds drift over fields
+
+A bee rests on thyme
+The sun spills over the ridge
+The clouds open wide
+
+The reeds sway in wind
+A bright moth rests on a leaf
+A bee rests on thyme
+
+The clouds open wide
+The fern uncurls in the shade
+The creek sings all day
+
+Clouds drift over fields
+The wind combs the meadow grass
+The mist hugs the lake
+
+The moon lights the pond
+The wild grass leans toward dawn
+Pine trees guard the path
+
+Birds rise from the grass
+The sun spills over the ridge
+A stream hums at dusk
+
+A stream hums at dusk
+A bright moth rests on a leaf
+Birds rise from the grass
+
+Pine trees guard the path
+The fern uncurls in the shade
+The moon lights the pond
+
+The mist hugs the lake
+The hills glow gold in the dusk
+Clouds drift over fields
+
+The creek sings all day
+A red bird sings at sunrise
+The clouds open wide
+
+A bee rests on thyme
+The first rain darkens the path
+The reeds sway in wind
+
+The reeds sway in wind
+The clouds sail over the fields
+A bee rests on thyme
+
+The clouds open wide
+The reeds bow down to the stream
+The creek sings all day
+
+Clouds drift over fields
+The hills glow gold in the dusk
+Pine trees guard the path
+
+The moon lights the pond
+A red bird sings at sunrise
+A stream hums at dusk
+
+Birds rise from the grass
+The first rain darkens the path
+Birds rise from the grass
+
+A stream hums at dusk
+The clouds sail over the fields
+The moon lights the pond
+
+Pine trees guard the path
+The reeds bow down to the stream
+Clouds drift over fields
+
+The mist hugs the lake
+The creek runs cold through the shade
+The clouds open wide
+
+The creek sings all day
+Silver rain beads on the grass
+The reeds sway in wind
+
+A bee rests on thyme
+The wind combs the meadow grass
+A bee rests on thyme
+
+The reeds sway in wind
+The wild grass leans toward dawn
+The creek sings all day
+
+The clouds open wide
+The sun spills over the ridge
+The mist hugs the lake
+
+Clouds drift over fields
+The creek runs cold through the shade
+Pine trees guard the path
+
+The moon lights the pond
+Silver rain beads on the grass
+A stream hums at dusk
+
+Birds rise from the grass
+The wind combs the meadow grass
+The moon lights the pond
+
+A stream hums at dusk
+The wild grass leans toward dawn
+Clouds drift over fields
+
+Pine trees guard the path
+The sun spills over the ridge
+The clouds open wide
+
+The mist hugs the lake
+A bright moth rests on a leaf
+The reeds sway in wind
+
+The creek sings all day
+The fern uncurls in the shade
+A bee rests on thyme
+
+A bee rests on thyme
+The hills glow gold in the dusk
+The creek sings all day
+
+The reeds sway in wind
+A red bird sings at sunrise
+The mist hugs the lake
+
+The clouds open wide
+The first rain darkens the path
+Pine trees guard the path
+
+Clouds drift over fields
+A bright moth rests on a leaf
+A stream hums at dusk
+
+The moon lights the pond
+The fern uncurls in the shade
+Birds rise from the grass
+
+Birds rise from the grass
+The hills glow gold in the dusk
+The moon lights the pond
+
+A stream hums at dusk
+A red bird sings at sunrise
+Clouds drift over fields
+
+Pine trees guard the path
+The first rain darkens the path
+The reeds sway in wind
+
+The mist hugs the lake
+The clouds sail over the fields
+A bee rests on thyme
+
+The creek sings all day
+The reeds bow down to the stream
+The creek sings all day
+
+A bee rests on thyme
+The creek runs cold through the shade
+The mist hugs the lake
+
+The reeds sway in wind
+Silver rain beads on the grass
+Pine trees guard the path
+
+The clouds open wide
+The wind combs the meadow grass
+A stream hums at dusk
+
+Clouds drift over fields
+The clouds sail over the fields
+Birds rise from the grass
+
+The moon lights the pond
+The reeds bow down to the stream
+The moon lights the pond
+
+Birds rise from the grass
+The creek runs cold through the shade
+Clouds drift over fields
+
+A stream hums at dusk
+Silver rain beads on the grass
+The clouds open wide
+
+Pine trees guard the path
+The wind combs the meadow grass
+The reeds sway in wind
+
+The mist hugs the lake
+The wild grass leans toward dawn
+A bee rests on thyme
+
+The creek sings all day
+The sun spills over the ridge
+The mist hugs the lake
+
+A bee rests on thyme
+A bright moth rests on a leaf
+Pine trees guard the path
+
+The reeds sway in wind
+The fern uncurls in the shade
+A stream hums at dusk
+
+The clouds open wide
+The hills glow gold in the dusk
+Birds rise from the grass
+
+Clouds drift over fields
+The wild grass leans toward dawn
+The moon lights the pond
+
+The moon lights the pond
+The sun spills over the ridge
+Clouds drift over fields
+
+Birds rise from the grass
+A bright moth rests on a leaf
+The clouds open wide
+
+A stream hums at dusk
+The fern uncurls in the shade
+The reeds sway in wind
+
+Pine trees guard the path
+The hills glow gold in the dusk
+A bee rests on thyme
+
+The mist hugs the lake
+A red bird sings at sunrise
+The creek sings all day
+
+The creek sings all day
+The first rain darkens the path
+The mist hugs the lake
+
+A bee rests on thyme
+The clouds sail over the fields
+Pine trees guard the path
+
+The reeds sway in wind
+The reeds bow down to the stream
+Birds rise from the grass
+
+The clouds open wide
+The creek runs cold through the shade
+The moon lights the pond
+
+Clouds drift over fields
+A red bird sings at sunrise
+Clouds drift over fields
+
+The moon lights the pond
+The first rain darkens the path
+The clouds open wide
+
+Birds rise from the grass
+The clouds sail over the fields
+The reeds sway in wind
+
+A stream hums at dusk
+The reeds bow down to the stream
+A bee rests on thyme
+
+Pine trees guard the path
+The creek runs cold through the shade
+The creek sings all day
+
+The mist hugs the lake
+Silver rain beads on the grass
+The mist hugs the lake
+
+The creek sings all day
+The wind combs the meadow grass
+Pine trees guard the path
+
+A bee rests on thyme
+The wild grass leans toward dawn
+A stream hums at dusk
+
+The reeds sway in wind
+The sun spills over the ridge
+Birds rise from the grass
+
+The clouds open wide
+A bright moth rests on a leaf
+The moon lights the pond
+
+Spring warms the bare earth
+Spring rain softens the dry ground
+The sun lingers late
+
+New buds greet the sun
+The seed stirs under dark soil
+Cold stars fill the sky
+
+The first snow falls soft
+The plum tree blooms by the gate
+The frost paints the glass
+
+Cold stars fill the sky
+The first frost silvers the weeds
+The seed sleeps in earth
+
+The warm rain returns
+A soft chill enters the room
+Spring warms the bare earth
+
+The long days grow short
+The warm wind crosses the fields
+The warm rain returns
+
+The plum blooms in spring
+The bare trees trace the gray sky
+The wind smells of snow
+
+The frost paints the glass
+The thaw sends water downhill
+The fields rest in frost
+
+The wind smells of snow
+The first snow hushes the town
+New buds greet the sun
+
+A warm breeze returns
+The geese call over the marsh
+The long days grow short
+
+The last rose bends low
+Cold stars burn over the roof
+A warm breeze returns
+
+The seed sleeps in earth
+Spring rain softens the dry ground
+The fields rest in frost
+
+The fields rest in frost
+The seed stirs under dark soil
+New buds greet the sun
+
+The first geese fly south
+The plum tree blooms by the gate
+The long days grow short
+
+The sun lingers late
+The first frost silvers the weeds
+A warm breeze returns
+
+Spring warms the bare earth
+The seed stirs under dark soil
+The first geese fly south
+
+New buds greet the sun
+The plum tree blooms by the gate
+The first snow falls soft
+
+The first snow falls soft
+The first frost silvers the weeds
+The plum blooms in spring
+
+Cold stars fill the sky
+A soft chill enters the room
+The last rose bends low
+
+The warm rain returns
+The warm wind crosses the fields
+The sun lingers late
+
+The long days grow short
+The bare trees trace the gray sky
+Cold stars fill the sky
+
+The plum blooms in spring
+The thaw sends water downhill
+The frost paints the glass
+
+The frost paints the glass
+The first snow hushes the town
+The last rose bends low
+
+The wind smells of snow
+The geese call over the marsh
+The sun lingers late
+
+A warm breeze returns
+Cold stars burn over the roof
+Cold stars fill the sky
+
+The last rose bends low
+Spring rain softens the dry ground
+The frost paints the glass
+
+The seed sleeps in earth
+The seed stirs under dark soil
+The seed sleeps in earth
+
+The fields rest in frost
+The plum tree blooms by the gate
+Spring warms the bare earth
+
+The first geese fly south
+The first frost silvers the weeds
+The warm rain returns
+
+The sun lingers late
+A soft chill enters the room
+The wind smells of snow
+
+Spring warms the bare earth
+The plum tree blooms by the gate
+The fields rest in frost
+
+New buds greet the sun
+The first frost silvers the weeds
+New buds greet the sun
+
+The first snow falls soft
+A soft chill enters the room
+The long days grow short
+
+Cold stars fill the sky
+The warm wind crosses the fields
+The wind smells of snow
+
+The warm rain returns
+The bare trees trace the gray sky
+The fields rest in frost
+
+The long days grow short
+The thaw sends water downhill
+New buds greet the sun
+
+The plum blooms in spring
+The first snow hushes the town
+The long days grow short
+
+The frost paints the glass
+The geese call over the marsh
+A warm breeze returns
+
+The wind smells of snow
+Cold stars burn over the roof
+The first geese fly south
+
+A warm breeze returns
+Spring rain softens the dry ground
+The first snow falls soft
+
+The last rose bends low
+The seed stirs under dark soil
+The plum blooms in spring
+
+The seed sleeps in earth
+The plum tree blooms by the gate
+The last rose bends low
+
+The fields rest in frost
+The first frost silvers the weeds
+The sun lingers late
+
+The first geese fly south
+A soft chill enters the room
+Cold stars fill the sky
+
+The sun lingers late
+The warm wind crosses the fields
+The plum blooms in spring
+
+Spring warms the bare earth
+The first frost silvers the weeds
+The last rose bends low
+
+New buds greet the sun
+A soft chill enters the room
+The sun lingers late
+
+The first snow falls soft
+The warm wind crosses the fields
+Cold stars fill the sky
+
+Cold stars fill the sky
+The bare trees trace the gray sky
+The frost paints the glass
+
+The warm rain returns
+The thaw sends water downhill
+The seed sleeps in earth
+
+The long days grow short
+The first snow hushes the town
+Spring warms the bare earth
+
+The plum blooms in spring
+The geese call over the marsh
+The warm rain returns
+
+The frost paints the glass
+Cold stars burn over the roof
+The wind smells of snow
+
+The wind smells of snow
+Spring rain softens the dry ground
+The fields rest in frost
+
+A warm breeze returns
+The seed stirs under dark soil
+New buds greet the sun
+
+The last rose bends low
+The plum tree blooms by the gate
+The warm rain returns
+
+The seed sleeps in earth
+The first frost silvers the weeds
+The wind smells of snow
+
+The fields rest in frost
+A soft chill enters the room
+The fields rest in frost
+
+The first geese fly south
+The warm wind crosses the fields
+New buds greet the sun
+
+The sun lingers late
+The bare trees trace the gray sky
+The long days grow short
+
+Spring warms the bare earth
+A soft chill enters the room
+A warm breeze returns
+
+New buds greet the sun
+The warm wind crosses the fields
+The first geese fly south
+
+The first snow falls soft
+The bare trees trace the gray sky
+The first snow falls soft
+
+Cold stars fill the sky
+The thaw sends water downhill
+The plum blooms in spring
+
+The warm rain returns
+The first snow hushes the town
+The last rose bends low
+
+The long days grow short
+The geese call over the marsh
+The sun lingers late
+
+The plum blooms in spring
+Cold stars burn over the roof
+The first snow falls soft
+
+The frost paints the glass
+Spring rain softens the dry ground
+The plum blooms in spring
+
+The wind smells of snow
+The seed stirs under dark soil
+The last rose bends low
+
+A warm breeze returns
+The plum tree blooms by the gate
+The sun lingers late
+
+The last rose bends low
+The first frost silvers the weeds
+Cold stars fill the sky
+
+The seed sleeps in earth
+A soft chill enters the room
+The frost paints the glass
+
+The fields rest in frost
+The warm wind crosses the fields
+The seed sleeps in earth
+
+The first geese fly south
+The bare trees trace the gray sky
+Spring warms the bare earth
+
+The sun lingers late
+The thaw sends water downhill
+The warm rain returns
+
+Spring warms the bare earth
+The warm wind crosses the fields
+The wind smells of snow
+
+New buds greet the sun
+The bare trees trace the gray sky
+The fields rest in frost
+
+The first snow falls soft
+The thaw sends water downhill
+Spring warms the bare earth
+
+Cold stars fill the sky
+The first snow hushes the town
+The warm rain returns
+
+The warm rain returns
+The geese call over the marsh
+The wind smells of snow
+
+The long days grow short
+Cold stars burn over the roof
+The fields rest in frost
+
+The plum blooms in spring
+Spring rain softens the dry ground
+New buds greet the sun
+
+The frost paints the glass
+The seed stirs under dark soil
+The long days grow short
+
+The wind smells of snow
+The plum tree blooms by the gate
+A warm breeze returns
+
+A warm breeze returns
+The first frost silvers the weeds
+The first geese fly south
+
+The last rose bends low
+A soft chill enters the room
+The first snow falls soft
+
+The seed sleeps in earth
+The warm wind crosses the fields
+The plum blooms in spring
+
+The fields rest in frost
+The bare trees trace the gray sky
+The last rose bends low
+
+The first geese fly south
+The thaw sends water downhill
+The first geese fly south
+
+The sun lingers late
+The first snow hushes the town
+The first snow falls soft
+
+Spring warms the bare earth
+The bare trees trace the gray sky
+The plum blooms in spring
+
+New buds greet the sun
+The thaw sends water downhill
+The last rose bends low
+
+The first snow falls soft
+The first snow hushes the town
+The sun lingers late
+
+Cold stars fill the sky
+The geese call over the marsh
+Cold stars fill the sky
+
+The warm rain returns
+Cold stars burn over the roof
+The frost paints the glass
+
+The long days grow short
+Spring rain softens the dry ground
+The seed sleeps in earth
+
+The plum blooms in spring
+The seed stirs under dark soil
+Spring warms the bare earth
+
+The frost paints the glass
+The plum tree blooms by the gate
+The warm rain returns
+
+The wind smells of snow
+The first frost silvers the weeds
+The wind smells of snow
+
+A warm breeze returns
+A soft chill enters the room
+The seed sleeps in earth
+
+The last rose bends low
+The warm wind crosses the fields
+Spring warms the bare earth
+
+The seed sleeps in earth
+The bare trees trace the gray sky
+The warm rain returns
+
+The fields rest in frost
+The thaw sends water downhill
+The wind smells of snow
+
+The first geese fly south
+The first snow hushes the town
+The fields rest in frost
+
+The sun lingers late
+The geese call over the marsh
+New buds greet the sun
+
+Spring warms the bare earth
+The thaw sends water downhill
+The long days grow short
+
+New buds greet the sun
+The first snow hushes the town
+A warm breeze returns
+
+The first snow falls soft
+The geese call over the marsh
+The first geese fly south
+
+Cold stars fill the sky
+Cold stars burn over the roof
+The first snow falls soft
+
+The warm rain returns
+Spring rain softens the dry ground
+The plum blooms in spring
+
+The long days grow short
+The seed stirs under dark soil
+A warm breeze returns
+
+The plum blooms in spring
+The plum tree blooms by the gate
+The first geese fly south
+
+The frost paints the glass
+The first frost silvers the weeds
+The first snow falls soft
+
+The wind smells of snow
+A soft chill enters the room
+The plum blooms in spring
+
+A warm breeze returns
+The warm wind crosses the fields
+The last rose bends low
+
+The last rose bends low
+The bare trees trace the gray sky
+The sun lingers late
+
+The seed sleeps in earth
+The thaw sends water downhill
+Cold stars fill the sky
+
+The fields rest in frost
+The first snow hushes the town
+The frost paints the glass
+
+The first geese fly south
+The geese call over the marsh
+The seed sleeps in earth
+
+The sun lingers late
+Cold stars burn over the roof
+Spring warms the bare earth
+
+Spring warms the bare earth
+The first snow hushes the town
+The warm rain returns
+
+New buds greet the sun
+The geese call over the marsh
+The frost paints the glass
+
+The first snow falls soft
+Cold stars burn over the roof
+The seed sleeps in earth
+
+Cold stars fill the sky
+Spring rain softens the dry ground
+Spring warms the bare earth
+
+The warm rain returns
+The seed stirs under dark soil
+The warm rain returns
+
+The long days grow short
+The plum tree blooms by the gate
+The wind smells of snow
+
+The plum blooms in spring
+The first frost silvers the weeds
+The fields rest in frost
+
+The frost paints the glass
+A soft chill enters the room
+New buds greet the sun
+
+The wind smells of snow
+The warm wind crosses the fields
+The long days grow short
+
+A warm breeze returns
+The bare trees trace the gray sky
+A warm breeze returns
+
+The last rose bends low
+The thaw sends water downhill
+The first geese fly south
+
+The seed sleeps in earth
+The first snow hushes the town
+The first snow falls soft
+
+The fields rest in frost
+The geese call over the marsh
+The long days grow short
+
+The first geese fly south
+Cold stars burn over the roof
+A warm breeze returns
+
+The sun lingers late
+Spring rain softens the dry ground
+The first geese fly south
+
+Spring warms the bare earth
+The geese call over the marsh
+The first snow falls soft
+
+New buds greet the sun
+Cold stars burn over the roof
+The plum blooms in spring
+
+The first snow falls soft
+Spring rain softens the dry ground
+The last rose bends low
+
+Cold stars fill the sky
+The seed stirs under dark soil
+The sun lingers late
+
+The warm rain returns
+The plum tree blooms by the gate
+Cold stars fill the sky
+
+The long days grow short
+The first frost silvers the weeds
+The frost paints the glass
+
+The plum blooms in spring
+A soft chill enters the room
+The seed sleeps in earth
+
+The frost paints the glass
+The warm wind crosses the fields
+Spring warms the bare earth
+
+The wind smells of snow
+The bare trees trace the gray sky
+Cold stars fill the sky
+
+A warm breeze returns
+The thaw sends water downhill
+The frost paints the glass
+
+The last rose bends low
+The first snow hushes the town
+The seed sleeps in earth
+
+The seed sleeps in earth
+The geese call over the marsh
+Spring warms the bare earth
+
+The fields rest in frost
+Cold stars burn over the roof
+The warm rain returns
+
+The first geese fly south
+Spring rain softens the dry ground
+The wind smells of snow
+
+The sun lingers late
+The seed stirs under dark soil
+The fields rest in frost
+
+Spring warms the bare earth
+Cold stars burn over the roof
+New buds greet the sun
+
+New buds greet the sun
+Spring rain softens the dry ground
+The long days grow short
+
+The first snow falls soft
+The seed stirs under dark soil
+A warm breeze returns
+
+Cold stars fill the sky
+The plum tree blooms by the gate
+The first geese fly south
+
+The warm rain returns
+The first frost silvers the weeds
+New buds greet the sun
+
+The long days grow short
+A soft chill enters the room
+The long days grow short
+
+The plum blooms in spring
+The warm wind crosses the fields
+A warm breeze returns
+
+The frost paints the glass
+The bare trees trace the gray sky
+The first geese fly south
+
+The wind smells of snow
+The thaw sends water downhill
+The first snow falls soft
+
+A warm breeze returns
+The first snow hushes the town
+The plum blooms in spring
+
+The last rose bends low
+The geese call over the marsh
+The last rose bends low
+
+The seed sleeps in earth
+Cold stars burn over the roof
+The sun lingers late
+
+The fields rest in frost
+Spring rain softens the dry ground
+Cold stars fill the sky
+
+The first geese fly south
+The seed stirs under dark soil
+The frost paints the glass
+
+The sun lingers late
+The plum tree blooms by the gate
+The seed sleeps in earth
+
+Stars blink in the pond
+The street lamps shine through the rain
+A soft bell rings out
+
+Night folds up the town
+The town sleeps under blue clouds
+The moon rests in clouds
+
+The moon climbs the roof
+The lamps blur in the wet street
+The stars prick the dark
+
+Dark clouds hide the stars
+A moth circles the warm light
+The moon climbs the roof
+
+A lamp glows alone
+The owl calls once from the barn
+The dark holds its breath
+
+The owl calls at dusk
+The street lamps shine through the rain
+The porch light draws moths
+
+The moon rests in clouds
+The town sleeps under blue clouds
+A lamp glows alone
+
+A moth taps the glass
+The lamps blur in the wet street
+The street lamps bloom gold
+
+The night train hums low
+A moth circles the warm light
+Stars blink in the pond
+
+The dark holds its breath
+The owl calls once from the barn
+A moth taps the glass
+
+A cat slips through rain
+The street lamps shine through the rain
+The stars prick the dark
+
+The street lamps bloom gold
+The town sleeps under blue clouds
+The moon climbs the roof
+
+The last bus rolls by
+The lamps blur in the wet street
+The dark holds its breath
+
+The stars prick the dark
+A moth circles the warm light
+The roof cools at night
+
+The moon floats on black
+The owl calls once from the barn
+The owl calls at dusk
+
+The porch light draws moths
+The street lamps shine through the rain
+The street lamps bloom gold
+
+The roof cools at night
+The town sleeps under blue clouds
+Stars blink in the pond
+
+A soft bell rings out
+The lamps blur in the wet street
+A moth taps the glass
+
+Stars blink in the pond
+The town sleeps under blue clouds
+The moon floats on black
+
+Night folds up the town
+The lamps blur in the wet street
+Dark clouds hide the stars
+
+The moon climbs the roof
+A moth circles the warm light
+The dark holds its breath
+
+Dark clouds hide the stars
+The owl calls once from the barn
+The roof cools at night
+
+A lamp glows alone
+The street lamps shine through the rain
+The owl calls at dusk
+
+The owl calls at dusk
+The town sleeps under blue clouds
+The last bus rolls by
+
+The moon rests in clouds
+The lamps blur in the wet street
+Night folds up the town
+
+A moth taps the glass
+A moth circles the warm light
+A moth taps the glass
+
+The night train hums low
+The owl calls once from the barn
+The moon floats on black
+
+The dark holds its breath
+The street lamps shine through the rain
+Dark clouds hide the stars
+
+A cat slips through rain
+The town sleeps under blue clouds
+A cat slips through rain
+
+The street lamps bloom gold
+The lamps blur in the wet street
+A soft bell rings out
+
+The last bus rolls by
+A moth circles the warm light
+The owl calls at dusk
+
+The stars prick the dark
+The owl calls once from the barn
+The last bus rolls by
+
+The moon floats on black
+The street lamps shine through the rain
+Night folds up the town
+
+The porch light draws moths
+The town sleeps under blue clouds
+The night train hums low
+
+The roof cools at night
+The lamps blur in the wet street
+The porch light draws moths
+
+A soft bell rings out
+A moth circles the warm light
+Dark clouds hide the stars
+
+Stars blink in the pond
+The lamps blur in the wet street
+A cat slips through rain
+
+Night folds up the town
+A moth circles the warm light
+A soft bell rings out
+
+The moon climbs the roof
+The owl calls once from the barn
+The moon rests in clouds
+
+Dark clouds hide the stars
+The street lamps shine through the rain
+The stars prick the dark
+
+A lamp glows alone
+The town sleeps under blue clouds
+Night folds up the town
+
+The owl calls at dusk
+The lamps blur in the wet street
+The night train hums low
+
+The moon rests in clouds
+A moth circles the warm light
+The porch light draws moths
+
+A moth taps the glass
+The owl calls once from the barn
+A lamp glows alone
+
+The night train hums low
+The street lamps shine through the rain
+The street lamps bloom gold
+
+The dark holds its breath
+The town sleeps under blue clouds
+A soft bell rings out
+
+A cat slips through rain
+The lamps blur in the wet street
+The moon rests in clouds
+
+The street lamps bloom gold
+A moth circles the warm light
+The stars prick the dark
+
+The last bus rolls by
+The owl calls once from the barn
+The moon climbs the roof
+
+The stars prick the dark
+The street lamps shine through the rain
+The dark holds its breath
+
+The moon floats on black
+The town sleeps under blue clouds
+The porch light draws moths
+
+The porch light draws moths
+The lamps blur in the wet street
+A lamp glows alone
+
+The roof cools at night
+A moth circles the warm light
+The street lamps bloom gold
+
+A soft bell rings out
+The owl calls once from the barn
+Stars blink in the pond
+
+Stars blink in the pond
+A moth circles the warm light
+A moth taps the glass
+
+Night folds up the town
+The owl calls once from the barn
+The stars prick the dark
+
+The moon climbs the roof
+The street lamps shine through the rain
+The moon climbs the roof
+
+Dark clouds hide the stars
+The town sleeps under blue clouds
+The dark holds its breath
+
+A lamp glows alone
+The lamps blur in the wet street
+The roof cools at night
+
+The owl calls at dusk
+A moth circles the warm light
+The owl calls at dusk
+
+The moon rests in clouds
+The owl calls once from the barn
+The street lamps bloom gold
+
+A moth taps the glass
+The street lamps shine through the rain
+Stars blink in the pond
+
+The night train hums low
+The town sleeps under blue clouds
+A moth taps the glass
+
+The dark holds its breath
+The lamps blur in the wet street
+The moon floats on black
+
+A cat slips through rain
+A moth circles the warm light
+Dark clouds hide the stars
+
+The street lamps bloom gold
+The owl calls once from the barn
+The dark holds its breath
+
+The last bus rolls by
+The street lamps shine through the rain
+The roof cools at night
+
+The stars prick the dark
+The town sleeps under blue clouds
+The owl calls at dusk
+
+The moon floats on black
+The lamps blur in the wet street
+The last bus rolls by
+
+The porch light draws moths
+A moth circles the warm light
+Night folds up the town
+
+The roof cools at night
+The owl calls once from the barn
+A moth taps the glass
+
+A soft bell rings out
+The street lamps shine through the rain
+The moon floats on black
+
+Stars blink in the pond
+The owl calls once from the barn
+Dark clouds hide the stars
+
+Night folds up the town
+The street lamps shine through the rain
+A cat slips through rain
+
+The moon climbs the roof
+The town sleeps under blue clouds
+A soft bell rings out
+
+Dark clouds hide the stars
+The lamps blur in the wet street
+The owl calls at dusk
+
+A lamp glows alone
+A moth circles the warm light
+The last bus rolls by
+
+The owl calls at dusk
+The owl calls once from the barn
+Night folds up the town
+
+The moon rests in clouds
+The street lamps shine through the rain
+The night train hums low
+
+A moth taps the glass
+The town sleeps under blue clouds
+The porch light draws moths
+
+The night train hums low
+The lamps blur in the wet street
+Dark clouds hide the stars
+
+The dark holds its breath
+A moth circles the warm light
+A cat slips through rain
+
+A cat slips through rain
+The owl calls once from the barn
+A soft bell rings out
+
+The street lamps bloom gold
+The street lamps shine through the rain
+The moon rests in clouds
+
+The last bus rolls by
+The town sleeps under blue clouds
+The stars prick the dark
+
+The stars prick the dark
+The lamps blur in the wet street
+Night folds up the town
+
+The moon floats on black
+A moth circles the warm light
+The night train hums low
+
+The porch light draws moths
+The owl calls once from the barn
+The porch light draws moths
+
+The roof cools at night
+The street lamps shine through the rain
+A lamp glows alone
+
+A soft bell rings out
+The town sleeps under blue clouds
+The street lamps bloom gold
+
+Your cup stays by mine
+Your voice returns with the rain
+The porch waits for you
+
+The door keeps your name
+The dust lies soft on your books
+The room keeps your shape
+
+I still know that song
+The last page folds in the wind
+The old gate swings wide
+
+Your scarf holds the cold
+The photo curls at the edge
+The key sleeps in wood
+
+The room keeps your shape
+The door still creaks as it did
+Your scarf holds the cold
+
+A photo turns pale
+The old house smells of cedar
+The tea cools by dusk
+
+Your words rest in dust
+I hear your steps in the hall
+The lamp glows as then
+
+The shelf holds our books
+The room is quiet at noon
+I still know that song
+
+The tea cools by dusk
+The garden grows past the gate
+The shelf holds our books
+
+The old gate swings wide
+The old path leads to the shore
+Your laugh fills the hall
+
+I keep that small stone
+A note rests under the cup
+The door keeps your name
+
+The years pass like rain
+The years drift by like pale clouds
+Your words rest in dust
+
+Your laugh fills the hall
+The rain taps where you once sat
+The years pass like rain
+
+The lamp glows as then
+The song comes back at dusk
+Your cup stays by mine
+
+The key sleeps in wood
+Your scarf hangs by the back door
+A photo turns pale
+
+The porch waits for you
+The clock keeps time for no one
+I keep that small stone
+
+Your cup stays by mine
+The door still creaks as it did
+The porch waits for you
+
+The door keeps your name
+The old house smells of cedar
+Your scarf holds the cold
+
+I still know that song
+I hear your steps in the hall
+The tea cools by dusk
+
+Your scarf holds the cold
+The room is quiet at noon
+The lamp glows as then
+
+The room keeps your shape
+The garden grows past the gate
+I still know that song
+
+A photo turns pale
+The old path leads to the shore
+The shelf holds our books
+
+Your words rest in dust
+A note rests under the cup
+Your laugh fills the hall
+
+The shelf holds our books
+The years drift by like pale clouds
+The door keeps your name
+
+The tea cools by dusk
+The rain taps where you once sat
+Your words rest in dust
+
+The old gate swings wide
+The song comes back at dusk
+The years pass like rain
+
+I keep that small stone
+Your scarf hangs by the back door
+Your cup stays by mine
+
+The years pass like rain
+The clock keeps time for no one
+A photo turns pale
+
+Your laugh fills the hall
+A small stone warms in my hand
+I keep that small stone
+
+The lamp glows as then
+Your voice returns with the rain
+The porch waits for you
+
+The key sleeps in wood
+The dust lies soft on your books
+The room keeps your shape
+
+The porch waits for you
+The last page folds in the wind
+The old gate swings wide
+
+Your cup stays by mine
+The garden grows past the gate
+The key sleeps in wood
+
+The door keeps your name
+The old path leads to the shore
+Your scarf holds the cold
+
+I still know that song
+A note rests under the cup
+The shelf holds our books
+
+Your scarf holds the cold
+The years drift by like pale clouds
+Your laugh fills the hall
+
+The room keeps your shape
+The rain taps where you once sat
+The door keeps your name
+
+A photo turns pale
+The song comes back at dusk
+Your words rest in dust
+
+Your words rest in dust
+Your scarf hangs by the back door
+The years pass like rain
+
+The shelf holds our books
+The clock keeps time for no one
+Your cup stays by mine
+
+The tea cools by dusk
+A small stone warms in my hand
+A photo turns pale
+
+The old gate swings wide
+Your voice returns with the rain
+I keep that small stone
+
+I keep that small stone
+The dust lies soft on your books
+The porch waits for you
+
+The years pass like rain
+The last page folds in the wind
+The room keeps your shape
+
+Your laugh fills the hall
+The photo curls at the edge
+The old gate swings wide
+
+The lamp glows as then
+The door still creaks as it did
+The key sleeps in wood
+
+The key sleeps in wood
+The old house smells of cedar
+Your scarf holds the cold
+
+The porch waits for you
+I hear your steps in the hall
+The tea cools by dusk
+
+Your cup stays by mine
+The rain taps where you once sat
+The lamp glows as then
+
+The door keeps your name
+The song comes back at dusk
+I still know that song
+
+I still know that song
+Your scarf hangs by the back door
+The shelf holds our books
+
+Your scarf holds the cold
+The clock keeps time for no one
+The years pass like rain
+
+The room keeps your shape
+A small stone warms in my hand
+Your cup stays by mine
+
+A photo turns pale
+Your voice returns with the rain
+A photo turns pale
+
+Your words rest in dust
+The dust lies soft on your books
+I keep that small stone
+
+The shelf holds our books
+The last page folds in the wind
+The porch waits for you
+
+The tea cools by dusk
+The photo curls at the edge
+The room keeps your shape
+
+The old gate swings wide
+The door still creaks as it did
+The old gate swings wide
+
+I keep that small stone
+The old house smells of cedar
+The key sleeps in wood
+
+The years pass like rain
+I hear your steps in the hall
+Your scarf holds the cold
+
+Your laugh fills the hall
+The room is quiet at noon
+The tea cools by dusk
+
+The lamp glows as then
+The garden grows past the gate
+The lamp glows as then
+
+The key sleeps in wood
+The old path leads to the shore
+I still know that song
+
+The porch waits for you
+A note rests under the cup
+The shelf holds our books
+
+Your cup stays by mine
+A small stone warms in my hand
+Your laugh fills the hall
+
+The door keeps your name
+Your voice returns with the rain
+The door keeps your name
+
+I still know that song
+The dust lies soft on your books
+Your words rest in dust
+
+Your scarf holds the cold
+The last page folds in the wind
+The years pass like rain
+
+The room keeps your shape
+The photo curls at the edge
+The porch waits for you
+
+A photo turns pale
+The door still creaks as it did
+The room keeps your shape
+
+Your words rest in dust
+The old house smells of cedar
+The old gate swings wide
+
+The shelf holds our books
+I hear your steps in the hall
+The key sleeps in wood
+
+The tea cools by dusk
+The room is quiet at noon
+Your scarf holds the cold
+
+The old gate swings wide
+The garden grows past the gate
+The tea cools by dusk
+
+I keep that small stone
+The old path leads to the shore
+The lamp glows as then
+
+The years pass like rain
+A note rests under the cup
+I still know that song
+
+Your laugh fills the hall
+The years drift by like pale clouds
+The shelf holds our books
+
+The lamp glows as then
+The rain taps where you once sat
+Your laugh fills the hall
+
+The key sleeps in wood
+The song comes back at dusk
+The door keeps your name
+
+The porch waits for you
+Your scarf hangs by the back door
+Your words rest in dust
+
+Your cup stays by mine
+The photo curls at the edge
+The years pass like rain
+
+The door keeps your name
+The door still creaks as it did
+Your cup stays by mine
+
+I still know that song
+The old house smells of cedar
+A photo turns pale
+
+Your scarf holds the cold
+I hear your steps in the hall
+I keep that small stone
+
+The room keeps your shape
+The room is quiet at noon
+The porch waits for you
+
+A photo turns pale
+The garden grows past the gate
+Your scarf holds the cold
+
+Your words rest in dust
+The old path leads to the shore
+The tea cools by dusk
+
+The shelf holds our books
+A note rests under the cup
+The lamp glows as then
+
+The tea cools by dusk
+The years drift by like pale clouds
+I still know that song
+
+The old gate swings wide
+The rain taps where you once sat
+The shelf holds our books
+
+I keep that small stone
+The song comes back at dusk
+Your laugh fills the hall
+
+The years pass like rain
+Your scarf hangs by the back door
+The door keeps your name
+
+Your laugh fills the hall
+The clock keeps time for no one
+Your words rest in dust
+
+The lamp glows as then
+A small stone warms in my hand
+The years pass like rain
+
+The key sleeps in wood
+Your voice returns with the rain
+Your cup stays by mine
+
+The porch waits for you
+The dust lies soft on your books
+A photo turns pale
+
+Your cup stays by mine
+The room is quiet at noon
+I keep that small stone
+
+The door keeps your name
+The garden grows past the gate
+The porch waits for you
+
+I still know that song
+The old path leads to the shore
+The room keeps your shape
+
+Your scarf holds the cold
+A note rests under the cup
+The old gate swings wide
+
+The room keeps your shape
+The years drift by like pale clouds
+The key sleeps in wood
+
+A photo turns pale
+The rain taps where you once sat
+Your scarf holds the cold
+
+Your words rest in dust
+The song comes back at dusk
+The shelf holds our books
+
+The shelf holds our books
+Your scarf hangs by the back door
+Your laugh fills the hall
+
+The tea cools by dusk
+The clock keeps time for no one
+The door keeps your name
+
+The old gate swings wide
+A small stone warms in my hand
+Your words rest in dust
+
+I keep that small stone
+Your voice returns with the rain
+The years pass like rain
+
+The years pass like rain
+The dust lies soft on your books
+Your cup stays by mine
+
+Your laugh fills the hall
+The last page folds in the wind
+A photo turns pale
+
+The lamp glows as then
+The photo curls at the edge
+I keep that small stone
+
+The key sleeps in wood
+The door still creaks as it did
+The porch waits for you
+
+The porch waits for you
+The old house smells of cedar
+The room keeps your shape
+
+Your cup stays by mine
+The years drift by like pale clouds
+The old gate swings wide
+
+The door keeps your name
+The rain taps where you once sat
+The key sleeps in wood
+
+I still know that song
+The song comes back at dusk
+Your scarf holds the cold
+
+Your scarf holds the cold
+Your scarf hangs by the back door
+The tea cools by dusk
+
+The room keeps your shape
+The clock keeps time for no one
+The lamp glows as then
+
+A photo turns pale
+A small stone warms in my hand
+I still know that song
+
+Your words rest in dust
+Your voice returns with the rain
+The shelf holds our books
+
+The shelf holds our books
+The dust lies soft on your books
+The years pass like rain
+
+The tea cools by dusk
+The last page folds in the wind
+Your cup stays by mine
+
+The old gate swings wide
+The photo curls at the edge
+A photo turns pale
+
+I keep that small stone
+The door still creaks as it did
+I keep that small stone
+
+The years pass like rain
+The old house smells of cedar
+The porch waits for you
+
+Your laugh fills the hall
+I hear your steps in the hall
+The room keeps your shape
+
+The lamp glows as then
+The room is quiet at noon
+The old gate swings wide
+
+The key sleeps in wood
+The garden grows past the gate
+The key sleeps in wood
+
+The porch waits for you
+The old path leads to the shore
+Your scarf holds the cold
+
+Your cup stays by mine
+The clock keeps time for no one
+The tea cools by dusk
+
+The door keeps your name
+A small stone warms in my hand
+The lamp glows as then
+
+I still know that song
+Your voice returns with the rain
+I still know that song
+
+Your scarf holds the cold
+The dust lies soft on your books
+The shelf holds our books
+
+The room keeps your shape
+The last page folds in the wind
+Your laugh fills the hall
+
+A photo turns pale
+The photo curls at the edge
+The door keeps your name
+
+Your words rest in dust
+The door still creaks as it did
+Your words rest in dust
+
+The shelf holds our books
+The old house smells of cedar
+The years pass like rain
+
+The tea cools by dusk
+I hear your steps in the hall
+The porch waits for you
+
+The old gate swings wide
+The room is quiet at noon
+The room keeps your shape
+
+I keep that small stone
+The garden grows past the gate
+The old gate swings wide
+
+The years pass like rain
+The old path leads to the shore
+The key sleeps in wood
+
+Your laugh fills the hall
+A note rests under the cup
+Your scarf holds the cold
+
+The lamp glows as then
+The years drift by like pale clouds
+The tea cools by dusk
+
+The key sleeps in wood
+The rain taps where you once sat
+The lamp glows as then
+
+The porch waits for you
+The song comes back at dusk
+I still know that song
+
+Your cup stays by mine
+The last page folds in the wind
+The shelf holds our books
+
+The door keeps your name
+The photo curls at the edge
+Your laugh fills the hall
+
+I still know that song
+The door still creaks as it did
+The door keeps your name
+
+Your scarf holds the cold
+The old house smells of cedar
+Your words rest in dust
+
+The room keeps your shape
+I hear your steps in the hall
+The years pass like rain
+
+A photo turns pale
+The room is quiet at noon
+Your cup stays by mine
+
+Your words rest in dust
+The garden grows past the gate
+A photo turns pale
+
+The shelf holds our books
+The old path leads to the shore
+I keep that small stone
+
+The tea cools by dusk
+A note rests under the cup
+The porch waits for you
+
+The old gate swings wide
+The years drift by like pale clouds
+Your scarf holds the cold
+
+I keep that small stone
+The rain taps where you once sat
+The tea cools by dusk
+
+The years pass like rain
+The song comes back at dusk
+The lamp glows as then
+
+Your laugh fills the hall
+Your scarf hangs by the back door
+I still know that song
+
+The lamp glows as then
+The clock keeps time for no one
+The shelf holds our books
+
+The key sleeps in wood
+A small stone warms in my hand
+Your laugh fills the hall
+
+The porch waits for you
+Your voice returns with the rain
+The door keeps your name
+
+Your cup stays by mine
+I hear your steps in the hall
+Your words rest in dust
+
+The door keeps your name
+The room is quiet at noon
+The years pass like rain
+
+I still know that song
+The garden grows past the gate
+Your cup stays by mine
+
+Your scarf holds the cold
+The old path leads to the shore
+A photo turns pale
+
+The room keeps your shape
+A note rests under the cup
+I keep that small stone
+
+A photo turns pale
+The years drift by like pale clouds
+The porch waits for you
+
+Your words rest in dust
+The rain taps where you once sat
+The room keeps your shape
+
+The shelf holds our books
+The song comes back at dusk
+The old gate swings wide
+
+The tea cools by dusk
+Your scarf hangs by the back door
+The key sleeps in wood
+
+The old gate swings wide
+The clock keeps time for no one
+Your scarf holds the cold
+
+I keep that small stone
+A small stone warms in my hand
+The shelf holds our books
+
+The years pass like rain
+Your voice returns with the rain
+Your laugh fills the hall
+
+Your laugh fills the hall
+The dust lies soft on your books
+The door keeps your name
+
+The lamp glows as then
+The last page folds in the wind
+Your words rest in dust
+
+The key sleeps in wood
+The photo curls at the edge
+The years pass like rain
+
+The porch waits for you
+The door still creaks as it did
+Your cup stays by mine
+
+Your cup stays by mine
+A note rests under the cup
+A photo turns pale
+
+The door keeps your name
+The years drift by like pale clouds
+I keep that small stone
+
+I still know that song
+The rain taps where you once sat
+The porch waits for you
+
+Your scarf holds the cold
+The song comes back at dusk
+The room keeps your shape
+
+The room keeps your shape
+Your scarf hangs by the back door
+The old gate swings wide
+
+A photo turns pale
+The clock keeps time for no one
+The key sleeps in wood
+
+Your words rest in dust
+A small stone warms in my hand
+Your scarf holds the cold
+
+The shelf holds our books
+Your voice returns with the rain
+The tea cools by dusk
+
+The tea cools by dusk
+The dust lies soft on your books
+The lamp glows as then
+
+The old gate swings wide
+The last page folds in the wind
+I still know that song
+
+I keep that small stone
+The photo curls at the edge
+The shelf holds our books
+
+The years pass like rain
+The door still creaks as it did
+The years pass like rain
+
+Your laugh fills the hall
+The old house smells of cedar
+Your cup stays by mine
+
+The lamp glows as then
+I hear your steps in the hall
+A photo turns pale
+
+The key sleeps in wood
+The room is quiet at noon
+I keep that small stone
+
+The porch waits for you
+The garden grows past the gate
+The porch waits for you
+
+Your cup stays by mine
+Your scarf hangs by the back door
+The room keeps your shape
+
+The door keeps your name
+The clock keeps time for no one
+The old gate swings wide
+
+I still know that song
+A small stone warms in my hand
+The key sleeps in wood
+
+Your scarf holds the cold
+Your voice returns with the rain
+Your scarf holds the cold
+
+The room keeps your shape
+The dust lies soft on your books
+The tea cools by dusk
+
+A photo turns pale
+The last page folds in the wind
+The lamp glows as then
+
+Your words rest in dust
+The photo curls at the edge
+I still know that song
+
+The shelf holds our books
+The door still creaks as it did
+The shelf holds our books
+
+The tea cools by dusk
+The old house smells of cedar
+Your laugh fills the hall
+
+The old gate swings wide
+I hear your steps in the hall
+The door keeps your name
+
+I keep that small stone
+The room is quiet at noon
+Your words rest in dust
+
+The years pass like rain
+The garden grows past the gate
+The years pass like rain
+
+Your laugh fills the hall
+The old path leads to the shore
+The porch waits for you
+
+The lamp glows as then
+A note rests under the cup
+The room keeps your shape
+
+The key sleeps in wood
+The years drift by like pale clouds
+The old gate swings wide
+
+The porch waits for you
+The rain taps where you once sat
+The key sleeps in wood
+
+Your cup stays by mine
+The dust lies soft on your books
+Your scarf holds the cold
+
+The door keeps your name
+The last page folds in the wind
+The tea cools by dusk
+
+I still know that song
+The photo curls at the edge
+The lamp glows as then
+
+Your scarf holds the cold
+The door still creaks as it did
+I still know that song
+
+The room keeps your shape
+The old house smells of cedar
+The shelf holds our books
+
+A photo turns pale
+I hear your steps in the hall
+Your laugh fills the hall
+
+Your words rest in dust
+The room is quiet at noon
+The door keeps your name
+
+The shelf holds our books
+The garden grows past the gate
+Your words rest in dust
+
+The tea cools by dusk
+The old path leads to the shore
+The years pass like rain
+
+The old gate swings wide
+A note rests under the cup
+Your cup stays by mine
+
+I keep that small stone
+The years drift by like pale clouds
+A photo turns pale
+
+The years pass like rain
+The rain taps where you once sat
+I keep that small stone
+
+Your laugh fills the hall
+The song comes back at dusk
+The porch waits for you
+
+The lamp glows as then
+Your scarf hangs by the back door
+Your scarf holds the cold
+
+The key sleeps in wood
+The clock keeps time for no one
+The tea cools by dusk
+
+The porch waits for you
+A small stone warms in my hand
+The lamp glows as then
+
+Your cup stays by mine
+The old house smells of cedar
+I still know that song
+
+The door keeps your name
+I hear your steps in the hall
+The shelf holds our books
+
+I still know that song
+The room is quiet at noon
+Your laugh fills the hall
+
+Your scarf holds the cold
+The garden grows past the gate
+The door keeps your name
+
+The room keeps your shape
+The old path leads to the shore
+Your words rest in dust
+
+A photo turns pale
+A note rests under the cup
+The years pass like rain
+
+Your words rest in dust
+The years drift by like pale clouds
+Your cup stays by mine
+
+The shelf holds our books
+The rain taps where you once sat
+A photo turns pale
+
+The tea cools by dusk
+The song comes back at dusk
+I keep that small stone
+
+The old gate swings wide
+Your scarf hangs by the back door
+The porch waits for you
+
+I keep that small stone
+The clock keeps time for no one
+The room keeps your shape
+
+The years pass like rain
+A small stone warms in my hand
+The old gate swings wide
+
+Your laugh fills the hall
+Your voice returns with the rain
+The key sleeps in wood
+
+The lamp glows as then
+The dust lies soft on your books
+Your scarf holds the cold
+
+The key sleeps in wood
+The last page folds in the wind
+The shelf holds our books
+
+The porch waits for you
+The photo curls at the edge
+Your laugh fills the hall
+
+Your cup stays by mine
+The old path leads to the shore
+The door keeps your name
+
+The door keeps your name
+A note rests under the cup
+Your words rest in dust
+
+I still know that song
+The years drift by like pale clouds
+The years pass like rain
+
+Your scarf holds the cold
+The rain taps where you once sat
+Your cup stays by mine
+
+The room keeps your shape
+The song comes back at dusk
+A photo turns pale
+
+A photo turns pale
+Your scarf hangs by the back door
+I keep that small stone
+
+Your words rest in dust
+The clock keeps time for no one
+The porch waits for you
+
+The shelf holds our books
+A small stone warms in my hand
+The room keeps your shape
+
+The tea cools by dusk
+Your voice returns with the rain
+The old gate swings wide
+
+The old gate swings wide
+The dust lies soft on your books
+The key sleeps in wood
+
+I keep that small stone
+The last page folds in the wind
+Your scarf holds the cold
+
+The years pass like rain
+The photo curls at the edge
+The tea cools by dusk
+
+Your laugh fills the hall
+The door still creaks as it did
+The lamp glows as then
+
+The lamp glows as then
+The old house smells of cedar
+I still know that song
+
+The key sleeps in wood
+I hear your steps in the hall
+The shelf holds our books
+
+The porch waits for you
+The room is quiet at noon
+The years pass like rain
+
+Your cup stays by mine
+The song comes back at dusk
+Your cup stays by mine
+
+The door keeps your name
+Your scarf hangs by the back door
+A photo turns pale
+
+I still know that song
+The clock keeps time for no one
+I keep that small stone
+
+Your scarf holds the cold
+A small stone warms in my hand
+The porch waits for you
+
+The room keeps your shape
+Your voice returns with the rain
+The room keeps your shape
+
+A photo turns pale
+The dust lies soft on your books
+The old gate swings wide
+
+Your words rest in dust
+The last page folds in the wind
+The key sleeps in wood
+
+The shelf holds our books
+The photo curls at the edge
+Your scarf holds the cold
+
+The tea cools by dusk
+The door still creaks as it did
+The tea cools by dusk
+
+The old gate swings wide
+The old house smells of cedar
+The lamp glows as then
+
+I keep that small stone
+I hear your steps in the hall
+I still know that song
+
+The years pass like rain
+The room is quiet at noon
+The shelf holds our books
+
+Your laugh fills the hall
+The garden grows past the gate
+Your laugh fills the hall
+
+The lamp glows as then
+The old path leads to the shore
+The door keeps your name
+
+The key sleeps in wood
+A note rests under the cup
+Your words rest in dust
+
+The porch waits for you
+The years drift by like pale clouds
+The years pass like rain
+
+The train doors slide shut
+Neon runs along the wet road
+The roofs catch the dawn
+
+A shop sweeps its step
+The shop cat sleeps by the door
+Wet streets mirror signs
+
+The bus sighs at dusk
+The night shift walks through the dawn
+The bridge hums at night
+
+Wet streets mirror signs
+The crosswalk blinks through the rain
+The night shift begins
+
+A bike bell rings twice
+A shop light spills on the curb
+The train doors slide shut
+
+The crosswalk counts down
+The lift hums up through the dark
+A bike bell rings twice
+
+The last shop light dims
+The street sweeper hums at dawn
+The lift stops too soon
+
+The bridge hums at night
+The cafe stacks chairs by the glass
+The wet steps shine black
+
+The lift stops too soon
+A bike bell rings down the lane
+A shop sweeps its step
+
+A lone sign flickers
+Neon runs along the wet road
+A bike bell rings twice
+
+The cafe shuts its door
+The shop cat sleeps by the door
+The lift stops too soon
+
+The night shift begins
+The night shift walks through the dawn
+The wet steps shine black
+
+The wet steps shine black
+The crosswalk blinks through the rain
+A shop sweeps its step
+
+The turnstile clicks shut
+A shop light spills on the curb
+The crosswalk counts down
+
+The roofs catch the dawn
+The lift hums up through the dark
+A lone sign flickers
+
+The train doors slide shut
+The shop cat sleeps by the door
+The turnstile clicks shut
+
+A shop sweeps its step
+The night shift walks through the dawn
+The bus sighs at dusk
+
+The bus sighs at dusk
+The crosswalk blinks through the rain
+The last shop light dims
+
+Wet streets mirror signs
+A shop light spills on the curb
+A lone sign flickers
+
+A bike bell rings twice
+The lift hums up through the dark
+The turnstile clicks shut
+
+The crosswalk counts down
+The street sweeper hums at dawn
+The bus sighs at dusk
+
+The last shop light dims
+The cafe stacks chairs by the glass
+The last shop light dims
+
+The bridge hums at night
+A bike bell rings down the lane
+The cafe shuts its door
+
+The lift stops too soon
+Neon runs along the wet road
+The roofs catch the dawn
+
+A lone sign flickers
+The shop cat sleeps by the door
+Wet streets mirror signs
+
+The cafe shuts its door
+The night shift walks through the dawn
+The bridge hums at night
+
+The night shift begins
+The crosswalk blinks through the rain
+The night shift begins
+
+The wet steps shine black
+A shop light spills on the curb
+The roofs catch the dawn
+
+The turnstile clicks shut
+The lift hums up through the dark
+Wet streets mirror signs
+
+The roofs catch the dawn
+The street sweeper hums at dawn
+The bridge hums at night
+
+The train doors slide shut
+The night shift walks through the dawn
+The night shift begins
+
+A shop sweeps its step
+The crosswalk blinks through the rain
+The train doors slide shut
+
+The bus sighs at dusk
+A shop light spills on the curb
+A bike bell rings twice
+
+Wet streets mirror signs
+The lift hums up through the dark
+The lift stops too soon
+
+A bike bell rings twice
+The street sweeper hums at dawn
+The wet steps shine black
+
+The crosswalk counts down
+The cafe stacks chairs by the glass
+A shop sweeps its step
+
+The last shop light dims
+A bike bell rings down the lane
+A bike bell rings twice
+
+The bridge hums at night
+Neon runs along the wet road
+The lift stops too soon
+
+The lift stops too soon
+The shop cat sleeps by the door
+The wet steps shine black
+
+A lone sign flickers
+The night shift walks through the dawn
+A shop sweeps its step
+
+The cafe shuts its door
+The crosswalk blinks through the rain
+The crosswalk counts down
+
+The night shift begins
+A shop light spills on the curb
+A lone sign flickers
+
+The wet steps shine black
+The lift hums up through the dark
+The turnstile clicks shut
+
+The turnstile clicks shut
+The street sweeper hums at dawn
+The bus sighs at dusk
+
+The roofs catch the dawn
+The cafe stacks chairs by the glass
+The last shop light dims
+
+The train doors slide shut
+The crosswalk blinks through the rain
+A lone sign flickers
+
+A shop sweeps its step
+A shop light spills on the curb
+The turnstile clicks shut
+
+The bus sighs at dusk
+The lift hums up through the dark
+The bus sighs at dusk
+
+Wet streets mirror signs
+The street sweeper hums at dawn
+The last shop light dims
+
+A bike bell rings twice
+The cafe stacks chairs by the glass
+The cafe shuts its door
+
+The crosswalk counts down
+A bike bell rings down the lane
+The roofs catch the dawn
+
+The last shop light dims
+Neon runs along the wet road
+Wet streets mirror signs
+
+The bridge hums at night
+The shop cat sleeps by the door
+The bridge hums at night
+
+The lift stops too soon
+The night shift walks through the dawn
+The night shift begins
+
+A lone sign flickers
+The crosswalk blinks through the rain
+The roofs catch the dawn
+
+The cafe shuts its door
+A shop light spills on the curb
+Wet streets mirror signs
+
+The night shift begins
+The lift hums up through the dark
+The bridge hums at night
+
+The wet steps shine black
+The street sweeper hums at dawn
+The night shift begins
+
+The turnstile clicks shut
+The cafe stacks chairs by the glass
+The train doors slide shut
+
+The roofs catch the dawn
+A bike bell rings down the lane
+A bike bell rings twice
+
+The train doors slide shut
+A shop light spills on the curb
+The lift stops too soon
+
+A shop sweeps its step
+The lift hums up through the dark
+The wet steps shine black
+
+The bus sighs at dusk
+The street sweeper hums at dawn
+A shop sweeps its step
+
+Wet streets mirror signs
+The cafe stacks chairs by the glass
+A bike bell rings twice
+
+A bike bell rings twice
+A bike bell rings down the lane
+The lift stops too soon
+
+The crosswalk counts down
+Neon runs along the wet road
+The wet steps shine black
+
+The last shop light dims
+The shop cat sleeps by the door
+A shop sweeps its step
+
+The bridge hums at night
+The night shift walks through the dawn
+The crosswalk counts down
+
+The lift stops too soon
+The crosswalk blinks through the rain
+A lone sign flickers
+
+A lone sign flickers
+A shop light spills on the curb
+The turnstile clicks shut
+
+The cafe shuts its door
+The lift hums up through the dark
+The bus sighs at dusk
+
+The night shift begins
+The street sweeper hums at dawn
+The last shop light dims
+
+The wet steps shine black
+The cafe stacks chairs by the glass
+A lone sign flickers
+
+The turnstile clicks shut
+A bike bell rings down the lane
+The turnstile clicks shut
+
+The roofs catch the dawn
+Neon runs along the wet road
+The bus sighs at dusk
+
+The train doors slide shut
+The lift hums up through the dark
+The last shop light dims
+
+A shop sweeps its step
+The street sweeper hums at dawn
+The cafe shuts its door
+
+The bus sighs at dusk
+The cafe stacks chairs by the glass
+The roofs catch the dawn
+
+Wet streets mirror signs
+A bike bell rings down the lane
+Wet streets mirror signs
+
+A bike bell rings twice
+Neon runs along the wet road
+The bridge hums at night
+
+The crosswalk counts down
+The shop cat sleeps by the door
+The night shift begins
+
+The last shop light dims
+The night shift walks through the dawn
+The roofs catch the dawn
+
+The bridge hums at night
+The crosswalk blinks through the rain
+Wet streets mirror signs
+
+The lift stops too soon
+A shop light spills on the curb
+The bridge hums at night
+
+A lone sign flickers
+The lift hums up through the dark
+The night shift begins
+
+The cafe shuts its door
+The street sweeper hums at dawn
+The train doors slide shut
+
+The night shift begins
+The cafe stacks chairs by the glass
+A bike bell rings twice
+
+The wet steps shine black
+A bike bell rings down the lane
+The lift stops too soon
+
+The turnstile clicks shut
+Neon runs along the wet road
+The wet steps shine black
+
+The roofs catch the dawn
+The shop cat sleeps by the door
+A shop sweeps its step
+
+The train doors slide shut
+The street sweeper hums at dawn
+A bike bell rings twice
+
+A shop sweeps its step
+The cafe stacks chairs by the glass
+The lift stops too soon
+
+The bus sighs at dusk
+A bike bell rings down the lane
+The wet steps shine black
+
+Wet streets mirror signs
+Neon runs along the wet road
+A shop sweeps its step
+
+A bike bell rings twice
+The shop cat sleeps by the door
+The crosswalk counts down
+
+The crosswalk counts down
+The night shift walks through the dawn
+A lone sign flickers
+
+The last shop light dims
+The crosswalk blinks through the rain
+The turnstile clicks shut
+
+The bridge hums at night
+A shop light spills on the curb
+The bus sighs at dusk
+
+The lift stops too soon
+The lift hums up through the dark
+The last shop light dims
+
+A lone sign flickers
+The street sweeper hums at dawn
+A lone sign flickers
+
+The cafe shuts its door
+The cafe stacks chairs by the glass
+The turnstile clicks shut
+
+The night shift begins
+A bike bell rings down the lane
+The bus sighs at dusk
+
+The wet steps shine black
+Neon runs along the wet road
+The last shop light dims
+
+The turnstile clicks shut
+The shop cat sleeps by the door
+The cafe shuts its door
+
+The roofs catch the dawn
+The night shift walks through the dawn
+The roofs catch the dawn
+
+The train doors slide shut
+The cafe stacks chairs by the glass
+Wet streets mirror signs
+
+A shop sweeps its step
+A bike bell rings down the lane
+The bridge hums at night
+
+The bus sighs at dusk
+Neon runs along the wet road
+The night shift begins
+
+Wet streets mirror signs
+The shop cat sleeps by the door
+The roofs catch the dawn
+
+A bike bell rings twice
+The night shift walks through the dawn
+Wet streets mirror signs
+
+The crosswalk counts down
+The crosswalk blinks through the rain
+The bridge hums at night
+
+The last shop light dims
+A shop light spills on the curb
+The night shift begins
+
+The bridge hums at night
+The lift hums up through the dark
+The train doors slide shut
+
+The lift stops too soon
+The street sweeper hums at dawn
+A bike bell rings twice
+
+A lone sign flickers
+The cafe stacks chairs by the glass
+The lift stops too soon
+
+The cafe shuts its door
+A bike bell rings down the lane
+The wet steps shine black
+
+The night shift begins
+Neon runs along the wet road
+A shop sweeps its step
+
+The wet steps shine black
+The shop cat sleeps by the door
+A bike bell rings twice
+
+The turnstile clicks shut
+The night shift walks through the dawn
+The lift stops too soon
+
+The roofs catch the dawn
+The crosswalk blinks through the rain
+The wet steps shine black
+
+The train doors slide shut
+A bike bell rings down the lane
+A shop sweeps its step
+
+A shop sweeps its step
+Neon runs along the wet road
+The crosswalk counts down
+
+The bus sighs at dusk
+The shop cat sleeps by the door
+A lone sign flickers
+
+Wet streets mirror signs
+The night shift walks through the dawn
+The turnstile clicks shut
+
+A bike bell rings twice
+The crosswalk blinks through the rain
+The bus sighs at dusk
+
+The crosswalk counts down
+A shop light spills on the curb
+The last shop light dims
+
+The last shop light dims
+The lift hums up through the dark
+A lone sign flickers
+
+The bridge hums at night
+The street sweeper hums at dawn
+The turnstile clicks shut
+
+The lift stops too soon
+The cafe stacks chairs by the glass
+The bus sighs at dusk
+
+A lone sign flickers
+A bike bell rings down the lane
+The last shop light dims
+
+The cafe shuts its door
+Neon runs along the wet road
+The cafe shuts its door
+
+The night shift begins
+The shop cat sleeps by the door
+The roofs catch the dawn
+
+The wet steps shine black
+The night shift walks through the dawn
+Wet streets mirror signs
+
+The turnstile clicks shut
+The crosswalk blinks through the rain
+The bridge hums at night
+
+The roofs catch the dawn
+A shop light spills on the curb
+The night shift begins
+
+The kettle starts to sing
+The kettle hums beside the sink
+A small plant leans west
+
+A spoon rests in tea
+The kettle hums beside the sink
+The kettle starts to sing
+
+The cat naps in sun
+The kettle hums beside the sink
+A spoon rests in tea
+
+A page turns slowly
+The kettle hums beside the sink
+The cat naps in sun
+
+The bowl holds one peach
+The kettle hums beside the sink
+A page turns slowly
+
+The floor creaks at noon
+The kettle hums beside the sink
+The bowl holds one peach
+
+The clock marks the hour
+The kettle hums beside the sink
+The floor creaks at noon
+
+The soap smells of rain
+The kettle hums beside the sink
+The clock marks the hour
+
+The lamp warms the desk
+The kettle hums beside the sink
+The soap smells of rain
+
+The cup warms both hands
+The kettle hums beside the sink
+The lamp warms the desk
+
+The old fan stirs dust
+The kettle hums beside the sink
+The cup warms both hands
+
+The bread smells like home
+The kettle hums beside the sink
+The old fan stirs dust
+
+A small plant leans west
+The kettle hums beside the sink
+The bread smells like home
+
+One light in the hall
+One light burns late in the hall
+The key rusts in rain
+
+The vase holds dead blooms
+The frost seals the tracks by dawn
+The rain fills the pail
+
+The chair stays empty
+A black bird lifts from the fence
+The ash cools by dawn
+
+The rain fills the pail
+The last candle bends in the draft
+The cup holds cold tea
+
+The bell rings once more
+One light burns late in the hall
+The key rusts in rain
+
+The house keeps its hush
+The frost seals the tracks by dawn
+The rain fills the pail
+
+A door shuts softly
+A black bird lifts from the fence
+The ash cools by dawn
+
+The ash cools by dawn
+The last candle bends in the draft
+The cup holds cold tea
+
+The clock will not stop
+One light burns late in the hall
+The key rusts in rain
+
+The frost seals the gate
+The frost seals the tracks by dawn
+The rain fills the pail
+
+The path ends in mist
+A black bird lifts from the fence
+The ash cools by dawn
+
+The cup holds cold tea
+The last candle bends in the draft
+The cup holds cold tea
+
+The lamp burns too low
+One light burns late in the hall
+The key rusts in rain
+
+The garden grows wild
+The frost seals the tracks by dawn
+The rain fills the pail
+
+The key rusts in rain
+A black bird lifts from the fence
+The ash cools by dawn
+
+One light in the hall
+A black bird lifts from the fence
+The cup holds cold tea
+
+The vase holds dead blooms
+The last candle bends in the draft
+The key rusts in rain
+
+The chair stays empty
+One light burns late in the hall
+The rain fills the pail
+
+The rain fills the pail
+The frost seals the tracks by dawn
+The ash cools by dawn
+
+The bell rings once more
+A black bird lifts from the fence
+The cup holds cold tea
+
+The house keeps its hush
+The last candle bends in the draft
+The key rusts in rain
+
+A door shuts softly
+One light burns late in the hall
+The rain fills the pail
+
+The ash cools by dawn
+The frost seals the tracks by dawn
+The ash cools by dawn
+
+The clock will not stop
+A black bird lifts from the fence
+The cup holds cold tea
+
+The frost seals the gate
+The last candle bends in the draft
+The key rusts in rain
+
+The path ends in mist
+One light burns late in the hall
+The rain fills the pail
+
+The cup holds cold tea
+The frost seals the tracks by dawn
+The ash cools by dawn
+
+The lamp burns too low
+A black bird lifts from the fence
+The cup holds cold tea
+
+The garden grows wild
+The last candle bends in the draft
+The key rusts in rain
+
+The key rusts in rain
+One light burns late in the hall
+The rain fills the pail
+
+One light in the hall
+One light burns late in the hall
+The ash cools by dawn
+
+The vase holds dead blooms
+The frost seals the tracks by dawn
+The cup holds cold tea
+
+The chair stays empty
+A black bird lifts from the fence
+The key rusts in rain
+
+The rain fills the pail
+The last candle bends in the draft
+The rain fills the pail
+
+The bell rings once more
+One light burns late in the hall
+The ash cools by dawn
+
+The house keeps its hush
+The frost seals the tracks by dawn
+The cup holds cold tea
+
+A door shuts softly
+A black bird lifts from the fence
+The key rusts in rain
+
+The ash cools by dawn
+The last candle bends in the draft
+The rain fills the pail
+
+The clock will not stop
+One light burns late in the hall
+The ash cools by dawn
+
+The frost seals the gate
+The frost seals the tracks by dawn
+The cup holds cold tea
+
+The path ends in mist
+A black bird lifts from the fence
+The key rusts in rain
+
+The cup holds cold tea
+The last candle bends in the draft
+The rain fills the pail
+
+The lamp burns too low
+One light burns late in the hall
+The ash cools by dawn
+
+The garden grows wild
+The frost seals the tracks by dawn
+The cup holds cold tea
+
+The key rusts in rain
+A black bird lifts from the fence
+The key rusts in rain
+
+One light in the hall
+A black bird lifts from the fence
+The rain fills the pail
+
+The vase holds dead blooms
+The last candle bends in the draft
+The ash cools by dawn
+
+The chair stays empty
+One light burns late in the hall
+The cup holds cold tea
+
+The rain fills the pail
+The frost seals the tracks by dawn
+The key rusts in rain
+
+The bell rings once more
+A black bird lifts from the fence
+The rain fills the pail
+
+The house keeps its hush
+The last candle bends in the draft
+The ash cools by dawn
+
+A door shuts softly
+One light burns late in the hall
+The cup holds cold tea
+
+The ash cools by dawn
+The frost seals the tracks by dawn
+The key rusts in rain
+
+The clock will not stop
+A black bird lifts from the fence
+The rain fills the pail
+
+The frost seals the gate
+The last candle bends in the draft
+The ash cools by dawn
+
+The path ends in mist
+One light burns late in the hall
+The cup holds cold tea
+
+The cup holds cold tea
+The frost seals the tracks by dawn
+The key rusts in rain
+
+The lamp burns too low
+A black bird lifts from the fence
+The rain fills the pail
+
+The garden grows wild
+The last candle bends in the draft
+The ash cools by dawn
+
+The key rusts in rain
+One light burns late in the hall
+The cup holds cold tea
+
+A seed splits the stone
+A green shoot breaks the dark soil
+The heart learns to rest
+
+The dawn finds the door
+The long night loosens its hold
+The gate swings open
+
+New light warms the floor
+A green shoot breaks the dark soil
+The first bell rings out
+
+A small flame holds on
+The long night loosens its hold
+The heart learns to rest
+
+The rain clears the sky
+A green shoot breaks the dark soil
+The rain clears the sky
+
+The gate swings open
+The long night loosens its hold
+The first bell rings out
+
+One bird starts to sing
+A green shoot breaks the dark soil
+The tide turns once more
+
+The roots find the spring
+The long night loosens its hold
+The rain clears the sky
+
+A bud breaks the bark
+A green shoot breaks the dark soil
+The clouds part at dawn
+
+The clouds part at dawn
+The long night loosens its hold
+The tide turns once more
+
+The first bell rings out
+A green shoot breaks the dark soil
+A small flame holds on
+
+A green shoot lifts up
+The long night loosens its hold
+The clouds part at dawn
+
+The lamp burns through rain
+A green shoot breaks the dark soil
+A new page lies bare
+
+The sun finds the room
+The long night loosens its hold
+A small flame holds on
+
+A new page lies bare
+A green shoot breaks the dark soil
+A bud breaks the bark
+
+The tide turns once more
+The long night loosens its hold
+A new page lies bare
+
+The heart learns to rest
+A green shoot breaks the dark soil
+New light warms the floor
+
+A seed splits the stone
+A green shoot breaks the dark soil
+A bud breaks the bark
+
+The dawn finds the door
+The long night loosens its hold
+The sun finds the room
+
+New light warms the floor
+A green shoot breaks the dark soil
+New light warms the floor
+
+A small flame holds on
+The long night loosens its hold
+The roots find the spring
+
+The rain clears the sky
+A green shoot breaks the dark soil
+The sun finds the room
+
+The gate swings open
+The long night loosens its hold
+The dawn finds the door
+
+One bird starts to sing
+A green shoot breaks the dark soil
+The roots find the spring
+
+The roots find the spring
+The long night loosens its hold
+The lamp burns through rain
+
+A bud breaks the bark
+A green shoot breaks the dark soil
+The dawn finds the door
+
+The clouds part at dawn
+The long night loosens its hold
+One bird starts to sing
+
+The first bell rings out
+A green shoot breaks the dark soil
+The lamp burns through rain
+
+A green shoot lifts up
+The long night loosens its hold
+A seed splits the stone
+
+The lamp burns through rain
+A green shoot breaks the dark soil
+One bird starts to sing
+
+The sun finds the room
+The long night loosens its hold
+A green shoot lifts up
+
+A new page lies bare
+A green shoot breaks the dark soil
+A seed splits the stone
+
+The tide turns once more
+The long night loosens its hold
+The gate swings open
+
+The heart learns to rest
+A green shoot breaks the dark soil
+A green shoot lifts up
+
+The clouds learn to swim
+The clouds drift under the sea
+The moon forgets time
+
+A blue door floats by
+The moon grows roots in the dark
+The hills drift like boats
+
+The moon grows a tail
+The clouds drift under the sea
+The night turns to glass
+
+The stars fall like seeds
+The moon grows roots in the dark
+A blue door floats by
+
+The clock melts at noon
+The clouds drift under the sea
+The rain climbs the wall
+
+A fish walks on land
+The moon grows roots in the dark
+The sea hangs above
+
+The hills drift like boats
+The clouds drift under the sea
+The moon grows a tail
+
+The rain climbs the wall
+The moon grows roots in the dark
+The trees hum in blue
+
+The sun sleeps in ink
+The clouds drift under the sea
+The wind wears a mask
+
+The trees hum in blue
+The moon grows roots in the dark
+The clock melts at noon
+
+The shadows bloom white
+The clouds drift under the sea
+The shadows bloom white
+
+A river climbs up
+The moon grows roots in the dark
+The moon forgets time
+
+The night turns to glass
+The clouds drift under the sea
+A fish walks on land
+
+The sky folds like cloth
+The moon grows roots in the dark
+The night turns to glass
+
+The sea hangs above
+The clouds drift under the sea
+The clouds learn to swim
+
+The wind wears a mask
+The moon grows roots in the dark
+The rain climbs the wall
+
+A door opens twice
+The clouds drift under the sea
+The sky folds like cloth
+
+The moon forgets time
+The moon grows roots in the dark
+The moon grows a tail
+
+The clouds learn to swim
+The moon grows roots in the dark
+The sun sleeps in ink
+
+A blue door floats by
+The clouds drift under the sea
+The wind wears a mask
+
+The moon grows a tail
+The moon grows roots in the dark
+The stars fall like seeds
+
+The stars fall like seeds
+The clouds drift under the sea
+The shadows bloom white
+
+The clock melts at noon
+The moon grows roots in the dark
+A door opens twice
+
+A fish walks on land
+The clouds drift under the sea
+A fish walks on land
+
+The hills drift like boats
+The moon grows roots in the dark
+A river climbs up
+
+The rain climbs the wall
+The clouds drift under the sea
+The clouds learn to swim
+
+The sun sleeps in ink
+The moon grows roots in the dark
+The hills drift like boats
+
+The trees hum in blue
+The clouds drift under the sea
+The sky folds like cloth
+
+The shadows bloom white
+The moon grows roots in the dark
+A blue door floats by
+
+A river climbs up
+The clouds drift under the sea
+The sun sleeps in ink
+
+The night turns to glass
+The moon grows roots in the dark
+The sea hangs above
+
+The sky folds like cloth
+The clouds drift under the sea
+The stars fall like seeds
+
+The sea hangs above
+The moon grows roots in the dark
+The trees hum in blue
+
+The wind wears a mask
+The clouds drift under the sea
+A door opens twice
+
+A door opens twice
+The moon grows roots in the dark
+The clock melts at noon
+
+The moon forgets time
+The clouds drift under the sea
+A river climbs up
+
+A bee rests on thyme
+The creek runs cold through the shade
+The clouds open wide
+
+Clouds drift over fields
+The reeds bow down to the stream
+Birds rise from the grass
+
+The mist hugs the lake
+The creek runs cold through the shade
+A bee rests on thyme
+
+The mist hugs the lake
+The hills glow gold in the dusk
+The moon lights the pond
+
+A bee rests on thyme
+The creek runs cold through the shade
+Clouds drift over fields
+
+Pine trees guard the path
+The first rain darkens the path
+Clouds drift over fields
+
+The creek sings all day
+The clouds sail over the fields
+Pine trees guard the path
+
+The clouds open wide
+A bright moth rests on a leaf
+The reeds sway in wind
+
+The moon lights the pond
+The first rain darkens the path
+A bee rests on thyme
+
+Clouds drift over fields
+The reeds bow down to the stream
+The clouds open wide
+
+The mist hugs the lake
+A red bird sings at sunrise
+The clouds open wide
+
+The reeds sway in wind
+The reeds bow down to the stream
+Clouds drift over fields
+
+A bee rests on thyme
+The sun spills over the ridge
+The reeds sway in wind
+
+Pine trees guard the path
+The sun spills over the ridge
+Birds rise from the grass
+
+Clouds drift over fields
+The creek runs cold through the shade
+The creek sings all day
+
+The clouds open wide
+The creek runs cold through the shade
+A stream hums at dusk
+
+Birds rise from the grass
+The clouds sail over the fields
+The clouds open wide
+
+The creek sings all day
+The clouds sail over the fields
+The moon lights the pond
+
+Pine trees guard the path
+The first rain darkens the path
+The creek sings all day
+
+Pine trees guard the path
+The fern uncurls in the shade
+The clouds open wide
+
+Clouds drift over fields
+The first rain darkens the path
+The reeds sway in wind
+
+Birds rise from the grass
+The first rain darkens the path
+The reeds sway in wind
+
+The clouds open wide
+Silver rain beads on the grass
+Pine trees guard the path
+
+The reeds sway in wind
+A bright moth rests on a leaf
+Clouds drift over fields
+
+The mist hugs the lake
+The first rain darkens the path
+A stream hums at dusk
+
+The creek sings all day
+The first rain darkens the path
+The reeds sway in wind
+
+The reeds sway in wind
+Silver rain beads on the grass
+A stream hums at dusk
+
+The creek sings all day
+The wind combs the meadow grass
+Clouds drift over fields
+
+The reeds sway in wind
+The first rain darkens the path
+The clouds open wide
+
+Pine trees guard the path
+The wild grass leans toward dawn
+A bee rests on thyme
+
+Clouds drift over fields
+The creek runs cold through the shade
+Birds rise from the grass
+
+The clouds open wide
+A bright moth rests on a leaf
+The creek sings all day
+
+A stream hums at dusk
+The first rain darkens the path
+The reeds sway in wind
+
+Clouds drift over fields
+The clouds sail over the fields
+The moon lights the pond
+
+A stream hums at dusk
+The first rain darkens the path
+The clouds open wide
+
+The moon lights the pond
+The creek runs cold through the shade
+A stream hums at dusk
+
+The moon lights the pond
+The creek runs cold through the shade
+The mist hugs the lake
+
+Birds rise from the grass
+Silver rain beads on the grass
+The mist hugs the lake
+
+The clouds open wide
+A red bird sings at sunrise
+Pine trees guard the path
+
+The reeds sway in wind
+The hills glow gold in the dusk
+Pine trees guard the path
+
+The mist hugs the lake
+The hills glow gold in the dusk
+The reeds sway in wind
+
+A stream hums at dusk
+The wild grass leans toward dawn
+Pine trees guard the path
+
+The clouds open wide
+Silver rain beads on the grass
+Clouds drift over fields
+
+The mist hugs the lake
+Silver rain beads on the grass
+Birds rise from the grass
+
+Pine trees guard the path
+The first rain darkens the path
+Birds rise from the grass
+
+Birds rise from the grass
+The creek runs cold through the shade
+Pine trees guard the path
+
+Clouds drift over fields
+A red bird sings at sunrise
+The clouds open wide
+
+A bee rests on thyme
+The reeds bow down to the stream
+Birds rise from the grass
+
+The creek sings all day
+The wild grass leans toward dawn
+A bee rests on thyme
+
+Birds rise from the grass
+The wild grass leans toward dawn
+The reeds sway in wind
+
+A stream hums at dusk
+Silver rain beads on the grass
+The moon lights the pond
+
+The creek sings all day
+The reeds bow down to the stream
+The mist hugs the lake
+
+The reeds sway in wind
+The creek runs cold through the shade
+Pine trees guard the path
+
+The clouds open wide
+The fern uncurls in the shade
+Clouds drift over fields
+
+Clouds drift over fields
+A bright moth rests on a leaf
+The reeds sway in wind
+
+The reeds sway in wind
+Silver rain beads on the grass
+A bee rests on thyme
+
+Birds rise from the grass
+The sun spills over the ridge
+The mist hugs the lake
+
+A bee rests on thyme
+Silver rain beads on the grass
+The mist hugs the lake
+
+The reeds sway in wind
+A red bird sings at sunrise
+The creek sings all day
+
+A bee rests on thyme
+The reeds bow down to the stream
+The moon lights the pond
+
+The mist hugs the lake
+A bright moth rests on a leaf
+The moon lights the pond
+
+The mist hugs the lake
+The fern uncurls in the shade
+The clouds open wide
+
+Clouds drift over fields
+Silver rain beads on the grass
+The creek sings all day
+
+Pine trees guard the path
+The wind combs the meadow grass
+Clouds drift over fields
+
+The creek sings all day
+The fern uncurls in the shade
+The reeds sway in wind
+
+The clouds open wide
+The sun spills over the ridge
+The reeds sway in wind
+
+The moon lights the pond
+The creek runs cold through the shade
+Clouds drift over fields
+
+A stream hums at dusk
+The first rain darkens the path
+A bee rests on thyme
+
+The creek sings all day
+The sun spills over the ridge
+Birds rise from the grass
+
+The moon lights the pond
+A bright moth rests on a leaf
+Clouds drift over fields
+
+The moon lights the pond
+The reeds bow down to the stream
+A stream hums at dusk
+
+Pine trees guard the path
+The fern uncurls in the shade
+A bee rests on thyme
+
+The clouds open wide
+The clouds sail over the fields
+A stream hums at dusk
+
+A stream hums at dusk
+The creek runs cold through the shade
+The clouds open wide
+
+The moon lights the pond
+The creek runs cold through the shade
+The reeds sway in wind
+

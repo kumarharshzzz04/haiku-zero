@@ -1,0 +1,21 @@
+{
+  "kept": 40924,
+  "rejected": {
+    "line_too_long": 1720,
+    "url_or_mention": 1,
+    "no_letters": 4,
+    "not_3_lines": 129,
+    "duplicate": 18260
+  },
+  "by_source": {
+    "gutenberg": 5002,
+    "img2poems": 12309,
+    "sballas": 8125,
+    "statworx": 14095,
+    "tempslibres": 1393
+  },
+  "meter_subset": 10409,
+  "avg_chars_per_haiku": 67.6,
+  "est_bpe_tokens": 790558,
+  "lowercased": false
+}

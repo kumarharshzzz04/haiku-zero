@@ -1,0 +1,42 @@
+{
+  "authentic": 40924,
+  "authored": 180,
+  "authored_written": 180,
+  "overlaps_dropped": 0,
+  "repeat": 6,
+  "ai_tier": "ab",
+  "ai": 378,
+  "ai_written": 378,
+  "ai_overlaps_dropped": 0,
+  "ai_repeat": 2,
+  "ai_share": 0.0177,
+  "mix_total": 42760,
+  "synthetic_share": 0.0253,
+  "authentic_sources": {
+    "gutenberg": 5002,
+    "img2poems": 12309,
+    "sballas": 8125,
+    "statworx": 14095,
+    "tempslibres": 1393
+  },
+  "synthetic_sources": {
+    "w01_winter": 49,
+    "w02_spring": 41,
+    "w03_summer": 40,
+    "w04_autumn": 25,
+    "w05_night": 25
+  },
+  "ai_sources": {
+    "ai_intake": 89,
+    "ai_intake_near": 289
+  },
+  "authentic_rejected": {
+    "line_too_long": 1720,
+    "url_or_mention": 1,
+    "no_letters": 4,
+    "not_3_lines": 129,
+    "duplicate": 18260
+  },
+  "synthetic_rejected": {},
+  "ai_rejected": {}
+}
