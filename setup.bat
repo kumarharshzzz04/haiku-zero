@@ -37,7 +37,8 @@ if errorlevel 1 goto :pipfail
 
 rem ---- front end -------------------------------------------------------------
 if not exist frontend\package.json (
-    echo  [3/3] no front end in this repo - the UI is private; the API needs nothing more.
+    echo  [3/3] no React front end here (that one is private).
+    echo        The basic desk sheet ships with this repo - run start_desk.bat later.
     goto :done
 )
 if exist frontend\dist\index.html (

@@ -8,3 +8,6 @@ tokenizers>=0.20
 # used by the data scripts and the AI-batch vetter, not by the model itself
 numpy>=2.0
 pyarrow>=18.0
+
+# the desk sheet front end (streamlit_app.py + start_desk.bat)
+streamlit>=1.30
