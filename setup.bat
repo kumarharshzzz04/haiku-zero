@@ -36,6 +36,10 @@ if errorlevel 1 goto :pipfail
 "%PY%" -c "import torch; print('      torch', torch.__version__, '| CUDA', torch.cuda.is_available())"
 
 rem ---- front end -------------------------------------------------------------
+if not exist frontend\package.json (
+    echo  [3/3] no front end in this repo - the UI is private; the API needs nothing more.
+    goto :done
+)
 if exist frontend\dist\index.html (
     echo  [3/3] front end already built
     goto :done

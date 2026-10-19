@@ -10,12 +10,15 @@
   <img src="docs/images/cover.jpg" alt="HAIKU ZERO — the desk, with a poem written from the seed word harbor" width="860"/>
 </p>
 
+> **The interface is private, on purpose.** A lot of work went into the poster, the sakura
+> scenes and the desk-sheet view, so the React UI lives in a private repo and is shared on
+> request rather than published. Everything that writes a poem is here — tokenizer, model,
+> constrained decoder, HTTP API — and all of it runs without the UI.
+
 <p align="center">
   <img alt="Python" src="https://img.shields.io/badge/python-3.11-3776AB?style=flat-square&logo=python&logoColor=white"/>
   <img alt="PyTorch" src="https://img.shields.io/badge/pytorch-2.14%20%2B%20CUDA%2013-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
-  <img alt="React" src="https://img.shields.io/badge/react-19-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-  <img alt="Vite" src="https://img.shields.io/badge/vite-8-646CFF?style=flat-square&logo=vite&logoColor=white"/>
-  <img alt="Tailwind" src="https://img.shields.io/badge/tailwind%20v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
+  <img alt="UI private" src="https://img.shields.io/badge/ui-private_on_request-8957e5?style=flat-square"/>
   <img alt="Parameters" src="https://img.shields.io/badge/parameters-15.8M-8957e5?style=flat-square"/>
   <img alt="Latency" src="https://img.shields.io/badge/latency-0.9%20s%20%2F%20poem-2ea44f?style=flat-square"/>
   <img alt="Offline" src="https://img.shields.io/badge/100%25-local%20%C2%B7%20offline-2ea44f?style=flat-square"/>
@@ -52,9 +55,9 @@ Windows, Python 3.11, CUDA. Three batch files, no arguments:
 
 | Double-click | What happens |
 |--------------|--------------|
-| `setup.bat` | Creates `pytorch_with_gpu`, installs PyTorch + CUDA, `npm install` and builds the front end |
+| `setup.bat` | Creates `pytorch_with_gpu`, installs PyTorch + CUDA — and builds the UI only if a `frontend/` folder is present |
 | `train.bat` | Runs stage 1 then stage 2 in order (`train.bat 3` for a 3-epoch stage 1) |
-| `run.bat` | Starts the server on `:8000`, waits for `/api/health`, opens your browser |
+| `run.bat` | Starts the server on `:8000`, waits for `/api/health`, opens your browser when a built UI is there |
 
 `run.bat` is also the doctor: if the environment is missing it runs `setup.bat` first, and if `checkpoints/best.pt` is absent it tells you to train instead of starting a server with no model.
 
@@ -85,7 +88,10 @@ python -m backend.train --corpus data/haikus_classical.txt --epochs 25 --lr 1e-4
 </details>
 
 <details>
-<summary><b>Front-end dev server</b> (hot reload, instead of the built files)</summary>
+<summary><b>Running the UI</b> (only if you have the private front end)</summary>
+
+The React app is not in this repository. With a local `frontend/` checked out beside the
+code, dev mode is:
 
 ```powershell
 cd frontend
@@ -93,12 +99,15 @@ npm install
 npm run dev          # port 5177, proxies /api to :8000
 ```
 
-Run `python -m backend.server` in a second window. Without a built `frontend/dist`, `:8000` answers the API and returns a 503 with this exact hint for everything else.
+`npm run build` drops the bundle in `frontend/dist`, which `:8000` then serves itself.
+With no UI present, `:8000` answers the API and returns a 503 that says so.
 </details>
 
 ---
 
 ## Screenshots
+
+<sub>Every capture below is the private React UI — it shows what the API in this repo powers.</sub>
 
 <p align="center">
   <img src="docs/images/write.jpg" alt="HAIKU ZERO — the write stage, one poem on a sakura poster" width="880"/>
@@ -122,7 +131,7 @@ Run `python -m backend.server` in a second window. Without a built `frontend/dis
 
 ## How it works
 
-The stack is the model and nothing else: a byte-level BPE tokenizer, a hand-written pre-LN transformer, a training loop, a decoder that enforces the form, a stdlib HTTP server and a React front end. `torch` is the only dependency the model itself needs.
+The stack is the model and nothing else: a byte-level BPE tokenizer, a hand-written pre-LN transformer, a training loop, a decoder that enforces the form, a stdlib HTTP server — and a React front end that is kept in a private repo. `torch` is the only dependency the model itself needs.
 
 ### 1 · Build a model (once)
 
@@ -143,7 +152,7 @@ flowchart LR
 ```mermaid
 sequenceDiagram
     autonumber
-    participant U as Browser (React 19)
+    participant U as Browser / any HTTP client
     participant S as backend/server.py (:8000)
     participant D as Constrained decoder
     participant M as HaikuZeroLM (CUDA)
@@ -319,7 +328,7 @@ Nothing is scraped at training time, there is no pretrained checkpoint, and the 
 | Training | own loop — AdamW, warmup + cosine, grad clip, AMP, checkpoint/ resume, CSV + preview logging |
 | Decoding | constrained metered sampling, candidate masking, best-of-n reranking, heuristic syllable counter |
 | API | Python stdlib `ThreadingHTTPServer` · JSON, `no-store`, model cache with a lock |
-| Front end | React 19 · TypeScript 6 · Vite 8 · Tailwind v4 · lucide-react |
+| Front end — **private** | React 19 · TypeScript 6 · Vite 8 · Tailwind v4 · lucide-react — kept in a private repo, shared on request |
 | Data | Gutenberg catalogue fetch, `pyarrow` for the HF parquet intake, `numpy` for corpus stats |
 
 ---
@@ -339,13 +348,8 @@ backend/
   train.py               training loop, cosine LR, checkpoints
   meter_check.py         syllable counter and 5-7-5 check
   generate.py            sampling, constrained decoding, reranking
-  server.py              HTTP API + static front end
-frontend/                React desk UI (Vite, Tailwind v4)
-  src/App.tsx            stages, poster/sheet switch, result state
-  src/components/haiku-console.tsx        the settings panel
-  src/components/ui/     sakura-editorial-poster.tsx — the poster renderer
-  src/lib/api.ts         typed client for the three routes
-  src/lib/sakura-scenes.ts               generated poster backdrops
+  server.py              HTTP API (+ a static front end when one is present)
+# (no frontend/ here — the React desk UI is private and added locally when needed)
 fetch_poetry.py          Gutenberg catalogue -> stage-1 corpus
 self_distill.py          distilled-pair experiments
 make_charts.py           the three SVGs above, from the CSVs
@@ -359,13 +363,27 @@ PROGRESS.md              the log, including the experiments that failed
 
 ---
 
+## Front end
+
+The React 19 + TypeScript + Tailwind interface is deliberately **not** in this
+repository. It is the piece I am most protective of — the poster renderer, the generated
+sakura backdrops, the desk-sheet view, the settings panel — so it stays private and is
+shared on request instead of published.
+
+Nothing required to generate a poem depends on it. This repo has the tokenizer, the
+15.8M-parameter model, the training loop, the constrained decoder and the HTTP API;
+point any client at `POST /api/generate` and you get the same poems the UI shows, with
+the same measurements attached.
+
+---
+
 ## Troubleshooting
 
 | Symptom | Fix |
 |---------|-----|
 | `[X] No model at checkpoints\best.pt` | `train.bat` once, or drop a trained `best.pt` into `checkpoints/` |
 | "No environment yet" on first run | `run.bat` calls `setup.bat`; if that fails, the window keeps the pip error |
-| `{"error": "front end not built"}` | `cd frontend && npm run build`, or run `npm run dev` and use `:5177` |
+| `{"error": "front end not built"}` | Expected in this repo — the UI is private. With it checked out: `npm run dev` (`:5177`) or `npm run build` |
 | Port 8000 already taken | `run.bat` detects the listener and just opens the browser; or `python -m backend.server --port 8001` |
 | Health says `"device": "cpu"` | The CUDA build is missing — rerun `setup.bat`; CPU still works, just much slower |
 | The first request is slow | The server preloads the default model on boot — give it a few seconds. `--no-warm` skips the preload and pays it on the first request instead |

@@ -40,6 +40,8 @@ logs/*.txt
 !logs/quality_floor.json
 
 # ---------------------------------------------------------------------- node
+# The React UI is private and deliberately absent from this repository.
+frontend/
 frontend/node_modules/
 frontend/dist/
 frontend/dev_run.log

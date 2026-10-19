@@ -214,7 +214,8 @@ class Handler(BaseHTTPRequestHandler):
         if not (DIST / "index.html").exists():
             return self.send_json({
                 "error": "front end not built",
-                "hint": "run `npm run dev` in frontend/ (proxy on :5177) "
+                "hint": "the React UI is private and not published with this repo - "
+                        "add frontend/ locally, then `npm run dev` (:5177) "
                         "or `npm run build` to serve it from here",
             }, 503)
         target = (DIST / route.lstrip("/")).resolve()
@@ -259,7 +260,7 @@ def main(argv=None) -> None:
         raise SystemExit("no checkpoints*/best.pt found - run backend.train first")
     print(f"models: {', '.join(sorted(registry))}")
     print(f"device: {generate.pick_device()}")
-    print(f"front end: {'frontend/dist' if (DIST / 'index.html').exists() else 'not built - use `npm run dev` in frontend/'}")
+    print(f"front end: {'frontend/dist' if (DIST / 'index.html').exists() else 'none - the UI is private, see README'}")
 
     if not args.no_warm:
         def warm():

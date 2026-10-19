@@ -26,8 +26,12 @@ if not exist checkpoints\best.pt (
 rem one server per port; if it is already up, just show it
 netstat -ano | findstr /r /c:":%PORT% .*LISTENING" >nul 2>nul
 if not errorlevel 1 (
-    echo  A server is already listening on port %PORT% - opening the browser to it.
-    start "" "%URL%"
+    echo  A server is already listening on port %PORT%.
+    if exist "frontend\dist\index.html" (
+        start "" "%URL%"
+    ) else (
+        echo  The web UI is private and not built here - the API is at %URL%api/health
+    )
     exit /b 0
 )
 
@@ -48,9 +52,15 @@ goto :wait
 :up
 rem the server answers before the warm-up thread finishes loading the weights
 "%PING%" -n 4 127.0.0.1 >nul
-start "" "%URL%"
-echo.
-echo  Open in your browser. Close the "HAIKU ZERO server" window to stop the app.
+if exist "frontend\dist\index.html" (
+    start "" "%URL%"
+    echo.
+    echo  Open in your browser. Close the "HAIKU ZERO server" window to stop the app.
+) else (
+    echo.
+    echo  API is up at %URL%api/health
+    echo  The React UI is private and not part of this repo - there is nothing to open.
+)
 exit /b 0
 
 :slow
