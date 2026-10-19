@@ -22,7 +22,7 @@
   <img alt="Parameters" src="https://img.shields.io/badge/parameters-15.8M-8957e5?style=flat-square"/>
   <img alt="Latency" src="https://img.shields.io/badge/latency-0.9%20s%20%2F%20poem-2ea44f?style=flat-square"/>
   <img alt="Offline" src="https://img.shields.io/badge/100%25-local%20%C2%B7%20offline-2ea44f?style=flat-square"/>
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-yellow?style=flat-square"/>
+  <img alt="License" src="https://img.shields.io/badge/license-FSL_1.1__Apache_2.0-blue?style=flat-square"/>
 </p>
 
 <p align="center">
@@ -424,7 +424,11 @@ The data side has its own plan, with measured throughput and the three routes a 
 
 ## License & author
 
-**MIT** — see [LICENSE](LICENSE). The licence covers the code, the charts and the screenshots; the trained weights and the corpora are not in this repository.
+**FSL-1.1-Apache-2.0** — see [LICENSE](LICENSE). Read it, run it, learn from it, use it
+inside your own work; selling it, or shipping something that does what it does, needs a
+commercial license from me. Two years after a release, that version converts to Apache
+2.0. The licence covers the code, the charts and the screenshots; the trained weights and
+the corpora are not in this repository.
 
 Built by **Kumar Harsh** · [@kumarharshzzz04](https://github.com/kumarharshzzz04)
 
