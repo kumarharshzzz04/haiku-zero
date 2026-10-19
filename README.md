@@ -449,9 +449,13 @@ The data side has its own plan, with measured throughput and the three routes a 
 
 ## License & author
 
-**Permission required — see [LICENSE](LICENSE).** The source is here to read, not to
-reuse: no rights are granted. Using it, shipping it, or selling anything built from it
-needs my written permission first (kumar.harshzzz04@gmail.com); licenses are available.
+**Public to read, free to use for non-commercial work — commercial use needs a paid
+license.** See [LICENSE](LICENSE). Reading the code, training a model of your own from
+it, running it for a course or a portfolio piece, and changing it for any of that costs
+nothing and needs no permission. Using it inside a company's product or internal tooling,
+hosting it for other people, or shipping it in paid work needs a written commercial
+license first: **kumar.harshzzz04@gmail.com**.
+
 The licence covers the code, the charts and the screenshots; the trained weights and the
 corpora are not in this repository.
 
