@@ -15,7 +15,7 @@ if not exist "%PY%" exit /b 1
 if not exist data\poetry_pretrain_v2.txt (
     echo.
     echo  [X] Missing data\poetry_pretrain_v2.txt
-    echo      Build it with:  "%PY%" fetch_poetry.py --out data\poetry_pretrain_v2.txt --max-chars 150e6 --max-books 3000
+    echo      Build it with:  "%PY%" scripts\data\fetch_poetry.py --out data\poetry_pretrain_v2.txt --max-chars 150e6 --max-books 3000
     echo.
     pause
     exit /b 1
@@ -35,7 +35,7 @@ echo  (60 minutes at the default 5 epochs on an RTX 4050)
 echo.
 "%PY%" -m backend.train --corpus data\poetry_pretrain_v2.txt --epochs %EPOCHS% ^
     --run-name poetry-pretrain-v2 --ckpt-dir checkpoints_pretrain_v2 ^
-    --log training_log_pretrain_v2.csv --embed-dim 384 --layers 8 --ffn-dim 1536
+    --log logs\training\training_log_pretrain_v2.csv --embed-dim 384 --layers 8 --ffn-dim 1536
 if errorlevel 1 goto :fail
 
 echo.
@@ -43,13 +43,13 @@ echo  Stage 2 - form, 25 epochs on the authentic haiku corpus (about 5 minutes)
 echo.
 "%PY%" -m backend.train --corpus data\haikus_classical.txt --epochs 25 --lr 1e-4 ^
     --init-from checkpoints_pretrain_v2\best.pt --run-name poetry-then-haiku-v2 ^
-    --ckpt-dir checkpoints --log training_log_poetry_v2.csv ^
+    --ckpt-dir checkpoints --log logs\training\training_log_poetry_v2.csv ^
     --embed-dim 384 --layers 8 --ffn-dim 1536
 if errorlevel 1 goto :fail
 
 echo.
 echo  Done. checkpoints\best.pt is the new model.
-echo  Check it:  "%PY%" quality_floor.py
+echo  Check it:  "%PY%" scripts\eval\quality_floor.py
 echo.
 pause
 exit /b 0

@@ -5,8 +5,8 @@ the same counter the strict decoder enforces, and anything that is not exactly 5
 it can be fixed here rather than quietly entering the training corpus.
 
 Usage
-    python synth_verify.py              # report only
-    python synth_verify.py --json       # also write data/synth_report.json
+    python scripts/data/synth_verify.py              # report only
+    python scripts/data/synth_verify.py --json       # also write data/synth_report.json
 """
 from __future__ import annotations
 
@@ -15,7 +15,7 @@ import json
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(ROOT))
 
 from backend.meter_check import line_syllables  # noqa: E402

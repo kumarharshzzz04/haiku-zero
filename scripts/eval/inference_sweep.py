@@ -1,8 +1,8 @@
 """Sweep decoder settings on a fixed checkpoint. No retraining involved.
 
-    python inference_sweep.py                                  # temperature on the live model
-    python inference_sweep.py --temperatures 0.7,0.8,0.9 --best-ofs 4,8
-    python inference_sweep.py --models checkpoints --seeds autumn,breeze
+    python scripts/eval/inference_sweep.py                                  # temperature on the live model
+    python scripts/eval/inference_sweep.py --temperatures 0.7,0.8,0.9 --best-ofs 4,8
+    python scripts/eval/inference_sweep.py --models checkpoints --seeds autumn,breeze
 
 Each row is the same 6 seeds x 8 poems: exact rate, repeat rate, non-word rate, mean logprob
 and seconds per poem. Runs on CUDA when available.
@@ -14,11 +14,10 @@ import sys
 import time
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(ROOT))
 
 from backend import generate  # noqa: E402
-
-ROOT = Path(__file__).resolve().parent
 
 
 def run_config(model, tok, dev, seeds: list[str], n: int, temperature: float, top_p: float,

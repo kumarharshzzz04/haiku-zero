@@ -1,8 +1,8 @@
 """Regression floor for decoder quality.
 
-    python quality_floor.py                # check the live checkpoint against logs/quality_floor.json
-    python quality_floor.py --write        # re-record the baseline
-    python quality_floor.py --self-test    # prove the comparator can fail
+    python scripts/eval/quality_floor.py                # check the live checkpoint against logs/quality_floor.json
+    python scripts/eval/quality_floor.py --write        # re-record the baseline
+    python scripts/eval/quality_floor.py --self-test    # prove the comparator can fail
 
 The decoder keeps several promises at once (exact 5-7-5, no repeats, no invented words, no junk,
 seed present). Each is produced by a different rule, so a change in one place can quietly cost
@@ -16,11 +16,10 @@ import json
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(ROOT))
 
 from backend import generate, meter_check  # noqa: E402
-
-ROOT = Path(__file__).resolve().parent
 BASELINE = ROOT / "logs" / "quality_floor.json"
 
 # Measured floors: exact/seed are 100%, repeat/nonword/junk are 0%. Thresholds leave room for

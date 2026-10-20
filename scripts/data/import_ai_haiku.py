@@ -1,8 +1,8 @@
 """Intake and vetting for AI-written haiku dropped into a folder.
 
-    python import_ai_haiku.py                          # scans "haikus from ai"
-    python import_ai_haiku.py --dir "some folder"      # any folder of .txt/.json/.jsonl/.csv
-    python import_ai_haiku.py --no-unique-lines        # keep poems that reuse a line the batch used
+    python scripts/data/import_ai_haiku.py                          # scans data/ai_batches
+    python scripts/data/import_ai_haiku.py --dir "some folder"      # any folder of .txt/.json/.jsonl/.csv
+    python scripts/data/import_ai_haiku.py --no-unique-lines        # keep poems that reuse a line the batch used
 
 Reads every file in the folder whatever the format, cleans each poem exactly like the
 authentic pipeline does (`backend.prepare_data`), then answers one question per poem: is this
@@ -12,7 +12,7 @@ Outputs
     data/raw_ai/           tier A - exact 5-7-5, unique lines, not in the corpus (training-ready)
     data/raw_ai_near/      tier B - every line within +-1 of 5/7/5 (kept for inspection, not mixed)
     data/ai_intake_stats.json
-    AI_HAIKU_INTAKE.md     the report: per file counts, meter spread, repeats, samples, rejects
+    docs/AI_HAIKU_INTAKE.md  the report: per file counts, meter spread, repeats, samples, rejects
 
 Re-runnable: it always rescans the folder, so adding batch 3 and running it again is the
 whole workflow. Nothing is trained here; `build_synth_corpus.py --ai-repeat N` mixes the result.
@@ -26,7 +26,7 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(ROOT))
 
 from backend.meter_check import distance, pattern  # noqa: E402
@@ -34,11 +34,11 @@ from backend.prepare_data import (  # noqa: E402
     reject_reason, dedupe_key, normalize, collect,
 )
 
-DEFAULT_DIR = ROOT / "haikus from ai"
+DEFAULT_DIR = ROOT / "data" / "ai_batches"
 AI_OUT = ROOT / "data" / "raw_ai"
 NEAR_OUT = ROOT / "data" / "raw_ai_near"
 STATS_OUT = ROOT / "data" / "ai_intake_stats.json"
-REPORT_OUT = ROOT / "AI_HAIKU_INTAKE.md"
+REPORT_OUT = ROOT / "docs" / "AI_HAIKU_INTAKE.md"
 CORPUS = ROOT / "data" / "haikus_clean.txt"
 AUTHORED = ROOT / "data" / "raw_synthetic"
 # lines that are file furniture, never poems: # comments, "Theme 3: Nature", "Batch 07", a bare
@@ -229,7 +229,7 @@ def main(argv=None) -> int:
     ap.add_argument("--unique-content", dest="unique_content", action="store_true", default=True,
                     help="reject a poem that spends the same content word in two of its three lines")
     ap.add_argument("--allow-echoes", dest="unique_content", action="store_false",
-                    help="keep poems with a repeated content word (the authentic corpus has ~9%)")
+                    help="keep poems with a repeated content word (the authentic corpus has ~9%%)")
     ap.add_argument("--max-line-uses", type=int, default=2,
                     help="how often one line may appear across the poems that are kept (default 2;"
                          " AI batches recycle stock lines, and a line trained 30 times is a template)")
@@ -379,11 +379,11 @@ def main(argv=None) -> int:
 
     report += ["", "## Next", "",
                "```bash",
-               "python build_synth_corpus.py --ai-repeat 6 --repeat 6   # rebuild the mix with this batch",
+               "python scripts/data/build_synth_corpus.py --ai-repeat 6 --repeat 6   # rebuild the mix with this batch",
                "python -m backend.train --corpus data/haikus_mix.txt --init-from checkpoints_mix/best.pt \\",
                "  --ckpt-dir checkpoints_mix --lr 6e-5 --embed-dim 384 --layers 8 --ffn-dim 1536 --epochs 12",
                "```",
-               "", "Drop the next batch in the folder and re-run `python import_ai_haiku.py`; nothing "
+               "", "Drop the next batch in the folder and re-run `python scripts/data/import_ai_haiku.py`; nothing "
                "is trained until you ask for the mix.", ""]
     args.report.write_text("\n".join(report) + "\n", encoding="utf-8")
 

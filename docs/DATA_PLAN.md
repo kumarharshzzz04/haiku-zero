@@ -44,7 +44,7 @@ but val was flat after epoch one, so the lever is *more poems*, not more epochs.
 
 ### A · Self-generation at scale — cheap, useful up to ~20k
 
-The machinery already exists: `self_distill.py --stage pairs` draws decoder-clean poems, one
+The machinery already exists: `scripts/self_distill.py --stage pairs` draws decoder-clean poems, one
 per seed word, and keeps only poems that pass every rule the decoder enforces.
 
 | | |
@@ -61,9 +61,9 @@ the useful target is **10k–20k synthetic pairs**, which is 1–2 hours of gene
 
 ```powershell
 # the existing tool, at pilot scale (one poem per seed word, decoder-filtered)
-python self_distill.py --stage pairs --pairs 2000 --best-of 4
+python scripts/self_distill.py --stage pairs --pairs 2000 --best-of 4
 # then train with the authentic corpus as the regulariser
-python self_distill.py --stage train --epochs 3 --mix data/haikus_classical.txt:3000
+python scripts/self_distill.py --stage train --epochs 3 --mix data/haikus_classical.txt:3000
 ```
 
 Not built yet, and needed before any run above ~5k: `stage pairs` writes one fixed file and
@@ -72,7 +72,7 @@ dedupe across shards (the current dedupe is in-memory, per run).
 
 ### B · Stronger external model — the intake already exists, the funnel is brutal
 
-`ai_haiku_vetter.py` + `import_ai_haiku.py` already score poems against the authored 180 and
+`scripts/data/ai_haiku_vetter.py` + `scripts/data/import_ai_haiku.py` already score poems against the authored 180 and
 split them into tiers. Real numbers from the last intake:
 
 | | |
@@ -120,13 +120,13 @@ apart. Report invented words, repeats, seed adherence, meter distance, and verba
 corpus lines.
 
 ```powershell
-python self_distill.py --stage probe --models checkpoints,checkpoints_selfdistill
-python quality_floor.py          # must stay green for the promoted checkpoint
+python scripts/self_distill.py --stage probe --models checkpoints,checkpoints_selfdistill
+python scripts/eval/quality_floor.py          # must stay green for the promoted checkpoint
 ```
 
 **Promotion rule:** an arm is promoted only if invented words *and* repeats are both no worse
-than the baseline, and `quality_floor.py` still exits 0. Anything that trades one for the other
-is a finding for [PROGRESS.md](../PROGRESS.md), not a new default.
+than the baseline, and `scripts/eval/quality_floor.py` still exits 0. Anything that trades one for the other
+is a finding for [PROGRESS.md](PROGRESS.md), not a new default.
 
 ## 5 · Order of work
 

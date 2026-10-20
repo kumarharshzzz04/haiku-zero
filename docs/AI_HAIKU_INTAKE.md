@@ -1,6 +1,6 @@
 # AI haiku intake — scored, not just filtered
 
-`ai_haiku_vetter.py` gives every poem a **percentile against our own curated 180**: "this
+`scripts/data/ai_haiku_vetter.py` gives every poem a **percentile against our own curated 180**: "this
 poem beats X% of the poems we wrote and hand-verified". Three measured parts drive it:
 
 1. soundness — a logistic model fitted on real poems (authentic corpus + our authored 180)
@@ -12,7 +12,7 @@ poem beats X% of the poems we wrote and hand-verified". Three measured parts dri
 3. repetition penalty — 15%, from lines already reused in this intake and
    3-word phrases the batch repeats, plus a small hit when two lines name clashing seasons.
 
-- source folder: `C:\ai projects ikkatha\Haiku zero\haikus from ai` — 8 file(s), 4722 poems read
+- source folder: `data/ai_batches` — 8 file(s), 4722 poems read
 - **tier A: 89** → `data/raw_ai/` (training-ready: passes the score cut **and** is exact 5-7-5 by `backend.meter_check`)
 - tier B: 289 → `data/raw_ai_near/` (within ±1 syllable; not mixed by default)
 - below the cut (percentile 25): 1895
@@ -80,10 +80,10 @@ poem beats X% of the poems we wrote and hand-verified". Three measured parts dri
 ## Next
 
 ```bash
-python build_synth_corpus.py --repeat 6 --ai-repeat 2    # rebuild the mix (x2: see RUNBOOK 2d)
+python scripts/data/build_synth_corpus.py --repeat 6 --ai-repeat 2    # rebuild the mix (x2: see RUNBOOK 2d)
 python -m backend.train --corpus data/haikus_mix.txt --init-from checkpoints/best.pt \
   --ckpt-dir checkpoints_combo --lr 6e-5 --embed-dim 384 --layers 8 --ffn-dim 1536 --epochs 12
 ```
 
-Drop the next batch and re-run `python ai_haiku_vetter.py`. Move the cut with `--store 0.90`, refit with `--refresh-model`, interrogate one poem with `--explain "line one | line two | line three"`.
+Drop the next batch and re-run `python scripts/data/ai_haiku_vetter.py`. Move the cut with `--store 0.90`, refit with `--refresh-model`, interrogate one poem with `--explain "line one | line two | line three"`.
 

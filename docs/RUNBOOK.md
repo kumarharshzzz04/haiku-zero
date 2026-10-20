@@ -9,11 +9,11 @@ Environment: **`pytorch_with_gpu`** — already created and verified (`torch 2.1
 | Job | Time | Who runs it |
 |---|---|---|
 | Data cleaning + tokenizer | ~1 min | done already (re-runnable, §2) |
-| `test_smoke.py` (CPU) | <1 min | done after every change |
+| `tests/test_smoke.py` (CPU) | <1 min | done after every change |
 | GPU smoke `--max-steps 50` | seconds | done once, re-run after any change |
 | Full training (25 epochs) | **~10 min** | you |
-| `experiments.py` screen (4 configs, 5 epochs) | **~6 min** | you |
-| `experiments.py --epochs 25` (4 full runs) | **~45 min** | you, when stepping away |
+| `scripts/experiments.py` screen (4 configs, 5 epochs) | **~6 min** | you |
+| `scripts/experiments.py --epochs 25` (4 full runs) | **~45 min** | you, when stepping away |
 
 ## 1. Environment (already set up — only redo if you delete `pytorch_with_gpu`)
 
@@ -35,8 +35,8 @@ pip install tokenizers numpy
 ## 2. Data + tokenizer
 
 ```powershell
-python import_external.py            # (once, needs pyarrow) statworx/haiku -> data/raw/statworx.csv
-python prepare_corpora.py            # parks raw twaiku, writes the capped sample, fills both source dirs
+python scripts/data/import_external.py            # (once, needs pyarrow) statworx/haiku -> data/raw/statworx.csv
+python scripts/data/prepare_corpora.py            # parks raw twaiku, writes the capped sample, fills both source dirs
 python -m backend.prepare_data --raw-dir data/raw           --out data/haikus_clean.txt
 python -m backend.prepare_data --raw-dir data/raw_classical --out data/haikus_classical.txt `
     --meter-out data/haikus_classical_meter.txt --stats data/stats_classical.json
@@ -65,7 +65,7 @@ Current corpus is **1.43M BPE tokens** (0.79M authentic). That is the real bottl
 ("windshavel", "cicadases") did **not** improve when the model grew 5.8M -> 15.8M params, so it is a
 data/vocabulary problem, not a capacity one.
 
-**Measured form, not the card's claim.** `python ai_haiku_vetter.py --audit --dir data/external`
+**Measured form, not the card's claim.** `python scripts/data/ai_haiku_vetter.py --audit --dir data/external`
 reads the parquet downloads directly and counts what is actually 5-7-5:
 
 | file | rows | usable 3-line | exact 5-7-5 | within ±1 | already in our corpus |
@@ -128,8 +128,8 @@ Target: ~10-20M tokens of stage-1 text instead of 1.4M, all of it public domain.
 ### 2c. Stage-1 corpus: built and measured
 
 ```powershell
-python fetch_poetry.py --catalog-only     # 4,081 English poetry books in the PG catalog
-python fetch_poetry.py                    # cached downloads -> data/poetry_pretrain.txt
+python scripts/data/fetch_poetry.py --catalog-only     # 4,081 English poetry books in the PG catalog
+python scripts/data/fetch_poetry.py                    # cached downloads -> data/poetry_pretrain.txt
 ```
 
 **Result: 375,681 three-line records, 15.41M BPE tokens, 120,488 unique words, from 611 books.**
@@ -157,7 +157,7 @@ exactly 3 lines. Non-ASCII is legitimate typography (curly quotes, em dashes, `a
 **v2 corpus, built 2026-10-18 — the budget was the limit, not the catalogue:**
 
 ```powershell
-python fetch_poetry.py --out data/poetry_pretrain_v2.txt --max-chars 150e6 --max-books 3000
+python scripts/data/fetch_poetry.py --out data/poetry_pretrain_v2.txt --max-chars 150e6 --max-books 3000
 ```
 
 | | v1 (live stage 1) | v2 |
@@ -176,23 +176,23 @@ checks: the `the`-share language filter still holds (36 non-English books skippe
 blocks were deduped, and every record is exactly 3 lines with 0 U+FFFD. A verification re-run to a
 second path reproduced the file **byte for byte** (168,201,929 bytes, `cmp` clean), which also
 exercised a real bug fix: a relative `--out` crashed the *summary print* with `ValueError` after the
-corpus was already written, so a successful run reported failure — `rel()` in `fetch_poetry.py`. The
-same pattern (relative path + `relative_to`) had already bitten `seed_placement_probe.py` and the API,
-so it is fixed there too (`import_external.py`, `seed_placement_probe.py`).
+corpus was already written, so a successful run reported failure — `rel()` in `scripts/data/fetch_poetry.py`. The
+same pattern (relative path + `relative_to`) had already bitten `scripts/eval/seed_placement_probe.py` and the API,
+so it is fixed there too (`scripts/data/import_external.py`, `scripts/eval/seed_placement_probe.py`).
 
 ### 2d. AI batches: drop files in a folder, get vetted data out
 
-New AI-written haiku arrive one batch at a time in `haikus from ai/`. Text, JSON, JSONL, CSV and
+New AI-written haiku arrive one batch at a time in `data/ai_batches/`. Text, JSON, JSONL, CSV and
 tab-separated all parse (jsonl rows need `lines` as a 3-item list, or a `haiku`/`poem`/`text`
 string; txt is read as blank-line blocks, then as consecutive 3-line groups if the file has no
 blank lines; `Theme 1:` style headers are skipped). Two commands:
 
 ```bash
-python ai_haiku_vetter.py                 # score every poem, write the tiers + the report
-python build_synth_corpus.py --repeat 6 --ai-repeat 2 --ai-tier ab
+python scripts/data/ai_haiku_vetter.py                 # score every poem, write the tiers + the report
+python scripts/data/build_synth_corpus.py --repeat 6 --ai-repeat 2 --ai-tier ab
 ```
 
-`ai_haiku_vetter.py` is the whole answer to "is this worthy". It scores each poem as a **percentile
+`scripts/data/ai_haiku_vetter.py` is the whole answer to "is this worthy". It scores each poem as a **percentile
 against our own curated 180**: soundness (a logistic model fitted on real poems versus corruptions
 of those poems, held-out AUC ~0.79) minus a cliché penalty (abstract filler such as "joy", "life",
 "dream") minus a repetition penalty (lines and 3-word phrases the batch reuses).
@@ -220,7 +220,7 @@ accepted + rejected = rows read — so a new batch cannot silently lose poems.
   pushed the qwen batch down to 20 tier-A poems; after it, 58.
 - **`--ai-repeat 2`, measured, not guessed.** At `--ai-repeat 6` (the same AI poems × 6 in a
   43.8k corpus)
-  `synth_compare.py` found **5 of 60 generated lines (8%) were verbatim AI-batch lines**, against 0
+  `scripts/eval/synth_compare.py` found **5 of 60 generated lines (8%) were verbatim AI-batch lines**, against 0
   for the live model; at ×2 the count is **0 of 75**. The ×6 checkpoint is kept as
   `checkpoints_combo_x6/` for the comparison; the recipe above is the one that does not regurgitate.
 
@@ -243,8 +243,8 @@ tale in verse, present in **28** of the 1,175 cached poetry books. The real junk
 So the rule is deliberately narrow — an entry is dropped only when it *cannot* be an English word
 (`impossible_word`: longer than 18 characters, or 2+ apostrophes). **489 of 145,515 entries (0.34%)**
 go, and the only real word caught is `rock'n'roll`. The rule is named in the cache header, so the list
-rebuilds on the next load (145,515 → **145,026**, 0 impossible entries left) and `test_smoke.py`
-passes; `quality_probe.py` is unchanged (0% junk / 100% exact strict, 92% seed free).
+rebuilds on the next load (145,515 → **145,026**, 0 impossible entries left) and `tests/test_smoke.py`
+passes; `scripts/eval/quality_probe.py` is unchanged (0% junk / 100% exact strict, 92% seed free).
 
 What the junk that survives actually costs, measured through the production path (best-of 4, reranker
 on, 12 words × 20 poems, possessive-aware): **strict 1.7%** — and that one is the legitimate plural
@@ -265,9 +265,9 @@ python -m backend.train --seed-prob 0.7    # share of rows trained as '<seed> wo
 python -m backend.train --prefix-mask-prob 0.3   # share trained as a continuation
 python -m backend.train --meter-data       # train on the 5-7-5-ish subset instead
 python -m backend.train --corpus data/haikus_classical.txt --ckpt-dir checkpoints_authentic `
-    --log training_log_authentic.csv --epochs 40          # authentic-voice run
+    --log logs/training/training_log_authentic.csv --epochs 40          # authentic-voice run
 python -m backend.train --embed-dim 384 --layers 8 --ffn-dim 1536 --batch-size 64 `
-    --epochs 20 --dropout 0.15 --ckpt-dir checkpoints_big --log training_log_big.csv
+    --epochs 20 --dropout 0.15 --ckpt-dir checkpoints_big --log logs/training/training_log_big.csv
 ```
 
 **The two-stage recipe that is now live** (~65 min total on the RTX 4050: 60 + 5.2). Stage 1 gives the model
@@ -277,12 +277,12 @@ English and a poetic register; stage 2 gives it haiku form. Same architecture, s
 ```powershell
 # stage 1 - vocabulary: 54.35M tokens of public-domain poetry, 60 min, best val 3.4573
 python -m backend.train --corpus data/poetry_pretrain_v2.txt --epochs 5 --run-name poetry-pretrain-v2 `
-    --ckpt-dir checkpoints_pretrain_v2 --log training_log_pretrain_v2.csv `
+    --ckpt-dir checkpoints_pretrain_v2 --log logs/training/training_log_pretrain_v2.csv `
     --embed-dim 384 --layers 8 --ffn-dim 1536
 # stage 2 - form: fine-tune on the authentic haiku corpus, 5.2 min, best val 3.8363
 python -m backend.train --corpus data/haikus_classical.txt --epochs 25 --lr 1e-4 `
     --init-from checkpoints_pretrain_v2/best.pt --run-name poetry-then-haiku-v2 `
-    --ckpt-dir checkpoints_v2 --log training_log_poetry_v2.csv `
+    --ckpt-dir checkpoints_v2 --log logs/training/training_log_poetry_v2.csv `
     --embed-dim 384 --layers 8 --ffn-dim 1536
 ```
 
@@ -298,7 +298,7 @@ pair is what the live `checkpoints/best.pt` was until 2026-10-18 and is preserve
 `checkpoints_pretrain/best.pt` is kept (selectable in the UI) because stage 1 alone is the diagnostic
 that says whether a problem is vocabulary or form: it writes fluent long-lined verse and cannot do 5-7-5
 (0% exact, 6.5 words/line). Cross-run val loss is **not** comparable across different corpora — use
-`quality_probe.py`, which is why it exists.
+`scripts/eval/quality_probe.py`, which is why it exists.
 
 Model size is now a flag (`--embed-dim/--layers/--ffn-dim/--seq-length`), so capacity experiments do
 not need a config edit: 15.79M params fits in 6 GB at batch 64.
@@ -324,7 +324,7 @@ small. The gain is in the weights — a third fewer invented words and better se
 is left to the model. Free-mode samples read more like English than v1's ("dust is cold and dry / A new
 wine lamp flares on / The night air is wet" vs "dust gurgles on the / field And fishing from a nook /
 sat in a tank of"). Verified through the production path: `python -m backend.server --port 8123` loads
-`checkpoints` at val 3.8363 and `/api/generate` returns an exact 5-7-5 poem in 0.9 s; `test_smoke.py`
+`checkpoints` at val 3.8363 and `/api/generate` returns an exact 5-7-5 poem in 0.9 s; `tests/test_smoke.py`
 passes with the promoted weights, and the old model stays loadable from `checkpoints_v1_small/`.
 
 Every train run writes `best.pt` (best val — what generation loads), `last.pt` (resume) and its
@@ -340,17 +340,17 @@ stage 2 because the first one overfit.
 ```powershell
 # stage 1 - 104 min, same 33,170 steps and token budget as the 15.8M run
 python -m backend.train --corpus data/poetry_pretrain_v2.txt --epochs 5 --run-name poetry-pretrain-cap `
-    --ckpt-dir checkpoints_pretrain_cap --log training_log_pretrain_cap.csv `
+    --ckpt-dir checkpoints_pretrain_cap --log logs/training/training_log_pretrain_cap.csv `
     --embed-dim 512 --layers 10 --ffn-dim 2048 --batch-size 128
 # stage 2a - the live recipe, 9.3 min: overfits (best val 3.7759 at epoch 5, then climbs to 3.99)
 python -m backend.train --corpus data/haikus_classical.txt --epochs 25 --lr 1e-4 `
     --init-from checkpoints_pretrain_cap/best.pt --run-name poetry-then-haiku-cap `
-    --ckpt-dir checkpoints_cap --log training_log_cap.csv `
+    --ckpt-dir checkpoints_cap --log logs/training/training_log_cap.csv `
     --embed-dim 512 --layers 10 --ffn-dim 2048 --batch-size 128
 # stage 2b - PLAN.md's overfit rule, 4.4 min: dropout 0.15, 12 epochs
 python -m backend.train --corpus data/haikus_classical.txt --epochs 12 --lr 1e-4 --dropout 0.15 `
     --init-from checkpoints_pretrain_cap/best.pt --run-name poetry-then-haiku-cap-d15 `
-    --ckpt-dir checkpoints_cap_d15 --log training_log_cap_d15.csv `
+    --ckpt-dir checkpoints_cap_d15 --log logs/training/training_log_cap_d15.csv `
     --embed-dim 512 --layers 10 --ffn-dim 2048 --batch-size 128
 ```
 
@@ -366,7 +366,7 @@ python -m backend.train --corpus data/haikus_classical.txt --epochs 12 --lr 1e-4
 | strict `quality_probe` | 100% exact, 0% junk | identical | identical |
 | verbatim corpus lines | 1.1% | 1.1% | 2.2% |
 
-Raw probe = `self_distill.py --stage probe --n 20` (240 poems per model, filters off, GPU).
+Raw probe = `scripts/self_distill.py --stage probe --n 20` (240 poems per model, filters off, GPU).
 
 **Reading:** capacity clearly buys pretrain loss (−0.086 on the same split) and stage-2 val too, but
 **nothing improves in the samples**: repeats rise, output sits further from real haiku, and at 25
@@ -379,7 +379,7 @@ authored-poem set grows.
 ## 4. Generation
 
 Available models (each ships with its own `tokenizer.json`, so old checkpoints keep the tokenizer
-they were trained with). Numbers are `python quality_probe.py --n 8` — 32 strict poems per model,
+they were trained with). Numbers are `python scripts/eval/quality_probe.py --n 8` — 32 strict poems per model,
 best-of 4, seed leading:
 
 | path | what it is | junk | `?` | strict exact | seed hits | invented words |
@@ -404,7 +404,7 @@ model obeys a typed seed **100%** of the time versus **58%** for the previous li
 Structural quality is now mostly the decoder's doing (junk filter, exact meter, seed leading), so under
 strict metering every checkpoint scores 100% exact — the table differentiates on *voice* and on the two
 columns that still come from the weights: seed adherence and invented words. Val loss is **not**
-comparable across runs (different splits and different corpora); `quality_probe.py` is the comparison
+comparable across runs (different splits and different corpora); `scripts/eval/quality_probe.py` is the comparison
 that is. The live row was re-measured after the third decoder round (below): `--n 12`, the same
 `--seeds` string, **junk 0% / `?` 0% / exact 100% / seed 100% / repeats 0% / invented words 0%** in
 the strict column and 0% invented in the free column. The other rows are the older run and predate
@@ -444,7 +444,7 @@ Two decoder changes this round, both measured:
   and the model continues it, in **both** modes (before this, free meter silently ignored the switch:
   measured 43% vs 100%). Reranking alone could not do it — a typed seed reached the poem in **0/10**
   samples before (`autumn`), 100% after. The word is in the poem by construction, which the UI labels.
-- **seed placement measured: opening the poem vs integrating the word** (`seed_placement_probe.py`, 12
+- **seed placement measured: opening the poem vs integrating the word** (`scripts/eval/seed_placement_probe.py`, 12
   words that occur in the corpus — `rain` 1,527 … `cloud` 194 — 4 poems each, best-of 5, strict, same
   draws for both placements):
 
@@ -474,7 +474,7 @@ Two decoder changes this round, both measured:
   stage it was still built from the two haiku corpora, which reported the model's newly learned real
   English ("yonder", "mantling") as invented — 3% instead of the true 1%. The cache now stores the
   corpus list that produced it and rebuilds on any change (43,860 → 145,515 words); a stale list fails
-  silently and in the wrong direction, so `test_smoke.py` covers it.
+  silently and in the wrong direction, so `tests/test_smoke.py` covers it.
 - **banned words** (`data/banned_words.txt`): a candidate that uses one is dropped instead of ranked and
   the sampler draws again (up to 4n) until a clean one exists. Prompted by `blood` returning crucifixion
   imagery — a 15.8M model trained on public-domain verse learned the Christian register of that corpus,
@@ -496,7 +496,7 @@ Two decoder changes this round, both measured:
   default went **1.1 → 1.3** (the server takes `max(checkpoint, 1.3)`, because old payloads store
   1.1); and a candidate that spends a content word twice takes a `REPEAT_PENALTY = 2.5` score hit
   rather than being disqualified — disqualifying it surfaced malformed candidates and made things
-  worse. Measured with `repeat_probe.py` (8 seeds × 4 poems, stems so `snow/snow's/snows` count once):
+  worse. Measured with `scripts/eval/repeat_probe.py` (8 seeds × 4 poems, stems so `snow/snow's/snows` count once):
   strict **44% → 6%**, previous live model **9% → 3%**, free meter **0%**, exact 5-7-5 still **100%**.
 - **token-level filtering, second round**: 6% was not zero, and the free meter had no filter at all,
   so the ranking-only version still let a poem say the seed twice. Four decoder bugs, all measured:
@@ -513,7 +513,7 @@ Two decoder changes this round, both measured:
     true probability, so the filter has somewhere to go while the nucleus token still dominates.
   - *Free meter had no token-level filter*, so `blood-red wire ... heavy my blood` was possible no
     matter what the reranker preferred. It now uses the same candidate filter (no meter rule).
-  Measured with `repeat_probe.py` (8 seeds × 4 poems, both models, both modes): **0% repeats** and
+  Measured with `scripts/eval/repeat_probe.py` (8 seeds × 4 poems, both models, both modes): **0% repeats** and
   **exactly 1.00 seed-word uses per poem** in all four cells, exact 5-7-5 still 100%. `quality_probe`
   on the live model at that point: junk 0%, `?` 0%, invented words 1% strict / 0% free — the last
   number is the one the third round below takes to 0%.
@@ -528,7 +528,7 @@ Two decoder changes this round, both measured:
   Possessive plurals (`the birds' song`) and contractions (`it's`) still pass.
 - **`repeated_rate` counts content words** (`repeated_content_rate`), not every word: the old metric
   charged grammar ("the ... the ... and") and reported a perfectly clean poem as **29% repeats** in
-  the UI, which made the decoder fix look like it had done nothing. `quality_probe.py` uses the same
+  the UI, which made the decoder fix look like it had done nothing. `scripts/eval/quality_probe.py` uses the same
   content-word metric now (it kept the all-word one for a while, which is why its column disagreed
   with the API).
 - **word seam** (`keeps_word_boundary`): the tokenizer has both `Ġstream` (opens a word) and `stream`
@@ -548,7 +548,7 @@ Two decoder changes this round, both measured:
 - **full-attestation tier in the reranker** (`UNATTESTED_PENALTY = 2.0`): a poem made only of words
   the corpora contain now outranks one with a single invention, regardless of its logprob. The
   weight was previously a 1.2 × rate bonus, which a marginally better logprob could beat.
-  Measured: invented words **1% → 0%** strict and free (`quality_probe.py --n 12`), junk 0%,
+  Measured: invented words **1% → 0%** strict and free (`scripts/eval/quality_probe.py --n 12`), junk 0%,
   `?` 0%, exact 100%, repeats 0%.
 - **free meter is bounded** (`FREE_MAX_SYLLABLES`, `FREE_MIN_SYLLABLES`, `FREE_NEWLINE_BOOST`): free
   meant "don't enforce 5-7-5", not "never stop". A line now closes at the ceiling even when the
@@ -559,9 +559,9 @@ Two decoder changes this round, both measured:
   `known_word` strips edge apostrophes so `boughs'` is not also counted as an invented word.
 - **`data/banned_words.txt` hot-reloads** (mtime + size cache) — see the bullet above; the old
   "restart the server" step is gone.
-- **`quality_probe.py` reports the content-word repeat metric**, the same number the API and UI show.
+- **`scripts/eval/quality_probe.py` reports the content-word repeat metric**, the same number the API and UI show.
 
-### 4b. Can the decoder's job move into the weights? Measured (`self_distill.py`)
+### 4b. Can the decoder's job move into the weights? Measured (`scripts/self_distill.py`)
 
 Every quality rule in §4 lives in the decoder, so the obvious next question is whether training can
 absorb them. Tested: draw poems the way the live pipeline does (`--strict`, reranker on, seed as
@@ -570,14 +570,14 @@ every word attested, no junk, no banned word), then fine-tune on them in the tra
 (`[<bos> <seed> word \n poem <eos>]`, prefix masked — `dataset.encode_records`' shape).
 
 ```powershell
-python self_distill.py --stage pairs --pairs 900 --best-of 6    # ~25 min, 1,325 draws -> 900 pairs
-python self_distill.py --stage train --epochs 3 --lr 5e-5 --mix data/haikus_classical.txt:3000
-python self_distill.py --stage probe --models checkpoints,checkpoints_selfdistill_mix --n 20
+python scripts/self_distill.py --stage pairs --pairs 900 --best-of 6    # ~25 min, 1,325 draws -> 900 pairs
+python scripts/self_distill.py --stage train --epochs 3 --lr 5e-5 --mix data/haikus_classical.txt:3000
+python scripts/self_distill.py --stage probe --models checkpoints,checkpoints_selfdistill_mix --n 20
 ```
 
 1,325 draws → **900 clean pairs**; the rejections are the interesting part: `no_seed` **406**,
 `invented` 13, `repeat` 4, `banned` 2. A *random* corpus word comes back in the poem only ~69% of
-the time, against 96-98% for the common image words in `seed_placement_probe.py` — adherence is a
+the time, against 96-98% for the common image words in `scripts/eval/seed_placement_probe.py` — adherence is a
 property of the word, not just of the reranker.
 
 `--stage probe` is the honest test (PROGRESS.md limitation #1): `REPEAT_WEIGHT`, `SEAM_WEIGHT` and
@@ -594,9 +594,9 @@ does not** (83 → 86%, inside noise), **meter does not at all** (0% exact in ev
 still the decoder's), and repeating a content word gets no better (19 → 25%, marginal). A pure run on
 the distilled pairs alone drifts hard on repeats — **40%** at 10 epochs and **54%** at 3 (n=72),
 against 20% for the live model — and `--mix <corpus>:<count>` is the fix: the distilled set is
-low-entropy, real poems in the same shape pull it back to 25% while keeping the vocabulary gain. Under the decoder (`quality_probe.py`, best-of 4, strict) the two models
+low-entropy, real poems in the same shape pull it back to 25% while keeping the vocabulary gain. Under the decoder (`scripts/eval/quality_probe.py`, best-of 4, strict) the two models
 are indistinguishable — 100% exact, 0% junk, 0% repeat, 0% invented — and in *free* topic mode the
-distilled model's adherence is 100% against 92%. No verbatim corpus copying either (`synth_compare.py`:
+distilled model's adherence is 100% against 92%. No verbatim corpus copying either (`scripts/eval/synth_compare.py`:
 authored 0, AI 0, authentic 0).
 
 Verdict: a partial win, not a replacement. Keep the live model; `checkpoints_selfdistill/` (10 epochs)
@@ -616,19 +616,19 @@ training, strict decoding and free sampling all get the feature with **no call-s
 python -m backend.train --corpus data/haikus_exact.txt --init-from checkpoints/best.pt `
     --epochs 15 --lr 8e-5 --meter-state --seed-prob 0.7 `
     --embed-dim 384 --layers 8 --ffn-dim 1536 --batch-size 64 `
-    --ckpt-dir checkpoints_meter --log training_log_meter.csv --run-name meter-state
-python self_distill.py --stage probe --models checkpoints,checkpoints_meter --n 20      # filters off
-python self_distill.py --stage probe --models checkpoints_meter --ablate-meter --n 20   # state zeroed
+    --ckpt-dir checkpoints_meter --log logs/training/training_log_meter.csv --run-name meter-state
+python scripts/self_distill.py --stage probe --models checkpoints,checkpoints_meter --n 20      # filters off
+python scripts/self_distill.py --stage probe --models checkpoints_meter --ablate-meter --n 20   # state zeroed
 
 # the balanced recipe: distilled pairs (own seeds) + exact form + authentic voice
-python self_distill.py --stage train --epochs 8 --lr 4e-5 --meter-state `
+python scripts/self_distill.py --stage train --epochs 8 --lr 4e-5 --meter-state `
     --mix data/haikus_exact.txt:5930 --mix data/haikus_classical.txt:6000 `
-    --ckpt-dir checkpoints_meter_pairs --log training_log_meter_pairs.csv
+    --ckpt-dir checkpoints_meter_pairs --log logs/training/training_log_meter_pairs.csv
 ```
 
 `data/haikus_exact.txt` is the 5,930 exact-5-7-5 poems inside the mix (13.9%; a further 3,442 are
 within ±1). Everything below is fine-tuned from `checkpoints/` at 384×8×1536, and "raw" means the
-`self_distill.py --stage probe` numbers: candidate weights neutralised, `word_weight 0`, `best-of 1`,
+`scripts/self_distill.py --stage probe` numbers: candidate weights neutralised, `word_weight 0`, `best-of 1`,
 free meter with the 10-syllable ceiling and the newline boost switched off, 12 words × 20 poems.
 
 | recipe | raw ±1 | raw mean syllabic distance | raw seed | production free exact | production free seed |
@@ -664,11 +664,11 @@ What the table says:
 payloads build the old architecture; both embeddings are additive and the branch is skipped. Verified
 by regenerating 12 fixed-seed poems from `checkpoints/` in both modes and diffing against a snapshot
 taken before the code change: **byte-identical**, with `meter_state False` reported on load
-(`logs/baseline_before_meter.txt`). `test_smoke.py` passes, and the strict probes are unchanged.
+(`logs/baseline_before_meter.txt`). `tests/test_smoke.py` passes, and the strict probes are unchanged.
 
 ```powershell
-python repeat_probe.py                     # repeat / exact / seed-use rate, live vs previous model
-python repeat_probe.py --free              # same, free meter
+python scripts/eval/repeat_probe.py                     # repeat / exact / seed-use rate, live vs previous model
+python scripts/eval/repeat_probe.py --free              # same, free meter
 python -m backend.generate --prompt "autumn moonlight" --count 3
 python -m backend.generate --prompt "snow" --strict     # always 3 lines, 5-7-5 by construction
 python -m backend.generate                               # interactive REPL
@@ -683,11 +683,11 @@ non-exact candidates rank last. Measured: strict exactness 8/10 → 10/10 and me
 on the old live model (best-of 16 only reaches −2.17, so 4 is the cheap sweet spot). Raise it to 8-16
 if you want more of the word-realism rerank to bite (it costs one forward pass per candidate).
 
-### 4d. Decoder knobs, swept (`inference_sweep.py`)
+### 4d. Decoder knobs, swept (`scripts/eval/inference_sweep.py`)
 
 ```powershell
-python inference_sweep.py                          # temperature 0.7-1.0, penalty 1.1-1.3, best-of 4/8
-python inference_sweep.py --models checkpoints_cap --n 8
+python scripts/eval/inference_sweep.py                          # temperature 0.7-1.0, penalty 1.1-1.3, best-of 4/8
+python scripts/eval/inference_sweep.py --models checkpoints_cap --n 8
 ```
 
 Live model, 6 seeds × 8 strict poems per row, GPU:
@@ -840,9 +840,9 @@ and the body's `max-w` went 62% → 74% so the bigger text does not wrap.
 ## 6. Experiments (compare configs, keep the winner)
 
 ```powershell
-python experiments.py                                    # 4 configs x 5 epochs, ~15-20 min
-python experiments.py --epochs 25                         # the real thing, ~2 h
-python experiments.py --runs clean-d0.15,meter-d0.10      # subset
+python scripts/experiments.py                                    # 4 configs x 5 epochs, ~15-20 min
+python scripts/experiments.py --epochs 25                         # the real thing, ~2 h
+python scripts/experiments.py --runs clean-d0.15,meter-d0.10      # subset
 ```
 
 Each run gets `experiments/<name>/{best.pt,last.pt,log.csv}`; the sweep prints a table sorted by val
@@ -851,19 +851,19 @@ loss and writes `experiments/results.json` with val loss, minutes and 3 samples 
 ## 7. Checks
 
 ```powershell
-python test_smoke.py          # pipeline + decoder rules + HTTP API on a tiny fixture, CPU, <1 min
-python quality_probe.py       # fixed probes on every checkpoints*/best.pt: junk, meter, seed, non-words
-python quality_probe.py --models checkpoints --n 20 --word-weight 0    # measure the rerank itself
-python quality_probe.py --models checkpoints --no-seed-first           # then 'seed' is a real test
-python inference_sweep.py --n 8      # temperature / penalty / best-of: quality vs seconds per poem
-python quality_floor.py              # gate: exit 1 if a measured quality promise regressed
-python quality_floor.py --self-test  # prove the gate can fail (no model needed, seconds)
-python seed_placement_probe.py --words sea,moon,river                  # where the typed word ends up
-python self_distill.py --stage probe --models checkpoints,checkpoints_selfdistill_mix --n 20   # filters off
-python self_distill.py --stage probe --models checkpoints_meter --ablate-meter --n 20   # state zeroed
+python tests/test_smoke.py          # pipeline + decoder rules + HTTP API on a tiny fixture, CPU, <1 min
+python scripts/eval/quality_probe.py       # fixed probes on every checkpoints*/best.pt: junk, meter, seed, non-words
+python scripts/eval/quality_probe.py --models checkpoints --n 20 --word-weight 0    # measure the rerank itself
+python scripts/eval/quality_probe.py --models checkpoints --no-seed-first           # then 'seed' is a real test
+python scripts/eval/inference_sweep.py --n 8      # temperature / penalty / best-of: quality vs seconds per poem
+python scripts/eval/quality_floor.py              # gate: exit 1 if a measured quality promise regressed
+python scripts/eval/quality_floor.py --self-test  # prove the gate can fail (no model needed, seconds)
+python scripts/eval/seed_placement_probe.py --words sea,moon,river                  # where the typed word ends up
+python scripts/self_distill.py --stage probe --models checkpoints,checkpoints_selfdistill_mix --n 20   # filters off
+python scripts/self_distill.py --stage probe --models checkpoints_meter --ablate-meter --n 20   # state zeroed
 ```
 
-`quality_floor.py` is the gate the probes exist for: every promise in §4 (100% exact, 0% repeats,
+`scripts/eval/quality_floor.py` is the gate the probes exist for: every promise in §4 (100% exact, 0% repeats,
 0% invented words, 0% junk, 100% seed) is a *rate*, and any decoder change can quietly cost one.
 It measures the same fixed 24 strict poems (fixed seeds, fixed generation seeds, GPU or CPU), compares
 them with `logs/quality_floor.json`, prints the least typical poem and **exits 1** on any regression.
@@ -884,7 +884,7 @@ the model would have mentioned the seed on its own (it usually would not).
 | lowercase everything | case preserved, `--lowercase` available | Lowercasing destroys proper nouns; flip the flag for the plan's behavior. |
 | custom BPE, `ByteLevel` | same + `initial_alphabet=ByteLevel.alphabet()` | Without it, bytes unseen in training are silently *dropped* at encode time and generation loses characters (verified: `"3.14/2"`, `"été café"`, `"jazz?"` fail without, pass with). |
 | Module 10 = retry until 5-7-5 | constrained decoding + local syllable counter | Exact meter by construction, no retry loop, no extra dependency. |
-| one corpus file | `haikus_clean.txt` + `haikus_meter.txt` | Free second experiment; `--meter-data` / `experiments.py` compare them. |
+| one corpus file | `haikus_clean.txt` + `haikus_meter.txt` | Free second experiment; `--meter-data` / `scripts/experiments.py` compare them. |
 | — | GPT-2 init + residual scaling, tied weights, float32 head | Standard small-model stabilizers; 5.80M params, in line with the ~6M target. |
 
 ## 9. Troubleshooting
@@ -894,11 +894,11 @@ the model would have mentioned the seed on its own (it usually would not).
 | `torch.cuda.is_available()` False | CPU wheel installed — reinstall with the `cu130` index (§1). |
 | CUDA out of memory | `--batch-size 64` (or 32). |
 | Loss stuck near 8.32 | tokenizer/corpus mismatch: rerun §2 in order. |
-| Preview never improves | check the val column in `training_log.csv`; try `--dropout 0.15`, more epochs, or the meter corpus. |
+| Preview never improves | check the val column in `logs/training/training_log.csv`; try `--dropout 0.15`, more epochs, or the meter corpus. |
 | Everything on CPU | activate `pytorch_with_gpu` first; the `device cuda` line in §3 is the proof. |
 | Want the plan's original TF path | not possible on this GPU without WSL2 (`wsl --install`, admin + reboot). |
 | Front end says "Could not reach the API" | `python -m backend.server` is not running, or is on another port: the Vite proxy targets `127.0.0.1:8000`. |
 | Poems carry `?????` or `. . . .` | fixed by `generate.has_junk` (strict mode). If it returns, a checkpoint is not being fed through the metered path. |
-| Poems ignore the word I typed | seed leading (default) puts it in the poem by construction. Leaving it off is fine at the default `--best-of 4` (measured 98% adherence); if the word must appear, the adherence loop costs ~1 extra draw (`seed_placement_probe.py`). |
+| Poems ignore the word I typed | seed leading (default) puts it in the poem by construction. Leaving it off is fine at the default `--best-of 4` (measured 98% adherence); if the word must appear, the adherence loop costs ~1 extra draw (`scripts/eval/seed_placement_probe.py`). |
 | Poems invent words ("shavement") | raise `--best-of` (8-16) so the real-word rerank has more candidates; the deeper lever is more data — 1.8M tokens is thin for a 15.8M-param model. |
 | `front end not built` from :8000 | run `npm run build` in `frontend/`, or just use the dev server on :5177. |

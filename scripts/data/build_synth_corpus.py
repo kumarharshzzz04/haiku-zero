@@ -10,9 +10,9 @@ appear once, unchanged. Poems duplicated across sources are dropped from the add
 nothing is trained twice by accident.
 
 Usage
-    python build_synth_corpus.py                          # authored x3, AI tier A x3
-    python build_synth_corpus.py --repeat 6 --ai-repeat 6
-    python build_synth_corpus.py --ai-tier ab --ai-repeat 2
+    python scripts/data/build_synth_corpus.py                          # authored x3, AI tier A x3
+    python scripts/data/build_synth_corpus.py --repeat 6 --ai-repeat 6
+    python scripts/data/build_synth_corpus.py --ai-tier ab --ai-repeat 2
 """
 from __future__ import annotations
 
@@ -22,7 +22,7 @@ import random
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(ROOT))
 
 from backend.prepare_data import collect, dedupe_key, meter_filter, write_corpus  # noqa: E402

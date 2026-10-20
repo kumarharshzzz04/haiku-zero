@@ -1,6 +1,6 @@
 """Arrange the raw sources that the two corpora are built from.
 
-    python prepare_corpora.py
+    python scripts/data/prepare_corpora.py
 
 Why this exists: the original corpus was 78% twaiku (tweets), which is what made the model
 sound like a Twitter feed. Decisions, all reversible:
@@ -24,7 +24,7 @@ import random
 import shutil
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 RAW = ROOT / "data" / "raw"
 RAW_CLASSICAL = ROOT / "data" / "raw_classical"
 TWAIKU_STORE = ROOT / "data" / "raw_twaiku"
@@ -44,7 +44,7 @@ def main(argv=None) -> None:
     args = ap.parse_args(argv)
 
     if not STATWORX.exists():
-        raise SystemExit(f"{STATWORX} missing - run: python import_external.py")
+        raise SystemExit(f"{STATWORX} missing - run: python scripts/data/import_external.py")
 
     # 1. park the original tweet file, then put a capped sample back in the full corpus
     TWAIKU_STORE.mkdir(parents=True, exist_ok=True)

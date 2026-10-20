@@ -1,7 +1,7 @@
 """Compare the production checkpoint with the synthetic-mix fine-tune.
 
-    python synth_compare.py                                  # both models, 5 prompts
-    python synth_compare.py --n 4 --models checkpoints,checkpoints_mix
+    python scripts/eval/synth_compare.py                                  # both models, 5 prompts
+    python scripts/eval/synth_compare.py --n 4 --models checkpoints,checkpoints_mix
 
 Prints, per prompt, the poems each model writes with strict 5-7-5 decoding, then a
 memorisation report: how many generated lines copy a line of the authored corpus
@@ -15,11 +15,10 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(ROOT))
 
 from backend import generate  # noqa: E402
-
-ROOT = Path(__file__).resolve().parent
 PROMPTS = ["autumn", "breeze", "old pond", "snow", ""]
 
 

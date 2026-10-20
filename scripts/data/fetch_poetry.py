@@ -10,9 +10,9 @@ The corpus is written in the SAME canonical format as the haiku corpus (3 lines 
 dataset/training pipeline consume it with no new code. Consecutive verse lines from one
 book are chopped into 3-line blocks; blocks never cross a book boundary.
 
-    python fetch_poetry.py --catalog-only     # how many poetry books qualify?
-    python fetch_poetry.py                    # download + build (resumable, cached)
-    python fetch_poetry.py --max-chars 40e6   # explicit text budget
+    python scripts/data/fetch_poetry.py --catalog-only     # how many poetry books qualify?
+    python scripts/data/fetch_poetry.py                    # download + build (resumable, cached)
+    python scripts/data/fetch_poetry.py --max-chars 40e6   # explicit text budget
 
 Downloads are cached in data/raw_poetry/ so re-runs cost nothing. Project Gutenberg asks
 only for polite use, so requests are sequential with a small delay and a real User-Agent.
@@ -27,7 +27,7 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 CATALOG_URL = "https://www.gutenberg.org/cache/epub/feeds/pg_catalog.csv"
 CATALOG = ROOT / "data" / "external" / "pg_catalog.csv"
 BOOKS = ROOT / "data" / "raw_poetry"

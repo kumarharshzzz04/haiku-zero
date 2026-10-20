@@ -1,8 +1,8 @@
 # Authored haiku → verification → fine-tune
 
 Everything below was run in this repo on 2026-10-17. Numbers are from the commands shown,
-not estimates. Files: `data/raw_synthetic/*.txt` (the poems), `synth_verify.py` (the checker),
-`build_synth_corpus.py` (the mixer), `synth_compare.py` (the model comparison),
+not estimates. Files: `data/raw_synthetic/*.txt` (the poems), `scripts/data/synth_verify.py` (the checker),
+`scripts/data/build_synth_corpus.py` (the mixer), `scripts/eval/synth_compare.py` (the model comparison),
 `checkpoints_mix/` (the fine-tuned weights).
 
 The point of the exercise: the live model was trained on found data (public-domain poetry
@@ -24,7 +24,7 @@ voice the app wants, verified line by line against the same syllable counter the
 180 is what survived the checks below without padding the set with filler. 459 unique lines,
 no two poems identical, one poem = 3 lines separated by blank lines.
 
-## 2. Verification (`synth_verify.py`)
+## 2. Verification (`scripts/data/synth_verify.py`)
 
 Runs every poem through `backend/meter_check.line_syllables` — the same counter that gates strict
 decoding — and reports the failing ones with their pattern.
@@ -54,13 +54,13 @@ Three more quality passes were run because the first draft was written as linked
    swapped 34 occurrences for fresh lines of the same syllable count.
 
 After all three: 459 unique lines, 56 reused (0.18 of them, mostly closers like "the light is
-leaving"), 3 poems with an intentional echo. Re-run of `synth_verify.py`: still **180/180 exact**,
+leaving"), 3 poems with an intentional echo. Re-run of `scripts/data/synth_verify.py`: still **180/180 exact**,
 because every edited line was checked against the counter, not trusted.
 
-## 3. The mixed corpus (`build_synth_corpus.py`)
+## 3. The mixed corpus (`scripts/data/build_synth_corpus.py`)
 
 ```
-python build_synth_corpus.py --repeat 6 --samples 30
+python scripts/data/build_synth_corpus.py --repeat 6 --samples 30
 authentic 40924 + authored 180 x 6 = 42004 poems
 synthetic share of the mix: 2.6%
 ```
@@ -111,7 +111,7 @@ that file, not typed):
 
 ```
 python -m backend.train --corpus data/haikus_mix.txt --init-from checkpoints/best.pt \
-  --ckpt-dir checkpoints_mix --log training_log_mix.csv --run-name haikuzero-mix \
+  --ckpt-dir checkpoints_mix --log logs/training/training_log_mix.csv --run-name haikuzero-mix \
   --lr 6e-5 --embed-dim 384 --layers 8 --ffn-dim 1536 --epochs 12
 ```
 
@@ -125,12 +125,12 @@ the first attempt at this command died that way.
 - best checkpoint landed at epoch 1 and every epoch after it was worse: train 3.6788 → 3.3239
   while val climbs 3.5646 → 3.5805 in one step per epoch. The run is 42k poems for a 15.8M-param
   model at this LR, so the first pass is the useful one and the rest overfits.
-- `training_log_mix.csv` holds 24 epoch rows: rows 1-12 are the first attempt, rows 13-24 the
+- `logs/training/training_log_mix.csv` holds 24 epoch rows: rows 1-12 are the first attempt, rows 13-24 the
   shipped run. The second run happened because one line of the winter file was still a fragment
   ("then takes it down") after the fine-tune had already been trained on it; rewriting the line
   and re-running was cheaper than shipping text and weights that disagree.
 
-## 5. Probes (`quality_probe.py --models checkpoints,checkpoints_mix --n 8 --best-of 4`)
+## 5. Probes (`scripts/eval/quality_probe.py --models checkpoints,checkpoints_mix --n 8 --best-of 4`)
 
 ```
 model                    epoch    junk       ?   exact    seed  repeat  nonword
@@ -140,7 +140,7 @@ checkpoints_mix              1      0%      0%    100%    100%      0%       0%
 
 All four columns are already at their ceiling in both models, so the probe cannot separate
 them — the decoder does that work. The separation is in val loss and in what the samples read
-like (`synth_compare.py`, 25 poems per model over 5 prompts, written to
+like (`scripts/eval/synth_compare.py`, 25 poems per model over 5 prompts, written to
 `logs/synth_compare.md`):
 
 ```
@@ -158,7 +158,7 @@ Both are exact 5-7-5 by construction, so that column says nothing about either.
 
 ## 6. Memorisation
 
-`synth_compare.py` counts every generated line that appears verbatim in the 180 authored poems
+`scripts/eval/synth_compare.py` counts every generated line that appears verbatim in the 180 authored poems
 or in the authentic corpus:
 
 ```

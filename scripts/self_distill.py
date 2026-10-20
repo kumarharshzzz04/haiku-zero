@@ -5,9 +5,9 @@ no repeats, no invented words, seed adherence — and the raw model would break 
 This script moves some of that into the weights by training on the decoder's own best
 output, and then measures the weights alone.
 
-    python self_distill.py --stage pairs --pairs 900 --best-of 6
-    python self_distill.py --stage train --epochs 4 --lr 5e-5
-    python self_distill.py --stage probe --models checkpoints,checkpoints_selfdistill --n 4
+    python scripts/self_distill.py --stage pairs --pairs 900 --best-of 6
+    python scripts/self_distill.py --stage train --epochs 4 --lr 5e-5
+    python scripts/self_distill.py --stage probe --models checkpoints,checkpoints_selfdistill --n 4
 
 Stage `pairs` draws poems the way the live decoder does (strict 5-7-5, reranker on, seed
 as context so the word has to land on its own) and keeps ONLY those that pass every rule
@@ -43,14 +43,13 @@ from pathlib import Path
 import torch
 from torch.utils.data import DataLoader
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
 
 from backend import generate, meter_check  # noqa: E402
 from backend.config import Config  # noqa: E402
 from backend.dataset import HaikuWindows, load_tokenizer, pack  # noqa: E402
 from backend.train import train_run  # noqa: E402
-
-ROOT = Path(__file__).resolve().parent
 PAIRS_PATH = ROOT / "data" / "self_distill_pairs.jsonl"
 AUTHENTIC_PATH = ROOT / "data" / "haikus_classical.txt"
 TOKENIZER_PATH = ROOT / "tokenizer.json"
@@ -343,7 +342,7 @@ def main(argv=None) -> None:
     ap.add_argument("--checkpoint", type=Path, default=ROOT / "checkpoints" / "best.pt")
     ap.add_argument("--init-from", type=Path, default=ROOT / "checkpoints" / "best.pt")
     ap.add_argument("--ckpt-dir", type=Path, default=ROOT / "checkpoints_selfdistill")
-    ap.add_argument("--log", type=Path, default=ROOT / "training_log_self_distill.csv")
+    ap.add_argument("--log", type=Path, default=ROOT / "logs" / "training" / "training_log_self_distill.csv")
     ap.add_argument("--pairs", type=int, default=900, help="clean pairs to keep (one per seed)")
     ap.add_argument("--best-of", type=int, default=6)
     ap.add_argument("--epochs", type=int, default=4)

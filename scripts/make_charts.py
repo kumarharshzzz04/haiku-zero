@@ -1,14 +1,15 @@
 """Build the README charts as plain SVG from the training logs (no plotting dependency).
 
-    python make_charts.py            # writes docs/images/*.svg
+    python scripts/make_charts.py            # writes docs/images/*.svg
 """
 from __future__ import annotations
 
 import csv
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs" / "images"
+LOGS = ROOT / "logs" / "training"
 
 INK = "#241a20"
 MUTED = "#8a7480"
@@ -17,7 +18,7 @@ SERIES = ["#b4415f", "#d98a6a", "#5c7d8a"]
 
 
 def read_log(name: str, field: str = "val_loss") -> list[tuple[int, float]]:
-    path = ROOT / name
+    path = LOGS / name
     rows = list(csv.DictReader(path.open(encoding="utf-8")))
     return [(int(r["step"]), float(r[field])) for r in rows if r[field]]
 
@@ -117,10 +118,10 @@ def finetune_curve():
     entries = []
     for log, label, color in runs:
         pts = [(int(r["step"]), float(r["val_loss"]))
-               for r in csv.DictReader((ROOT / log).open(encoding="utf-8")) if r["val_loss"]]
+               for r in csv.DictReader((LOGS / log).open(encoding="utf-8")) if r["val_loss"]]
         # collapse to one point per epoch
         best: dict[int, float] = {}
-        for row in csv.DictReader((ROOT / log).open(encoding="utf-8")):
+        for row in csv.DictReader((LOGS / log).open(encoding="utf-8")):
             if row["val_loss"]:
                 best[int(row["epoch"])] = float(row["val_loss"])
         frame.line(sorted(best.items()), color, label)

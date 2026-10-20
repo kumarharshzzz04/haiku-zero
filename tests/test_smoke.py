@@ -1,6 +1,6 @@
 """CPU smoke test for the whole HAIKU ZERO pipeline. No framework, just asserts.
 
-    python test_smoke.py
+    python tests/test_smoke.py
 
 Runs in well under a minute on CPU and needs only torch + tokenizers (the API check
 binds a throwaway port and exercises backend.server against the tiny checkpoint).
@@ -10,6 +10,7 @@ from __future__ import annotations
 import json
 import random
 import shutil
+import sys
 import tempfile
 import threading
 import urllib.request
@@ -17,12 +18,15 @@ from pathlib import Path
 
 import torch
 
-import backend.server as server_mod
-import backend.train as train_mod
-from backend import generate, meter_check, prepare_data, train_tokenizer
-from backend.config import Config
-from backend.dataset import build_loaders, encode_records, pack, split_records
-from backend.model import HaikuZeroLM
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+
+import backend.server as server_mod  # noqa: E402
+import backend.train as train_mod  # noqa: E402
+from backend import generate, meter_check, prepare_data, train_tokenizer  # noqa: E402
+from backend.config import Config  # noqa: E402
+from backend.dataset import build_loaders, encode_records, pack, split_records  # noqa: E402
+from backend.model import HaikuZeroLM  # noqa: E402
 
 WORDS = "autumn moonlight pond frog snow crow wind rain leaf river stone quiet dusk bird".split()
 

@@ -1,9 +1,9 @@
 """Sweep a few training configs and compare them by val loss + samples.
 
-    python experiments.py                  # 5-epoch screen of 4 configs (~15-20 min on the 4050)
-    python experiments.py --epochs 25      # full runs, hours - run this when you step away
-    python experiments.py --runs clean-d0.15,meter-d0.10
-    python experiments.py --device cpu     # slow, but works without the GPU
+    python scripts/experiments.py                  # 5-epoch screen of 4 configs (~15-20 min on the 4050)
+    python scripts/experiments.py --epochs 25      # full runs, hours - run this when you step away
+    python scripts/experiments.py --runs clean-d0.15,meter-d0.10
+    python scripts/experiments.py --device cpu     # slow, but works without the GPU
 
 Everything lands in experiments/<run-name>/ (checkpoints + log.csv) and
 experiments/results.json (val loss, minutes, samples, sorted best first).
@@ -12,17 +12,20 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 import time
 from pathlib import Path
 
 import torch
 
-from backend.config import Config
-from backend.dataset import CLEAN_PATH, METER_PATH, build_loaders
-from backend.generate import load_model, sample_haiku
-from backend.train import train_run
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
 
-ROOT = Path(__file__).resolve().parent
+from backend.config import Config  # noqa: E402
+from backend.dataset import CLEAN_PATH, METER_PATH, build_loaders  # noqa: E402
+from backend.generate import load_model, sample_haiku  # noqa: E402
+from backend.train import train_run  # noqa: E402
+
 OUT = ROOT / "experiments"
 
 RUNS = [

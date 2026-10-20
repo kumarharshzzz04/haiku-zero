@@ -1,6 +1,6 @@
 """Regression test for the AI-haiku intake: every format they actually download.
 
-    python test_intake_formats.py
+    python tests/test_intake_formats.py
 
 The batches arrive as txt (blank-line blocks or bare triplets, with `Theme 3:` and `#` headers),
 json (list of objects, dict of lists, " / "-joined strings), jsonl and csv/tsv. Two bugs this
@@ -20,11 +20,11 @@ import sys
 import tempfile
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-from backend.meter_check import distance, pattern               # noqa: E402
-from import_ai_haiku import HEADER_RE, parse_file, self_repeat  # noqa: E402
+from backend.meter_check import distance, pattern                        # noqa: E402
+from scripts.data.import_ai_haiku import HEADER_RE, parse_file, self_repeat  # noqa: E402
 
 A = ["one red leaf falls", "the pond holds a quiet sky", "winter comes too soon"]
 B = ["old gate swings open", "a moth circles the warm lamp", "the house keeps the dusk"]

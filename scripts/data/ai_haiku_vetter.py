@@ -1,9 +1,9 @@
 """The smart vetter for AI haiku batches.
 
-    python ai_haiku_vetter.py                       # scan "haikus from ai", score, write tiers
-    python ai_haiku_vetter.py --refresh-model       # refit the soundness model first
-    python ai_haiku_vetter.py --explain "line one | line two | line three"
-    python ai_haiku_vetter.py --store 0.90          # move the tier-A cut
+    python scripts/data/ai_haiku_vetter.py                       # scan data/ai_batches, score, write tiers
+    python scripts/data/ai_haiku_vetter.py --refresh-model       # refit the soundness model first
+    python scripts/data/ai_haiku_vetter.py --explain "line one | line two | line three"
+    python scripts/data/ai_haiku_vetter.py --store 0.90          # move the tier-A cut
 
 Why this is not a filter
 ------------------------
@@ -33,7 +33,7 @@ poem gets 0-100 from three parts:
 Outputs
     data/raw_ai/            tier A - training-ready: score over the cut AND exact 5-7-5
     data/raw_ai_near/       tier B - within +-1 syllable, kept out of training by default
-    data/vetter_weights.json, AI_HAIKU_INTAKE.md, data/ai_intake_stats.json
+    data/vetter_weights.json, docs/AI_HAIKU_INTAKE.md, data/ai_intake_stats.json
 
 The score ranks, the meter gates: a poem that reads well but is not 5-7-5 never enters tier A,
 because the corpus teaches form and an off-meter exemplar teaches the wrong form.
@@ -49,21 +49,23 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(ROOT))
 
 import numpy as np  # noqa: E402
 
 from backend.meter_check import distance, pattern  # noqa: E402
 from backend.prepare_data import collect, dedupe_key, normalize, reject_reason  # noqa: E402
-from import_ai_haiku import parse_file, self_repeat, repeated_content, content_words  # noqa: E402
+from scripts.data.import_ai_haiku import (  # noqa: E402
+    parse_file, self_repeat, repeated_content, content_words,
+)
 
-DEFAULT_DIR = ROOT / "haikus from ai"
+DEFAULT_DIR = ROOT / "data" / "ai_batches"
 AI_OUT = ROOT / "data" / "raw_ai"
 NEAR_OUT = ROOT / "data" / "raw_ai_near"
 WEIGHTS_OUT = ROOT / "data" / "vetter_weights.json"
 STATS_OUT = ROOT / "data" / "ai_intake_stats.json"
-REPORT_OUT = ROOT / "AI_HAIKU_INTAKE.md"
+REPORT_OUT = ROOT / "docs" / "AI_HAIKU_INTAKE.md"
 WORDLIST = ROOT / "data" / "wordlist.txt"
 BIGRAM_SOURCE = ROOT / "data" / "haikus_clean.txt"
 PRETRAIN = ROOT / "data" / "poetry_pretrain.txt"
@@ -638,11 +640,11 @@ def main(argv=None) -> int:
             report.append(f"- **p{score:.0f}** — " + " / ".join(lines))
     report += ["", "## Next", "",
                "```bash",
-               "python build_synth_corpus.py --repeat 6 --ai-repeat 2    # rebuild the mix (x2: see RUNBOOK 2d)",
+               "python scripts/data/build_synth_corpus.py --repeat 6 --ai-repeat 2    # rebuild the mix (x2: see RUNBOOK 2d)",
                "python -m backend.train --corpus data/haikus_mix.txt --init-from checkpoints/best.pt \\",
                "  --ckpt-dir checkpoints_combo --lr 6e-5 --embed-dim 384 --layers 8 --ffn-dim 1536 --epochs 12",
                "```",
-               "", "Drop the next batch and re-run `python ai_haiku_vetter.py`. Move the cut with "
+               "", "Drop the next batch and re-run `python scripts/data/ai_haiku_vetter.py`. Move the cut with "
                "`--store 0.90`, refit with `--refresh-model`, interrogate one poem with "
                "`--explain \"line one | line two | line three\"`.", ""]
     REPORT_OUT.write_text("\n".join(report) + "\n", encoding="utf-8")

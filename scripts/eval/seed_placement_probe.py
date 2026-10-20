@@ -1,8 +1,8 @@
 """Where should the word you type go: opening the poem, or somewhere inside it?
 
-    python seed_placement_probe.py                            # 12 corpus words, 4 poems, best-of 5
-    python seed_placement_probe.py --words sea,moon --per-word 2
-    python seed_placement_probe.py --checkpoint checkpoints/best.pt
+    python scripts/eval/seed_placement_probe.py                            # 12 corpus words, 4 poems, best-of 5
+    python scripts/eval/seed_placement_probe.py --words sea,moon --per-word 2
+    python scripts/eval/seed_placement_probe.py --checkpoint checkpoints/best.pt
 
 Two placements, same model, same reranker, same draw seeds:
 
@@ -35,11 +35,10 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(ROOT))
 
 from backend import generate, meter_check  # noqa: E402
-
-ROOT = Path(__file__).resolve().parent
 
 
 def rel(path: Path) -> str:

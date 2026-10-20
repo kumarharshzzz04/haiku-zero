@@ -1,6 +1,6 @@
 """Import an external haiku corpus into data/raw/ in the schema Module 1 expects.
 
-    python import_external.py            # statworx/haiku -> data/raw/statworx.csv (twaiku rows skipped)
+    python scripts/data/import_external.py   # statworx/haiku -> data/raw/statworx.csv (twaiku rows skipped)
 
 Source: https://huggingface.co/datasets/statworx/haiku (49,024 rows, public, not gated,
 column `text` holds the poem, `source` labels where it came from). Its card declares no
@@ -19,7 +19,7 @@ import re
 import urllib.request
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 URL = "https://huggingface.co/datasets/statworx/haiku/resolve/main/train.parquet"
 PARQUET = ROOT / "data" / "external" / "statworx_train.parquet"
 OUT = ROOT / "data" / "raw" / "statworx.csv"

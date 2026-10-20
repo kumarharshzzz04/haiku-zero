@@ -41,7 +41,7 @@
 ## Why HAIKU ZERO
 
 - **The form is guaranteed, not hoped for.** A constrained decoder masks every token that would overshoot a line's syllable target or drag punctuation in, so 5-7-5 closes while the model writes — no retry loop, no rejection sampling. 100% exact on 150 strict poems.
-- **Every claim is a script.** The table below is not a promise in prose: `quality_floor.py` re-measures it and exits `1` when a floor is crossed. `--self-test` proves the gate can actually fail.
+- **Every claim is a script.** The table below is not a promise in prose: `scripts/eval/quality_floor.py` re-measures it and exits `1` when a floor is crossed. `--self-test` proves the gate can actually fail.
 - **Two stages, because vocabulary and form are different problems.** 54.35M tokens of public-domain poetry teach English; 39,697 real haiku teach the shape. Training only on haiku leaves a model that invents the rest of the language.
 - **One second, locally.** 0.9 s for a best-of-4 poem on an RTX 4050 Laptop; 2.2 s for two poems over HTTP, including the JSON round trip. No network call exists in the inference path.
 - **It shows its work.** Every poem ships its syllable pattern, distance from 5-7-5, mean log-likelihood, repeated-word rate, unattested-word rate and whether it used the seed — the sheet view prints all of them next to the verse.
@@ -74,7 +74,7 @@ page and the API can never disagree.
 The full React desk (poster view, generated sakura scenes, phone layout) stays private and
 is shared on request. The desk sheet is the one anyone can run from this repo.
 
-> **A fresh clone has no model and no corpora.** `checkpoints/*.pt` (181 MB), `data/` and `tokenizer.json` are all ignored by git, so the first run rebuilds them — [RUNBOOK.md](RUNBOOK.md) §2 has the exact commands. `run.bat` refuses to start without `checkpoints/best.pt`, and `train.bat` exits naming whichever corpus file is missing. Dropping in a `best.pt` from elsewhere works too, but `tokenizer.json` has to come from the same corpus.
+> **A fresh clone has no model and no corpora.** `checkpoints/*.pt` (181 MB), `data/` and `tokenizer.json` are all ignored by git, so the first run rebuilds them — [RUNBOOK.md](docs/RUNBOOK.md) §2 has the exact commands. `run.bat` refuses to start without `checkpoints/best.pt`, and `train.bat` exits naming whichever corpus file is missing. Dropping in a `best.pt` from elsewhere works too, but `tokenizer.json` has to come from the same corpus.
 
 <details>
 <summary><b>Manual flow</b> (the same thing by hand)</summary>
@@ -87,7 +87,7 @@ python -m backend.server          # http://127.0.0.1:8000
 python -m backend.generate --prompt autumn --strict --best-of 4
 
 # 2. rebuild the data and the tokenizer from scratch (optional, ~4 min)
-python fetch_poetry.py --out data/poetry_pretrain_v2.txt --max-chars 150e6 --max-books 3000
+python scripts/data/fetch_poetry.py --out data/poetry_pretrain_v2.txt --max-chars 150e6 --max-books 3000
 python -m backend.prepare_data --raw-dir data/raw --out data/haikus_clean.txt
 python -m backend.train_tokenizer
 
@@ -153,7 +153,7 @@ The stack is the model and nothing else: a byte-level BPE tokenizer, a hand-writ
 
 ```mermaid
 flowchart LR
-    G["Project Gutenberg<br/>1,954 poetry books"] --> P1["fetch_poetry.py<br/>3-line passages<br/>54.35M tokens"]
+    G["Project Gutenberg<br/>1,954 poetry books"] --> P1["scripts/data/fetch_poetry.py<br/>3-line passages<br/>54.35M tokens"]
     H["39,697 haiku<br/>+ 180 authored"] --> P2["prepare_data.py<br/>clean, split, meter-tag"]
     P1 --> T["byte-level BPE<br/>4,096 tokens"]
     P2 --> T
@@ -261,11 +261,11 @@ The baseline the gate measures against lives in [logs/quality_floor.json](logs/q
 | `junk` | 0.02 | at most |
 
 ```powershell
-python quality_floor.py                # exit 1 if any floor is crossed
-python quality_floor.py --self-test    # proves the gate can fail
-python test_smoke.py                   # pipeline, decoder rules, HTTP API — CPU, under a minute
-python quality_probe.py                # fixed probes across every checkpoint
-python inference_sweep.py              # temperature / penalty / best-of: quality against seconds
+python scripts/eval/quality_floor.py                # exit 1 if any floor is crossed
+python scripts/eval/quality_floor.py --self-test    # proves the gate can fail
+python tests/test_smoke.py                          # pipeline, decoder rules, HTTP API — CPU, under a minute
+python scripts/eval/quality_probe.py                # fixed probes across every checkpoint
+python scripts/eval/inference_sweep.py              # temperature / penalty / best-of: quality against seconds
 ```
 
 ---
@@ -366,18 +366,47 @@ backend/
   meter_check.py         syllable counter and 5-7-5 check
   generate.py            sampling, constrained decoding, reranking
   server.py              HTTP API (+ a static front end when one is present)
-streamlit_app.py         basic front end - the desk sheet, calls generate_poems
-start_desk.bat           launches it on :8601
+scripts/
+  status.py                pipeline status in one command
+  experiments.py           config sweep: val loss + samples
+  self_distill.py          decoder rules into the weights
+  make_charts.py           the three SVGs above, from the CSVs
+  data/
+    fetch_poetry.py        Gutenberg catalogue -> stage-1 corpus
+    import_external.py     statworx/haiku -> data/raw/
+    prepare_corpora.py     raw sources -> full + authentic dirs
+    import_ai_haiku.py     AI batches -> vetted tier A/B
+    ai_haiku_vetter.py     score + audit a batch before training
+    build_synth_corpus.py  authored + AI + authentic -> training mix
+    synth_verify.py        every authored haiku against the meter
+  eval/
+    quality_floor.py       the regression gate
+    quality_probe.py       fixed quality probes across checkpoints
+    repeat_probe.py        repeat / seed-use probe
+    inference_sweep.py     decoder knobs vs quality and seconds
+    seed_placement_probe.py  where the typed word lands
+    synth_compare.py       verbatim-copy check
+tests/
+  test_smoke.py            pipeline + decoder + HTTP API, CPU
+  test_intake_formats.py   every AI batch format
+streamlit_app.py           basic front end - the desk sheet, calls generate_poems
+start_desk.bat             launches it on :8601
 # (no frontend/ here — the React desk UI is private and added locally when needed)
-fetch_poetry.py          Gutenberg catalogue -> stage-1 corpus
-self_distill.py          distilled-pair experiments
-make_charts.py           the three SVGs above, from the CSVs
-docs/shoot.mjs           the screenshots above, from the running app
-data/                    corpora + word lists (regenerated, not in git)
-checkpoints/             the live weights (not in git)
-logs/quality_floor.json  the regression baseline (checked in on purpose)
-RUNBOOK.md               every command and what it should print
-PROGRESS.md              the log, including the experiments that failed
+docs/
+  RUNBOOK.md               every command and what it should print
+  PROGRESS.md              the log, including failed experiments
+  PLAN.md                  original build plan + runtime amendment
+  DATA_PLAN.md             data-side plan
+  AI_HAIKU_INTAKE.md       latest AI-batch vetting report
+  SYNTH_CORPUS_REPORT.md   authored-data write-up
+  shoot.mjs                the screenshots above, from the running app
+  images/                  charts + screenshots
+data/                      corpora + word lists (regenerated, not in git)
+data/ai_batches/           AI haiku source batches (tracked)
+data/source/               original dataset source (tracked)
+checkpoints/               the live weights (not in git)
+logs/quality_floor.json    the regression baseline (checked in on purpose)
+logs/training/             one CSV per training run (checked in)
 ```
 
 ---
@@ -413,7 +442,7 @@ the same measurements attached.
 | Health says `"device": "cpu"` | The CUDA build is missing — rerun `setup.bat`; CPU still works, just much slower |
 | The first request is slow | The server preloads the default model on boot — give it a few seconds. `--no-warm` skips the preload and pays it on the first request instead |
 | CUDA out of memory while training | `--batch-size 64` (the flag's help text says the same) |
-| `quality_floor.py` exits 1 | The printed metric crossed its floor — compare against `logs/quality_floor.json` before changing anything |
+| `scripts/eval/quality_floor.py` exits 1 | The printed metric crossed its floor — compare against `logs/quality_floor.json` before changing anything |
 | `ModuleNotFoundError: torch` | You used your global Python. The launchers use `pytorch_with_gpu\Scripts\python.exe`; run `setup.bat` if that folder is missing |
 | UI looks unstyled | Hard refresh (`Ctrl+Shift+R`) — the built assets are cached by path |
 
@@ -427,7 +456,7 @@ the same measurements attached.
 - **The syllable counter is a heuristic**, roughly ±1 on unusual words, which is why the UI reports a distance rather than claiming a perfect haiku.
 - **No GPU, no speed.** The model runs on CPU as well, but a poem takes seconds rather than a fraction of one.
 
-More detail, including every experiment that failed: [PROGRESS.md](PROGRESS.md) for the log, [RUNBOOK.md](RUNBOOK.md) for commands and expectations, [SYNTH_CORPUS_REPORT.md](SYNTH_CORPUS_REPORT.md) for the authored-data work.
+More detail, including every experiment that failed: [PROGRESS.md](docs/PROGRESS.md) for the log, [RUNBOOK.md](docs/RUNBOOK.md) for commands and expectations, [SYNTH_CORPUS_REPORT.md](docs/SYNTH_CORPUS_REPORT.md) for the authored-data work.
 
 ---
 

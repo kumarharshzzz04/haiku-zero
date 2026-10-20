@@ -1,6 +1,6 @@
 """Repeat / seed / meter probe - measures what the decoder actually does after the poetry pretrain.
 
-    python repeat_probe.py [--checkpoint checkpoints/best.pt] [--n 4] [--free]
+    python scripts/eval/repeat_probe.py [--checkpoint checkpoints/best.pt] [--n 4] [--free]
 
 Repetition is measured on content words only (stopwords repeated are grammar) and on stems, so
 "snow / snow's / snows" all count as the same word being spent twice. Seed adherence is measured
@@ -10,9 +10,13 @@ from __future__ import annotations
 
 import argparse
 import statistics
+import sys
 from pathlib import Path
 
-from backend import generate
+ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(ROOT))
+
+from backend import generate  # noqa: E402
 
 
 def content_stems(lines) -> list[str]:
@@ -51,8 +55,8 @@ def main(argv=None) -> None:
     args = ap.parse_args(argv)
 
     seeds = [s.strip() for s in args.seeds.split(",") if s.strip()]
-    for ckpt in (args.checkpoint or [Path("checkpoints/best.pt"),
-                                     Path("checkpoints_tweets_live/best.pt")]):
+    for ckpt in (args.checkpoint or [ROOT / "checkpoints" / "best.pt",
+                                     ROOT / "checkpoints_tweets_live" / "best.pt"]):
         r = run(ckpt, seeds, args.n, not args.free)
         mode = "free" if args.free else "strict"
         print(f"{r['ckpt']:38s} {mode:6s} repeat {100*r['repeat']:3.0f}%  "

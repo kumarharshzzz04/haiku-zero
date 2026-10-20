@@ -1,8 +1,8 @@
 """Fixed probes for output quality, so every change is measured on the same sled.
 
-    python quality_probe.py                                  # every checkpoints*/best.pt
-    python quality_probe.py --models checkpoints             # one
-    python quality_probe.py --n 20 --best-of 4 --seeds autumn,breeze
+    python scripts/eval/quality_probe.py                                  # every checkpoints*/best.pt
+    python scripts/eval/quality_probe.py --models checkpoints             # one
+    python scripts/eval/quality_probe.py --n 20 --best-of 4 --seeds autumn,breeze
 
 Reports, per model: junk rate (characters a haiku line cannot contain - the '?????' bug),
 '?' rate, strict 5-7-5 exact rate, seed adherence, repeat rate and non-word rate (share of words
@@ -18,11 +18,10 @@ import re
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(ROOT))
 
 from backend import generate, meter_check  # noqa: E402
-
-ROOT = Path(__file__).resolve().parent
 SEED_STEM = re.compile(r"[a-z']+")
 
 

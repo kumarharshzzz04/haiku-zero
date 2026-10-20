@@ -30,7 +30,7 @@ from backend.model import HaikuZeroLM  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 CKPT_DIR = ROOT / "checkpoints"
-LOG_PATH = ROOT / "training_log.csv"
+LOG_PATH = ROOT / "logs" / "training" / "training_log.csv"
 
 
 def lr_at(step: int, base_lr: float, warmup: int, total: int) -> float:

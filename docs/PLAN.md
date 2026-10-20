@@ -112,7 +112,7 @@ Optimizer: AdamW(CosineDecay(...), weight_decay=0.01, clipnorm=1.0).
 Callbacks:
 ModelCheckpoint("checkpoints/best.keras", monitor="val_loss", save_best_only=True)
 last.keras saved every epoch
-CSVLogger("training_log.csv")
+CSVLogger("logs/training/training_log.csv")
 HaikuPreview callback (custom, REQUIRED): every epoch, generate one sample haiku from theprompt "autumn moonlight" and print it. Primary debugging instrument.
 Success criteria: train loss < 3.5, val loss < 4.5, previews become readable 3-line poems.If val loss rises while train falls → overfitting → raise dropout to 0.15 and retrain.
 Module 9: Generation Engine (backend/generate.py) — STEP 9.0
@@ -159,4 +159,4 @@ table, including two deliberate correctness fixes:
 2. Case is preserved (PLAN.md said lowercase); `--lowercase` restores the original behavior.
 
 Module list is unchanged, with three additions: `backend/config.py` (all hyperparameters in one
-place), `test_smoke.py` (CPU end-to-end check), `RUNBOOK.md` (commands + expectations).
+place), `tests/test_smoke.py` (CPU end-to-end check), `RUNBOOK.md` (commands + expectations).
